@@ -1,0 +1,33 @@
+{
+  "id": "2026-04-25-hermes-agent",
+  "title": "Hermes Agent - 自我改进型 AI Agent，越用越懂你",
+  "date": "2026-04-25",
+  "source": "github-trending",
+  "category": "ai",
+  "tags": ["ai", "agent", "llm", "nous-research", "open-source", "python", "开源项目", "自进化"],
+  "metadata": {
+    "github_url": "https://github.com/NousResearch/hermes-agent",
+    "language": "Python",
+    "stars": 115850,
+    "stars_this_week": 19019,
+    "rank": 2
+  },
+  "summary": "Nous Research 打造的'自我改进型'AI Agent，核心卖点是内置学习闭环——自动从经验中创建技能、使用中自我优化、跨会话构建用户画像。支持 200+ 模型、6 种终端后端（本地/Docker/SSH/Daytona/Singularity/Modal），可从 Telegram、Discord、Slack 等多平台统一接入，5美金VPS 即可运行。116K star、5800+ commits 的成熟项目。",
+  "highlights": [
+    "闭环学习架构：Agent 自主创建技能→使用中优化→周期性知识沉淀→跨会话 FTS5 搜索召回，真正实现'越用越懂你'",
+    "极致的模型自由度：支持 Nous Portal、OpenRouter(200+模型)、NVIDIA NIM、GLM、Kimi 等，一条命令切换模型，零锁定",
+    "Serverless 友好：Daytona 和 Modal 后端实现空闲休眠、按需唤醒，空闲成本接近零，真正可运行在 5 美金 VPS 上"
+  ],
+  "analysis": {
+    "score": 10,
+    "score_reason": "116K star、17K fork、5800+ commits，这是目前开源 Agent 领域最成熟的项目之一。它不是概念验证，而是一个覆盖 CLI/TUI/多平台网关/技能系统/记忆/RL 训练的完整生态，且已发布到 v0.11.0。本周新增 19K star 证明社区认可度仍在指数级增长。自进化 + 多模型 + Serverless 的组合，代表了 AI Agent 的正确演进方向。",
+    "recommendation": "如果你要选一个开源 Agent 框架认真投入，Hermes Agent 是当前最值得下注的选择——它的自我进化机制会让你的投入随时间复利增长",
+    "innovation": "闭环学习架构使 Agent 能自主创建技能并在使用中持续优化，结合 FTS5 跨会话搜索召回，真正实现了 Agent 的自我进化能力",
+    "use_cases": [
+      "个人 AI 助手，随使用积累专属技能和偏好",
+      "多平台统一 AI 入口（Telegram/Discord/Slack/CLI）",
+      "低预算 VPS 部署的私有化 AI Agent 解决方案"
+    ]
+  },
+  "related_topics": ["agent", "self-evolving-ai", "multi-model", "serverless", "ai-assistant"]
+}

@@ -1,0 +1,96 @@
+{
+  "last_updated": "2026-04-25",
+  "total_entries": 10,
+  "entries": [
+    {
+      "id": "2026-04-25-andrej-karpathy-skills",
+      "title": "Andrej Karpathy Skills - 单文件改善 Claude Code 编码行为的最佳实践规则集",
+      "slug": "andrej-karpathy-skills",
+      "score": 9,
+      "tags": ["ai", "llm", "claude-code", "coding-agent", "prompt-engineering", "最佳实践"],
+      "collected_at": "2026-04-25",
+      "source": "github-trending"
+    },
+    {
+      "id": "2026-04-25-hermes-agent",
+      "title": "Hermes Agent - 自我改进型 AI Agent，越用越懂你",
+      "slug": "hermes-agent",
+      "score": 10,
+      "tags": ["ai", "agent", "llm", "nous-research", "open-source", "python", "开源项目", "自进化"],
+      "collected_at": "2026-04-25",
+      "source": "github-trending"
+    },
+    {
+      "id": "2026-04-25-claude-mem",
+      "title": "Claude-Mem - Claude Code 持久化记忆压缩系统",
+      "slug": "claude-mem",
+      "score": 8,
+      "tags": ["ai", "claude-code", "agent-memory", "context-management", "coding-agent", "记忆系统", "rag", "开源项目"],
+      "collected_at": "2026-04-25",
+      "source": "github-trending"
+    },
+    {
+      "id": "2026-04-25-markitdown",
+      "title": "MarkItDown - 微软出品的万能文档转 Markdown 工具",
+      "slug": "markitdown",
+      "score": 8,
+      "tags": ["ai", "document-processing", "markdown", "rag", "llm-tooling", "文档处理", "python", "微软"],
+      "collected_at": "2026-04-25",
+      "source": "github-trending"
+    },
+    {
+      "id": "2026-04-25-multica",
+      "title": "Multica - 将 Coding Agent 变成真正团队成员的开源协作平台",
+      "slug": "multica",
+      "score": 8,
+      "tags": ["ai", "agent", "multi-agent", "coding-agent", "task-management", "多agent协作", "开源项目", "devops"],
+      "collected_at": "2026-04-25",
+      "source": "github-trending"
+    },
+    {
+      "id": "2026-04-25-free-claude-code",
+      "title": "Free Claude Code - 零成本使用 Claude Code 的 API 代理方案",
+      "slug": "free-claude-code",
+      "score": 7,
+      "tags": ["ai", "claude-code", "coding-agent", "llm", "open-source", "工具", "api代理", "python"],
+      "collected_at": "2026-04-25",
+      "source": "github-trending"
+    },
+    {
+      "id": "2026-04-25-voicebox",
+      "title": "Voicebox - 开源 AI 语音合成工作室，本地运行的 ElevenLabs 替代品",
+      "slug": "voicebox",
+      "score": 7,
+      "tags": ["ai", "voice-clone", "text-to-speech", "speech-recognition", "tts", "语音合成", "开源项目", "tauri", "typescript"],
+      "collected_at": "2026-04-25",
+      "source": "github-trending"
+    },
+    {
+      "id": "2026-04-25-generic-agent",
+      "title": "GenericAgent - 极简自进化 Agent 框架，3K 行代码实现系统级控制",
+      "slug": "generic-agent",
+      "score": 8,
+      "tags": ["ai", "agent", "self-evolving", "skill-tree", "llm", "自进化", "python", "学术"],
+      "collected_at": "2026-04-25",
+      "source": "github-trending"
+    },
+    {
+      "id": "2026-04-25-openai-agents-python",
+      "title": "OpenAI Agents Python - OpenAI 官方轻量级多 Agent 工作流框架",
+      "slug": "openai-agents-python",
+      "score": 8,
+      "tags": ["ai", "agent", "multi-agent", "openai", "framework", "框架", "python"],
+      "collected_at": "2026-04-25",
+      "source": "github-trending"
+    },
+    {
+      "id": "2026-04-25-trendradar",
+      "title": "TrendRadar - AI 驱动的舆情监控与热点筛选工具",
+      "slug": "trendradar",
+      "score": 7,
+      "tags": ["ai", "nlp", "sentiment-analysis", "rss", "trend-monitoring", "mcp", "舆情监控", "python", "工具"],
+      "collected_at": "2026-04-25",
+      "source": "github-trending"
+    }
+  ]
+}

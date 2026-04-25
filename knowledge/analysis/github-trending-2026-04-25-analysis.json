@@ -1,0 +1,201 @@
+{
+  "analysis_date": "2026-04-25",
+  "source_file": "github-trending-2026-04-25.json",
+  "analysis_criteria": {
+    "dimensions": ["技术创新性", "实用性", "社区活跃度", "发展潜力"],
+    "scoring": "1-10分制，综合评分。9-10为改变格局，7-8为直接有帮助，5-6为值得了解，1-4为可略过"
+  },
+  "projects": [
+    {
+      "rank": 1,
+      "name": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "stars": 85424,
+      "stars_this_week": 29435,
+      "language": null,
+      "summary": "基于 Andrej Karpathy 对 LLM 编程缺陷的深度观察，提炼出四条核心原则（先思考后编码、简洁优先、外科手术式修改、目标驱动执行），封装为单个 CLAUDE.md 文件即可显著改善 Claude Code 的编码行为。这不是一个软件工具，而是一套将 AI 编程最佳实践'规则化'的方法论——通过结构化 prompt 指导 LLM 避免过度工程化、隐性假设和冗余修改等常见陷阱。",
+      "highlights": [
+        "极其精准地诊断了 LLM 编码的四大顽疾：错误假设、过度复杂化、无关联修改、缺乏验证循环，并给出了对应的行为准则",
+        "单文件设计哲学：零依赖、零部署成本，一行 curl 命令即可安装，同时支持 Claude Code Plugin 和 Cursor Rules 双平台",
+        "核心洞察——'不要告诉 LLM 做什么，给它成功标准让它自己循环'，将 prompt engineering 从指令式提升为声明式"
+      ],
+      "score": 9,
+      "score_reason": "本周新增 star 近3万，85K+总 star 证明了其普适价值。它直接解决每个使用 AI 编程的开发者都面临的痛点，方法简洁而深刻，Karpathy 的背书更赋予其行业权威性。单文件即改变工作流，属于'改变格局'级别的方法论创新。",
+      "recommendation": "每个使用 Claude Code/Cursor 的开发者都应立即安装——一个 CLAUDE.md 文件就能让你的 AI 编程助手减少 80% 的愚蠢操作",
+      "tags": ["AI", "LLM", "prompt-engineering", "Claude-Code", "最佳实践"]
+    },
+    {
+      "rank": 2,
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "stars": 115850,
+      "stars_this_week": 19019,
+      "language": "Python",
+      "summary": "Nous Research 打造的'自我改进型'AI Agent，核心卖点是内置学习闭环——自动从经验中创建技能、使用中自我优化、跨会话构建用户画像。支持 200+ 模型、6 种终端后端（本地/Docker/SSH/Daytona/Singularity/Modal），可从 Telegram、Discord、Slack 等多平台统一接入，5美金VPS 即可运行。116K star、5800+ commits 的成熟项目。",
+      "highlights": [
+        "闭环学习架构：Agent 自主创建技能→使用中优化→周期性知识沉淀→跨会话 FTS5 搜索召回，真正实现'越用越懂你'",
+        "极致的模型自由度：支持 Nous Portal、OpenRouter(200+模型)、NVIDIA NIM、GLM、Kimi 等，一条命令切换模型，零锁定",
+        "Serverless 友好：Daytona 和 Modal 后端实现空闲休眠、按需唤醒，空闲成本接近零，真正可运行在 5 美金 VPS 上"
+      ],
+      "score": 10,
+      "score_reason": "116K star、17K fork、5800+ commits，这是目前开源 Agent 领域最成熟的项目之一。它不是概念验证，而是一个覆盖 CLI/TUI/多平台网关/技能系统/记忆/RL 训练的完整生态，且已发布到 v0.11.0。本周新增 19K star 证明社区认可度仍在指数级增长。自进化 + 多模型 + Serverless 的组合，代表了 AI Agent 的正确演进方向。",
+      "recommendation": "如果你要选一个开源 Agent 框架认真投入，Hermes Agent 是当前最值得下注的选择——它的自我进化机制会让你的投入随时间复利增长",
+      "tags": ["AI", "Agent", "开源项目", "Python", "自进化"]
+    },
+    {
+      "rank": 3,
+      "name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI, and injects relevant context back into future sessions.",
+      "stars": 67194,
+      "stars_this_week": 5961,
+      "language": "TypeScript",
+      "summary": "为 Claude Code 打造的持久化记忆压缩系统，通过 5 个生命周期 Hook 自动捕获会话中的工具使用、代码变更等操作，经 AI 压缩后写入 SQLite + Chroma 向量库，新会话自动注入相关上下文。支持渐进式信息披露（3 层检索工作流，约 10x token 节省）、Web 查看器、自然语言搜索，67K star，已发布 245 个版本迭代至 v12.3.9。",
+      "highlights": [
+        "渐进式信息披露设计：search(索引)→timeline(上下文)→get_observations(详情) 三层检索，相比一次性加载减少约 10x token 消耗",
+        "245 个版本的极致迭代速度（平均每 1-2 天一个版本），社区活跃度极高，支持 25+ 种语言的国际化",
+        "兼容性生态全面：同时支持 Claude Code Plugin、Gemini CLI、OpenCode、OpenClaw Gateway，不绑定单一平台"
+      ],
+      "score": 8,
+      "score_reason": "67K star 证明了市场需求，245 个版本说明开发投入极其密集。它精准解决了 AI 编程助手'没有长期记忆'的核心痛点，三层检索架构设计合理。扣分点在于：功能与 LLM 原生上下文窗口扩展有竞争风险，且 AGPL 协议对商业使用有限制。",
+      "recommendation": "Claude Code 重度用户必装——它让你的 AI 编程助手终于能记住上次会话做了什么，不再每次从零开始",
+      "tags": ["AI", "Claude-Code", "记忆系统", "RAG", "开源项目"]
+    },
+    {
+      "rank": 4,
+      "name": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "stars": 116737,
+      "stars_this_week": 5558,
+      "language": "Python",
+      "summary": "微软出品的轻量级文档转 Markdown 工具，支持 PDF、Word、Excel、PowerPoint、图片(OCR)、音频(转录)、HTML、EPUB、YouTube URL 等 10+ 种格式。专为 LLM 数据预处理设计，保留标题、列表、表格、链接等文档结构。支持 Azure Document Intelligence 高精度转换、LLM 驱动的图片描述、第三方插件扩展，MIT 协议，117K star。",
+      "highlights": [
+        "覆盖 PDF/Word/Excel/PPT/图片/音频/HTML/EPUB/YouTube 等全格式，堪称文档转 Markdown 的'瑞士军刀'",
+        "微软 AutoGen 团队出品，专为 RAG 和 LLM 数据管道设计，Markdown 输出对主流 LLM 的 token 效率最优",
+        "插件生态成熟：已支持 OCR 插件(markitdown-ocr)利用 LLM Vision 提取图片文字，第三方插件通过 #markitdown-plugin 标签发布"
+      ],
+      "score": 8,
+      "score_reason": "117K star、微软官方出品、MIT 协议——三项指标叠加使其成为文档转 Markdown 领域的事实标准。在 RAG 和 AI Agent 工作流中，它是不可或缺的数据预处理层。实用价值极高但技术壁垒相对较低，因此给 8 分而非 9 分。",
+      "recommendation": "任何涉及 LLM 文档处理的项目都应该用 markitdown 做第一步数据清洗——微软背书 + 社区规模让它成为最安全的选择",
+      "tags": ["AI", "文档处理", "RAG", "Python", "微软"]
+    },
+    {
+      "rank": 5,
+      "name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "stars": 20834,
+      "stars_this_week": 5421,
+      "language": "TypeScript",
+      "summary": "将 Coding Agent 变成真正的'团队成员'的开源协作平台。像给同事分配任务一样给 Agent 派发 Issue，Agent 自主领取、执行、报告阻塞、更新状态。支持 Claude Code、Codex、OpenClaw、Hermes、Gemini 等 8 种 Agent 运行时，提供可复用技能系统（每次解决方案沉淀为团队共享技能）、统一运行时面板、多工作区隔离。Next.js + Go + PostgreSQL 架构，支持自托管和云服务。",
+      "highlights": [
+        "Agent-as-Teammate 理念：Agent 有头像、在项目板上可见、能发评论、创建 Issue、主动报告阻塞——真正融入团队工作流",
+        "Vendor-Neutral 的运行时支持：Claude Code、Codex、OpenClaw、Hermes、Gemini、Pi、Cursor Agent 等 8 种 Agent 统一管理，不绑定任何一家",
+        "技能复利效应：每个 Agent 解决的问题自动固化为可复用 Skill，团队所有 Agent 共享——用得越多，团队越强"
+      ],
+      "score": 8,
+      "score_reason": "20K star、Go+Next.js 的工程架构扎实，2.6K commits 的迭代速度健康。它代表了 AI Agent 从'个人工具'向'团队基础设施'演进的关键一步。本周新增 5.4K star 说明市场对 Agent 协作平台的需求正在爆发。扣分点：仍在 v0.2.x 早期阶段，生产就绪度有待验证。",
+      "recommendation": "如果你的团队已开始使用 AI Agent，Multica 是目前将 Agent 从'个人玩具'升级为'团队生产力'的最佳方案",
+      "tags": ["AI", "Agent", "多Agent协作", "开源项目", "DevOps"]
+    },
+    {
+      "rank": 6,
+      "name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "stars": 10397,
+      "stars_this_week": 5160,
+      "language": "Python",
+      "summary": "一个轻量级代理服务器，将 Claude Code 的 Anthropic API 调用路由到 NVIDIA NIM（40次/分钟免费）、OpenRouter（数百个免费模型）、DeepSeek、LM Studio 或 llama.cpp，实现零成本使用 Claude Code。支持按模型路由（Opus/Sonnet/Haiku 映射到不同后端）、思考 token 解析、请求优化拦截、速率限制，以及 Discord/Telegram 远程控制。",
+      "highlights": [
+        "零成本 Claude Code 完整方案：NVIDIA NIM 40 req/min 免费 + OpenRouter 免费模型，配合请求优化拦截（5类琐碎请求本地处理）实现真正的零成本运行",
+        "智能模型路由：Opus/Sonnet/Haiku 可分别映射到不同提供商和模型，混合搭配（如 Opus→NIM Kimi-K2.5、Sonnet→OpenRouter DeepSeek-R1）",
+        "思考 token 逆向工程：解析 <think/> 标签和 reasoning_content 字段，转换为 Claude 原生 thinking blocks，让非 Claude 模型也能实现 Chain-of-Thought"
+      ],
+      "score": 7,
+      "score_reason": "本周新增 5.1K star 说明大量开发者渴望低成本使用 Claude Code，项目实用性极强。但本质上是一个 API 代理层而非技术创新，且依赖 NVIDIA NIM 等第三方免费额度（随时可能收紧）。MIT 协议、529 commits 的迭代速度健康。对于预算有限的开发者来说直接有价值。",
+      "recommendation": "想体验 Claude Code 但不想付费的开发者必备——NVIDIA NIM 免费额度 + 请求优化让你基本可以零成本日常使用",
+      "tags": ["AI", "Claude-Code", "工具", "API代理", "Python"]
+    },
+    {
+      "rank": 7,
+      "name": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "stars": 23233,
+      "stars_this_week": 3540,
+      "language": "TypeScript",
+      "summary": "开源 AI 语音合成工作室，本地运行的 ElevenLabs 替代品。集成 7 个 TTS 引擎（Qwen3-TTS、Chatterbox Multilingual、Kokoro 等），支持 23 种语言的语音克隆、50+ 预设音色、8 种后处理音效、多轨时间线编辑器（Stories Editor）。基于 Tauri (Rust) 而非 Electron 构建，支持 macOS(MLX)、Windows(CUDA)、Linux、Docker，提供完整 REST API。",
+      "highlights": [
+        "7 引擎 TTS 生态：从 82M 轻量 Kokoro 到 1.7B 的 Qwen3-TTS，覆盖快速推理到高质量克隆的全场景，按需切换",
+        "Tauri (Rust) 原生架构：相比 Electron 方案内存占用降低 5-10x，冷启动更快，真正实现本地隐私优先的语音工作室",
+        "完整的创作工具链：Stories 多轨编辑器支持多角色对话、自动分块+交叉淡化的无限长度生成、版本管理系统——不仅是 TTS，更是语音创作平台"
+      ],
+      "score": 7,
+      "score_reason": "23K star 和持续活跃的迭代（24 个 release、585 commits）说明社区需求旺盛。作为 ElevenLabs 的本地开源替代品，它在隐私、成本和多引擎灵活性上有明显优势。扣分点在于：TTS 质量与 ElevenLabs 商业方案仍有差距，且 7 个引擎的维护负担可能导致稳定性风险。",
+      "recommendation": "需要语音合成但不想上传数据到云端的创作者和开发者首选——7 个引擎 + 完整 API 让它可以嵌入任何工作流",
+      "tags": ["AI", "语音合成", "开源项目", "Tauri", "TypeScript"]
+    },
+    {
+      "rank": 8,
+      "name": "lsdefine/GenericAgent",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "stars": 6988,
+      "stars_this_week": 3483,
+      "language": "Python",
+      "summary": "一个极简的自进化 Agent 框架，核心仅 ~3K 行代码。通过 9 个原子工具 + ~100 行 Agent Loop 实现对本地计算机的系统级控制（浏览器、终端、文件系统、键鼠、屏幕视觉、ADB 移动设备）。最大创新在于自我进化机制：每完成一个新任务自动将执行路径固化为 Skill，使用越多能力越强。5 层分层记忆系统仅需 <30K 上下文（其他 Agent 需要 200K-1M），已发表 arXiv 技术报告。",
+      "highlights": [
+        "极致的 token 效率：<30K 上下文窗口 vs 其他 Agent 的 200K-1M，通过 5 层分层记忆（L0元规则→L1索引→L2事实→L3技能→L4归档）精准调度上下文",
+        "自我进化技能树：从 3K 行种子代码出发，每次任务自动沉淀 Skill——从'读微信消息'到'量化选股'到'Gmail 发件'，使用几周后形成独一无二的专属技能库",
+        "自举实证（Self-Bootstrap Proof）：整个仓库从 git init 到每条 commit message 都由 Agent 自己完成，作者从未打开过终端——这本身就是最强力的技术验证"
+      ],
+      "score": 8,
+      "score_reason": "虽然 star 数相对较少（7K），但技术原创性极高。arXiv 论文背书、3K 行极简架构、<30K 上下文实现系统级控制——这是对当前 Agent 框架'越复杂越好'趋势的有力反驳。本周新增 3.5K star（增长 50%）说明正在被更多人发现。扣分点在于：项目仍偏早期，文档和社区不如 Hermes 成熟。",
+      "recommendation": "如果你对 Agent 框架的本质设计感兴趣，GenericAgent 是必读项目——它用 3K 行代码证明了简洁架构的巨大威力",
+      "tags": ["AI", "Agent", "自进化", "Python", "学术"]
+    },
+    {
+      "rank": 9,
+      "name": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "stars": 25051,
+      "stars_this_week": 3372,
+      "language": "Python",
+      "summary": "OpenAI 官方发布的轻量级多 Agent 工作流框架（Agents SDK）。支持 Agent 配置指令/工具/护栏/交接、沙箱 Agent（容器化长时间运行）、Agent 作为工具/Handoff 委派、MCP 工具集成、输入输出护栏、Human-in-the-loop、Session 管理、内置 Tracing、以及基于 gpt-realtime-1.5 的语音 Agent。Provider-agnostic，支持 100+ LLM。",
+      "highlights": [
+        "OpenAI 官方背书 + Provider-agnostic：虽然是 OpenAI 出品，但通过 any-llm 和 LiteLLM 支持 100+ LLM，不强制绑定 OpenAI 模型",
+        "Sandbox Agent 创新：v0.14.0 引入的沙箱 Agent 可以在容器化环境中长时间执行文件操作、命令运行等任务，适合复杂的代码工程场景",
+        "企业级特性齐全：Guardrails（安全护栏）、Human-in-the-loop（人机协作）、Session 管理、Tracing 追踪——开箱即用的生产级 Agent 框架"
+      ],
+      "score": 8,
+      "score_reason": "OpenAI 官方出品保证了长期维护和生态支持（25K star、88 个 release、1382 commits）。Sandbox Agent 和 Realtime Agent 的引入显示了向企业级演进的趋势。扣分点在于：相比 Hermes 和 GenericAgent 的自进化理念，Agents SDK 更偏传统'配置即用'范式，创新性略显不足。",
+      "recommendation": "如果你偏好稳定可靠、有官方支持的企业级 Agent 框架，OpenAI Agents SDK 是最安全的选择——特别是 Sandbox Agent 特性对代码工程场景极有价值",
+      "tags": ["AI", "Agent", "OpenAI", "框架", "Python"]
+    },
+    {
+      "rank": 10,
+      "name": "sansan0/TrendRadar",
+      "url": "https://github.com/sansan0/TrendRadar",
+      "description": "AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.",
+      "stars": 55125,
+      "stars_this_week": 3259,
+      "language": "Python",
+      "summary": "AI 驱动的舆情监控与热点筛选工具，30秒即可部署。聚合多平台热搜+RSS 订阅，支持关键词精准筛选和 AI 智能兴趣匹配（自然语言描述关注方向，AI 自动提取标签打分）。AI 分析简报可直推微信/飞书/钉钉/Telegram/邮件等 9+ 渠道，支持 MCP 架构让 AI 对话式分析新闻数据。55K star，GitHub Actions 一键运行，Docker 自托管。",
+      "highlights": [
+        "AI 智能筛选替代关键词：在 ai_interests.txt 中用自然语言描述关注方向（如'我想看 AI 和新能源相关新闻'），AI 自动提取标签并对每条新闻打分，小改动增量更新不浪费 token",
+        "MCP 架构赋能自然语言分析：通过 MCP Server 暴露 21+ 工具（搜索、聚合、对比、文章读取等），让任何支持 MCP 的 AI 客户端直接对话式分析新闻数据",
+        "极致的部署简便性：fork → 配置 3 个文件 → GitHub Actions 自动运行，30秒上手；Docker 一键部署；支持 S3 兼容远程存储，数据完全自主可控"
+      ],
+      "score": 7,
+      "score_reason": "55K star 证明了巨大的用户需求，是中国开源社区现象级的信息过滤工具。AI 智能筛选 + MCP 集成的组合让它在'AI + 舆情'赛道有明确的技术差异化。扣分点在于：核心数据依赖第三方 API（newsnow），且功能边界相对聚焦，与纯技术开发工具相比通用性有限。",
+      "recommendation": "信息过载时代的信息筛选利器——如果你每天被热搜和 RSS 淹没，TrendRadar + AI 筛选会让你只看到真正关心的内容",
+      "tags": ["AI", "舆情监控", "MCP", "Python", "工具"]
+    }
+  ],
+  "overall_trends": "本周 GitHub AI Trending 呈现三大核心趋势：\n\n1. **Agent 自进化成为共识**：Top 10 中有 4 个项目（Hermes Agent #2、Multica #5、GenericAgent #8、OpenAI Agents SDK #9）聚焦 Agent 领域，其中 Hermes 和 GenericAgent 都以'自我进化/技能沉淀'为核心卖点。Agent 正从'工具执行器'向'能力积累器'演进——关键差异不再是能做什么，而是能否越用越强。\n\n2. **Claude Code 生态爆发**：Karpathy Skills (#1)、Claude-Mem (#3)、Free Claude Code (#6) 三个项目直接围绕 Claude Code 构建，覆盖了行为优化、记忆增强、成本降低三个维度。Claude Code 正在形成类似 VS Code Extensions 的插件生态，而这个生态的核心入口就是 CLAUDE.md。\n\n3. **AI 工具的'极简主义'回潮**：GenericAgent 用 3K 行代码实现了其他 50 万行项目的核心能力，Karpathy Skills 用一个文件改变了 AI 编程行为。在 Agent 框架越来越复杂的趋势中，最小化依赖、最大化信息密度的设计哲学正在获得更多认同。"
+}

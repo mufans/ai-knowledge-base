@@ -1,0 +1,33 @@
+{
+  "id": "2026-04-25-markitdown",
+  "title": "MarkItDown - 微软出品的万能文档转 Markdown 工具",
+  "date": "2026-04-25",
+  "source": "github-trending",
+  "category": "ai",
+  "tags": ["ai", "document-processing", "markdown", "rag", "llm-tooling", "文档处理", "python", "微软"],
+  "metadata": {
+    "github_url": "https://github.com/microsoft/markitdown",
+    "language": "Python",
+    "stars": 116737,
+    "stars_this_week": 5558,
+    "rank": 4
+  },
+  "summary": "微软出品的轻量级文档转 Markdown 工具，支持 PDF、Word、Excel、PowerPoint、图片(OCR)、音频(转录)、HTML、EPUB、YouTube URL 等 10+ 种格式。专为 LLM 数据预处理设计，保留标题、列表、表格、链接等文档结构。支持 Azure Document Intelligence 高精度转换、LLM 驱动的图片描述、第三方插件扩展，MIT 协议，117K star。",
+  "highlights": [
+    "覆盖 PDF/Word/Excel/PPT/图片/音频/HTML/EPUB/YouTube 等全格式，堪称文档转 Markdown 的'瑞士军刀'",
+    "微软 AutoGen 团队出品，专为 RAG 和 LLM 数据管道设计，Markdown 输出对主流 LLM 的 token 效率最优",
+    "插件生态成熟：已支持 OCR 插件(markitdown-ocr)利用 LLM Vision 提取图片文字，第三方插件通过 #markitdown-plugin 标签发布"
+  ],
+  "analysis": {
+    "score": 8,
+    "score_reason": "117K star、微软官方出品、MIT 协议——三项指标叠加使其成为文档转 Markdown 领域的事实标准。在 RAG 和 AI Agent 工作流中，它是不可或缺的数据预处理层。实用价值极高但技术壁垒相对较低，因此给 8 分而非 9 分。",
+    "recommendation": "任何涉及 LLM 文档处理的项目都应该用 markitdown 做第一步数据清洗——微软背书 + 社区规模让它成为最安全的选择",
+    "innovation": "全格式覆盖的统一转换接口 + 插件生态，将碎片化的文档处理工具整合为 LLM 数据管道的标准预处理层",
+    "use_cases": [
+      "RAG 系统的文档预处理和向量化准备",
+      "AI Agent 工作流中的多格式文档理解",
+      "企业文档知识库的自动化构建"
+    ]
+  },
+  "related_topics": ["document-processing", "rag", "markdown", "llm-tooling", "data-pipeline"]
+}

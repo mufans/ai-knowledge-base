@@ -1,0 +1,33 @@
+{
+  "id": "2026-04-25-openai-agents-python",
+  "title": "OpenAI Agents Python - OpenAI 官方轻量级多 Agent 工作流框架",
+  "date": "2026-04-25",
+  "source": "github-trending",
+  "category": "ai",
+  "tags": ["ai", "agent", "multi-agent", "openai", "framework", "框架", "python"],
+  "metadata": {
+    "github_url": "https://github.com/openai/openai-agents-python",
+    "language": "Python",
+    "stars": 25051,
+    "stars_this_week": 3372,
+    "rank": 9
+  },
+  "summary": "OpenAI 官方发布的轻量级多 Agent 工作流框架（Agents SDK）。支持 Agent 配置指令/工具/护栏/交接、沙箱 Agent（容器化长时间运行）、Agent 作为工具/Handoff 委派、MCP 工具集成、输入输出护栏、Human-in-the-loop、Session 管理、内置 Tracing、以及基于 gpt-realtime-1.5 的语音 Agent。Provider-agnostic，支持 100+ LLM。",
+  "highlights": [
+    "OpenAI 官方背书 + Provider-agnostic：虽然是 OpenAI 出品，但通过 any-llm 和 LiteLLM 支持 100+ LLM，不强制绑定 OpenAI 模型",
+    "Sandbox Agent 创新：v0.14.0 引入的沙箱 Agent 可以在容器化环境中长时间执行文件操作、命令运行等任务，适合复杂的代码工程场景",
+    "企业级特性齐全：Guardrails（安全护栏）、Human-in-the-loop（人机协作）、Session 管理、Tracing 追踪——开箱即用的生产级 Agent 框架"
+  ],
+  "analysis": {
+    "score": 8,
+    "score_reason": "OpenAI 官方出品保证了长期维护和生态支持（25K star、88 个 release、1382 commits）。Sandbox Agent 和 Realtime Agent 的引入显示了向企业级演进的趋势。扣分点在于：相比 Hermes 和 GenericAgent 的自进化理念，Agents SDK 更偏传统'配置即用'范式，创新性略显不足。",
+    "recommendation": "如果你偏好稳定可靠、有官方支持的企业级 Agent 框架，OpenAI Agents SDK 是最安全的选择——特别是 Sandbox Agent 特性对代码工程场景极有价值",
+    "innovation": "Sandbox Agent 容器化长时间运行 + Provider-agnostic 支持 100+ LLM，将企业级安全特性与模型自由度结合",
+    "use_cases": [
+      "企业级多 Agent 工作流编排，需要安全护栏和人机协作",
+      "代码工程场景的沙箱化 Agent 执行",
+      "需要 OpenAI 官方长期支持保障的生产级 Agent 项目"
+    ]
+  },
+  "related_topics": ["agent-framework", "multi-agent", "openai", "enterprise-ai", "sandbox"]
+}
