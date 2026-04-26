@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git commit:*)",
+      "Bash(proxy_on)",
+      "Bash(git push:*)",
+      "Bash(gh issue create:*)"
+    ]
+  }
+}

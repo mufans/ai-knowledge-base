@@ -1,0 +1,33 @@
+{
+  "id": "2026-04-26-claude-comstyle",
+  "title": "Claude-ComStyle - 13 种 Claude 沟通风格 Prompt 模板，最高节省 75% Token",
+  "date": "2026-04-26",
+  "source": "github-trending",
+  "category": "ai",
+  "tags": ["ai", "claude", "prompt-engineering", "token-optimization", "claude-code", "开发工具"],
+  "metadata": {
+    "github_url": "https://github.com/bsquang/claude-comstyle",
+    "language": null,
+    "stars": 23,
+    "rank": 14
+  },
+  "summary": "13 种 Claude 沟通风格 Prompt 模板，Military/Caveman 模式可减少 65-75% 输出 Token。内置 /style 快速切换技能，支持 Claude Code SKILL.md 自动加载，中英双语版本，before/after 对比示例覆盖每种风格。",
+  "highlights": [
+    "13 种风格附带详细的 Token 节省率量化对比（Military 模式减少 65-75% 输出）",
+    "内置 /style 快速切换技能，支持 Claude Code 的 SKILL.md 自动加载",
+    "提供中英双语版本，before/after 对比示例覆盖每种风格"
+  ],
+  "analysis": {
+    "score": 6,
+    "score_reason": "实用的 Prompt 工程工具包，Token 节省数据有量化支撑，适合 Claude Code 日常使用，但功能相对单一。",
+    "recommendation": "日常使用 Claude Code 的开发者可以直接安装 Military 或 Caveman 风格来节省 Token",
+    "innovation": "将沟通风格抽象为可量化评估的 Prompt 模板，并给出精确的 Token 节省率数据",
+    "use_cases": [
+      "Claude Code 日常使用中的 Token 成本优化",
+      "团队统一的 AI 沟通风格标准化",
+      "不同场景下选择最优的 AI 输出风格"
+    ]
+  },
+  "status": "reviewed",
+  "related_topics": ["prompt-engineering", "claude-code", "token-optimization"]
+}

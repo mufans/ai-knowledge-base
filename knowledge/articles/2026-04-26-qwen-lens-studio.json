@@ -1,0 +1,33 @@
+{
+  "id": "2026-04-26-qwen-lens-studio",
+  "title": "Qwen Lens Studio - 基于 Qwen3.6 的多模态 AI 工作室",
+  "date": "2026-04-26",
+  "source": "github-trending",
+  "category": "ai",
+  "tags": ["ai", "multimodal", "qwen", "vision", "document-processing", "多模态", "视觉推理"],
+  "metadata": {
+    "github_url": "https://github.com/dakshjain-1616/Qwen-Lens-Studio",
+    "language": "TypeScript",
+    "stars": 23,
+    "rank": 15
+  },
+  "summary": "基于 Qwen3.6-35B-A3B 的多模态 AI 工作室，集成视觉推理、多语言描述、文档提取、UI 转代码（支持 4 框架）、双图对比五大工具。FastAPI + React，SSE 流式输出，支持 OpenRouter/Ollama/llama.cpp 三种后端热切换。",
+  "highlights": [
+    "五大视觉工具全部 SSE 流式输出：视觉推理、多语言描述、文档提取、UI 转代码（支持 4 框架）、双图对比",
+    "FastAPI 后端 + React 前端，支持 OpenRouter/Ollama/llama.cpp 三种后端热切换",
+    "Batch Runner 批量处理 + localStorage 会话历史（每工具 100 条上限）+ CSV/JSON/PDF 多格式导出"
+  ],
+  "analysis": {
+    "score": 6,
+    "score_reason": "功能完整的 Web 应用级项目，多模态工具集成度高，但依赖 OpenRouter API 且 License 不明确，实用性受限。",
+    "recommendation": "如果你需要一个开箱即用的多模态 AI 工作室，且已有 OpenRouter API Key，可以尝试",
+    "innovation": "五大视觉工具统一封装为 SSE 流式 Web 应用，支持三种推理后端无缝切换",
+    "use_cases": [
+      "多模态 AI 能力的 Web 应用化封装与演示",
+      "文档智能提取、UI 截图转代码等具体工作流",
+      "多模型推理后端的对比与切换"
+    ]
+  },
+  "status": "reviewed",
+  "related_topics": ["multimodal-ai", "qwen", "vision-language-model", "document-intelligence"]
+}
