@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260429-004",
+  "title": "Show HN: Mirror AI – LLM agent that takes action, not just chat",
+  "source": "rss",
+  "source_url": "https://themirrorai.com",
+  "author": "",
+  "published_at": "2026-04-29T10:19:32Z",
+  "collected_at": "2026-04-29T10:19:32Z",
+  "summary": "Mirror AI 是一款跨平台桌面应用，将 LLM 从聊天机器人转变为行动代理，能直接执行终端命令、文件操作、API 调用、发送邮件、管理日历、查询数据库等任务。它采用本地运行架构，支持 OpenAI、Claude、Ollama 等多种模型，并通过 MCP 协议扩展能力。所有高风险操作需用户批准，确保安全。项目计划未来开源核心代码。",
+  "score": 8,
+  "tags": [
+    "agent",
+    "tool-use",
+    "open-source"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T10:20:58Z"
+}

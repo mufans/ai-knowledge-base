@@ -1,13 +1,17 @@
 {
-  "updated_at": "2026-04-29T12:00:00Z",
-  "total": 20,
+  "updated_at": "2026-04-29T10:20:58Z",
+  "total": 33,
   "articles": [
     {
       "id": "github-20260429-001",
       "title": "Skills for Real Engineers. Straight from my .claude directory.",
       "source": "github",
       "score": 8,
-      "tags": ["agent", "prompt-engineering", "tool-use"],
+      "tags": [
+        "agent",
+        "prompt-engineering",
+        "tool-use"
+      ],
       "file": "2026-04-29-skills-for-real-engineers.json"
     },
     {
@@ -15,7 +19,10 @@
       "title": "GitNexus: The Zero-Server Code Intelligence Engine",
       "source": "github",
       "score": 9,
-      "tags": ["rag", "agent"],
+      "tags": [
+        "rag",
+        "agent"
+      ],
       "file": "2026-04-29-gitnexus-zero-server-code-intelligence.json"
     },
     {
@@ -23,7 +30,10 @@
       "title": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API",
       "source": "github",
       "score": 7,
-      "tags": ["agent", "tool-use"],
+      "tags": [
+        "agent",
+        "tool-use"
+      ],
       "file": "2026-04-29-awesome-codex-skills.json"
     },
     {
@@ -31,7 +41,10 @@
       "title": "VibeVoice: Open-Source Frontier Voice AI",
       "source": "github",
       "score": 9,
-      "tags": ["audio", "llm"],
+      "tags": [
+        "audio",
+        "llm"
+      ],
       "file": "2026-04-29-vibevoice-open-source-voice-ai.json"
     },
     {
@@ -39,7 +52,10 @@
       "title": "CLI tool for configuring and monitoring Claude Code",
       "source": "github",
       "score": 7,
-      "tags": ["agent", "deployment"],
+      "tags": [
+        "agent",
+        "deployment"
+      ],
       "file": "2026-04-29-claude-code-templates.json"
     },
     {
@@ -47,7 +63,9 @@
       "title": "ace-step-ui: The Ultimate Open Source Suno Alternative - Professional UI for ACE-Step 1.5 AI Music Generation",
       "source": "github",
       "score": 6,
-      "tags": ["audio"],
+      "tags": [
+        "audio"
+      ],
       "file": "2026-04-29-ace-step-ui.json"
     },
     {
@@ -55,7 +73,10 @@
       "title": "ds2api: Deepseek to API - lightweight full-stack middleware converting client protocols to universal APIs",
       "source": "github",
       "score": 6,
-      "tags": ["llm", "deployment"],
+      "tags": [
+        "llm",
+        "deployment"
+      ],
       "file": "2026-04-29-ds2api-deepseek-to-api.json"
     },
     {
@@ -63,7 +84,11 @@
       "title": "daily_stock_analysis: LLM-driven A/H/US stock intelligent analyzer",
       "source": "github",
       "score": 8,
-      "tags": ["llm", "reasoning", "agent"],
+      "tags": [
+        "llm",
+        "reasoning",
+        "agent"
+      ],
       "file": "2026-04-29-daily-stock-analysis.json"
     },
     {
@@ -71,7 +96,11 @@
       "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "source": "github",
       "score": 9,
-      "tags": ["multi-agent", "llm", "reasoning"],
+      "tags": [
+        "multi-agent",
+        "llm",
+        "reasoning"
+      ],
       "file": "2026-04-29-trading-agents-framework.json"
     },
     {
@@ -79,7 +108,10 @@
       "title": "TradingAgents-CN: Multi-Agent LLM Chinese Financial Trading Framework",
       "source": "github",
       "score": 7,
-      "tags": ["multi-agent", "llm"],
+      "tags": [
+        "multi-agent",
+        "llm"
+      ],
       "file": "2026-04-29-trading-agents-cn.json"
     },
     {
@@ -87,7 +119,10 @@
       "title": "Keep: The open-source AIOps and alert management platform",
       "source": "github",
       "score": 7,
-      "tags": ["agent", "deployment"],
+      "tags": [
+        "agent",
+        "deployment"
+      ],
       "file": "2026-04-29-keep-aiops-alert-management.json"
     },
     {
@@ -95,7 +130,10 @@
       "title": "NVIDIA PersonaPlex",
       "source": "github",
       "score": 7,
-      "tags": ["llm", "agent"],
+      "tags": [
+        "llm",
+        "agent"
+      ],
       "file": "2026-04-29-nvidia-personaplex.json"
     },
     {
@@ -103,7 +141,10 @@
       "title": "How ChatGPT serves ads",
       "source": "hackernews",
       "score": 7,
-      "tags": ["llm", "deployment"],
+      "tags": [
+        "llm",
+        "deployment"
+      ],
       "file": "2026-04-29-how-chatgpt-serves-ads.json"
     },
     {
@@ -111,7 +152,10 @@
       "title": "Show HN: Auto-Architecture: Karpathy's Loop, pointed at a CPU",
       "source": "hackernews",
       "score": 8,
-      "tags": ["reasoning", "code-generation"],
+      "tags": [
+        "reasoning",
+        "code-generation"
+      ],
       "file": "2026-04-29-auto-architecture-karpathy-loop.json"
     },
     {
@@ -119,7 +163,10 @@
       "title": "OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs",
       "source": "hackernews",
       "score": 7,
-      "tags": ["llm", "deployment"],
+      "tags": [
+        "llm",
+        "deployment"
+      ],
       "file": "2026-04-29-openai-models-amazon-bedrock.json"
     },
     {
@@ -127,7 +174,10 @@
       "title": "Regression: malware reminder on every read still causes subagent refusals",
       "source": "hackernews",
       "score": 6,
-      "tags": ["agent", "security"],
+      "tags": [
+        "agent",
+        "security"
+      ],
       "file": "2026-04-29-claude-code-malware-regression.json"
     },
     {
@@ -135,7 +185,10 @@
       "title": "Who owns the code Claude Code wrote?",
       "source": "hackernews",
       "score": 8,
-      "tags": ["code-generation", "security"],
+      "tags": [
+        "code-generation",
+        "security"
+      ],
       "file": "2026-04-29-who-owns-claude-code.json"
     },
     {
@@ -143,7 +196,9 @@
       "title": "Talkie: a 13B vintage language model from 1930",
       "source": "hackernews",
       "score": 8,
-      "tags": ["llm"],
+      "tags": [
+        "llm"
+      ],
       "file": "2026-04-29-talkie-13b-vintage-language-model.json"
     },
     {
@@ -151,7 +206,10 @@
       "title": "Show HN: Drive any macOS app in the background without stealing the cursor",
       "source": "hackernews",
       "score": 8,
-      "tags": ["agent", "tool-use"],
+      "tags": [
+        "agent",
+        "tool-use"
+      ],
       "file": "2026-04-29-cua-macos-background-driver.json"
     },
     {
@@ -159,8 +217,166 @@
       "title": "Claude for Creative Work",
       "source": "hackernews",
       "score": 7,
-      "tags": ["llm", "agent"],
+      "tags": [
+        "llm",
+        "agent"
+      ],
       "file": "2026-04-29-claude-for-creative-work.json"
+    },
+    {
+      "id": "github-20260429-008",
+      "title": "FoundationAgents/MetaGPT",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "multi-agent",
+        "code-generation",
+        "open-source"
+      ],
+      "file": "2026-04-29-foundationagentsmetagpt.json"
+    },
+    {
+      "id": "github-20260429-014",
+      "title": "aaif-goose/goose",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "open-source",
+        "code-generation"
+      ],
+      "file": "2026-04-29-aaif-goosegoose.json"
+    },
+    {
+      "id": "github-20260429-015",
+      "title": "badlogic/pi-mono",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai",
+        "agent",
+        "llm"
+      ],
+      "file": "2026-04-29-badlogicpi-mono.json"
+    },
+    {
+      "id": "github-20260429-016",
+      "title": "HKUDS/nanobot",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai",
+        "agent",
+        "open-source"
+      ],
+      "file": "2026-04-29-hkudsnanobot.json"
+    },
+    {
+      "id": "github-20260429-017",
+      "title": "reworkd/AgentGPT",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "open-source",
+        "ai"
+      ],
+      "file": "2026-04-29-reworkdagentgpt.json"
+    },
+    {
+      "id": "github-20260429-018",
+      "title": "patchy631/ai-engineering-hub",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "llm",
+        "rag",
+        "agent"
+      ],
+      "file": "2026-04-29-patchy631ai-engineering-hub.json"
+    },
+    {
+      "id": "github-20260429-019",
+      "title": "khoj-ai/khoj",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai",
+        "llm",
+        "open-source"
+      ],
+      "file": "2026-04-29-khoj-aikhoj.json"
+    },
+    {
+      "id": "github-20260429-020",
+      "title": "continuedev/continue",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai",
+        "code-generation",
+        "open-source"
+      ],
+      "file": "2026-04-29-continuedevcontinue.json"
+    },
+    {
+      "id": "rss-20260429-001",
+      "title": "A Centralised Approach to AI / LLM Agent Instruction Using Git Submodules",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "llm",
+        "agent",
+        "mcp"
+      ],
+      "file": "2026-04-29-a-centralised-approach-to-ai-llm-agent-instruction-using-git.json"
+    },
+    {
+      "id": "rss-20260429-002",
+      "title": "Ask HN: Why are so many rolling out their own AI/LLM agent sandboxing solution?",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "llm",
+        "security"
+      ],
+      "file": "2026-04-29-ask-hn-why-are-so-many-rolling-out-their-own-aillm-agent-san.json"
+    },
+    {
+      "id": "rss-20260429-003",
+      "title": "Bending Emacs Episode 10: AI / LLM agent-shell [video]",
+      "source": "rss",
+      "score": 5,
+      "tags": [
+        "llm",
+        "agent",
+        "open-source"
+      ],
+      "file": "2026-04-29-bending-emacs-episode-10-ai-llm-agent-shell-video.json"
+    },
+    {
+      "id": "rss-20260429-004",
+      "title": "Show HN: Mirror AI – LLM agent that takes action, not just chat",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "agent",
+        "tool-use",
+        "open-source"
+      ],
+      "file": "2026-04-29-show-hn-mirror-ai-llm-agent-that-takes-action-not-just-chat.json"
+    },
+    {
+      "id": "rss-20260429-005",
+      "title": "Tell HN: An update from the new Tindie team",
+      "source": "rss",
+      "score": 3,
+      "tags": [
+        "deployment",
+        "open-source"
+      ],
+      "file": "2026-04-29-tell-hn-an-update-from-the-new-tindie-team.json"
     }
   ]
 }

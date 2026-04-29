@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260429-003",
+  "title": "Bending Emacs Episode 10: AI / LLM agent-shell [video]",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=R2Ucr3amgGg",
+  "author": "",
+  "published_at": "2026-04-29T10:19:32Z",
+  "collected_at": "2026-04-29T10:19:32Z",
+  "summary": "本视频是《Bending Emacs》系列第10集，演示如何在Emacs编辑器中集成AI/LLM agent-shell，实现智能命令行交互。内容涉及Emacs与LLM的结合，属于工具使用层面的技术分享。",
+  "score": 5,
+  "tags": [
+    "llm",
+    "agent",
+    "open-source"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T10:20:58Z"
+}

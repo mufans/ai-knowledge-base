@@ -1,0 +1,19 @@
+{
+  "id": "github-20260429-005",
+  "title": "browser-use/browser-use",
+  "source": "github",
+  "source_url": "https://github.com/browser-use/browser-use",
+  "author": "browser-use",
+  "published_at": "2024-10-31T16:00:56Z",
+  "collected_at": "2026-04-29T10:19:32Z",
+  "summary": "browser-use 是一个开源 Python 项目，旨在让 AI 代理能够轻松访问和操作网站，实现自动化在线任务。该项目拥有超过 9 万颗星标，展示了其在 AI 代理与网页交互领域的重要影响力，为自动化工作流提供了实用工具。",
+  "score": 8,
+  "tags": [
+    "ai",
+    "agent",
+    "open-source"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T10:20:58Z"
+}
