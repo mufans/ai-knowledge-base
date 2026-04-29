@@ -1,0 +1,33 @@
+{
+  "id": "2026-04-26-agentodyssey",
+  "title": "AgentOdyssey - 开放式长周期文本游戏生成引擎，评估 Agent 持续学习能力",
+  "date": "2026-04-26",
+  "source": "github-trending",
+  "category": "ai",
+  "tags": ["ai", "agent", "evaluation", "continual-learning", "game-generation", "学术研究", "Agent评估"],
+  "metadata": {
+    "github_url": "https://github.com/agentodyssey/agentodyssey",
+    "language": "Python",
+    "stars": 37,
+    "rank": 11
+  },
+  "summary": "开放式长周期文本游戏生成引擎，用于评估 AI Agent 的探索、世界知识获取、情景记忆、技能学习与长周期规划五大能力。三阶段游戏生成管线（实体→规则→任务），内置 6 种 Agent 范式统一接口公平对比，多维评估指标。已有 arXiv 论文支撑和 PyPI 包。",
+  "highlights": [
+    "三阶段游戏生成管线：实体 → 规则 → 任务，一条命令生成完整游戏世界",
+    "内置 6 种 Agent 范式（Long Context / RAG / SFT / Latent / RL）统一接口公平对比",
+    "多维评估指标：游戏进度、世界知识 QA、情景记忆 QA、动作探索度、行为多样性"
+  ],
+  "analysis": {
+    "score": 7,
+    "score_reason": "学术严谨的 Agent 评估框架，覆盖持续学习核心维度，已有论文支撑和 PyPI 包，对研究者有直接价值。",
+    "recommendation": "如果你在研究 Agent 的持续学习能力或需要评估 Agent 的记忆和规划能力，AgentOdyssey 是标准化的评估工具",
+    "innovation": "开放式游戏环境作为 Agent 评估沙盒，比静态 benchmark 更能测试 Agent 在未知环境中的适应和学习能力",
+    "use_cases": [
+      "Agent 持续学习能力的学术评估与对比",
+      "不同记忆架构（RAG / SFT / Latent）的公平对比实验",
+      "生成定制化测试场景评估特定 Agent 能力"
+    ]
+  },
+  "status": "active",
+  "related_topics": ["agent-evaluation", "continual-learning", "game-generation", "academic-research"]
+}

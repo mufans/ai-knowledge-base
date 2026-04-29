@@ -1,0 +1,33 @@
+{
+  "id": "2026-04-26-ai-auto-work",
+  "title": "AI-Auto-Work - Claude + Codex 双模型对抗式全流程开发系统",
+  "date": "2026-04-26",
+  "source": "github-trending",
+  "category": "ai",
+  "tags": ["ai", "agent", "agentic-coding", "claude", "codex", "code-review", "自动化开发", "工作流"],
+  "metadata": {
+    "github_url": "https://github.com/chaohong-ai/ai-auto-work",
+    "language": "Shell",
+    "stars": 93,
+    "rank": 5
+  },
+  "summary": "Claude + Codex 双模型对抗式全流程开发系统，Triple-Check 收敛机制实现从需求调研到代码提交的全自动闭环。每阶段隔离进程避免上下文污染，S/M/L 复杂度自动分级，L 级任务自动拆分。支持 auto-work/fast-auto-work/manual-work 三种模式。",
+  "highlights": [
+    "Triple-Check 收敛机制：Claude 执行 → 编译+测试门禁 → Codex 对抗审查，Critical=0/High≤2 才提交",
+    "每个阶段隔离进程运行，仅通过持久化文件交接，避免上下文污染",
+    "S/M/L 复杂度自动分级，L 级任务自动拆分为 M 级子任务串行执行"
+  ],
+  "analysis": {
+    "score": 8,
+    "score_reason": "双模型对抗审查和零上下文污染设计解决实际工程痛点，文档详尽且可直接落地使用。",
+    "recommendation": "如果你使用 Claude Code 进行日常开发，AI-Auto-Work 的双模型对抗审查能显著提升代码质量",
+    "innovation": "双模型对抗式开发（Claude 执行 + Codex 审查），利用不同模型训练分布互补来发现单模型盲点",
+    "use_cases": [
+      "中大型工程项目的全流程自动化开发",
+      "利用双模型对抗机制进行高质量代码审查",
+      "从需求到提交的全链路 AI 驱动开发"
+    ]
+  },
+  "status": "active",
+  "related_topics": ["agentic-coding", "code-review", "claude", "codex", "dual-model"]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2026-04-25-generic-agent",
+  "title": "GenericAgent - 极简自进化 Agent 框架，3K 行代码实现系统级控制",
+  "date": "2026-04-25",
+  "source": "github-trending",
+  "category": "ai",
+  "tags": ["ai", "agent", "self-evolving", "skill-tree", "llm", "自进化", "python", "学术"],
+  "metadata": {
+    "github_url": "https://github.com/lsdefine/GenericAgent",
+    "language": "Python",
+    "stars": 6988,
+    "stars_this_week": 3483,
+    "rank": 8
+  },
+  "summary": "一个极简的自进化 Agent 框架，核心仅 ~3K 行代码。通过 9 个原子工具 + ~100 行 Agent Loop 实现对本地计算机的系统级控制（浏览器、终端、文件系统、键鼠、屏幕视觉、ADB 移动设备）。最大创新在于自我进化机制：每完成一个新任务自动将执行路径固化为 Skill，使用越多能力越强。5 层分层记忆系统仅需 <30K 上下文（其他 Agent 需要 200K-1M），已发表 arXiv 技术报告。",
+  "highlights": [
+    "极致的 token 效率：<30K 上下文窗口 vs 其他 Agent 的 200K-1M，通过 5 层分层记忆（L0元规则→L1索引→L2事实→L3技能→L4归档）精准调度上下文",
+    "自我进化技能树：从 3K 行种子代码出发，每次任务自动沉淀 Skill——从'读微信消息'到'量化选股'到'Gmail 发件'，使用几周后形成独一无二的专属技能库",
+    "自举实证（Self-Bootstrap Proof）：整个仓库从 git init 到每条 commit message 都由 Agent 自己完成，作者从未打开过终端——这本身就是最强力的技术验证"
+  ],
+  "analysis": {
+    "score": 8,
+    "score_reason": "虽然 star 数相对较少（7K），但技术原创性极高。arXiv 论文背书、3K 行极简架构、<30K 上下文实现系统级控制——这是对当前 Agent 框架'越复杂越好'趋势的有力反驳。本周新增 3.5K star（增长 50%）说明正在被更多人发现。扣分点在于：项目仍偏早期，文档和社区不如 Hermes 成熟。",
+    "recommendation": "如果你对 Agent 框架的本质设计感兴趣，GenericAgent 是必读项目——它用 3K 行代码证明了简洁架构的巨大威力",
+    "innovation": "5 层分层记忆系统实现 <30K 上下文的系统级控制，自举实证（整个仓库由 Agent 自行构建）证明了自进化架构的可行性",
+    "use_cases": [
+      "个人计算机的 AI 自动化控制（浏览器、终端、文件系统）",
+      "Agent 框架设计的学术研究和技术参考",
+      "极简架构爱好者的自进化 Agent 实践"
+    ]
+  },
+  "related_topics": ["agent", "self-evolving", "minimalist-architecture", "skill-tree", "academic-research"]
+}

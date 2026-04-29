@@ -1,0 +1,33 @@
+{
+  "id": "2026-04-25-trendradar",
+  "title": "TrendRadar - AI 驱动的舆情监控与热点筛选工具",
+  "date": "2026-04-25",
+  "source": "github-trending",
+  "category": "ai",
+  "tags": ["ai", "nlp", "sentiment-analysis", "rss", "trend-monitoring", "mcp", "舆情监控", "python", "工具"],
+  "metadata": {
+    "github_url": "https://github.com/sansan0/TrendRadar",
+    "language": "Python",
+    "stars": 55125,
+    "stars_this_week": 3259,
+    "rank": 10
+  },
+  "summary": "AI 驱动的舆情监控与热点筛选工具，30秒即可部署。聚合多平台热搜+RSS 订阅，支持关键词精准筛选和 AI 智能兴趣匹配（自然语言描述关注方向，AI 自动提取标签打分）。AI 分析简报可直推微信/飞书/钉钉/Telegram/邮件等 9+ 渠道，支持 MCP 架构让 AI 对话式分析新闻数据。55K star，GitHub Actions 一键运行，Docker 自托管。",
+  "highlights": [
+    "AI 智能筛选替代关键词：在 ai_interests.txt 中用自然语言描述关注方向（如'我想看 AI 和新能源相关新闻'），AI 自动提取标签并对每条新闻打分，小改动增量更新不浪费 token",
+    "MCP 架构赋能自然语言分析：通过 MCP Server 暴露 21+ 工具（搜索、聚合、对比、文章读取等），让任何支持 MCP 的 AI 客户端直接对话式分析新闻数据",
+    "极致的部署简便性：fork → 配置 3 个文件 → GitHub Actions 自动运行，30秒上手；Docker 一键部署；支持 S3 兼容远程存储，数据完全自主可控"
+  ],
+  "analysis": {
+    "score": 7,
+    "score_reason": "55K star 证明了巨大的用户需求，是中国开源社区现象级的信息过滤工具。AI 智能筛选 + MCP 集成的组合让它在'AI + 舆情'赛道有明确的技术差异化。扣分点在于：核心数据依赖第三方 API（newsnow），且功能边界相对聚焦，与纯技术开发工具相比通用性有限。",
+    "recommendation": "信息过载时代的信息筛选利器——如果你每天被热搜和 RSS 淹没，TrendRadar + AI 筛选会让你只看到真正关心的内容",
+    "innovation": "AI 智能筛选用自然语言替代关键词配置 + MCP 架构暴露 21+ 工具实现对话式新闻分析，将舆情监控从被动查看升级为主动智能筛选",
+    "use_cases": [
+      "个人和团队的信息筛选，AI 自动过滤不感兴趣的热点",
+      "多平台舆情聚合和智能简报推送（微信/飞书/钉钉）",
+      "通过 MCP 与 AI 客户端对话式分析新闻趋势"
+    ]
+  },
+  "related_topics": ["sentiment-analysis", "rss-aggregation", "mcp", "news-filtering", "information-curation"]
+}

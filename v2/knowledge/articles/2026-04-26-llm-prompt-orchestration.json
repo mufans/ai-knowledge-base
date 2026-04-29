@@ -1,0 +1,28 @@
+{
+  "id": "2026-04-26-llm-prompt-orchestration",
+  "title": "LLM Prompt Orchestration Engine - Prompt 编排框架（可疑仓库）",
+  "date": "2026-04-26",
+  "source": "github-trending",
+  "category": "ai",
+  "tags": ["ai", "prompt-engineering", "llm", "orchestration", "可疑仓库"],
+  "metadata": {
+    "github_url": "https://github.com/linedelmont81825829134/LLM-Prompt-Orchestration-Engine",
+    "language": "Python",
+    "stars": 44,
+    "rank": 9
+  },
+  "summary": "高性能 Prompt 编排框架，支持模板版本管理、变量注入和上下文优化。仓库来自随机数字命名账号，项目真实性存疑。",
+  "highlights": [
+    "模板版本管理 + 变量注入机制，支持 Prompt 的工程化迭代",
+    "上下文优化策略，自动化流水线集成"
+  ],
+  "analysis": {
+    "score": 4,
+    "score_reason": "概念有价值但仓库命名可疑（随机数字账号），缺乏独立的 README 和架构文档，信息不足以充分评估。",
+    "recommendation": "不建议采纳，仓库可信度低",
+    "innovation": "无明显创新点，信息不足",
+    "use_cases": []
+  },
+  "status": "excluded",
+  "related_topics": ["prompt-engineering", "llm-tooling"]
+}

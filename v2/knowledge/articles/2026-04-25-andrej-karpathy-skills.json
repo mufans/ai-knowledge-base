@@ -1,0 +1,33 @@
+{
+  "id": "2026-04-25-andrej-karpathy-skills",
+  "title": "Andrej Karpathy Skills - 单文件改善 Claude Code 编码行为的最佳实践规则集",
+  "date": "2026-04-25",
+  "source": "github-trending",
+  "category": "ai",
+  "tags": ["ai", "llm", "claude-code", "coding-agent", "prompt-engineering", "最佳实践"],
+  "metadata": {
+    "github_url": "https://github.com/forrestchang/andrej-karpathy-skills",
+    "language": null,
+    "stars": 85424,
+    "stars_this_week": 29435,
+    "rank": 1
+  },
+  "summary": "基于 Andrej Karpathy 对 LLM 编程缺陷的深度观察，提炼出四条核心原则（先思考后编码、简洁优先、外科手术式修改、目标驱动执行），封装为单个 CLAUDE.md 文件即可显著改善 Claude Code 的编码行为。这不是一个软件工具，而是一套将 AI 编程最佳实践'规则化'的方法论——通过结构化 prompt 指导 LLM 避免过度工程化、隐性假设和冗余修改等常见陷阱。",
+  "highlights": [
+    "极其精准地诊断了 LLM 编码的四大顽疾：错误假设、过度复杂化、无关联修改、缺乏验证循环，并给出了对应的行为准则",
+    "单文件设计哲学：零依赖、零部署成本，一行 curl 命令即可安装，同时支持 Claude Code Plugin 和 Cursor Rules 双平台",
+    "核心洞察——'不要告诉 LLM 做什么，给它成功标准让它自己循环'，将 prompt engineering 从指令式提升为声明式"
+  ],
+  "analysis": {
+    "score": 9,
+    "score_reason": "本周新增 star 近3万，85K+总 star 证明了其普适价值。它直接解决每个使用 AI 编程的开发者都面临的痛点，方法简洁而深刻，Karpathy 的背书更赋予其行业权威性。单文件即改变工作流，属于'改变格局'级别的方法论创新。",
+    "recommendation": "每个使用 Claude Code/Cursor 的开发者都应立即安装——一个 CLAUDE.md 文件就能让你的 AI 编程助手减少 80% 的愚蠢操作",
+    "innovation": "将 prompt engineering 从指令式提升为声明式，通过结构化规则文件让 LLM 自主循环验证，而非逐步指令控制",
+    "use_cases": [
+      "日常 AI 辅助编程中减少 LLM 的过度工程化倾向",
+      "团队统一 AI 编码规范，将最佳实践固化为可复用配置",
+      "学习 prompt engineering 的高质量参考案例"
+    ]
+  },
+  "related_topics": ["prompt-engineering", "claude-code", "llm-coding", "ai-best-practices"]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2026-04-26-vizpilot-ai",
+  "title": "VizPilot AI - LLM 驱动的智能图表推荐与生成系统",
+  "date": "2026-04-26",
+  "source": "github-trending",
+  "category": "ai",
+  "tags": ["ai", "visualization", "llm", "data-analysis", "plotly", "数据可视化", "图表"],
+  "metadata": {
+    "github_url": "https://github.com/Zafer-Liu/VizPilot_AI",
+    "language": "HTML",
+    "stars": 58,
+    "rank": 6
+  },
+  "summary": "基于 LLM 的智能图表推荐系统，上传 Excel/CSV 数据自动分析字段类型，推荐 3-5 种可视化方案并生成 Plotly 交互图表。Registry 驱动架构管理 45+ 图表类型，支持 DeepSeek/MiniMax/OpenAI 多提供商。",
+  "highlights": [
+    "Registry 驱动架构管理 45+ 图表类型，新增图表只需注册元数据，前后端自动同步",
+    "支持 DeepSeek、MiniMax、OpenAI 兼容接口多提供商切换",
+    "自动字段类型识别与映射，输出可下载的交互式 HTML"
+  ],
+  "analysis": {
+    "score": 6,
+    "score_reason": "降低了数据可视化门槛，Registry 架构设计有参考价值，但功能较为垂直，适用场景有限。",
+    "recommendation": "适合需要快速将数据转为可视化图表的场景，但不适合复杂的数据分析需求",
+    "innovation": "LLM 驱动的图表类型推荐 + Registry 架构解耦图表实现与元数据",
+    "use_cases": [
+      "快速将 CSV/Excel 数据转为可交互图表",
+      "不确定选择何种图表类型时的智能推荐",
+      "团队数据可视化的快速原型制作"
+    ]
+  },
+  "status": "reviewed",
+  "related_topics": ["data-visualization", "llm-application", "chart-generation"]
+}

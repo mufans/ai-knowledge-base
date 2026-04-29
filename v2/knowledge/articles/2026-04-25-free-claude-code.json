@@ -1,0 +1,33 @@
+{
+  "id": "2026-04-25-free-claude-code",
+  "title": "Free Claude Code - 零成本使用 Claude Code 的 API 代理方案",
+  "date": "2026-04-25",
+  "source": "github-trending",
+  "category": "ai",
+  "tags": ["ai", "claude-code", "coding-agent", "llm", "open-source", "工具", "api代理", "python"],
+  "metadata": {
+    "github_url": "https://github.com/Alishahryar1/free-claude-code",
+    "language": "Python",
+    "stars": 10397,
+    "stars_this_week": 5160,
+    "rank": 6
+  },
+  "summary": "一个轻量级代理服务器，将 Claude Code 的 Anthropic API 调用路由到 NVIDIA NIM（40次/分钟免费）、OpenRouter（数百个免费模型）、DeepSeek、LM Studio 或 llama.cpp，实现零成本使用 Claude Code。支持按模型路由（Opus/Sonnet/Haiku 映射到不同后端）、思考 token 解析、请求优化拦截、速率限制，以及 Discord/Telegram 远程控制。",
+  "highlights": [
+    "零成本 Claude Code 完整方案：NVIDIA NIM 40 req/min 免费 + OpenRouter 免费模型，配合请求优化拦截（5类琐碎请求本地处理）实现真正的零成本运行",
+    "智能模型路由：Opus/Sonnet/Haiku 可分别映射到不同提供商和模型，混合搭配（如 Opus→NIM Kimi-K2.5、Sonnet→OpenRouter DeepSeek-R1）",
+    "思考 token 逆向工程：解析 <think/> 标签和 reasoning_content 字段，转换为 Claude 原生 thinking blocks，让非 Claude 模型也能实现 Chain-of-Thought"
+  ],
+  "analysis": {
+    "score": 7,
+    "score_reason": "本周新增 5.1K star 说明大量开发者渴望低成本使用 Claude Code，项目实用性极强。但本质上是一个 API 代理层而非技术创新，且依赖 NVIDIA NIM 等第三方免费额度（随时可能收紧）。MIT 协议、529 commits 的迭代速度健康。对于预算有限的开发者来说直接有价值。",
+    "recommendation": "想体验 Claude Code 但不想付费的开发者必备——NVIDIA NIM 免费额度 + 请求优化让你基本可以零成本日常使用",
+    "innovation": "思考 token 逆向工程解析非 Claude 模型的 Chain-of-Thought 输出并转换为 Claude 原生格式，实现了跨模型厂商的思维链兼容",
+    "use_cases": [
+      "预算有限的个人开发者零成本使用 Claude Code",
+      "混合多模型后端的智能路由，根据任务复杂度自动选择模型",
+      "本地模型（LM Studio/llama.cpp）的 Claude Code 接入"
+    ]
+  },
+  "related_topics": ["claude-code", "api-proxy", "free-ai-tools", "model-routing", "local-llm"]
+}
