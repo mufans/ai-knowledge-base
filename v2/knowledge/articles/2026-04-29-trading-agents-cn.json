@@ -1,0 +1,15 @@
+{
+  "id": "github-20260429-011",
+  "title": "TradingAgents-CN: Multi-Agent LLM Chinese Financial Trading Framework",
+  "source": "github",
+  "source_url": "https://github.com/hsliuping/TradingAgents-CN",
+  "author": "hsliuping",
+  "published_at": "2026-04-29T00:00:00Z",
+  "collected_at": "2026-04-29T10:00:00Z",
+  "summary": "TradingAgents 的中文增强版本，针对中国市场环境进行了本地化适配。2.5 万 stars 说明中文 AI 金融工具市场同样需求旺盛。",
+  "score": 7,
+  "tags": ["multi-agent", "llm"],
+  "audience": "intermediate",
+  "status": "published",
+  "updated_at": "2026-04-29T12:00:00Z"
+}

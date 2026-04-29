@@ -1,246 +1,166 @@
 {
-  "last_updated": "2026-04-26",
-  "total_entries": 25,
-  "entries": [
+  "updated_at": "2026-04-29T12:00:00Z",
+  "total": 20,
+  "articles": [
     {
-      "id": "2026-04-26-text-to-cad",
-      "title": "Text-to-CAD - AI Agent 驱动的开源文本生成 CAD 模型工具",
-      "slug": "text-to-cad",
+      "id": "github-20260429-001",
+      "title": "Skills for Real Engineers. Straight from my .claude directory.",
+      "source": "github",
+      "score": 8,
+      "tags": ["agent", "prompt-engineering", "tool-use"],
+      "file": "2026-04-29-skills-for-real-engineers.json"
+    },
+    {
+      "id": "github-20260429-002",
+      "title": "GitNexus: The Zero-Server Code Intelligence Engine",
+      "source": "github",
       "score": 9,
-      "tags": ["ai", "cad", "agent", "industrial-design", "coding-agent", "build123d", "开源工具", "工业设计"],
-      "collected_at": "2026-04-26",
-      "source": "github-trending",
-      "status": "active"
+      "tags": ["rag", "agent"],
+      "file": "2026-04-29-gitnexus-zero-server-code-intelligence.json"
     },
     {
-      "id": "2026-04-26-future-agi",
-      "title": "FutureAGI - 开源 AI Agent 全生命周期管理平台",
-      "slug": "future-agi",
+      "id": "github-20260429-003",
+      "title": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API",
+      "source": "github",
+      "score": 7,
+      "tags": ["agent", "tool-use"],
+      "file": "2026-04-29-awesome-codex-skills.json"
+    },
+    {
+      "id": "github-20260429-004",
+      "title": "VibeVoice: Open-Source Frontier Voice AI",
+      "source": "github",
       "score": 9,
-      "tags": ["ai", "llm", "agent", "observability", "evaluation", "gateway", "guardrails", "开源框架", "可观测性"],
-      "collected_at": "2026-04-26",
-      "source": "github-trending",
-      "status": "active"
+      "tags": ["audio", "llm"],
+      "file": "2026-04-29-vibevoice-open-source-voice-ai.json"
     },
     {
-      "id": "2026-04-26-ai-auto-work",
-      "title": "AI-Auto-Work - Claude + Codex 双模型对抗式全流程开发系统",
-      "slug": "ai-auto-work",
+      "id": "github-20260429-005",
+      "title": "CLI tool for configuring and monitoring Claude Code",
+      "source": "github",
+      "score": 7,
+      "tags": ["agent", "deployment"],
+      "file": "2026-04-29-claude-code-templates.json"
+    },
+    {
+      "id": "github-20260429-006",
+      "title": "ace-step-ui: The Ultimate Open Source Suno Alternative - Professional UI for ACE-Step 1.5 AI Music Generation",
+      "source": "github",
+      "score": 6,
+      "tags": ["audio"],
+      "file": "2026-04-29-ace-step-ui.json"
+    },
+    {
+      "id": "github-20260429-007",
+      "title": "ds2api: Deepseek to API - lightweight full-stack middleware converting client protocols to universal APIs",
+      "source": "github",
+      "score": 6,
+      "tags": ["llm", "deployment"],
+      "file": "2026-04-29-ds2api-deepseek-to-api.json"
+    },
+    {
+      "id": "github-20260429-009",
+      "title": "daily_stock_analysis: LLM-driven A/H/US stock intelligent analyzer",
+      "source": "github",
       "score": 8,
-      "tags": ["ai", "agent", "agentic-coding", "claude", "codex", "code-review", "自动化开发", "工作流"],
-      "collected_at": "2026-04-26",
-      "source": "github-trending",
-      "status": "active"
+      "tags": ["llm", "reasoning", "agent"],
+      "file": "2026-04-29-daily-stock-analysis.json"
     },
     {
-      "id": "2026-04-26-stash",
-      "title": "Stash - AI Agent 持久记忆层，8 阶段知识整合流水线",
-      "slug": "stash",
-      "score": 7,
-      "tags": ["ai", "agent", "memory", "mcp", "postgres", "pgvector", "agent-memory", "开源工具"],
-      "collected_at": "2026-04-26",
-      "source": "github-trending",
-      "status": "active"
-    },
-    {
-      "id": "2026-04-26-g2i-agents",
-      "title": "G2I-Agents - 可复用的 Agent 技能框架，标准化 AI 辅助交付流程",
-      "slug": "g2i-agents",
-      "score": 7,
-      "tags": ["ai", "agent", "framework", "software-delivery", "claude-code", "cursor", "标准化", "多工具"],
-      "collected_at": "2026-04-26",
-      "source": "github-trending",
-      "status": "active"
-    },
-    {
-      "id": "2026-04-26-agentodyssey",
-      "title": "AgentOdyssey - 开放式长周期文本游戏生成引擎，评估 Agent 持续学习能力",
-      "slug": "agentodyssey",
-      "score": 7,
-      "tags": ["ai", "agent", "evaluation", "continual-learning", "game-generation", "学术研究", "Agent评估"],
-      "collected_at": "2026-04-26",
-      "source": "github-trending",
-      "status": "active"
-    },
-    {
-      "id": "2026-04-26-clinical-automata",
-      "title": "Clinical Automata - 临床医生驱动的自主编码 Agent 框架",
-      "slug": "clinical-automata",
-      "score": 7,
-      "tags": ["ai", "agent", "healthcare", "autonomous-coding", "clinical-ai", "学术研究", "医疗AI"],
-      "collected_at": "2026-04-26",
-      "source": "github-trending",
-      "status": "active"
-    },
-    {
-      "id": "2026-04-26-vizpilot-ai",
-      "title": "VizPilot AI - LLM 驱动的智能图表推荐与生成系统",
-      "slug": "vizpilot-ai",
-      "score": 6,
-      "tags": ["ai", "visualization", "llm", "data-analysis", "plotly", "数据可视化", "图表"],
-      "collected_at": "2026-04-26",
-      "source": "github-trending",
-      "status": "reviewed"
-    },
-    {
-      "id": "2026-04-26-claude-comstyle",
-      "title": "Claude-ComStyle - 13 种 Claude 沟通风格 Prompt 模板，最高节省 75% Token",
-      "slug": "claude-comstyle",
-      "score": 6,
-      "tags": ["ai", "claude", "prompt-engineering", "token-optimization", "claude-code", "开发工具"],
-      "collected_at": "2026-04-26",
-      "source": "github-trending",
-      "status": "reviewed"
-    },
-    {
-      "id": "2026-04-26-qwen-lens-studio",
-      "title": "Qwen Lens Studio - 基于 Qwen3.6 的多模态 AI 工作室",
-      "slug": "qwen-lens-studio",
-      "score": 6,
-      "tags": ["ai", "multimodal", "qwen", "vision", "document-processing", "多模态", "视觉推理"],
-      "collected_at": "2026-04-26",
-      "source": "github-trending",
-      "status": "reviewed"
-    },
-    {
-      "id": "2026-04-26-intro-agentic-ai",
-      "title": "认识 Agentic AI - 从神经网络到智能体的中文技术科普幻灯片",
-      "slug": "intro-agentic-ai",
-      "score": 5,
-      "tags": ["ai", "agent", "slidev", "education", "科普", "中文资源", "技术分享"],
-      "collected_at": "2026-04-26",
-      "source": "github-trending",
-      "status": "reviewed"
-    },
-    {
-      "id": "2026-04-26-ai-polymarket-agent",
-      "title": "AI-Polymarket-Agent - 基于 MCP 的预测市场 AI 交易代理",
-      "slug": "ai-polymarket-agent",
-      "score": 5,
-      "tags": ["ai", "mcp", "trading", "web3", "prediction-market", "agent", "polymarket"],
-      "collected_at": "2026-04-26",
-      "source": "github-trending",
-      "status": "reviewed"
-    },
-    {
-      "id": "2026-04-26-kimiflare",
-      "title": "KimiFlare - 将 Moonshot Kimi 模型部署到 Cloudflare Workers",
-      "slug": "kimiflare",
-      "score": 5,
-      "tags": ["ai", "llm", "cloudflare", "edge-computing", "kimi", "自托管", "边缘部署"],
-      "collected_at": "2026-04-26",
-      "source": "github-trending",
-      "status": "reviewed"
-    },
-    {
-      "id": "2026-04-26-llm-prompt-orchestration",
-      "title": "LLM Prompt Orchestration Engine - Prompt 编排框架（可疑仓库）",
-      "slug": "llm-prompt-orchestration",
-      "score": 4,
-      "tags": ["ai", "prompt-engineering", "llm", "orchestration", "可疑仓库"],
-      "collected_at": "2026-04-26",
-      "source": "github-trending",
-      "status": "excluded"
-    },
-    {
-      "id": "2026-04-26-neural-vision-cleanup",
-      "title": "Neural Vision Cleanup Suite - 深度学习图像修复框架（可疑仓库）",
-      "slug": "neural-vision-cleanup",
-      "score": 4,
-      "tags": ["ai", "deep-learning", "image-restoration", "watermark-removal", "可疑仓库"],
-      "collected_at": "2026-04-26",
-      "source": "github-trending",
-      "status": "excluded"
-    },
-    {
-      "id": "2026-04-25-andrej-karpathy-skills",
-      "title": "Andrej Karpathy Skills - 单文件改善 Claude Code 编码行为的最佳实践规则集",
-      "slug": "andrej-karpathy-skills",
+      "id": "github-20260429-010",
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "source": "github",
       "score": 9,
-      "tags": ["ai", "llm", "claude-code", "coding-agent", "prompt-engineering", "最佳实践"],
-      "collected_at": "2026-04-25",
-      "source": "github-trending"
+      "tags": ["multi-agent", "llm", "reasoning"],
+      "file": "2026-04-29-trading-agents-framework.json"
     },
     {
-      "id": "2026-04-25-hermes-agent",
-      "title": "Hermes Agent - 自我改进型 AI Agent，越用越懂你",
-      "slug": "hermes-agent",
-      "score": 10,
-      "tags": ["ai", "agent", "llm", "nous-research", "open-source", "python", "开源项目", "自进化"],
-      "collected_at": "2026-04-25",
-      "source": "github-trending"
-    },
-    {
-      "id": "2026-04-25-claude-mem",
-      "title": "Claude-Mem - Claude Code 持久化记忆压缩系统",
-      "slug": "claude-mem",
-      "score": 8,
-      "tags": ["ai", "claude-code", "agent-memory", "context-management", "coding-agent", "记忆系统", "rag", "开源项目"],
-      "collected_at": "2026-04-25",
-      "source": "github-trending"
-    },
-    {
-      "id": "2026-04-25-markitdown",
-      "title": "MarkItDown - 微软出品的万能文档转 Markdown 工具",
-      "slug": "markitdown",
-      "score": 8,
-      "tags": ["ai", "document-processing", "markdown", "rag", "llm-tooling", "文档处理", "python", "微软"],
-      "collected_at": "2026-04-25",
-      "source": "github-trending"
-    },
-    {
-      "id": "2026-04-25-multica",
-      "title": "Multica - 将 Coding Agent 变成真正团队成员的开源协作平台",
-      "slug": "multica",
-      "score": 8,
-      "tags": ["ai", "agent", "multi-agent", "coding-agent", "task-management", "多agent协作", "开源项目", "devops"],
-      "collected_at": "2026-04-25",
-      "source": "github-trending"
-    },
-    {
-      "id": "2026-04-25-free-claude-code",
-      "title": "Free Claude Code - 零成本使用 Claude Code 的 API 代理方案",
-      "slug": "free-claude-code",
+      "id": "github-20260429-011",
+      "title": "TradingAgents-CN: Multi-Agent LLM Chinese Financial Trading Framework",
+      "source": "github",
       "score": 7,
-      "tags": ["ai", "claude-code", "coding-agent", "llm", "open-source", "工具", "api代理", "python"],
-      "collected_at": "2026-04-25",
-      "source": "github-trending"
+      "tags": ["multi-agent", "llm"],
+      "file": "2026-04-29-trading-agents-cn.json"
     },
     {
-      "id": "2026-04-25-voicebox",
-      "title": "Voicebox - 开源 AI 语音合成工作室，本地运行的 ElevenLabs 替代品",
-      "slug": "voicebox",
+      "id": "github-20260429-012",
+      "title": "Keep: The open-source AIOps and alert management platform",
+      "source": "github",
       "score": 7,
-      "tags": ["ai", "voice-clone", "text-to-speech", "speech-recognition", "tts", "语音合成", "开源项目", "tauri", "typescript"],
-      "collected_at": "2026-04-25",
-      "source": "github-trending"
+      "tags": ["agent", "deployment"],
+      "file": "2026-04-29-keep-aiops-alert-management.json"
     },
     {
-      "id": "2026-04-25-generic-agent",
-      "title": "GenericAgent - 极简自进化 Agent 框架，3K 行代码实现系统级控制",
-      "slug": "generic-agent",
-      "score": 8,
-      "tags": ["ai", "agent", "self-evolving", "skill-tree", "llm", "自进化", "python", "学术"],
-      "collected_at": "2026-04-25",
-      "source": "github-trending"
-    },
-    {
-      "id": "2026-04-25-openai-agents-python",
-      "title": "OpenAI Agents Python - OpenAI 官方轻量级多 Agent 工作流框架",
-      "slug": "openai-agents-python",
-      "score": 8,
-      "tags": ["ai", "agent", "multi-agent", "openai", "framework", "框架", "python"],
-      "collected_at": "2026-04-25",
-      "source": "github-trending"
-    },
-    {
-      "id": "2026-04-25-trendradar",
-      "title": "TrendRadar - AI 驱动的舆情监控与热点筛选工具",
-      "slug": "trendradar",
+      "id": "github-20260429-013",
+      "title": "NVIDIA PersonaPlex",
+      "source": "github",
       "score": 7,
-      "tags": ["ai", "nlp", "sentiment-analysis", "rss", "trend-monitoring", "mcp", "舆情监控", "python", "工具"],
-      "collected_at": "2026-04-25",
-      "source": "github-trending"
+      "tags": ["llm", "agent"],
+      "file": "2026-04-29-nvidia-personaplex.json"
+    },
+    {
+      "id": "hn-20260429-001",
+      "title": "How ChatGPT serves ads",
+      "source": "hackernews",
+      "score": 7,
+      "tags": ["llm", "deployment"],
+      "file": "2026-04-29-how-chatgpt-serves-ads.json"
+    },
+    {
+      "id": "hn-20260429-002",
+      "title": "Show HN: Auto-Architecture: Karpathy's Loop, pointed at a CPU",
+      "source": "hackernews",
+      "score": 8,
+      "tags": ["reasoning", "code-generation"],
+      "file": "2026-04-29-auto-architecture-karpathy-loop.json"
+    },
+    {
+      "id": "hn-20260429-003",
+      "title": "OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs",
+      "source": "hackernews",
+      "score": 7,
+      "tags": ["llm", "deployment"],
+      "file": "2026-04-29-openai-models-amazon-bedrock.json"
+    },
+    {
+      "id": "hn-20260429-004",
+      "title": "Regression: malware reminder on every read still causes subagent refusals",
+      "source": "hackernews",
+      "score": 6,
+      "tags": ["agent", "security"],
+      "file": "2026-04-29-claude-code-malware-regression.json"
+    },
+    {
+      "id": "hn-20260429-005",
+      "title": "Who owns the code Claude Code wrote?",
+      "source": "hackernews",
+      "score": 8,
+      "tags": ["code-generation", "security"],
+      "file": "2026-04-29-who-owns-claude-code.json"
+    },
+    {
+      "id": "hn-20260429-007",
+      "title": "Talkie: a 13B vintage language model from 1930",
+      "source": "hackernews",
+      "score": 8,
+      "tags": ["llm"],
+      "file": "2026-04-29-talkie-13b-vintage-language-model.json"
+    },
+    {
+      "id": "hn-20260429-008",
+      "title": "Show HN: Drive any macOS app in the background without stealing the cursor",
+      "source": "hackernews",
+      "score": 8,
+      "tags": ["agent", "tool-use"],
+      "file": "2026-04-29-cua-macos-background-driver.json"
+    },
+    {
+      "id": "hn-20260429-010",
+      "title": "Claude for Creative Work",
+      "source": "hackernews",
+      "score": 7,
+      "tags": ["llm", "agent"],
+      "file": "2026-04-29-claude-for-creative-work.json"
     }
   ]
 }

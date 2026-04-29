@@ -1,0 +1,15 @@
+{
+  "id": "github-20260429-001",
+  "title": "Skills for Real Engineers. Straight from my .claude directory.",
+  "source": "github",
+  "source_url": "https://github.com/mattpocock/skills",
+  "author": "mattpocock",
+  "published_at": "2026-04-29T00:00:00Z",
+  "collected_at": "2026-04-29T10:00:00Z",
+  "summary": "知名 TypeScript 教育者 Matt Pocock 开源的 Claude Code 技能文件集合，展示了如何通过精心设计的 skill 文件提升 AI 编程助手的实际工程能力。项目一日内获得 7300+ stars，反映了社区对 Agent 技能工程的强烈需求。",
+  "score": 8,
+  "tags": ["agent", "prompt-engineering", "tool-use"],
+  "audience": "intermediate",
+  "status": "published",
+  "updated_at": "2026-04-29T12:00:00Z"
+}

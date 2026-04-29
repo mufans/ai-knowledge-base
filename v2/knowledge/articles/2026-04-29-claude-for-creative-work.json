@@ -1,0 +1,15 @@
+{
+  "id": "hn-20260429-010",
+  "title": "Claude for Creative Work",
+  "source": "hackernews",
+  "source_url": "https://www.anthropic.com/news/claude-for-creative-work",
+  "author": "elsewhen",
+  "published_at": "2026-04-29T00:00:00Z",
+  "collected_at": "2026-04-29T10:00:00Z",
+  "summary": "Anthropic 官方发布的 Claude 创意工作能力更新，标志着 Claude 从编程助手向创意内容生成领域的扩展。83 条评论反映了社区对 AI 创意工具的持续关注。",
+  "score": 7,
+  "tags": ["llm", "agent"],
+  "audience": "beginner",
+  "status": "published",
+  "updated_at": "2026-04-29T12:00:00Z"
+}

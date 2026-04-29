@@ -55,7 +55,6 @@ allowed-tools:
 保存前运行校验：
 ```bash
 python hooks/validate_json.py knowledge/articles/文件名.json
-python hooks/check_quality.py knowledge/articles/文件名.json
 ```
 
 只有校验通过且评分 >= B 级的文章才标记为 `published`。
