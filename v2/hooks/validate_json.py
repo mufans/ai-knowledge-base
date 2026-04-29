@@ -147,15 +147,19 @@ def main() -> None:
         sys.exit(1)
 
     # Expand glob patterns (shell usually handles this, but support manual *.json)
+    SKIP_FILES = {"index.json"}
     files: list[Path] = []
     for arg in args:
         p = Path(arg)
         if p.is_file():
-            files.append(p)
+            if p.name not in SKIP_FILES:
+                files.append(p)
         elif "*" in arg:
             parent = p.parent
             pattern = p.name
-            matched = sorted(parent.glob(pattern))
+            matched = sorted(
+                f for f in parent.glob(pattern) if f.name not in SKIP_FILES
+            )
             if not matched:
                 print(f"警告: 通配符 '{arg}' 未匹配到任何文件")
             files.extend(matched)

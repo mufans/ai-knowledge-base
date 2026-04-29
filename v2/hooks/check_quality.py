@@ -369,15 +369,21 @@ def print_report(report: QualityReport) -> None:
     print()
 
 
+SKIP_FILES = {"index.json"}
+
+
 def collect_files(args: list[str]) -> list[Path]:
     """Resolve file arguments, supporting glob patterns."""
     files: list[Path] = []
     for arg in args:
         p = Path(arg)
         if p.is_file():
-            files.append(p)
+            if p.name not in SKIP_FILES:
+                files.append(p)
         elif "*" in arg:
-            matched = sorted(p.parent.glob(p.name))
+            matched = sorted(
+                f for f in p.parent.glob(p.name) if f.name not in SKIP_FILES
+            )
             if not matched:
                 print(f"警告: 通配符 '{arg}' 未匹配到任何文件")
             files.extend(matched)
