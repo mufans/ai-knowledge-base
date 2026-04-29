@@ -47,7 +47,60 @@ ai-knowledge-base/
 - 使用 2 空格缩进
 - 日期格式：ISO 8601（`YYYY-MM-DDTHH:mm:ssZ`）
 - 字符编码：UTF-8
-- 每个知识条目必须包含：`id`, `title`, `source`, `url`, `collected_at`, `summary`, `tags`, `relevance_score`
+
+### 知识条目格式
+
+每篇文章对应一个独立 JSON 文件，完整 schema 如下：
+
+```json
+{
+  "id": "github-20260317-001",
+  "title": "文章标题",
+  "source": "github",
+  "source_url": "https://...",
+  "author": "作者",
+  "published_at": "2026-03-17T00:00:00Z",
+  "collected_at": "2026-03-17T10:30:00Z",
+  "summary": "2-3 句技术摘要，至少 50 字",
+  "score": 8,
+  "tags": ["agent", "mcp"],
+  "audience": "intermediate",
+  "status": "published",
+  "updated_at": "2026-03-17T12:00:00Z"
+}
+```
+
+#### 字段说明
+
+| 字段 | 必填 | 说明 |
+|------|------|------|
+| `id` | 是 | 格式：`{source}-{YYYYMMDD}-{NNN}`，如 `github-20260317-001` |
+| `title` | 是 | 非空字符串 |
+| `source` | 是 | 来源类型：`github` / `hackernews` / `arxiv` 等 |
+| `source_url` | 是 | 合法 URL，用于溯源 |
+| `author` | 否 | 作者或组织名 |
+| `published_at` | 否 | 原始发布时间（ISO 8601） |
+| `collected_at` | 是 | 采集时间（ISO 8601） |
+| `summary` | 是 | 技术摘要，>= 50 字最佳，>= 20 字及格 |
+| `score` | 是 | 技术深度评分，1-10 整数 |
+| `tags` | 是 | 1-3 个英文小写标签，连字符分隔 |
+| `audience` | 否 | 受众：`beginner` / `intermediate` / `advanced` |
+| `status` | 是 | 状态：`draft` / `review` / `published` / `archived` |
+| `updated_at` | 否 | 最后更新时间（ISO 8601） |
+
+#### 质量评分
+
+保存前需通过质量校验（`hooks/check_quality.py`），五维度加权总分 100 分：
+
+| 维度 | 满分 | 评分要点 |
+|------|------|----------|
+| 摘要质量 | 25 | >= 50 字满分，含技术关键词有奖励 |
+| 技术深度 | 25 | 基于 score 字段（1-10 映射到 0-25） |
+| 格式规范 | 20 | id / title / source_url / status / 时间戳各 4 分 |
+| 标签精度 | 15 | 1-3 个合法标签最佳，有标准标签列表校验 |
+| 空洞词检测 | 15 | 不得包含"赋能""groundbreaking"等空洞词 |
+
+等级标准：**A >= 80** / **B >= 60** / **C < 60**。只有 B 级及以上的文章才标记为 `published`。
 
 ### 语言约定
 - 代码、JSON 键名、文件名：英文
@@ -71,7 +124,7 @@ ai-knowledge-base/
 1. **单向数据流**：Collector → Analyzer → Organizer，不可反向
 2. **职责隔离**：每个 Agent 只操作自己权限范围内的文件
 3. **幂等性**：重复运行同一天的采集不应产生重复条目
-4. **质量门控**：Analyzer 评分低于 0.6 的条目，Organizer 应丢弃
+4. **质量门控**：`hooks/check_quality.py` 评分低于 B 级（< 60 分）的条目，Organizer 应丢弃
 5. **可追溯**：每个条目保留 `source_url` 和 `collected_at` 用于溯源
 
 ### Agent 调用方式
@@ -90,6 +143,7 @@ ai-knowledge-base/
 - 网络请求失败时，记录错误并跳过该条目，不中断整体流程
 - API 限流时，等待后重试，最多 3 次
 - 数据格式异常时，写入 `knowledge/raw/errors-{date}.json` 供人工排查
+- 质量校验：`python3 hooks/check_quality.py knowledge/articles/*.json`，存在 C 级返回退出码 1
 
 ## 技术栈
 - **运行时**：OpenCode + LLM
