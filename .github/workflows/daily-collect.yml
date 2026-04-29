@@ -18,6 +18,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -44,19 +46,20 @@ jobs:
       - name: Check quality
         run: python hooks/check_quality.py knowledge/articles/*.json
 
-      - name: Count new articles
+      - name: Count and commit
         id: count
-        run: |
-          COUNT=$(git diff --name-only --diff-filter=A -- 'v2/knowledge/articles/*.json' | wc -l | tr -d ' ')
-          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
-          echo "New articles: $COUNT"
-
-      - name: Commit and push
-        if: steps.count.outputs.count > 0
+        working-directory: .
         run: |
           DATE=$(date -u +%Y-%m-%d)
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add v2/knowledge/
-          git commit -m "docs: add ${DATE} collection — ${{ steps.count.outputs.count }} articles"
-          git push
+          COUNT=$(git diff --cached --name-only --diff-filter=A -- 'v2/knowledge/articles/*.json' | wc -l | tr -d ' ')
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "New articles: $COUNT"
+          if [ "$COUNT" -gt 0 ]; then
+            git commit -m "docs: add ${DATE} collection — ${COUNT} articles"
+            git push
+          else
+            echo "No new articles, skipping commit."
+          fi
