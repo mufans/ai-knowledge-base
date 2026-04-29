@@ -98,5 +98,105 @@
     "published_at": "2026-04-29T10:19:32Z",
     "raw_description": "<p>Hi HN, Francesco from Cua here.\nI hacked this project together last weekend, inspired by the Codex Computer-Use release and lessons learned from deploying GUI-operating agents for our customers.<p>The main problem: when a UI automation process controls a desktop app today, it usually takes over the human’s session. Your cursor moves, keyboard focus gets stolen, windows jump to the front, and you have to stop working until the agent is done. That is why we have historically avoided encouraging users to run these processes directly on their host machine, instead relying on VMs or GUI containers for concurrency and background execution.<p>But computer-use - the tools we give agents to operate computers like humans - does not scale cleanly that way. As models get smarter, agents need to share hosts safely, run in the background, and avoid collisions with the human or other agents using the same machine.<p>We realized macOS has no first-class API for \"drive this app without touching the cursor\". CGEventPost routes through the hardware input stream, so it moves your cursor. CGEvent.postToPid avoids the cursor warp, but Chromium treats those events as untrusted and silently drops clicks at the renderer boundary. Activating the target app first raises the window and pulls focus, defeating the point of background execution.<p>Cua Driver is our attempt at a real fix: a background computer-use driver for macOS that lets an agent click, type, scroll, and read native apps while your cursor, frontmost app, and Space stay where they are. The default interface is a CLI, so it is easy to script or call from any coding agent shell.<p>Try it on macOS 14+:<p>/bin/bash -c \"$(curl -fsSL <a href=\"https://raw.githubusercontent.com/trycua/cua/main/libs/cua-driver/scripts/install.sh\" rel=\"nofollow\">https://raw.githubusercontent.com/trycua/cua/main/libs/cua-d...</a>)\"<p>The first internal use case was delegated demo recording. We ask Claude Code to drive an app while 'cua-driver recording start' captures the trajectory, screenshots, actions, and click markers. The result is an agent-generated product demo, Screen Studio inspired.<p>Other things we have used it for:<p>- Replacing Vercel’s agent-browser and other browser-use CLIs. With Claude Code and Cua Driver, you do not need Chrome DevTools Protocol at all.<p>- A dev-loop QA agent that reproduces a visual bug, edits code, rebuilds, and verifies the UI while my editor stays frontmost.<p>- Personal-assistant flows that use iMessage from Claude Code, Hermes, or other general-purpose agent CLIs.<p>- Pulling visual context from Chrome, Figma, Preview, or YouTube windows I am not looking at, without relying on their APIs.<p>What made this harder than expected:<p>- CGEventPost warps the cursor because it goes through the HID stream.<p>- CGEvent.postToPid does not warp the cursor, but Chromium drops it at the renderer IPC boundary.<p>- Activating the target first raises the window and can drag you across Spaces.<p>- Electron apps stop keeping useful AX trees alive when windows are occluded without a private remote-aware SPI.<p>The unlock was SkyLight. SLEventPostToPid is a sibling of the public per-PID call, but it travels through a WindowServer channel Chromium accepts as trusted. Pair it with yabai’s focus-without-raise pattern, plus an off-screen primer click at (-1, -1), and the click lands without the window ever raising.<p>One thing we learned: the right addressing mode depends on the app. Native macOS apps usually have rich AX trees, Chromium-family apps often need a hybrid of AX and screenshots, and apps like Blender or CAD tools may expose almost no useful AX surface. The mistake is defaulting to pixels everywhere - or defaulting to AX everywhere.<p>Long technical writeup: <a href=\"https://github.com/trycua/cua/blob/main/blog/inside-macos-window-internals.md\" rel=\"nofollow\">https://github.com/trycua/cua/blob/main/blog/inside-macos-wi...</a><p>I would like feedback from people building Mac automation, agent harnesses, or accessibility tooling. If it breaks on an macOS app you care about, that is useful data for us.</p>\n<hr>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47936312\">https://news.ycombinator.com/item?id=47936312</a></p>\n<p>Points: 133</p>\n<p># Comments: 32</p>",
     "collected_at": "2026-04-29T10:19:32Z"
+  },
+  {
+    "id": "rss-20260429-011",
+    "title": "8 Gemini tips for organizing your space (and life)",
+    "source": "rss",
+    "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+    "author": "",
+    "published_at": "2026-04-29T15:35:54Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_hero.max-600x600.format-webp.webp\"&gt;Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+    "collected_at": "2026-04-29T15:35:54Z"
+  },
+  {
+    "id": "rss-20260429-012",
+    "title": "Here’s how our TPUs power increasingly demanding AI workloads.",
+    "source": "rss",
+    "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
+    "author": "",
+    "published_at": "2026-04-29T15:35:54Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp\"&gt;Learn how Google’s TPUs power increasingly demanding AI workloads with this new video.",
+    "collected_at": "2026-04-29T15:35:54Z"
+  },
+  {
+    "id": "rss-20260429-013",
+    "title": "Elevating Austria: Google invests in its first data center in the Alps.",
+    "source": "rss",
+    "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
+    "author": "",
+    "published_at": "2026-04-29T15:35:54Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Kronstorf_Data_Center_1.max-600x600.format-webp.webp\"&gt;Google has been a proud part of Austria’s landscape for years, and today, we’re announcing our first data center in Kronstorf, generating 100 direct jobs. This facility …",
+    "collected_at": "2026-04-29T15:35:54Z"
+  },
+  {
+    "id": "rss-20260429-014",
+    "title": "We're launching two specialized TPUs for the agentic era.",
+    "source": "rss",
+    "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
+    "author": "",
+    "published_at": "2026-04-29T15:35:54Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Were_launching_two_TPUs_social.max-600x600.format-webp.webp\"&gt;The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
+    "collected_at": "2026-04-29T15:35:54Z"
+  },
+  {
+    "id": "rss-20260429-015",
+    "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
+    "source": "rss",
+    "source_url": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
+    "author": "",
+    "published_at": "2026-04-29T15:35:54Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Road_to_GML_Master-Header.max-600x600.format-webp.webp\"&gt;Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
+    "collected_at": "2026-04-29T15:35:54Z"
+  },
+  {
+    "id": "rss-20260429-016",
+    "title": "7 ways to travel smarter this summer, with help from Google",
+    "source": "rss",
+    "source_url": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
+    "author": "",
+    "published_at": "2026-04-29T15:35:54Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summer_Travel_Tips_2026_hero.max-600x600.format-webp.webp\"&gt;The latest tools from Google can help you plan trips, find a great deal and explore your next destination.",
+    "collected_at": "2026-04-29T15:35:54Z"
+  },
+  {
+    "id": "rss-20260429-017",
+    "title": "A new way to explore the web with AI Mode in Chrome",
+    "source": "rss",
+    "source_url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+    "author": "",
+    "published_at": "2026-04-29T15:35:54Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/AI_Mode_in_Chrome_-_Blog_header.png\"&gt;Today’s upgrades for AI Mode in Chrome transform how you interact with the web",
+    "collected_at": "2026-04-29T15:35:54Z"
+  },
+  {
+    "id": "rss-20260429-018",
+    "title": "New ways to create personalized images in the Gemini app",
+    "source": "rss",
+    "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
+    "author": "",
+    "published_at": "2026-04-29T15:35:54Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_post_header.max-600x600.format-webp.webp\"&gt;Nano Banana 2 now uses your personal context and Google Photos to create images that reflect your unique life.",
+    "collected_at": "2026-04-29T15:35:54Z"
+  },
+  {
+    "id": "rss-20260429-019",
+    "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+    "source": "rss",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+    "author": "",
+    "published_at": "2026-04-29T15:35:54Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.1-flash-tts_blog_keywo.max-600x600.format-webp.webp\"&gt;Gemini 3.1 Flash TTS is now available across Google products.",
+    "collected_at": "2026-04-29T15:35:54Z"
+  },
+  {
+    "id": "rss-20260429-020",
+    "title": "Turn your best AI prompts into one-click tools in Chrome",
+    "source": "rss",
+    "source_url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+    "author": "",
+    "published_at": "2026-04-29T15:35:54Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GoogleChrome_RR_Skills_KeywordH.max-600x600.format-webp.webp\"&gt;Skills in Chrome let you discover, save and remix AI workflows — and repeat them instantly.",
+    "collected_at": "2026-04-29T15:35:54Z"
   }
 ]

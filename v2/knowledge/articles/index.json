@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-29T10:20:58Z",
-  "total": 33,
+  "updated_at": "2026-04-29T15:37:34Z",
+  "total": 48,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -377,6 +377,183 @@
         "open-source"
       ],
       "file": "2026-04-29-tell-hn-an-update-from-the-new-tindie-team.json"
+    },
+    {
+      "id": "rss-20260429-006",
+      "title": "Mathematical methods and human thought in the age of AI",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "reasoning",
+        "nlp"
+      ],
+      "file": "2026-04-29-mathematical-methods-and-human-thought-in-the-age-of-ai.json"
+    },
+    {
+      "id": "rss-20260429-007",
+      "title": "A Proposal for Voluntary AI Disclosure in OCaml Code",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "ai",
+        "open-source",
+        "code-generation"
+      ],
+      "file": "2026-04-29-a-proposal-for-voluntary-ai-disclosure-in-ocaml-code.json"
+    },
+    {
+      "id": "rss-20260429-008",
+      "title": "The Design of AI Memory Systems",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "rag",
+        "embedding"
+      ],
+      "file": "2026-04-29-the-design-of-ai-memory-systems.json"
+    },
+    {
+      "id": "rss-20260429-009",
+      "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "nlp",
+        "translation"
+      ],
+      "file": "2026-04-29-celebrating-20-years-of-google-translate-fun-facts-tips-and-.json"
+    },
+    {
+      "id": "rss-20260429-010",
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "agent",
+        "course"
+      ],
+      "file": "2026-04-29-join-the-new-ai-agents-vibe-coding-course-from-google-and-ka.json"
+    },
+    {
+      "id": "rss-20260429-011",
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "source": "rss",
+      "score": 5,
+      "tags": [
+        "ai",
+        "tool-use"
+      ],
+      "file": "2026-04-29-8-gemini-tips-for-organizing-your-space-and-life.json"
+    },
+    {
+      "id": "rss-20260429-012",
+      "title": "Here’s how our TPUs power increasingly demanding AI workloads.",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "hardware",
+        "deployment"
+      ],
+      "file": "2026-04-29-heres-how-our-tpus-power-increasingly-demanding-ai-workloads.json"
+    },
+    {
+      "id": "rss-20260429-013",
+      "title": "Elevating Austria: Google invests in its first data center in the Alps.",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "infrastructure",
+        "cloud-computing",
+        "ai"
+      ],
+      "file": "2026-04-29-elevating-austria-google-invests-in-its-first-data-center-in.json"
+    },
+    {
+      "id": "rss-20260429-014",
+      "title": "We're launching two specialized TPUs for the agentic era.",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "ai",
+        "hardware",
+        "tpu"
+      ],
+      "file": "2026-04-29-were-launching-two-specialized-tpus-for-the-agentic-era.json"
+    },
+    {
+      "id": "rss-20260429-015",
+      "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "ai",
+        "agent",
+        "security"
+      ],
+      "file": "2026-04-29-3-new-ways-ads-advisor-is-making-google-ads-safer-and-faster.json"
+    },
+    {
+      "id": "rss-20260429-016",
+      "title": "7 ways to travel smarter this summer, with help from Google",
+      "source": "rss",
+      "score": 3,
+      "tags": [
+        "ai",
+        "tool-use"
+      ],
+      "file": "2026-04-29-7-ways-to-travel-smarter-this-summer-with-help-from-google.json"
+    },
+    {
+      "id": "rss-20260429-017",
+      "title": "A new way to explore the web with AI Mode in Chrome",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "browser"
+      ],
+      "file": "2026-04-29-a-new-way-to-explore-the-web-with-ai-mode-in-chrome.json"
+    },
+    {
+      "id": "rss-20260429-018",
+      "title": "New ways to create personalized images in the Gemini app",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "image-generation",
+        "personalization"
+      ],
+      "file": "2026-04-29-new-ways-to-create-personalized-images-in-the-gemini-app.json"
+    },
+    {
+      "id": "rss-20260429-019",
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "ai",
+        "audio",
+        "tts"
+      ],
+      "file": "2026-04-29-gemini-31-flash-tts-the-next-generation-of-expressive-ai-spe.json"
+    },
+    {
+      "id": "rss-20260429-020",
+      "title": "Turn your best AI prompts into one-click tools in Chrome",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "prompt-engineering",
+        "chrome"
+      ],
+      "file": "2026-04-29-turn-your-best-ai-prompts-into-one-click-tools-in-chrome.json"
     }
   ]
 }
