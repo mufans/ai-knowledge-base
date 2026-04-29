@@ -45,9 +45,11 @@ ARTICLES_DIR = PROJECT_ROOT / "knowledge" / "articles"
 
 GITHUB_SEARCH_URL = "https://api.github.com/search/repositories"
 
-DEFAULT_RSS_FEEDS = [
-    "https://hnrss.org/newest?q=AI+LLM+agent&count=30",
-    "https://hnrss.org/frontpage",
+RSS_CONFIG_PATH = PROJECT_ROOT / "pipeline" / "rss_sources.yaml"
+
+_DEFAULT_RSS_FEEDS = [
+    "https://hnrss.org/best?q=AI+LLM+agent&count=30",
+    "https://lobste.rs/t/ai,ml.rss",
 ]
 
 AI_KEYWORDS = [
@@ -225,20 +227,49 @@ def _parse_rss_items(text: str) -> list[dict]:
     return items
 
 
+def _load_rss_sources() -> list[dict]:
+    try:
+        import yaml
+    except ImportError:
+        logger.warning("PyYAML not installed, using default RSS feeds")
+        return [{"url": u} for u in _DEFAULT_RSS_FEEDS]
+
+    if not RSS_CONFIG_PATH.exists():
+        logger.warning("RSS config not found: %s", RSS_CONFIG_PATH)
+        return [{"url": u} for u in _DEFAULT_RSS_FEEDS]
+
+    with open(RSS_CONFIG_PATH, encoding="utf-8") as f:
+        config = yaml.safe_load(f)
+
+    sources = []
+    for entry in config.get("sources", []):
+        if entry.get("enabled", False):
+            sources.append(entry)
+
+    if not sources:
+        logger.warning("No enabled RSS sources in config, using defaults")
+        return [{"url": u} for u in _DEFAULT_RSS_FEEDS]
+
+    return sources
+
+
 def collect_rss(limit: int = 20) -> list[dict]:
     now = _now_iso()
     date_str = _date_compact()
     items: list[dict] = []
 
-    for feed_url in DEFAULT_RSS_FEEDS:
-        logger.info("Fetching RSS feed: %s", feed_url)
+    for source in _load_rss_sources():
+        feed_url = source["url"]
+        source_name = source.get("name", feed_url)
+        logger.info("Fetching RSS feed: %s", source_name)
+
         try:
             with httpx.Client(timeout=30.0, follow_redirects=True) as client:
                 resp = client.get(feed_url)
                 resp.raise_for_status()
             text = resp.text
         except Exception as exc:
-            logger.error("RSS fetch failed (%s): %s", feed_url, exc)
+            logger.error("RSS fetch failed (%s): %s", source_name, exc)
             continue
 
         for entry in _parse_rss_items(text):

@@ -6,7 +6,9 @@
       "Bash(git push:*)",
       "Bash(gh issue create:*)",
       "Bash(source:*)",
-      "Bash(git reset:*)"
+      "Bash(git reset:*)",
+      "Bash(git add:*)",
+      "mcp__knowledge__get_entity"
     ]
   }
 }
