@@ -1,0 +1,62 @@
+name: Daily Knowledge Collection
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    working-directory: v2
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: v2/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python pipeline/pipeline.py --sources github,rss --limit 20 --verbose
+
+      - name: Validate JSON
+        run: python hooks/validate_json.py knowledge/articles/*.json
+
+      - name: Check quality
+        run: python hooks/check_quality.py knowledge/articles/*.json
+
+      - name: Count new articles
+        id: count
+        run: |
+          COUNT=$(git diff --name-only --diff-filter=A -- 'v2/knowledge/articles/*.json' | wc -l | tr -d ' ')
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "New articles: $COUNT"
+
+      - name: Commit and push
+        if: steps.count.outputs.count > 0
+        run: |
+          DATE=$(date -u +%Y-%m-%d)
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add v2/knowledge/
+          git commit -m "docs: add ${DATE} collection — ${{ steps.count.outputs.count }} articles"
+          git push
