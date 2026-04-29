@@ -4,7 +4,10 @@
       "Bash(python:*)",
       "Bash(python3:*)",
       "Bash(chmod:*)",
-      "Bash(echo:*)"
+      "Bash(echo:*)",
+      "Bash(/tmp/test_env_priority.py:*)",
+      "mcp__web-search-prime__web_search_prime",
+      "mcp__web-reader__webReader"
     ]
   }
 }
