@@ -1,0 +1,15 @@
+{
+  "id": "github-20260429-013",
+  "title": "NVIDIA PersonaPlex",
+  "source": "github",
+  "source_url": "https://github.com/NVIDIA/personaplex",
+  "author": "NVIDIA",
+  "published_at": "2026-04-29T00:00:00Z",
+  "collected_at": "2026-04-29T10:00:00Z",
+  "summary": "NVIDIA 发布的 PersonaPlex 项目，推测与 AI 人格/角色建模相关。作为 NVIDIA 官方项目，9600+ stars 显示了社区对大厂 AI 人格技术方向的关注。",
+  "score": 7,
+  "tags": ["llm", "agent"],
+  "audience": "intermediate",
+  "status": "published",
+  "updated_at": "2026-04-29T12:00:00Z"
+}

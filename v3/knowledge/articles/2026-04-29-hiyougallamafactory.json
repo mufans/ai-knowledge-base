@@ -1,0 +1,19 @@
+{
+  "id": "github-20260429-007",
+  "title": "hiyouga/LlamaFactory",
+  "source": "github",
+  "source_url": "https://github.com/hiyouga/LlamaFactory",
+  "author": "hiyouga",
+  "published_at": "2023-05-28T10:09:12Z",
+  "collected_at": "2026-04-29T10:19:32Z",
+  "summary": "LlamaFactory 是一个统一高效的微调框架，支持 100 多种大语言模型和视觉语言模型，在 ACL 2024 发表，拥有 70751 颗星和 8641 个 fork，是开源社区中重要的微调工具。",
+  "score": 8,
+  "tags": [
+    "fine-tuning",
+    "llm",
+    "open-source"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T10:20:58Z"
+}

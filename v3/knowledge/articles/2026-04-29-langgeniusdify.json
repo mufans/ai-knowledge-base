@@ -1,0 +1,19 @@
+{
+  "id": "github-20260429-001",
+  "title": "langgenius/dify",
+  "source": "github",
+  "source_url": "https://github.com/langgenius/dify",
+  "author": "langgenius",
+  "published_at": "2023-04-12T07:40:24Z",
+  "collected_at": "2026-04-29T10:19:32Z",
+  "summary": "Dify 是一个生产就绪的智能体工作流开发平台，基于 TypeScript 构建，拥有 139602 星和 21889 分支。它支持 agent、RAG 等 AI 应用开发，提供可视化编排和部署能力，是开源社区中重要的 AI 工程化工具。",
+  "score": 8,
+  "tags": [
+    "agent",
+    "open-source",
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T10:20:58Z"
+}

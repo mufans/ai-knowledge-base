@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260429-001",
+  "title": "Transformers are Inherently Succinct",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2510.19315",
+  "author": "",
+  "published_at": "2026-04-29T15:35:54Z",
+  "collected_at": "2026-04-29T15:35:54Z",
+  "summary": "该论文提出‘简洁性’作为衡量Transformer表达能力的指标，证明Transformer在描述形式语言时比有限自动机和线性时序逻辑公式更简洁。作为副产品，验证Transformer属性被证明是EXPSPACE完全的，即计算上不可处理。",
+  "score": 8,
+  "tags": [
+    "ai",
+    "llm",
+    "reasoning"
+  ],
+  "audience": "advanced",
+  "status": "draft",
+  "updated_at": "2026-04-29T15:37:34Z"
+}

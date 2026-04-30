@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260429-008",
+  "title": "The Design of AI Memory Systems",
+  "source": "rss",
+  "source_url": "https://tombedor.dev/approaches-to-agent-memory/",
+  "author": "",
+  "published_at": "2026-04-29T15:35:54Z",
+  "collected_at": "2026-04-29T15:35:54Z",
+  "summary": "本文探讨了AI记忆系统的设计，涵盖记忆存储、检索和更新机制，涉及RAG、嵌入向量等关键技术，为构建具备长期记忆能力的AI系统提供设计思路。",
+  "score": 7,
+  "tags": [
+    "ai",
+    "rag",
+    "embedding"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T15:37:34Z"
+}

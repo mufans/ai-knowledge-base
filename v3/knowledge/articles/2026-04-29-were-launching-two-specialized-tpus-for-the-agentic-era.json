@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260429-014",
+  "title": "We're launching two specialized TPUs for the agentic era.",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
+  "author": "",
+  "published_at": "2026-04-29T15:35:54Z",
+  "collected_at": "2026-04-29T15:35:54Z",
+  "summary": "Google 发布第八代 TPU，包含两款专用芯片，专为代理时代（agentic era）设计，旨在推动 AI 未来。该芯片针对推理、训练等任务优化，是硬件层面的重要进展。",
+  "score": 8,
+  "tags": [
+    "ai",
+    "hardware",
+    "tpu"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T15:37:34Z"
+}

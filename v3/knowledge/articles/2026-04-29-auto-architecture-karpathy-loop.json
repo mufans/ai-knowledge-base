@@ -1,0 +1,15 @@
+{
+  "id": "hn-20260429-002",
+  "title": "Show HN: Auto-Architecture: Karpathy's Loop, pointed at a CPU",
+  "source": "hackernews",
+  "source_url": "https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md",
+  "author": "fesens",
+  "published_at": "2026-04-29T00:00:00Z",
+  "collected_at": "2026-04-29T10:00:00Z",
+  "summary": "将 Karpathy 提出的自动化循环（自动设计-验证-迭代）应用于 CPU 架构设计，探索 AI 驱动的芯片架构自动优化。是 AI for Science/Engineering 在硬件设计领域的前沿实验。",
+  "score": 8,
+  "tags": ["reasoning", "code-generation"],
+  "audience": "advanced",
+  "status": "published",
+  "updated_at": "2026-04-29T12:00:00Z"
+}

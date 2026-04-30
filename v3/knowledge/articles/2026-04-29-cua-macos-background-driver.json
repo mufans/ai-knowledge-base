@@ -1,0 +1,15 @@
+{
+  "id": "hn-20260429-008",
+  "title": "Show HN: Drive any macOS app in the background without stealing the cursor",
+  "source": "hackernews",
+  "source_url": "https://github.com/trycua/cua",
+  "author": "frabonacci",
+  "published_at": "2026-04-29T00:00:00Z",
+  "collected_at": "2026-04-29T10:00:00Z",
+  "summary": "macOS 后台 Computer Use 驱动，允许 AI Agent 在不抢占鼠标焦点的情况下操控原生应用的点击、输入和滚动。解决了 AI Agent 桌面自动化的核心痛点——人机并行操作。",
+  "score": 8,
+  "tags": ["agent", "tool-use"],
+  "audience": "advanced",
+  "status": "published",
+  "updated_at": "2026-04-29T12:00:00Z"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "hn-20260429-001",
+  "title": "How ChatGPT serves ads",
+  "source": "hackernews",
+  "source_url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
+  "author": "lmbbuchodi",
+  "published_at": "2026-04-29T00:00:00Z",
+  "collected_at": "2026-04-29T10:00:00Z",
+  "summary": "深入分析 ChatGPT 广告投放机制的完整归因链路，揭示 LLM 产品商业化变现的技术实现细节。195 条评论反映了社区对 AI 广告模式的高度关注与争议。",
+  "score": 7,
+  "tags": ["llm", "deployment"],
+  "audience": "intermediate",
+  "status": "published",
+  "updated_at": "2026-04-29T12:00:00Z"
+}

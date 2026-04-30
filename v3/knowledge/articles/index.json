@@ -1,0 +1,570 @@
+{
+  "updated_at": "2026-04-30T01:47:55Z",
+  "total": 49,
+  "articles": [
+    {
+      "id": "github-20260429-001",
+      "title": "Skills for Real Engineers. Straight from my .claude directory.",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "prompt-engineering",
+        "tool-use"
+      ],
+      "file": "2026-04-29-skills-for-real-engineers.json"
+    },
+    {
+      "id": "github-20260429-002",
+      "title": "GitNexus: The Zero-Server Code Intelligence Engine",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "rag",
+        "agent"
+      ],
+      "file": "2026-04-29-gitnexus-zero-server-code-intelligence.json"
+    },
+    {
+      "id": "github-20260429-003",
+      "title": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API",
+      "source": "github",
+      "score": 7,
+      "tags": [
+        "agent",
+        "tool-use"
+      ],
+      "file": "2026-04-29-awesome-codex-skills.json"
+    },
+    {
+      "id": "github-20260429-004",
+      "title": "VibeVoice: Open-Source Frontier Voice AI",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "audio",
+        "llm"
+      ],
+      "file": "2026-04-29-vibevoice-open-source-voice-ai.json"
+    },
+    {
+      "id": "github-20260429-005",
+      "title": "CLI tool for configuring and monitoring Claude Code",
+      "source": "github",
+      "score": 7,
+      "tags": [
+        "agent",
+        "deployment"
+      ],
+      "file": "2026-04-29-claude-code-templates.json"
+    },
+    {
+      "id": "github-20260429-006",
+      "title": "ace-step-ui: The Ultimate Open Source Suno Alternative - Professional UI for ACE-Step 1.5 AI Music Generation",
+      "source": "github",
+      "score": 6,
+      "tags": [
+        "audio"
+      ],
+      "file": "2026-04-29-ace-step-ui.json"
+    },
+    {
+      "id": "github-20260429-007",
+      "title": "ds2api: Deepseek to API - lightweight full-stack middleware converting client protocols to universal APIs",
+      "source": "github",
+      "score": 6,
+      "tags": [
+        "llm",
+        "deployment"
+      ],
+      "file": "2026-04-29-ds2api-deepseek-to-api.json"
+    },
+    {
+      "id": "github-20260429-009",
+      "title": "daily_stock_analysis: LLM-driven A/H/US stock intelligent analyzer",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "llm",
+        "reasoning",
+        "agent"
+      ],
+      "file": "2026-04-29-daily-stock-analysis.json"
+    },
+    {
+      "id": "github-20260429-010",
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "multi-agent",
+        "llm",
+        "reasoning"
+      ],
+      "file": "2026-04-29-trading-agents-framework.json"
+    },
+    {
+      "id": "github-20260429-011",
+      "title": "TradingAgents-CN: Multi-Agent LLM Chinese Financial Trading Framework",
+      "source": "github",
+      "score": 7,
+      "tags": [
+        "multi-agent",
+        "llm"
+      ],
+      "file": "2026-04-29-trading-agents-cn.json"
+    },
+    {
+      "id": "github-20260429-012",
+      "title": "Keep: The open-source AIOps and alert management platform",
+      "source": "github",
+      "score": 7,
+      "tags": [
+        "agent",
+        "deployment"
+      ],
+      "file": "2026-04-29-keep-aiops-alert-management.json"
+    },
+    {
+      "id": "github-20260429-013",
+      "title": "NVIDIA PersonaPlex",
+      "source": "github",
+      "score": 7,
+      "tags": [
+        "llm",
+        "agent"
+      ],
+      "file": "2026-04-29-nvidia-personaplex.json"
+    },
+    {
+      "id": "hn-20260429-001",
+      "title": "How ChatGPT serves ads",
+      "source": "hackernews",
+      "score": 7,
+      "tags": [
+        "llm",
+        "deployment"
+      ],
+      "file": "2026-04-29-how-chatgpt-serves-ads.json"
+    },
+    {
+      "id": "hn-20260429-002",
+      "title": "Show HN: Auto-Architecture: Karpathy's Loop, pointed at a CPU",
+      "source": "hackernews",
+      "score": 8,
+      "tags": [
+        "reasoning",
+        "code-generation"
+      ],
+      "file": "2026-04-29-auto-architecture-karpathy-loop.json"
+    },
+    {
+      "id": "hn-20260429-003",
+      "title": "OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs",
+      "source": "hackernews",
+      "score": 7,
+      "tags": [
+        "llm",
+        "deployment"
+      ],
+      "file": "2026-04-29-openai-models-amazon-bedrock.json"
+    },
+    {
+      "id": "hn-20260429-004",
+      "title": "Regression: malware reminder on every read still causes subagent refusals",
+      "source": "hackernews",
+      "score": 6,
+      "tags": [
+        "agent",
+        "security"
+      ],
+      "file": "2026-04-29-claude-code-malware-regression.json"
+    },
+    {
+      "id": "hn-20260429-005",
+      "title": "Who owns the code Claude Code wrote?",
+      "source": "hackernews",
+      "score": 8,
+      "tags": [
+        "code-generation",
+        "security"
+      ],
+      "file": "2026-04-29-who-owns-claude-code.json"
+    },
+    {
+      "id": "hn-20260429-007",
+      "title": "Talkie: a 13B vintage language model from 1930",
+      "source": "hackernews",
+      "score": 8,
+      "tags": [
+        "llm"
+      ],
+      "file": "2026-04-29-talkie-13b-vintage-language-model.json"
+    },
+    {
+      "id": "hn-20260429-008",
+      "title": "Show HN: Drive any macOS app in the background without stealing the cursor",
+      "source": "hackernews",
+      "score": 8,
+      "tags": [
+        "agent",
+        "tool-use"
+      ],
+      "file": "2026-04-29-cua-macos-background-driver.json"
+    },
+    {
+      "id": "hn-20260429-010",
+      "title": "Claude for Creative Work",
+      "source": "hackernews",
+      "score": 7,
+      "tags": [
+        "llm",
+        "agent"
+      ],
+      "file": "2026-04-29-claude-for-creative-work.json"
+    },
+    {
+      "id": "github-20260429-008",
+      "title": "FoundationAgents/MetaGPT",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "multi-agent",
+        "code-generation",
+        "open-source"
+      ],
+      "file": "2026-04-29-foundationagentsmetagpt.json"
+    },
+    {
+      "id": "github-20260429-014",
+      "title": "aaif-goose/goose",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "open-source",
+        "code-generation"
+      ],
+      "file": "2026-04-29-aaif-goosegoose.json"
+    },
+    {
+      "id": "github-20260429-015",
+      "title": "badlogic/pi-mono",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai",
+        "agent",
+        "llm"
+      ],
+      "file": "2026-04-29-badlogicpi-mono.json"
+    },
+    {
+      "id": "github-20260429-016",
+      "title": "HKUDS/nanobot",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai",
+        "agent",
+        "open-source"
+      ],
+      "file": "2026-04-29-hkudsnanobot.json"
+    },
+    {
+      "id": "github-20260429-017",
+      "title": "reworkd/AgentGPT",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "open-source",
+        "ai"
+      ],
+      "file": "2026-04-29-reworkdagentgpt.json"
+    },
+    {
+      "id": "github-20260429-018",
+      "title": "patchy631/ai-engineering-hub",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "llm",
+        "rag",
+        "agent"
+      ],
+      "file": "2026-04-29-patchy631ai-engineering-hub.json"
+    },
+    {
+      "id": "github-20260429-019",
+      "title": "khoj-ai/khoj",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai",
+        "llm",
+        "open-source"
+      ],
+      "file": "2026-04-29-khoj-aikhoj.json"
+    },
+    {
+      "id": "github-20260429-020",
+      "title": "continuedev/continue",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai",
+        "code-generation",
+        "open-source"
+      ],
+      "file": "2026-04-29-continuedevcontinue.json"
+    },
+    {
+      "id": "rss-20260429-001",
+      "title": "A Centralised Approach to AI / LLM Agent Instruction Using Git Submodules",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "llm",
+        "agent",
+        "mcp"
+      ],
+      "file": "2026-04-29-a-centralised-approach-to-ai-llm-agent-instruction-using-git.json"
+    },
+    {
+      "id": "rss-20260429-002",
+      "title": "Ask HN: Why are so many rolling out their own AI/LLM agent sandboxing solution?",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "llm",
+        "security"
+      ],
+      "file": "2026-04-29-ask-hn-why-are-so-many-rolling-out-their-own-aillm-agent-san.json"
+    },
+    {
+      "id": "rss-20260429-003",
+      "title": "Bending Emacs Episode 10: AI / LLM agent-shell [video]",
+      "source": "rss",
+      "score": 5,
+      "tags": [
+        "llm",
+        "agent",
+        "open-source"
+      ],
+      "file": "2026-04-29-bending-emacs-episode-10-ai-llm-agent-shell-video.json"
+    },
+    {
+      "id": "rss-20260429-004",
+      "title": "Show HN: Mirror AI – LLM agent that takes action, not just chat",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "agent",
+        "tool-use",
+        "open-source"
+      ],
+      "file": "2026-04-29-show-hn-mirror-ai-llm-agent-that-takes-action-not-just-chat.json"
+    },
+    {
+      "id": "rss-20260429-005",
+      "title": "Tell HN: An update from the new Tindie team",
+      "source": "rss",
+      "score": 3,
+      "tags": [
+        "deployment",
+        "open-source"
+      ],
+      "file": "2026-04-29-tell-hn-an-update-from-the-new-tindie-team.json"
+    },
+    {
+      "id": "rss-20260429-006",
+      "title": "Mathematical methods and human thought in the age of AI",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "reasoning",
+        "nlp"
+      ],
+      "file": "2026-04-29-mathematical-methods-and-human-thought-in-the-age-of-ai.json"
+    },
+    {
+      "id": "rss-20260429-007",
+      "title": "A Proposal for Voluntary AI Disclosure in OCaml Code",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "ai",
+        "open-source",
+        "code-generation"
+      ],
+      "file": "2026-04-29-a-proposal-for-voluntary-ai-disclosure-in-ocaml-code.json"
+    },
+    {
+      "id": "rss-20260429-008",
+      "title": "The Design of AI Memory Systems",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "rag",
+        "embedding"
+      ],
+      "file": "2026-04-29-the-design-of-ai-memory-systems.json"
+    },
+    {
+      "id": "rss-20260429-009",
+      "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "nlp",
+        "translation"
+      ],
+      "file": "2026-04-29-celebrating-20-years-of-google-translate-fun-facts-tips-and-.json"
+    },
+    {
+      "id": "rss-20260429-010",
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "agent",
+        "course"
+      ],
+      "file": "2026-04-29-join-the-new-ai-agents-vibe-coding-course-from-google-and-ka.json"
+    },
+    {
+      "id": "rss-20260429-011",
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "source": "rss",
+      "score": 5,
+      "tags": [
+        "ai",
+        "tool-use"
+      ],
+      "file": "2026-04-29-8-gemini-tips-for-organizing-your-space-and-life.json"
+    },
+    {
+      "id": "rss-20260429-012",
+      "title": "Here’s how our TPUs power increasingly demanding AI workloads.",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "hardware",
+        "deployment"
+      ],
+      "file": "2026-04-29-heres-how-our-tpus-power-increasingly-demanding-ai-workloads.json"
+    },
+    {
+      "id": "rss-20260429-013",
+      "title": "Elevating Austria: Google invests in its first data center in the Alps.",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "infrastructure",
+        "cloud-computing",
+        "ai"
+      ],
+      "file": "2026-04-29-elevating-austria-google-invests-in-its-first-data-center-in.json"
+    },
+    {
+      "id": "rss-20260429-014",
+      "title": "We're launching two specialized TPUs for the agentic era.",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "ai",
+        "hardware",
+        "tpu"
+      ],
+      "file": "2026-04-29-were-launching-two-specialized-tpus-for-the-agentic-era.json"
+    },
+    {
+      "id": "rss-20260429-015",
+      "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "ai",
+        "agent",
+        "security"
+      ],
+      "file": "2026-04-29-3-new-ways-ads-advisor-is-making-google-ads-safer-and-faster.json"
+    },
+    {
+      "id": "rss-20260429-016",
+      "title": "7 ways to travel smarter this summer, with help from Google",
+      "source": "rss",
+      "score": 3,
+      "tags": [
+        "ai",
+        "tool-use"
+      ],
+      "file": "2026-04-29-7-ways-to-travel-smarter-this-summer-with-help-from-google.json"
+    },
+    {
+      "id": "rss-20260429-017",
+      "title": "A new way to explore the web with AI Mode in Chrome",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "browser"
+      ],
+      "file": "2026-04-29-a-new-way-to-explore-the-web-with-ai-mode-in-chrome.json"
+    },
+    {
+      "id": "rss-20260429-018",
+      "title": "New ways to create personalized images in the Gemini app",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "image-generation",
+        "personalization"
+      ],
+      "file": "2026-04-29-new-ways-to-create-personalized-images-in-the-gemini-app.json"
+    },
+    {
+      "id": "rss-20260429-019",
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "ai",
+        "audio",
+        "tts"
+      ],
+      "file": "2026-04-29-gemini-31-flash-tts-the-next-generation-of-expressive-ai-spe.json"
+    },
+    {
+      "id": "rss-20260429-020",
+      "title": "Turn your best AI prompts into one-click tools in Chrome",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "prompt-engineering",
+        "chrome"
+      ],
+      "file": "2026-04-29-turn-your-best-ai-prompts-into-one-click-tools-in-chrome.json"
+    },
+    {
+      "id": "rss-20260430-001",
+      "title": "AI Terminology is Poorly Defined and Oft Misused",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "ai",
+        "nlp"
+      ],
+      "file": "2026-04-30-ai-terminology-is-poorly-defined-and-oft-misused.json"
+    }
+  ]
+}

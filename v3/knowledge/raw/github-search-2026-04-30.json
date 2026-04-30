@@ -1,0 +1,52 @@
+[
+  {
+    "id": "github-20260430-001",
+    "title": "langgenius/dify",
+    "source": "github",
+    "source_url": "https://github.com/langgenius/dify",
+    "author": "langgenius",
+    "published_at": "2023-04-12T07:40:24Z",
+    "raw_description": "Production-ready platform for agentic workflow development. TypeScript 139662 stars, 21904 forks.",
+    "collected_at": "2026-04-30T01:47:35Z"
+  },
+  {
+    "id": "github-20260430-002",
+    "title": "langchain-ai/langchain",
+    "source": "github",
+    "source_url": "https://github.com/langchain-ai/langchain",
+    "author": "langchain-ai",
+    "published_at": "2022-10-17T02:58:36Z",
+    "raw_description": "The agent engineering platform Python 135404 stars, 22387 forks.",
+    "collected_at": "2026-04-30T01:47:35Z"
+  },
+  {
+    "id": "github-20260430-003",
+    "title": "NousResearch/hermes-agent",
+    "source": "github",
+    "source_url": "https://github.com/NousResearch/hermes-agent",
+    "author": "NousResearch",
+    "published_at": "2025-07-22T22:22:28Z",
+    "raw_description": "The agent that grows with you Python 125109 stars, 18656 forks.",
+    "collected_at": "2026-04-30T01:47:35Z"
+  },
+  {
+    "id": "github-20260430-004",
+    "title": "Shubhamsaboo/awesome-llm-apps",
+    "source": "github",
+    "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "author": "Shubhamsaboo",
+    "published_at": "2024-04-29T05:30:25Z",
+    "raw_description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship. Python 108082 stars, 15934 forks.",
+    "collected_at": "2026-04-30T01:47:35Z"
+  },
+  {
+    "id": "github-20260430-005",
+    "title": "browser-use/browser-use",
+    "source": "github",
+    "source_url": "https://github.com/browser-use/browser-use",
+    "author": "browser-use",
+    "published_at": "2024-10-31T16:00:56Z",
+    "raw_description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease. Python 91233 stars, 10392 forks.",
+    "collected_at": "2026-04-30T01:47:35Z"
+  }
+]

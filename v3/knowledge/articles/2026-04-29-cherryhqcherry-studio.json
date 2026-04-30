@@ -1,0 +1,19 @@
+{
+  "id": "github-20260429-012",
+  "title": "CherryHQ/cherry-studio",
+  "source": "github",
+  "source_url": "https://github.com/CherryHQ/cherry-studio",
+  "author": "CherryHQ",
+  "published_at": "2024-05-24T01:56:26Z",
+  "collected_at": "2026-04-29T10:19:32Z",
+  "summary": "Cherry Studio 是一个基于 TypeScript 的 AI 生产力工作室，提供智能聊天、自主代理和 300+ 助手功能，统一访问前沿大语言模型，拥有 44726 星和 4251 分支，具有实质技术深度和重要行业影响。",
+  "score": 8,
+  "tags": [
+    "ai",
+    "llm",
+    "agent"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T10:20:58Z"
+}

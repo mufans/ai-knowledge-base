@@ -1,0 +1,19 @@
+{
+  "id": "github-20260429-003",
+  "title": "NousResearch/hermes-agent",
+  "source": "github",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "author": "NousResearch",
+  "published_at": "2025-07-22T22:22:28Z",
+  "collected_at": "2026-04-29T10:19:32Z",
+  "summary": "NousResearch 的 hermes-agent 是一个基于 Python 的智能体框架，旨在与用户共同成长。该项目在 GitHub 上拥有 124030 颗星和 18466 个分支，表明其具有广泛的社区关注和影响力。它可能涉及 AI 代理、LLM 集成等关键技术。",
+  "score": 8,
+  "tags": [
+    "agent",
+    "llm",
+    "open-source"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T10:20:58Z"
+}
