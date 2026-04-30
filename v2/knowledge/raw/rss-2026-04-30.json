@@ -1,0 +1,52 @@
+[
+  {
+    "id": "rss-20260430-001",
+    "title": "AI Terminology is Poorly Defined and Oft Misused",
+    "source": "rss",
+    "source_url": "https://vale.rocks/posts/ai-terminology",
+    "author": "",
+    "published_at": "2026-04-30T01:47:35Z",
+    "raw_description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/zleph2/ai_terminology_is_poorly_defined_oft\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "collected_at": "2026-04-30T01:47:35Z"
+  },
+  {
+    "id": "rss-20260430-002",
+    "title": "Transformers are Inherently Succinct",
+    "source": "rss",
+    "source_url": "https://arxiv.org/abs/2510.19315",
+    "author": "",
+    "published_at": "2026-04-30T01:47:35Z",
+    "raw_description": "&lt;p&gt;Abstract:\nWe propose succinctness as a measure of the expressive power of a transformer in describing a concept. To this end, we prove that transformers are highly expressive in that they can represent formal languages substantially more succinctly than standard representations of formal languages like finite automata and Linear Temporal Logic (LTL) formulas. As a by-product of this expressivity, we show that verifying properties of transformers is provably intractable (i.e. EXPSPACE-complete).&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://lobste.rs/s/hzhyw9/transformers_are_inherently_succinct\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "collected_at": "2026-04-30T01:47:35Z"
+  },
+  {
+    "id": "rss-20260430-003",
+    "title": "The Future of Deep Learning Is Photonic (2021)",
+    "source": "rss",
+    "source_url": "https://spectrum.ieee.org/the-future-of-deep-learning-is-photonic",
+    "author": "",
+    "published_at": "2026-04-30T01:47:35Z",
+    "raw_description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/afcjot/future_deep_learning_is_photonic_2021\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "collected_at": "2026-04-30T01:47:35Z"
+  },
+  {
+    "id": "rss-20260430-004",
+    "title": "How are you protecting yourself against the imminent AI dooms zero day?",
+    "source": "rss",
+    "source_url": "https://lobste.rs/s/cfzhwf/how_are_you_protecting_yourself_against",
+    "author": "",
+    "published_at": "2026-04-30T01:47:35Z",
+    "raw_description": "&lt;p&gt;Above all this is a fun discussion. Don't get too serious :)&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;As LLMs get better and better at pattern matching against vulnerabilities, and gaining better logical inference, it's a matter of time until a human or a group of humans and an LLM(s) find a plethora of zero days, some possibly unpatchable.&lt;/p&gt;\n&lt;p&gt;I'm sure others have thought the same, so I'm curious just what the general zeitgeist is. I personally think any machine you haven't put online, like those 10 year old laptops in the closest, are safe. The problem is, &lt;em&gt;I believe airgap will not save us either&lt;/em&gt; if a truly advanced system is developed. More or less I think \"primitive technology\" could return in various ways depending what we're talking about, like in finance, to avoid manipulation.&lt;/p&gt;",
+    "collected_at": "2026-04-30T01:47:35Z"
+  },
+  {
+    "id": "rss-20260430-005",
+    "title": "How is your org/company measuring the impact of AI adoption?",
+    "source": "rss",
+    "source_url": "https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact",
+    "author": "",
+    "published_at": "2026-04-30T01:47:35Z",
+    "raw_description": "&lt;p&gt;Title says it best. We're at a point in our AI journey where tools are deployed, infrastructure stood up, features are shipping, and naturally, costs associated with AI usage are rising.&lt;/p&gt;\n&lt;p&gt;We're now being asked to estimate the impact of AI in our daily work.&lt;/p&gt;\n&lt;p&gt;How are you doing this at your company or within you org/department?&lt;/p&gt;",
+    "collected_at": "2026-04-30T01:47:35Z"
+  }
+]

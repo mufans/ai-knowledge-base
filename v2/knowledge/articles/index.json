@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-29T15:37:34Z",
-  "total": 48,
+  "updated_at": "2026-04-30T01:47:55Z",
+  "total": 49,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -554,6 +554,17 @@
         "chrome"
       ],
       "file": "2026-04-29-turn-your-best-ai-prompts-into-one-click-tools-in-chrome.json"
+    },
+    {
+      "id": "rss-20260430-001",
+      "title": "AI Terminology is Poorly Defined and Oft Misused",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "ai",
+        "nlp"
+      ],
+      "file": "2026-04-30-ai-terminology-is-poorly-defined-and-oft-misused.json"
     }
   ]
 }

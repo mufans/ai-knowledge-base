@@ -531,6 +531,7 @@ def run_pipeline(
     sources: list[str] | None = None,
     limit: int = 20,
     dry_run: bool = False,
+    provider_name: str | None = None,
 ) -> None:
     sources = sources or ["github", "rss"]
     start = time.time()
@@ -567,7 +568,7 @@ def run_pipeline(
 
     # Step 2: Analyze
     print("[Step 2/4] Analyzing with LLM...")
-    provider = create_provider()
+    provider = create_provider(provider_name)
     analyzed: list[dict] = []
 
     for i, item in enumerate(raw_items, 1):
@@ -638,6 +639,11 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         help="Run pipeline without writing files",
     )
     parser.add_argument(
+        "--provider",
+        default="",
+        help="LLM provider: deepseek, qwen, openai (default: from env or deepseek)",
+    )
+    parser.add_argument(
         "--verbose", "-v",
         action="store_true",
         help="Enable verbose logging",
@@ -653,7 +659,8 @@ def main() -> None:
         datefmt="%H:%M:%S",
     )
     sources = [s.strip().lower() for s in args.sources.split(",")]
-    run_pipeline(sources=sources, limit=args.limit, dry_run=args.dry_run)
+    provider_name = args.provider or None
+    run_pipeline(sources=sources, limit=args.limit, dry_run=args.dry_run, provider_name=provider_name)
 
 
 if __name__ == "__main__":
