@@ -1,24 +1,21 @@
 {
-  "id": "github-20260430-088",
+  "id": "github-20260430-118",
   "title": "Fosowl/agenticSeek",
   "source": "github",
   "source_url": "https://github.com/Fosowl/agenticSeek",
   "author": "Fosowl",
-  "published_at": "2026-04-30T05:59:38Z",
-  "collected_at": "2026-04-30T05:59:38Z",
-  "summary": "agenticSeek 是一个完全本地化的自主AI代理系统，灵感来自Manus AI，无需API或月费即可运行。它基于DeepSeek R1等本地LLM，支持网页浏览、代码生成和语音交互，所有操作仅消耗电力。该项目强调隐私和低成本，适合开发者和研究者探索自主代理能力。",
+  "published_at": "2026-04-30T07:12:26Z",
+  "collected_at": "2026-04-30T07:12:26Z",
+  "summary": "agenticSeek 是一个完全本地化的自主AI代理系统，无需API调用或月费，仅需电费即可运行。它基于DeepSeek-R1等LLM，通过本地推理实现思考、网页浏览和代码编写能力，并集成语音助手功能。其独特设计在于利用DeepSeek-R1的强化学习能力实现自主决策，无需联网依赖，是Manus AI的低成本、高隐私本地化替代方案。",
   "score": 8,
   "tags": [
+    "llm",
     "autonomous-agents",
-    "local-llm",
-    "deepseek-r1",
     "agentic-ai",
     "voice-assistant",
-    "manus-ai",
-    "web-browsing",
-    "code-generation"
+    "deepseek-r1"
   ],
   "audience": "intermediate",
   "status": "draft",
-  "updated_at": "2026-04-30T05:59:38Z"
+  "updated_at": "2026-04-30T07:12:26Z"
 }

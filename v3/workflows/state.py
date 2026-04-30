@@ -75,6 +75,13 @@ class KBState(TypedDict, total=False):
     上限为 3 次，超过后强制通过以避免无限循环。
     """
 
+    needs_human_review: bool
+    """是否超出最大审核轮次、需要人工介入。
+
+    True 表示自动审核循环已达上限，analyses 已暂存至
+    knowledge/pending_review/ 目录，等待人工复核。
+    """
+
     cost_tracker: dict
     """Token 用量追踪。
 

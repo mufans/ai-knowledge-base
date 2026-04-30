@@ -33,23 +33,23 @@ _INDEX_FILE = _ARTICLES_DIR / "index.json"
 # ---------------------------------------------------------------------------
 
 
-def chat(prompt: str, system: str = "") -> tuple[str, Usage]:
+def chat(prompt: str, system: str = "", temperature: float = 0.7) -> tuple[str, Usage]:
     """发送对话请求，返回 (文本, 用量)。"""
     provider = create_provider()
     messages: list[dict[str, str]] = []
     if system:
         messages.append({"role": "system", "content": system})
     messages.append({"role": "user", "content": prompt})
-    response = chat_with_retry(provider, messages)
+    response = chat_with_retry(provider, messages, temperature=temperature)
     return response.content, response.usage
 
 
-def chat_json(prompt: str, system: str = "") -> tuple[Any, Usage]:
+def chat_json(prompt: str, system: str = "", temperature: float = 0.7) -> tuple[Any, Usage]:
     """发送对话请求并解析 JSON 响应，返回 (解析结果, 用量)。
 
     兼容 LLM 将 JSON 包裹在 markdown 代码块中的情况。
     """
-    text, usage = chat(prompt, system)
+    text, usage = chat(prompt, system, temperature=temperature)
 
     # 尝试从 ```json ... ``` 代码块中提取
     match = re.search(r"```json\s*(.*?)\s*```", text, re.DOTALL)
@@ -175,56 +175,12 @@ def analyze_node(state: KBState) -> dict:
 # 节点 3: organize_node
 # ---------------------------------------------------------------------------
 
-_REVISE_SYSTEM = (
-    "你是质量审核修正专家。根据审核反馈，修正以下知识条目。\n"
-    "输出 JSON 格式：\n"
-    "{\n"
-    '  "title": "标题",\n'
-    '  "summary": "修正后的中文摘要",\n'
-    '  "tags": ["标签1", "标签2"],\n'
-    '  "category": "分类",\n'
-    '  "score": 0.85\n'
-    "}\n"
-    "只输出 JSON。"
-)
-
-def review_node_test(state: KBState) -> dict:
-    """审核节点（测试版）— 前 2 次强制失败，验证循环行为"""
-    iteration = state.get("iteration", 0)
-
-    # 模拟不同轮次的审核反馈
-    feedbacks = [
-        "摘要过于简短，需要补充技术细节和实际应用场景。",
-        "标签不够精确，建议增加具体框架名称作为标签。",
-        "质量已达标，准予通过。",
-    ]
-
-    if iteration >= 2:
-        # 第 3 次强制通过
-        passed = True
-        feedback = feedbacks[2]
-    else:
-        # 前 2 次强制失败
-        passed = False
-        feedback = feedbacks[min(iteration, len(feedbacks) - 1)]
-
-    print(f"[Reviewer-Test] 迭代 {iteration + 1}/3, passed={passed}")
-    print(f"  反馈: {feedback}")
-
-    return {
-        "review_passed": passed,
-        "review_feedback": feedback,
-        "iteration": iteration + 1,
-    }
 
 def organize_node(state: KBState) -> dict:
-    """整理节点：过滤低分、去重、根据审核反馈修正。"""
+    """整理节点：过滤低分、去重，将 analyses 映射为 articles。"""
     print("[OrganizeNode] 开始整理数据...")
 
     analyses = state.get("analyses", [])
-    iteration = state.get("iteration", 0)
-    feedback = state.get("review_feedback", "")
-    cost_tracker = state.get("cost_tracker", {})
 
     # 1. 过滤低分条目（score < 0.6）
     filtered = [a for a in analyses if a.get("score", 0) >= 0.6]
@@ -240,52 +196,23 @@ def organize_node(state: KBState) -> dict:
             deduped.append(item)
     print(f"[OrganizeNode] 去重后保留 {len(deduped)} 条")
 
-    # 3. 如果有审核反馈且 iteration > 0，用 LLM 定向修正
-    if iteration > 0 and feedback:
-        print(f"[OrganizeNode] 检测到审核反馈（第 {iteration} 轮），调用 LLM 修正...")
-        articles = []
-        for item in deduped:
-            prompt = (
-                f"审核反馈：{feedback}\n\n"
-                f"原始条目：\n"
-                f"标题：{item.get('title', '')}\n"
-                f"摘要：{item.get('summary', '')}\n"
-                f"标签：{item.get('tags', [])}\n"
-                f"分类：{item.get('category', '')}\n"
-                f"评分：{item.get('score', '')}\n"
-                f"URL：{item.get('source_url', '')}"
-            )
-            result, usage = chat_json(prompt, system=_REVISE_SYSTEM)
-            accumulate_usage(cost_tracker, usage, node="organize")
-
-            articles.append({
-                "title": result.get("title", item.get("title", "")),
-                "content": result.get("summary", item.get("summary", "")),
-                "category": result.get("category", item.get("category", "")),
-                "tags": result.get("tags", item.get("tags", [])),
-                "source_url": item.get("source_url", ""),
-                "score": float(result.get("score", item.get("score", 0))),
-                "language": item.get("language", ""),
-                "stars": item.get("stars", 0),
-            })
-    else:
-        # 无反馈，直接映射为 article 格式
-        articles = [
-            {
-                "title": a.get("title", ""),
-                "content": a.get("summary", ""),
-                "category": a.get("category", ""),
-                "tags": a.get("tags", []),
-                "source_url": a.get("source_url", ""),
-                "score": a.get("score", 0),
-                "language": a.get("language", ""),
-                "stars": a.get("stars", 0),
-            }
-            for a in deduped
-        ]
+    # 3. 映射为 article 格式
+    articles = [
+        {
+            "title": a.get("title", ""),
+            "content": a.get("summary", ""),
+            "category": a.get("category", ""),
+            "tags": a.get("tags", []),
+            "source_url": a.get("source_url", ""),
+            "score": a.get("score", 0),
+            "language": a.get("language", ""),
+            "stars": a.get("stars", 0),
+        }
+        for a in deduped
+    ]
 
     print(f"[OrganizeNode] 整理完成，最终 {len(articles)} 条")
-    return {"articles": articles, "cost_tracker": cost_tracker}
+    return {"articles": articles}
 
 
 # ---------------------------------------------------------------------------

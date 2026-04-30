@@ -2,13 +2,15 @@
 
 图结构::
 
-    collect → analyze → organize → review ──┐
-                          ↑                  │
-                          │    (passed=False)│
-                          └──────────────────┘
-                                 │ (passed=True)
+    collect → analyze → review ──┬── (通过) ─────→ organize → save → END
+                        ↑        │
+                        │   (未通过, < 3轮)
+                        │        ↓
+                        └─── revise
+                                 │
+                        (未通过, >= 3轮)
                                  ↓
-                                save → END
+                            human_flag → END
 """
 
 import sys
@@ -21,14 +23,15 @@ if _PROJECT_ROOT not in sys.path:
 
 from langgraph.graph import END, StateGraph
 
+from workflows.human_flag import human_flag_node
 from workflows.nodes import (
     analyze_node,
     collect_node,
     organize_node,
-    review_node,
-    review_node_test,
     save_node,
 )
+from workflows.reviewer import review_node
+from workflows.reviser import revise_node
 from workflows.state import KBState
 
 
@@ -38,10 +41,17 @@ from workflows.state import KBState
 
 
 def _route_after_review(state: KBState) -> str:
-    """根据 review_passed 决定下一步：通过 → save，未通过 → organize。"""
+    """根据审核结果决定下一步。
+
+    - 通过 → organize
+    - 未通过 + 需要人工 → human_flag
+    - 未通过 + 可继续 → revise
+    """
     if state.get("review_passed", False):
-        return "save"
-    return "organize"
+        return "organize"
+    if state.get("needs_human_review", False):
+        return "human_flag"
+    return "revise"
 
 
 # ---------------------------------------------------------------------------
@@ -56,9 +66,10 @@ def build_graph() -> StateGraph:
     # 添加节点
     graph.add_node("collect", collect_node)
     graph.add_node("analyze", analyze_node)
+    graph.add_node("review", review_node)
+    graph.add_node("revise", revise_node)
+    graph.add_node("human_flag", human_flag_node)
     graph.add_node("organize", organize_node)
-    # graph.add_node("review", review_node)
-    graph.add_node("review", review_node_test)
     graph.add_node("save", save_node)
 
     # 入口点
@@ -66,17 +77,23 @@ def build_graph() -> StateGraph:
 
     # 线性边
     graph.add_edge("collect", "analyze")
-    graph.add_edge("analyze", "organize")
-    graph.add_edge("organize", "review")
+    graph.add_edge("analyze", "review")
 
-    # 条件边：review → save | organize
+    # 条件边：review → organize | revise | human_flag
     graph.add_conditional_edges(
         "review",
         _route_after_review,
-        {"save": "save", "organize": "organize"},
+        {"organize": "organize", "revise": "revise", "human_flag": "human_flag"},
     )
 
-    # save → 结束
+    # 修正后重新审核
+    graph.add_edge("revise", "review")
+
+    # 人工标记后结束
+    graph.add_edge("human_flag", END)
+
+    # 审核通过后整理并保存
+    graph.add_edge("organize", "save")
     graph.add_edge("save", END)
 
     return graph.compile()
@@ -96,6 +113,7 @@ if __name__ == "__main__":
         "articles": [],
         "review_feedback": "",
         "review_passed": False,
+        "needs_human_review": False,
         "iteration": 0,
         "cost_tracker": {"total_tokens": 0, "calls": []},
     }

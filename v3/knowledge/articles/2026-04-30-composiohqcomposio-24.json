@@ -1,24 +1,21 @@
 {
-  "id": "github-20260430-085",
+  "id": "github-20260430-115",
   "title": "ComposioHQ/composio",
   "source": "github",
   "source_url": "https://github.com/ComposioHQ/composio",
   "author": "ComposioHQ",
-  "published_at": "2026-04-30T05:59:38Z",
-  "collected_at": "2026-04-30T05:59:38Z",
-  "summary": "Composio 是一个为 AI 代理提供 1000+ 工具集的平台，支持工具搜索、上下文管理、认证和沙盒工作台。其核心功能包括函数调用、MCP（模型上下文协议）支持、远程 MCP 服务器和 SSE，旨在将 AI 代理的意图转化为行动。基于 TypeScript 开发，适用于多种 LLM 和代理框架。",
-  "score": 9,
+  "published_at": "2026-04-30T07:12:26Z",
+  "collected_at": "2026-04-30T07:12:26Z",
+  "summary": "Composio 是一个为 AI 代理提供 1000+ 工具集成的平台，核心创新在于其智能工具搜索、上下文管理、身份验证和沙盒工作台。它通过函数调用和 MCP 服务器等机制，将意图转化为行动，并基于 TypeScript 构建，拥有近 2.8 万星标。独特之处在于其统一接口设计，允许开发者灵活组合工具链，并支持 SSE 实时通信，显著简化了复杂代理的构建。",
+  "score": 8,
   "tags": [
     "agentic-ai",
     "function-calling",
-    "MCP",
-    "LLM",
-    "developer-tools",
-    "TypeScript",
-    "LangChain",
-    "AutoGPT"
+    "llmops",
+    "mcp",
+    "typescript"
   ],
   "audience": "intermediate",
   "status": "draft",
-  "updated_at": "2026-04-30T05:59:38Z"
+  "updated_at": "2026-04-30T07:12:26Z"
 }

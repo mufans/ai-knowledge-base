@@ -1,24 +1,21 @@
 {
-  "id": "github-20260430-073",
+  "id": "github-20260430-103",
   "title": "zhayujie/CowAgent",
   "source": "github",
   "source_url": "https://github.com/zhayujie/CowAgent",
   "author": "zhayujie",
-  "published_at": "2026-04-30T05:59:38Z",
-  "collected_at": "2026-04-30T05:59:38Z",
-  "summary": "CowAgent 是一个基于大模型的超级AI助理，支持多平台接入（微信、飞书、钉钉等）和多模型选择（DeepSeek、OpenAI、Claude等）。其核心功能包括主动思考与任务规划、操作系统与外部资源访问、技能创建与执行、长期记忆与知识库成长。技术上采用轻量级架构，比OpenClaw更便捷，支持文本、语音、图片和文件处理，可快速搭建个人AI助理或企业数字员工。",
+  "published_at": "2026-04-30T07:12:26Z",
+  "collected_at": "2026-04-30T07:12:26Z",
+  "summary": "CowAgent（chatgpt-on-wechat）是一个基于大模型的超级AI助理，支持主动思考、任务规划、操作系统访问、外部资源调用、Skills创建与执行，以及长期记忆和知识库实现持续成长。其独特设计在于采用轻量级Skills机制和MCP（模型上下文协议）实现模块化能力扩展，相比OpenClaw更轻量便捷。技术栈涵盖DeepSeek/OpenAI/Claude/Gemini/MiniMax/Qwen/GLM/LinkAI等多种模型，通过统一API适配器管理不同模型调用。关键组件包括：1) 多平台接入层（微信、飞书、钉钉、企微、QQ、公众号、网页）；2) 任务规划引擎（基于LLM的主动思考与任务分解）；3) Skills插件系统（支持动态创建与执行）；4) 长期记忆模块（结合向量数据库与知识库实现持续学习）。适用于个人AI助理和企业数字员工的快速搭建。",
   "score": 9,
   "tags": [
-    "ai-agent",
-    "multi-platform",
-    "llm",
-    "task-planning",
-    "skills",
-    "DeepSeek",
-    "OpenAI",
-    "Claude"
+    "AI-Agent",
+    "Multi-Platform",
+    "LLM",
+    "Skills",
+    "MCP"
   ],
   "audience": "intermediate",
   "status": "draft",
-  "updated_at": "2026-04-30T05:59:38Z"
+  "updated_at": "2026-04-30T07:12:26Z"
 }

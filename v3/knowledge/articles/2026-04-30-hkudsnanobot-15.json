@@ -1,24 +1,21 @@
 {
-  "id": "github-20260430-076",
+  "id": "github-20260430-106",
   "title": "HKUDS/nanobot",
   "source": "github",
   "source_url": "https://github.com/HKUDS/nanobot",
   "author": "HKUDS",
-  "published_at": "2026-04-30T05:59:38Z",
-  "collected_at": "2026-04-30T05:59:38Z",
-  "summary": "nanobot 是一个超轻量级的个人 AI 智能体框架，旨在提供高效、可扩展的智能体交互体验。它支持多种主流 LLM 后端（如 OpenAI、Anthropic、Claude 等），并集成了代码执行、工具调用等能力，技术亮点包括极小的资源占用、简洁的 API 设计以及灵活的插件机制，适合快速构建个人 AI 助手。",
-  "score": 9,
+  "published_at": "2026-04-30T07:12:26Z",
+  "collected_at": "2026-04-30T07:12:26Z",
+  "summary": "nanobot 是一个超轻量级个人 AI 智能体，基于 Python 实现，核心设计围绕极简与高效。与常见框架不同，它采用模块化架构，通过插件式工具链集成（如代码执行、API 调用），并支持 OpenAI、Claude、ChatGPT 等多模型即插即用。技术亮点包括：轻量化内存管理（适合边缘设备）、统一工具调用接口（降低开发门槛），以及可定制的 prompt 模板系统。适合个人开发者快速构建定制化助手，但缺乏高级编排和记忆持久化功能。",
+  "score": 8,
   "tags": [
     "ai-agent",
     "llm",
     "lightweight",
     "python",
-    "tool-use",
-    "openai",
-    "anthropic",
-    "claude"
+    "tool-use"
   ],
   "audience": "intermediate",
   "status": "draft",
-  "updated_at": "2026-04-30T05:59:38Z"
+  "updated_at": "2026-04-30T07:12:26Z"
 }
