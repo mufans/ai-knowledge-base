@@ -2,15 +2,15 @@
 
 图结构::
 
-    collect → analyze → review ──┬── (通过) ─────→ organize → save → END
-                        ↑        │
-                        │   (未通过, < 3轮)
-                        │        ↓
-                        └─── revise
-                                 │
-                        (未通过, >= 3轮)
-                                 ↓
-                            human_flag → END
+    plan → collect → analyze → review ──┬── (通过) ─────→ organize → save → END
+                              ↑        │
+                              │   (未通过, < max_iter)
+                              │        ↓
+                              └─── revise
+                                       │
+                              (未通过, >= max_iter)
+                                       ↓
+                                  human_flag → END
 """
 
 import sys
@@ -30,6 +30,7 @@ from workflows.nodes import (
     organize_node,
     save_node,
 )
+from workflows.planner import planner_node
 from workflows.reviewer import review_node
 from workflows.reviser import revise_node
 from workflows.state import KBState
@@ -64,6 +65,7 @@ def build_graph() -> StateGraph:
     graph = StateGraph(KBState)
 
     # 添加节点
+    graph.add_node("plan", planner_node)
     graph.add_node("collect", collect_node)
     graph.add_node("analyze", analyze_node)
     graph.add_node("review", review_node)
@@ -73,9 +75,10 @@ def build_graph() -> StateGraph:
     graph.add_node("save", save_node)
 
     # 入口点
-    graph.set_entry_point("collect")
+    graph.set_entry_point("plan")
 
     # 线性边
+    graph.add_edge("plan", "collect")
     graph.add_edge("collect", "analyze")
     graph.add_edge("analyze", "review")
 
@@ -108,6 +111,7 @@ if __name__ == "__main__":
 
     # 初始状态
     initial_state: KBState = {
+        "plan": {},
         "sources": [],
         "analyses": [],
         "articles": [],

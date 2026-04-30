@@ -1,21 +1,21 @@
 {
-  "id": "github-20260430-094",
+  "id": "github-20260430-134",
   "title": "Shubhamsaboo/awesome-llm-apps",
   "source": "github",
   "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
   "author": "Shubhamsaboo",
-  "published_at": "2026-04-30T07:12:26Z",
-  "collected_at": "2026-04-30T07:12:26Z",
-  "summary": "该项目汇集100多个可直接运行的AI Agent与RAG应用，覆盖LLM、智能体、检索增强生成等场景。所有应用基于Python实现，代码开源，便于快速上手。其独特设计在于提供模块化组件（如自定义Agent编排、多源RAG管道），并支持一键部署到云平台。例如，应用通过LangChain与LlamaIndex集成实现灵活检索，并在Agent中嵌入记忆与工具调用机制，区别于常见示例。适合开发者学习与构建生产级LLM应用。",
-  "score": 8,
+  "published_at": "2026-04-30T07:36:10Z",
+  "collected_at": "2026-04-30T07:36:10Z",
+  "summary": "该项目汇集了100多个可直接运行的AI Agent和RAG应用示例，覆盖从简单聊天到复杂多智能体协作的完整技术栈。核心亮点包括：基于LangChain/LlamaIndex等主流框架的完整实现、支持本地部署的Ollama集成、以及生产级优化技巧（如流式输出、记忆管理）。所有应用均提供可克隆的Python代码，适合开发者快速学习、定制并部署到实际场景。",
+  "score": 9,
   "tags": [
     "agents",
-    "llms",
     "rag",
+    "llms",
     "python",
-    "ai-apps"
+    "langchain"
   ],
   "audience": "intermediate",
   "status": "draft",
-  "updated_at": "2026-04-30T07:12:26Z"
+  "updated_at": "2026-04-30T07:36:10Z"
 }

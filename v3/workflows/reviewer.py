@@ -71,17 +71,20 @@ def review_node(state: KBState) -> dict:
     - 只审核前 5 条 analyses（控 token）
     - temperature=0.1（评分一致性）
     - LLM 调用失败时自动通过（不阻塞流程）
-    - iteration >= 3 标记 needs_human_review，路由到 human_flag 节点
+    - iteration >= max_iterations 标记 needs_human_review，路由到 human_flag 节点
     """
     print("[ReviewNode] 开始审核...")
+
+    plan = state.get("plan", {})
+    max_iterations = plan.get("max_iterations", 3)
 
     iteration = state.get("iteration", 0)
     analyses = state.get("analyses", [])
     cost_tracker = state.get("cost_tracker", {})
 
-    # iteration >= 3：不再强制通过，而是标记需要人工审核
-    if iteration >= 3:
-        print(f"[ReviewNode] 已达第 {iteration} 轮，转人工审核")
+    # iteration >= max_iterations：标记需要人工审核
+    if iteration >= max_iterations:
+        print(f"[ReviewNode] 已达第 {iteration} 轮（上限 {max_iterations}），转人工审核")
         return {
             "review_passed": False,
             "needs_human_review": True,

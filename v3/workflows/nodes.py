@@ -80,11 +80,14 @@ def collect_node(state: KBState) -> dict:
     """采集节点：调用 GitHub Search API 采集 AI 相关仓库。"""
     print("[CollectNode] 开始采集 GitHub AI 相关仓库...")
 
+    plan = state.get("plan", {})
+    per_page = plan.get("per_source_limit", 30)
+
     token = os.environ.get("GITHUB_TOKEN", "")
     query = "AI agent LLM"
     url = (
         f"https://api.github.com/search/repositories"
-        f"?q={urllib.parse.quote(query)}&sort=stars&order=desc&per_page=30"
+        f"?q={urllib.parse.quote(query)}&sort=stars&order=desc&per_page={per_page}"
     )
 
     headers = {
@@ -180,11 +183,14 @@ def organize_node(state: KBState) -> dict:
     """整理节点：过滤低分、去重，将 analyses 映射为 articles。"""
     print("[OrganizeNode] 开始整理数据...")
 
+    plan = state.get("plan", {})
+    threshold = plan.get("relevance_threshold", 0.6)
+
     analyses = state.get("analyses", [])
 
-    # 1. 过滤低分条目（score < 0.6）
-    filtered = [a for a in analyses if a.get("score", 0) >= 0.6]
-    print(f"[OrganizeNode] 过滤后保留 {len(filtered)}/{len(analyses)} 条（阈值 0.6）")
+    # 1. 过滤低分条目
+    filtered = [a for a in analyses if a.get("score", 0) >= threshold]
+    print(f"[OrganizeNode] 过滤后保留 {len(filtered)}/{len(analyses)} 条（阈值 {threshold}）")
 
     # 2. 按 URL 去重
     seen_urls: set[str] = set()

@@ -14,6 +14,22 @@ class KBState(TypedDict, total=False):
     避免传递大量原始数据。
     """
 
+    plan: dict
+    """Planner 输出的执行策略。
+
+    由 planner_node 写入，下游 Collector/Organizer/Reviewer 读取。
+    格式示例::
+
+        {
+            "strategy_name": "standard",
+            "target_count": 10,
+            "per_source_limit": 10,
+            "relevance_threshold": 0.5,
+            "max_iterations": 2,
+            "rationale": "...",
+        }
+    """
+
     sources: list[dict]
     """采集到的原始数据列表。
 
