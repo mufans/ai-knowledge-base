@@ -17,6 +17,7 @@ import abc
 import dataclasses
 import logging
 import os
+import threading
 import time
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence
@@ -112,25 +113,7 @@ _PROVIDER_DEFAULTS: Dict[str, Dict[str, str]] = {
     },
 }
 
-# Pricing: USD per 1M tokens (prompt / completion)
-_PRICING: Dict[str, Dict[str, float]] = {
-    # DeepSeek (per 1M tokens, cache miss pricing)
-    # deepseek-chat ≡ deepseek-v4-flash (non-thinking)
-    # deepseek-reasoner ≡ deepseek-v4-flash (thinking)
-    "deepseek-chat": {"prompt": 0.14, "completion": 0.28},
-    "deepseek-reasoner": {"prompt": 0.14, "completion": 0.28},
-    "deepseek-v4-flash": {"prompt": 0.14, "completion": 0.28},
-    # deepseek-v4-pro (75% off 至 2026-05-31，原价 prompt=1.74, completion=3.48)
-    "deepseek-v4-pro": {"prompt": 0.435, "completion": 0.87},
-    # Qwen
-    "qwen-max": {"prompt": 1.60, "completion": 6.40},
-    "qwen-plus": {"prompt": 0.40, "completion": 1.20},
-    "qwen-turbo": {"prompt": 0.10, "completion": 0.30},
-    # OpenAI
-    "gpt-4o": {"prompt": 2.50, "completion": 10.00},
-    "gpt-4o-mini": {"prompt": 0.15, "completion": 0.60},
-    "o3-mini": {"prompt": 1.10, "completion": 4.40},
-}
+
 
 _DEFAULT_PROVIDER = "deepseek"
 
@@ -156,6 +139,148 @@ class LLMResponse:
     usage: Usage
     model: str
     provider: str
+
+
+# ---------------------------------------------------------------------------
+# Cost tracker
+# ---------------------------------------------------------------------------
+
+
+class CostTracker:
+    """Thread-safe tracker for LLM token usage and cost estimation.
+
+    Maintains cumulative token counts and estimated costs across all API
+    calls, broken down by provider and model.
+
+    Attributes:
+        calls: Total number of recorded API calls.
+    """
+
+    _PRICING_CNY: Dict[str, Dict[str, float]] = {
+        "deepseek-chat": {"prompt": 1.0, "completion": 2.0},
+        "deepseek-reasoner": {"prompt": 1.0, "completion": 2.0},
+        "deepseek-v4-flash": {"prompt": 1.0, "completion": 2.0},
+        "deepseek-v4-pro": {"prompt": 12.63, "completion": 12.63},
+        "qwen-max": {"prompt": 11.52, "completion": 46.08},
+        "qwen-plus": {"prompt": 2.88, "completion": 8.64},
+        "qwen-turbo": {"prompt": 0.72, "completion": 2.16},
+        "gpt-4o": {"prompt": 18.0, "completion": 72.0},
+        "gpt-4o-mini": {"prompt": 1.08, "completion": 4.32},
+        "o3-mini": {"prompt": 7.92, "completion": 31.68},
+    }
+
+    def __init__(self) -> None:
+        self._lock = threading.Lock()
+        self.calls = 0
+        self._prompt_tokens = 0
+        self._completion_tokens = 0
+        self._total_cost = 0.0
+        self._by_provider: Dict[str, Dict[str, Any]] = {}
+
+    def record(self, usage: Usage, provider: str, model: str = "") -> None:
+        """Record token usage from a single API call.
+
+        Args:
+            usage: Token usage statistics returned by the LLM.
+            provider: Provider name (e.g. ``deepseek``, ``qwen``, ``openai``).
+            model: Model identifier used in the request.
+        """
+        cost = self._estimate(usage, model or "")
+        with self._lock:
+            self.calls += 1
+            self._prompt_tokens += usage.prompt_tokens
+            self._completion_tokens += usage.completion_tokens
+            self._total_cost += cost
+            entry = self._by_provider.setdefault(
+                provider,
+                {"calls": 0, "prompt_tokens": 0, "completion_tokens": 0, "cost": 0.0},
+            )
+            entry["calls"] += 1
+            entry["prompt_tokens"] += usage.prompt_tokens
+            entry["completion_tokens"] += usage.completion_tokens
+            entry["cost"] += cost
+
+    def estimated_cost(self, provider: str = "") -> float:
+        """Return the estimated total cost in CNY.
+
+        Args:
+            provider: If given, return cost for that provider only.
+
+        Returns:
+            Estimated cost in yuan (元).
+        """
+        with self._lock:
+            if provider:
+                return self._by_provider.get(provider, {}).get("cost", 0.0)
+            return self._total_cost
+
+    def report(self, provider: str = "") -> None:
+        """Print a formatted cost report.
+
+        Args:
+            provider: If given, only report for that provider.
+        """
+        with self._lock:
+            if provider:
+                entry = self._by_provider.get(provider)
+                if not entry:
+                    print(f"\n  Provider '{provider}': no recorded calls.\n")
+                    return
+                self._print_entry(provider, entry)
+                return
+
+            print(f"\n{'=' * 56}")
+            print("  LLM Cost Report")
+            print(f"{'=' * 56}")
+            for name, entry in sorted(self._by_provider.items()):
+                self._print_entry(name, entry)
+            print(f"  {'—' * 52}")
+            print(
+                f"  Total: {self.calls} calls, "
+                f"{self._prompt_tokens:,} prompt + "
+                f"{self._completion_tokens:,} completion = "
+                f"{self._prompt_tokens + self._completion_tokens:,} tokens"
+            )
+            print(f"  Estimated cost: ¥{self._total_cost:.4f}")
+            print(f"{'=' * 56}\n")
+
+    def _estimate(self, usage: Usage, model: str) -> float:
+        """Estimate cost for a single usage record.
+
+        Args:
+            usage: Token usage statistics.
+            model: Model identifier.
+
+        Returns:
+            Estimated cost in yuan (元).
+        """
+        pricing = self._PRICING_CNY.get(model)
+        if pricing is None:
+            return 0.0
+        return (
+            usage.prompt_tokens * pricing["prompt"] / 1_000_000
+            + usage.completion_tokens * pricing["completion"] / 1_000_000
+        )
+
+    @staticmethod
+    def _print_entry(name: str, entry: Dict[str, Any]) -> None:
+        """Print a single provider entry.
+
+        Args:
+            name: Provider name.
+            entry: Aggregated stats dict for the provider.
+        """
+        total_tokens = entry["prompt_tokens"] + entry["completion_tokens"]
+        print(
+            f"  [{name}]  "
+            f"{entry['calls']} calls, "
+            f"{entry['prompt_tokens']:,}+{entry['completion_tokens']:,}="
+            f"{total_tokens:,} tokens, "
+            f"¥{entry['cost']:.4f}"
+        )
+
+
+tracker = CostTracker()
 
 
 # ---------------------------------------------------------------------------
@@ -259,16 +384,19 @@ class OpenAICompatibleProvider(LLMProvider):
             total_tokens=raw_usage.get("total_tokens", 0),
         )
 
+        actual_model = data.get("model", model)
+        tracker.record(usage, self._provider_name, actual_model)
+
         logger.debug(
-            "LLM response: tokens=%d cost=$%.6f",
+            "LLM response: tokens=%d cost=¥%.4f",
             usage.total_tokens,
-            estimate_cost(usage, model),
+            tracker._estimate(usage, actual_model),
         )
 
         return LLMResponse(
             content=content,
             usage=usage,
-            model=data.get("model", model),
+            model=actual_model,
             provider=self._provider_name,
         )
 
@@ -400,31 +528,6 @@ def chat_with_retry(
 
 
 # ---------------------------------------------------------------------------
-# Cost estimation
-# ---------------------------------------------------------------------------
-
-
-def estimate_cost(usage: Usage, model: str) -> float:
-    """Estimate the USD cost for a given usage and model.
-
-    Falls back to zero if the model is not in the pricing table.
-
-    Args:
-        usage: Token usage statistics.
-        model: Model identifier used in the request.
-
-    Returns:
-        Estimated cost in USD.
-    """
-    pricing = _PRICING.get(model)
-    if pricing is None:
-        return 0.0
-    prompt_cost = usage.prompt_tokens * pricing["prompt"] / 1_000_000
-    completion_cost = usage.completion_tokens * pricing["completion"] / 1_000_000
-    return prompt_cost + completion_cost
-
-
-# ---------------------------------------------------------------------------
 # Convenience helper
 # ---------------------------------------------------------------------------
 
@@ -501,6 +604,6 @@ if __name__ == "__main__":
                 f"{resp.usage.completion_tokens} completion = "
                 f"{resp.usage.total_tokens} total"
             )
-            print(f"Cost     : ${estimate_cost(resp.usage, resp.model):.6f}")
+            print(f"Cost     : ¥{tracker.estimated_cost():.4f}")
         except Exception as exc:
             print(f"Error: {exc}")

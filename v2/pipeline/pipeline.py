@@ -29,13 +29,7 @@ from typing import Any
 
 import httpx
 
-from model_client import Usage, create_provider, chat_with_retry, estimate_cost
-
-_PROVIDER_MODEL_ENV = {
-    "deepseek": "DEEPSEEK_MODEL",
-    "qwen": "DASHSCOPE_MODEL",
-    "openai": "OPENAI_MODEL",
-}
+from model_client import create_provider, chat_with_retry, tracker
 
 logger = logging.getLogger(__name__)
 
@@ -575,7 +569,6 @@ def run_pipeline(
     print("[Step 2/4] Analyzing with LLM...")
     provider = create_provider()
     analyzed: list[dict] = []
-    total_usage = Usage()
 
     for i, item in enumerate(raw_items, 1):
         logger.info(
@@ -583,27 +576,10 @@ def run_pipeline(
             i, len(raw_items), item.get("title", "")[:50],
         )
         result, usage = analyze_item(item, provider)
-        total_usage.prompt_tokens += usage.prompt_tokens
-        total_usage.completion_tokens += usage.completion_tokens
-        total_usage.total_tokens += usage.total_tokens
         if result:
             analyzed.append(result)
 
-    provider_name = os.environ.get("LLM_PROVIDER", "deepseek")
-    model_env_key = _PROVIDER_MODEL_ENV.get(provider_name, "")
-    model_name = (
-        os.environ.get(model_env_key, "")
-        or provider._default_model
-    )
-    total_cost = estimate_cost(total_usage, model_name)
-
-    print(f"  Analyzed {len(analyzed)}/{len(raw_items)} items")
-    print(
-        f"  Tokens: {total_usage.total_tokens:,} "
-        f"(prompt {total_usage.prompt_tokens:,} + "
-        f"completion {total_usage.completion_tokens:,})"
-    )
-    print(f"  Cost: ${total_cost:.4f}\n")
+    print(f"  Analyzed {len(analyzed)}/{len(raw_items)} items\n")
 
     if not analyzed:
         print("No items passed analysis. Exiting.")
@@ -632,7 +608,8 @@ def run_pipeline(
         f"Analyzed: {len(analyzed)} | "
         f"Saved: {len(saved)}"
     )
-    print(f"{'=' * 60}\n")
+    print(f"{'=' * 60}")
+    tracker.report()
 
 
 # ---------------------------------------------------------------------------
