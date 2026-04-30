@@ -26,6 +26,7 @@ from workflows.nodes import (
     collect_node,
     organize_node,
     review_node,
+    review_node_test,
     save_node,
 )
 from workflows.state import KBState
@@ -56,7 +57,8 @@ def build_graph() -> StateGraph:
     graph.add_node("collect", collect_node)
     graph.add_node("analyze", analyze_node)
     graph.add_node("organize", organize_node)
-    graph.add_node("review", review_node)
+    # graph.add_node("review", review_node)
+    graph.add_node("review", review_node_test)
     graph.add_node("save", save_node)
 
     # 入口点

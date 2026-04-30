@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-30T05:47:35Z",
-  "total": 109,
+  "updated_at": "2026-04-30T05:59:38Z",
+  "total": 139,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -1404,6 +1404,511 @@
         "framework",
         "llm",
         "openai"
+      ],
+      "file": "2026-04-30-openaiopenai-agents-python-29.json"
+    },
+    {
+      "id": "github-20260430-061",
+      "title": "langgenius/dify",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "rag",
+        "workflow",
+        "llm",
+        "low-code",
+        "gpt-4",
+        "gemini",
+        "mcp"
+      ],
+      "file": "2026-04-30-langgeniusdify-0.json"
+    },
+    {
+      "id": "github-20260430-062",
+      "title": "langchain-ai/langchain",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agent",
+        "framework",
+        "llm",
+        "rag",
+        "python",
+        "langgraph",
+        "openai",
+        "anthropic"
+      ],
+      "file": "2026-04-30-langchain-ailangchain-1.json"
+    },
+    {
+      "id": "github-20260430-063",
+      "title": "NousResearch/hermes-agent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "code-generation",
+        "python",
+        "multi-model",
+        "openai",
+        "anthropic",
+        "claude",
+        "chatgpt"
+      ],
+      "file": "2026-04-30-nousresearchhermes-agent-2.json"
+    },
+    {
+      "id": "github-20260430-064",
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agents",
+        "llms",
+        "rag",
+        "python",
+        "multi-agent",
+        "gpt",
+        "claude"
+      ],
+      "file": "2026-04-30-shubhamsabooawesome-llm-apps-3.json"
+    },
+    {
+      "id": "github-20260430-065",
+      "title": "browser-use/browser-use",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agents",
+        "browser-automation",
+        "llm",
+        "playwright",
+        "python",
+        "openai",
+        "langchain"
+      ],
+      "file": "2026-04-30-browser-usebrowser-use-4.json"
+    },
+    {
+      "id": "github-20260430-066",
+      "title": "OpenHands/OpenHands",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "llm",
+        "developer-tools",
+        "cli",
+        "code-generation",
+        "GPT",
+        "Claude"
+      ],
+      "file": "2026-04-30-openhandsopenhands-5.json"
+    },
+    {
+      "id": "github-20260430-067",
+      "title": "hiyouga/LlamaFactory",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "fine-tuning",
+        "LLM",
+        "LoRA",
+        "PEFT",
+        "transformers",
+        "DeepSeek",
+        "Gemma",
+        "GPT",
+        "Llama",
+        "Qwen"
+      ],
+      "file": "2026-04-30-hiyougallamafactory-6.json"
+    },
+    {
+      "id": "github-20260430-068",
+      "title": "FoundationAgents/MetaGPT",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "multi-agent",
+        "llm",
+        "code-generation",
+        "agent",
+        "metagpt",
+        "gpt",
+        "software-development",
+        "automation"
+      ],
+      "file": "2026-04-30-foundationagentsmetagpt-7.json"
+    },
+    {
+      "id": "github-20260430-069",
+      "title": "bytedance/deer-flow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agentic-framework",
+        "multi-agent",
+        "llm",
+        "langchain",
+        "langgraph",
+        "python",
+        "typescript"
+      ],
+      "file": "2026-04-30-bytedancedeer-flow-8.json"
+    },
+    {
+      "id": "github-20260430-070",
+      "title": "mem0ai/mem0",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "memory-management",
+        "rag",
+        "ai-agents",
+        "llm",
+        "python",
+        "openai",
+        "anthropic"
+      ],
+      "file": "2026-04-30-mem0aimem0-9.json"
+    },
+    {
+      "id": "github-20260430-071",
+      "title": "jeecgboot/JeecgBoot",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "low-code",
+        "ai",
+        "java",
+        "spring-boot",
+        "code-generation",
+        "vue3",
+        "activiti",
+        "flowable",
+        "langchain4j",
+        "spring-ai"
+      ],
+      "file": "2026-04-30-jeecgbootjeecgboot-10.json"
+    },
+    {
+      "id": "github-20260430-072",
+      "title": "CherryHQ/cherry-studio",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "productivity",
+        "open-source",
+        "cli",
+        "typescript",
+        "codex",
+        "opencode"
+      ],
+      "file": "2026-04-30-cherryhqcherry-studio-11.json"
+    },
+    {
+      "id": "github-20260430-073",
+      "title": "zhayujie/CowAgent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "multi-platform",
+        "llm",
+        "task-planning",
+        "skills",
+        "DeepSeek",
+        "OpenAI",
+        "Claude"
+      ],
+      "file": "2026-04-30-zhayujiecowagent-12.json"
+    },
+    {
+      "id": "github-20260430-074",
+      "title": "aaif-goose/goose",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "rust",
+        "ai-agents",
+        "mcp",
+        "acp",
+        "code-generation",
+        "llm-framework",
+        "open-source"
+      ],
+      "file": "2026-04-30-aaif-goosegoose-13.json"
+    },
+    {
+      "id": "github-20260430-075",
+      "title": "badlogic/pi-mono",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "AI Agent",
+        "LLM API",
+        "CLI",
+        "vLLM",
+        "TypeScript",
+        "Agent SDK",
+        "Slack bot"
+      ],
+      "file": "2026-04-30-badlogicpi-mono-14.json"
+    },
+    {
+      "id": "github-20260430-076",
+      "title": "HKUDS/nanobot",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "lightweight",
+        "python",
+        "tool-use",
+        "openai",
+        "anthropic",
+        "claude"
+      ],
+      "file": "2026-04-30-hkudsnanobot-15.json"
+    },
+    {
+      "id": "github-20260430-077",
+      "title": "reworkd/AgentGPT",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "autonomous-ai",
+        "langchain",
+        "nextjs",
+        "openai",
+        "typescript",
+        "t3-stack"
+      ],
+      "file": "2026-04-30-reworkdagentgpt-16.json"
+    },
+    {
+      "id": "github-20260430-078",
+      "title": "patchy631/ai-engineering-hub",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "LLM",
+        "RAG",
+        "AI-Agents",
+        "MCP",
+        "Machine-Learning",
+        "Jupyter-Notebook",
+        "LangChain",
+        "AutoGen"
+      ],
+      "file": "2026-04-30-patchy631ai-engineering-hub-17.json"
+    },
+    {
+      "id": "github-20260430-079",
+      "title": "khoj-ai/khoj",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "rag",
+        "self-hosted",
+        "llm",
+        "assistant",
+        "gpt",
+        "claude",
+        "gemini",
+        "llama"
+      ],
+      "file": "2026-04-30-khoj-aikhoj-18.json"
+    },
+    {
+      "id": "github-20260430-080",
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "llm",
+        "agent",
+        "rag",
+        "quant",
+        "stock",
+        "gemini"
+      ],
+      "file": "2026-04-30-zhulinsendaily-stock-analysis-19.json"
+    },
+    {
+      "id": "github-20260430-081",
+      "title": "continuedev/continue",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "cli",
+        "llm",
+        "developer-tools",
+        "open-source",
+        "vscode",
+        "jetbrains"
+      ],
+      "file": "2026-04-30-continuedevcontinue-20.json"
+    },
+    {
+      "id": "github-20260430-082",
+      "title": "AstrBotDevs/AstrBot",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "multi-platform",
+        "LLM",
+        "chatbot",
+        "plugin-system",
+        "OpenAI",
+        "Gemini",
+        "Llama",
+        "Docker",
+        "MCP"
+      ],
+      "file": "2026-04-30-astrbotdevsastrbot-21.json"
+    },
+    {
+      "id": "github-20260430-083",
+      "title": "langchain-ai/langgraph",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "langchain",
+        "langgraph",
+        "multi-agent",
+        "graph",
+        "llm",
+        "rag"
+      ],
+      "file": "2026-04-30-langchain-ailanggraph-22.json"
+    },
+    {
+      "id": "github-20260430-084",
+      "title": "CopilotKit/CopilotKit",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "generative-ui",
+        "react",
+        "angular",
+        "llm",
+        "CopilotKit",
+        "AG-UI"
+      ],
+      "file": "2026-04-30-copilotkitcopilotkit-23.json"
+    },
+    {
+      "id": "github-20260430-085",
+      "title": "ComposioHQ/composio",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agentic-ai",
+        "function-calling",
+        "MCP",
+        "LLM",
+        "developer-tools",
+        "TypeScript",
+        "LangChain",
+        "AutoGPT"
+      ],
+      "file": "2026-04-30-composiohqcomposio-24.json"
+    },
+    {
+      "id": "github-20260430-086",
+      "title": "labring/FastGPT",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "RAG",
+        "LLM",
+        "Workflow",
+        "Agent",
+        "Knowledge-Base",
+        "FastGPT",
+        "Next.js",
+        "OpenAI",
+        "DeepSeek"
+      ],
+      "file": "2026-04-30-labringfastgpt-25.json"
+    },
+    {
+      "id": "github-20260430-087",
+      "title": "assafelovic/gpt-researcher",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "llm",
+        "automation",
+        "research",
+        "python",
+        "gpt-researcher",
+        "openai",
+        "langchain"
+      ],
+      "file": "2026-04-30-assafelovicgpt-researcher-26.json"
+    },
+    {
+      "id": "github-20260430-088",
+      "title": "Fosowl/agenticSeek",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "autonomous-agents",
+        "local-llm",
+        "deepseek-r1",
+        "agentic-ai",
+        "voice-assistant",
+        "manus-ai",
+        "web-browsing",
+        "code-generation"
+      ],
+      "file": "2026-04-30-fosowlagenticseek-27.json"
+    },
+    {
+      "id": "github-20260430-089",
+      "title": "mlflow/mlflow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "mlops",
+        "llmops",
+        "model-management",
+        "observability",
+        "machine-learning",
+        "agentops",
+        "langchain",
+        "openai"
+      ],
+      "file": "2026-04-30-mlflowmlflow-28.json"
+    },
+    {
+      "id": "github-20260430-090",
+      "title": "openai/openai-agents-python",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agents",
+        "multi-agent",
+        "framework",
+        "llm",
+        "python",
+        "openai",
+        "openai-agents-python"
       ],
       "file": "2026-04-30-openaiopenai-agents-python-29.json"
     }

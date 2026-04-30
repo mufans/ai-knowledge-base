@@ -1,21 +1,24 @@
 {
-  "id": "github-20260430-057",
+  "id": "github-20260430-087",
   "title": "assafelovic/gpt-researcher",
   "source": "github",
   "source_url": "https://github.com/assafelovic/gpt-researcher",
   "author": "assafelovic",
-  "published_at": "2026-04-30T05:47:35Z",
-  "collected_at": "2026-04-30T05:47:35Z",
-  "summary": "GPT Researcher 是一个基于 LLM 的自主研究代理，能够对任意数据进行深度研究。它支持多种 LLM 提供商，集成了网络搜索与抓取功能，并实现了 MCP 服务器/客户端架构。该工具通过自动规划、上下文检索和报告生成，显著提升了研究效率，适用于自动化调研、知识获取等场景。",
+  "published_at": "2026-04-30T05:59:38Z",
+  "collected_at": "2026-04-30T05:59:38Z",
+  "summary": "gpt-researcher是一个基于LLM的自主研究代理，能够对任意数据进行深度研究。它支持多种LLM提供商，集成了网络搜索、网页抓取和MCP（模型上下文协议）等工具，实现自动化研究流程。核心亮点包括代理架构设计、多LLM兼容性和深度研究能力。",
   "score": 9,
   "tags": [
     "agent",
     "llm",
     "automation",
     "research",
-    "webscraping"
+    "python",
+    "gpt-researcher",
+    "openai",
+    "langchain"
   ],
   "audience": "intermediate",
   "status": "draft",
-  "updated_at": "2026-04-30T05:47:35Z"
+  "updated_at": "2026-04-30T05:59:38Z"
 }

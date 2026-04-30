@@ -1,21 +1,25 @@
 {
-  "id": "github-20260430-056",
+  "id": "github-20260430-086",
   "title": "labring/FastGPT",
   "source": "github",
   "source_url": "https://github.com/labring/FastGPT",
   "author": "labring",
-  "published_at": "2026-04-30T05:47:35Z",
-  "collected_at": "2026-04-30T05:47:35Z",
-  "summary": "FastGPT 是一个基于大语言模型的知识库平台，提供开箱即用的数据处理、RAG 检索和可视化 AI 工作流编排能力。它支持多种 LLM（如 OpenAI、Claude、DeepSeek、Qwen），并通过 Next.js 构建前端，使用 TypeScript 开发。用户无需复杂配置即可快速搭建和部署智能问答系统，适用于企业知识管理、智能客服等场景。其核心亮点包括灵活的 RAG 检索、MCP 协议支持以及可视化工作流设计，显著降低了开发门槛。",
+  "published_at": "2026-04-30T05:59:38Z",
+  "collected_at": "2026-04-30T05:59:38Z",
+  "summary": "FastGPT 是一个基于大语言模型的知识库平台，提供开箱即用的数据处理、RAG 检索和可视化 AI 工作流编排功能。它支持多种主流 LLM（如 OpenAI、Claude、DeepSeek、Qwen），并集成了 MCP 和 Agent 能力，使用户无需复杂配置即可快速构建和部署复杂的问答系统。技术亮点包括高度模块化的 RAG 流程、可拖拽的工作流引擎以及与 Next.js 前端框架的深度整合。",
   "score": 9,
   "tags": [
     "RAG",
     "LLM",
-    "Agent",
     "Workflow",
-    "Knowledge-Base"
+    "Agent",
+    "Knowledge-Base",
+    "FastGPT",
+    "Next.js",
+    "OpenAI",
+    "DeepSeek"
   ],
   "audience": "intermediate",
   "status": "draft",
-  "updated_at": "2026-04-30T05:47:35Z"
+  "updated_at": "2026-04-30T05:59:38Z"
 }

@@ -1,21 +1,24 @@
 {
-  "id": "github-20260430-042",
+  "id": "github-20260430-072",
   "title": "CherryHQ/cherry-studio",
   "source": "github",
   "source_url": "https://github.com/CherryHQ/cherry-studio",
   "author": "CherryHQ",
-  "published_at": "2026-04-30T05:47:35Z",
-  "collected_at": "2026-04-30T05:47:35Z",
-  "summary": "Cherry Studio 是一个集成智能聊天、自主代理和300+助手的AI生产力平台。它提供统一接口访问前沿大语言模型，支持多种AI代理和技能，强调vibe-coding和超级能力。该项目用TypeScript构建，拥有高星数，旨在成为多功能AI工作台。",
-  "score": 8,
+  "published_at": "2026-04-30T05:59:38Z",
+  "collected_at": "2026-04-30T05:59:38Z",
+  "summary": "Cherry Studio 是一个基于 TypeScript 构建的 AI 生产力工作室，提供智能聊天、自主代理和超过 300 个助手。它统一接入前沿大语言模型（LLM），支持代理、技能和超级能力等概念，旨在通过开源 CLI 和代码工具（如 Codex、OpenCode）提升开发者的 Vibe Coding 体验。",
+  "score": 9,
   "tags": [
     "ai-agent",
     "llm",
     "productivity",
-    "agent-framework",
-    "multi-model"
+    "open-source",
+    "cli",
+    "typescript",
+    "codex",
+    "opencode"
   ],
   "audience": "intermediate",
   "status": "draft",
-  "updated_at": "2026-04-30T05:47:35Z"
+  "updated_at": "2026-04-30T05:59:38Z"
 }
