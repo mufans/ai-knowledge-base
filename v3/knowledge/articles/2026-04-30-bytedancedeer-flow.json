@@ -1,0 +1,21 @@
+{
+  "id": "github-20260430-009",
+  "title": "bytedance/deer-flow",
+  "source": "github",
+  "source_url": "https://github.com/bytedance/deer-flow",
+  "author": "bytedance",
+  "published_at": "2026-04-30T05:47:07Z",
+  "collected_at": "2026-04-30T05:47:07Z",
+  "summary": "DeerFlow 是字节跳动开源的一个长时域超级代理框架，能够自主进行研究、编码和内容创作。它集成了沙箱、记忆、工具、技能、子代理和消息网关等模块，可处理从几分钟到数小时不同粒度的复杂任务。基于 Python 和 TypeScript 实现，支持 LangChain、LangGraph 等生态，适用于深度研究、多代理协作等场景。",
+  "score": 9,
+  "tags": [
+    "multi-agent",
+    "agentic-framework",
+    "llm",
+    "deep-research",
+    "python"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-30T05:47:07Z"
+}

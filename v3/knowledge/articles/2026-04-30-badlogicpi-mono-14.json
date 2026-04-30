@@ -1,0 +1,21 @@
+{
+  "id": "github-20260430-045",
+  "title": "badlogic/pi-mono",
+  "source": "github",
+  "source_url": "https://github.com/badlogic/pi-mono",
+  "author": "badlogic",
+  "published_at": "2026-04-30T05:47:35Z",
+  "collected_at": "2026-04-30T05:47:35Z",
+  "summary": "Pi-mono 是一个面向 AI 代理的全面工具包，提供编码代理 CLI、统一 LLM API、终端与 Web UI 库、Slack 机器人以及 vLLM Pod 支持。其核心功能包括通过统一接口调用多种 LLM，支持代码生成、自动修复和执行，并提供丰富的交互界面。技术亮点在于模块化设计、跨平台 UI 库以及高效的 LLM 集成，适合构建复杂的 AI 工作流。",
+  "score": 8,
+  "tags": [
+    "AI-agent",
+    "LLM",
+    "CLI",
+    "code-generation",
+    "vLLM"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-30T05:47:35Z"
+}

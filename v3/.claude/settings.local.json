@@ -7,7 +7,9 @@
       "Bash(echo:*)",
       "Bash(/tmp/test_env_priority.py:*)",
       "mcp__web-search-prime__web_search_prime",
-      "mcp__web-reader__webReader"
+      "mcp__web-reader__webReader",
+      "Bash(ls:*)",
+      "Bash(xargs:*)"
     ]
   }
 }

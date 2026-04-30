@@ -1,0 +1,21 @@
+{
+  "id": "github-20260430-051",
+  "title": "continuedev/continue",
+  "source": "github",
+  "source_url": "https://github.com/continuedev/continue",
+  "author": "continuedev",
+  "published_at": "2026-04-30T05:47:35Z",
+  "collected_at": "2026-04-30T05:47:35Z",
+  "summary": "Continue是一个开源的AI开发工具，提供可源码控制的AI检查功能，可在CI中强制执行。其核心是Continue CLI，支持多种LLM后端，提供代码补全、对话、代码审查等功能。技术上基于TypeScript构建，作为VS Code和JetBrains插件集成，为开发者提供智能编码辅助。",
+  "score": 9,
+  "tags": [
+    "agent",
+    "cli",
+    "developer-tools",
+    "llm",
+    "open-source"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-30T05:47:35Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "github-20260430-060",
+  "title": "openai/openai-agents-python",
+  "source": "github",
+  "source_url": "https://github.com/openai/openai-agents-python",
+  "author": "openai",
+  "published_at": "2026-04-30T05:47:35Z",
+  "collected_at": "2026-04-30T05:47:35Z",
+  "summary": "OpenAI 官方推出的轻量级多智能体工作流框架，支持灵活编排多个 AI Agent 协同完成任务。基于 Python 实现，集成了 OpenAI 的 LLM 能力，提供简洁的 API 设计，使得构建复杂多智能体系统变得高效便捷。技术亮点包括模块化 Agent 设计、任务编排与通信机制、以及对 OpenAI 模型的原生支持。",
+  "score": 9,
+  "tags": [
+    "agents",
+    "multi-agent",
+    "framework",
+    "llm",
+    "openai"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-30T05:47:35Z"
+}

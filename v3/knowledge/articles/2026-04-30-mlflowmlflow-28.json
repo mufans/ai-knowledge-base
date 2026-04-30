@@ -1,0 +1,21 @@
+{
+  "id": "github-20260430-059",
+  "title": "mlflow/mlflow",
+  "source": "github",
+  "source_url": "https://github.com/mlflow/mlflow",
+  "author": "mlflow",
+  "published_at": "2026-04-30T05:47:35Z",
+  "collected_at": "2026-04-30T05:47:35Z",
+  "summary": "MLflow 是一个开源的AI工程平台，专注于代理、LLM和机器学习模型的全生命周期管理。它支持团队调试、评估、监控和优化生产级AI应用，同时控制成本和管理模型与数据的访问权限。技术亮点包括与LangChain、OpenAI等框架的集成，以及对代理操作（agentops）、AI治理和可观测性的支持。基于Python实现，广泛用于MLOps和LLMOps场景。",
+  "score": 9,
+  "tags": [
+    "MLOps",
+    "LLMOps",
+    "AI-Engineering",
+    "Model-Management",
+    "Observability"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-30T05:47:35Z"
+}
