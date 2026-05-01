@@ -1,0 +1,202 @@
+[
+  {
+    "id": "rss-20260501-001",
+    "title": "Supersimple: Lightweight OpenCode profile for routine dev work with focused agents, local skills, and conductor-based track management",
+    "source": "rss",
+    "source_url": "https://github.com/gc-victor/supersimple",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/inndga/supersimple_lightweight_opencode\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-002",
+    "title": "Porting microgpt to Futhark, Part I",
+    "source": "rss",
+    "source_url": "https://www.kmjn.org/notes/microgpt_futhark.html",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/uch4e0/porting_microgpt_futhark_part_i\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-003",
+    "title": "Scaling Pain of Coding Agent Serving: Lessons from Debugging GLM-5 at Scale",
+    "source": "rss",
+    "source_url": "https://z.ai/blog/scaling-pain",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/2v2q1x/scaling_pain_coding_agent_serving\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-004",
+    "title": "AI Terminology is Poorly Defined and Oft Misused",
+    "source": "rss",
+    "source_url": "https://vale.rocks/posts/ai-terminology",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/zleph2/ai_terminology_is_poorly_defined_oft\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-005",
+    "title": "Transformers are Inherently Succinct",
+    "source": "rss",
+    "source_url": "https://arxiv.org/abs/2510.19315",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;p&gt;Abstract:\nWe propose succinctness as a measure of the expressive power of a transformer in describing a concept. To this end, we prove that transformers are highly expressive in that they can represent formal languages substantially more succinctly than standard representations of formal languages like finite automata and Linear Temporal Logic (LTL) formulas. As a by-product of this expressivity, we show that verifying properties of transformers is provably intractable (i.e. EXPSPACE-complete).&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://lobste.rs/s/hzhyw9/transformers_are_inherently_succinct\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-006",
+    "title": "The Future of Deep Learning Is Photonic (2021)",
+    "source": "rss",
+    "source_url": "https://spectrum.ieee.org/the-future-of-deep-learning-is-photonic",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/afcjot/future_deep_learning_is_photonic_2021\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-007",
+    "title": "How are you protecting yourself against the imminent AI dooms zero day?",
+    "source": "rss",
+    "source_url": "https://lobste.rs/s/cfzhwf/how_are_you_protecting_yourself_against",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;p&gt;Above all this is a fun discussion. Don't get too serious :)&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;As LLMs get better and better at pattern matching against vulnerabilities, and gaining better logical inference, it's a matter of time until a human or a group of humans and an LLM(s) find a plethora of zero days, some possibly unpatchable.&lt;/p&gt;\n&lt;p&gt;I'm sure others have thought the same, so I'm curious just what the general zeitgeist is. I personally think any machine you haven't put online, like those 10 year old laptops in the closest, are safe. The problem is, &lt;em&gt;I believe airgap will not save us either&lt;/em&gt; if a truly advanced system is developed. More or less I think \"primitive technology\" could return in various ways depending what we're talking about, like in finance, to avoid manipulation.&lt;/p&gt;",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-008",
+    "title": "How is your org/company measuring the impact of AI adoption?",
+    "source": "rss",
+    "source_url": "https://lobste.rs/s/bzcjrl/how_is_your_org_company_measuring_impact",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;p&gt;Title says it best. We're at a point in our AI journey where tools are deployed, infrastructure stood up, features are shipping, and naturally, costs associated with AI usage are rising.&lt;/p&gt;\n&lt;p&gt;We're now being asked to estimate the impact of AI in our daily work.&lt;/p&gt;\n&lt;p&gt;How are you doing this at your company or within you org/department?&lt;/p&gt;",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-009",
+    "title": "Project Glasswing: Securing critical software for the AI era",
+    "source": "rss",
+    "source_url": "https://www.anthropic.com/glasswing",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;p&gt;&lt;a href=\"https://lobste.rs/s/pgkwml/project_glasswing_securing_critical\"&gt;Comments&lt;/a&gt;&lt;/p&gt;",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-010",
+    "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
+    "source": "rss",
+    "source_url": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years/",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Translate_20th_hero_NC8a.max-600x600.format-webp.webp\"&gt;Google’s sharing 20 fun facts to celebrate Google Translate turning 20, from its roots as a 2006 AI experiment to supporting almost 250 languages today.",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-011",
+    "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+    "source": "rss",
+    "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_Coding_Course_herosocial.max-600x600.format-webp.webp\"&gt;Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-012",
+    "title": "8 Gemini tips for organizing your space (and life)",
+    "source": "rss",
+    "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_hero.max-600x600.format-webp.webp\"&gt;Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-013",
+    "title": "Here’s how our TPUs power increasingly demanding AI workloads.",
+    "source": "rss",
+    "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/What_is_a_TPU_social.max-600x600.format-webp.webp\"&gt;Learn how Google’s TPUs power increasingly demanding AI workloads with this new video.",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-014",
+    "title": "Elevating Austria: Google invests in its first data center in the Alps.",
+    "source": "rss",
+    "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria/",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Kronstorf_Data_Center_1.max-600x600.format-webp.webp\"&gt;Google has been a proud part of Austria’s landscape for years, and today, we’re announcing our first data center in Kronstorf, generating 100 direct jobs. This facility …",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-015",
+    "title": "We're launching two specialized TPUs for the agentic era.",
+    "source": "rss",
+    "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Were_launching_two_TPUs_social.max-600x600.format-webp.webp\"&gt;The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-016",
+    "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
+    "source": "rss",
+    "source_url": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Road_to_GML_Master-Header.max-600x600.format-webp.webp\"&gt;Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-017",
+    "title": "7 ways to travel smarter this summer, with help from Google",
+    "source": "rss",
+    "source_url": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summer_Travel_Tips_2026_hero.max-600x600.format-webp.webp\"&gt;The latest tools from Google can help you plan trips, find a great deal and explore your next destination.",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-018",
+    "title": "A new way to explore the web with AI Mode in Chrome",
+    "source": "rss",
+    "source_url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_in_Chrome_-_Blog_header.max-600x600.format-webp.webp\"&gt;Today’s upgrades for AI Mode in Chrome transform how you interact with the web",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-019",
+    "title": "New ways to create personalized images in the Gemini app",
+    "source": "rss",
+    "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana/",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_post_header.max-600x600.format-webp.webp\"&gt;Nano Banana 2 now uses your personal context and Google Photos to create images that reflect your unique life.",
+    "collected_at": "2026-05-01T09:51:48Z"
+  },
+  {
+    "id": "rss-20260501-020",
+    "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+    "source": "rss",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+    "author": "",
+    "published_at": "2026-05-01T09:51:48Z",
+    "raw_description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.1-flash-tts_blog_keywo.max-600x600.format-webp.webp\"&gt;Gemini 3.1 Flash TTS is now available across Google products.",
+    "collected_at": "2026-05-01T09:51:48Z"
+  }
+]

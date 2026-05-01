@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-30T10:13:15Z",
-  "total": 49,
+  "updated_at": "2026-05-01T09:53:10Z",
+  "total": 51,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -565,6 +565,30 @@
         "nlp"
       ],
       "file": "2026-04-30-ai-terminology-is-poorly-defined-and-oft-misused.json"
+    },
+    {
+      "id": "rss-20260501-001",
+      "title": "Supersimple: Lightweight OpenCode profile for routine dev work with focused agents, local skills, and conductor-based track management",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "agent",
+        "open-source",
+        "deployment"
+      ],
+      "file": "2026-05-01-supersimple-lightweight-opencode-profile-for-routine-dev-wor.json"
+    },
+    {
+      "id": "rss-20260501-002",
+      "title": "Porting microgpt to Futhark, Part I",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "gpt",
+        "gpu",
+        "open-source"
+      ],
+      "file": "2026-05-01-porting-microgpt-to-futhark-part-i.json"
     }
   ]
 }
