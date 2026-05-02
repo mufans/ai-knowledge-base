@@ -1,0 +1,202 @@
+[
+  {
+    "id": "github-20260502-001",
+    "title": "langgenius/dify",
+    "source": "github",
+    "source_url": "https://github.com/langgenius/dify",
+    "author": "langgenius",
+    "published_at": "2023-04-12T07:40:24Z",
+    "raw_description": "Production-ready platform for agentic workflow development. TypeScript 139850 stars, 21935 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-002",
+    "title": "langchain-ai/langchain",
+    "source": "github",
+    "source_url": "https://github.com/langchain-ai/langchain",
+    "author": "langchain-ai",
+    "published_at": "2022-10-17T02:58:36Z",
+    "raw_description": "The agent engineering platform Python 135621 stars, 22411 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-003",
+    "title": "NousResearch/hermes-agent",
+    "source": "github",
+    "source_url": "https://github.com/NousResearch/hermes-agent",
+    "author": "NousResearch",
+    "published_at": "2025-07-22T22:22:28Z",
+    "raw_description": "The agent that grows with you Python 128834 stars, 19412 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-004",
+    "title": "Shubhamsaboo/awesome-llm-apps",
+    "source": "github",
+    "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "author": "Shubhamsaboo",
+    "published_at": "2024-04-29T05:30:25Z",
+    "raw_description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship. Python 108353 stars, 15974 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-005",
+    "title": "browser-use/browser-use",
+    "source": "github",
+    "source_url": "https://github.com/browser-use/browser-use",
+    "author": "browser-use",
+    "published_at": "2024-10-31T16:00:56Z",
+    "raw_description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease. Python 91636 stars, 10428 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-006",
+    "title": "OpenHands/OpenHands",
+    "source": "github",
+    "source_url": "https://github.com/OpenHands/OpenHands",
+    "author": "OpenHands",
+    "published_at": "2024-03-13T03:33:31Z",
+    "raw_description": "🙌 OpenHands: AI-Driven Development Python 72499 stars, 9166 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-007",
+    "title": "hiyouga/LlamaFactory",
+    "source": "github",
+    "source_url": "https://github.com/hiyouga/LlamaFactory",
+    "author": "hiyouga",
+    "published_at": "2023-05-28T10:09:12Z",
+    "raw_description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024) Python 70832 stars, 8651 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-008",
+    "title": "FoundationAgents/MetaGPT",
+    "source": "github",
+    "source_url": "https://github.com/FoundationAgents/MetaGPT",
+    "author": "FoundationAgents",
+    "published_at": "2023-06-30T09:04:55Z",
+    "raw_description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming Python 67618 stars, 8589 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-009",
+    "title": "bytedance/deer-flow",
+    "source": "github",
+    "source_url": "https://github.com/bytedance/deer-flow",
+    "author": "bytedance",
+    "published_at": "2025-05-07T02:50:19Z",
+    "raw_description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours. Python 64477 stars, 8480 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-010",
+    "title": "mem0ai/mem0",
+    "source": "github",
+    "source_url": "https://github.com/mem0ai/mem0",
+    "author": "mem0ai",
+    "published_at": "2023-06-20T08:58:36Z",
+    "raw_description": "Universal memory layer for AI Agents Python 54572 stars, 6167 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-011",
+    "title": "jeecgboot/JeecgBoot",
+    "source": "github",
+    "source_url": "https://github.com/jeecgboot/JeecgBoot",
+    "author": "jeecgboot",
+    "published_at": "2018-11-26T10:40:00Z",
+    "raw_description": "AI低代码平台，支持「低代码 + 零代码」双模式：零代码 5 分钟搭建业务系统，低代码模式一键生成前后端代码。 内置AI 应用，支持AI聊天、知识库、流程编排、MCP与插件，支持各种模型。Skills能力实现：一句话画流程图、设计表单、生成系统。 引领 AI生成→在线配置→代码生成→手工合并的开发模式，解决Java项目80%的重复工作，快速提高效率，又不失灵活性。 Java 46065 stars, 15959 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-012",
+    "title": "CherryHQ/cherry-studio",
+    "source": "github",
+    "source_url": "https://github.com/CherryHQ/cherry-studio",
+    "author": "CherryHQ",
+    "published_at": "2024-05-24T01:56:26Z",
+    "raw_description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs TypeScript 44883 stars, 4264 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-013",
+    "title": "zhayujie/CowAgent",
+    "source": "github",
+    "source_url": "https://github.com/zhayujie/CowAgent",
+    "author": "zhayujie",
+    "published_at": "2022-08-07T08:33:41Z",
+    "raw_description": "CowAgent (chatgpt-on-wechat) 是基于大模型的超级AI助理，能主动思考和任务规划、访问操作系统和外部资源、创造和执行Skills、通过长期记忆和知识库不断成长，比OpenClaw更轻量和便捷。同时支持微信、飞书、钉钉、企微、QQ、公众号、网页等接入，可选择DeepSeek/OpenAI/Claude/Gemini/ MiniMax/Qwen/GLM/LinkAI，能处理文本、语音、图片和文件，可快速搭建个人AI助理和企业数字员工。 Python 43956 stars, 10033 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-014",
+    "title": "badlogic/pi-mono",
+    "source": "github",
+    "source_url": "https://github.com/badlogic/pi-mono",
+    "author": "badlogic",
+    "published_at": "2025-08-09T14:03:50Z",
+    "raw_description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods TypeScript 43707 stars, 5129 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-015",
+    "title": "aaif-goose/goose",
+    "source": "github",
+    "source_url": "https://github.com/aaif-goose/goose",
+    "author": "aaif-goose",
+    "published_at": "2024-08-23T19:03:36Z",
+    "raw_description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM Rust 43664 stars, 4466 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-016",
+    "title": "HKUDS/nanobot",
+    "source": "github",
+    "source_url": "https://github.com/HKUDS/nanobot",
+    "author": "HKUDS",
+    "published_at": "2026-02-01T07:16:15Z",
+    "raw_description": "\"🐈 nanobot: The Ultra-Lightweight Personal AI Agent\" Python 41494 stars, 7288 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-017",
+    "title": "reworkd/AgentGPT",
+    "source": "github",
+    "source_url": "https://github.com/reworkd/AgentGPT",
+    "author": "reworkd",
+    "published_at": "2023-04-07T02:29:19Z",
+    "raw_description": "🤖 Assemble, configure, and deploy autonomous AI Agents in your browser. TypeScript 36050 stars, 9365 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-018",
+    "title": "patchy631/ai-engineering-hub",
+    "source": "github",
+    "source_url": "https://github.com/patchy631/ai-engineering-hub",
+    "author": "patchy631",
+    "published_at": "2024-10-21T10:43:24Z",
+    "raw_description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications. Jupyter Notebook 34523 stars, 5709 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-019",
+    "title": "khoj-ai/khoj",
+    "source": "github",
+    "source_url": "https://github.com/khoj-ai/khoj",
+    "author": "khoj-ai",
+    "published_at": "2021-08-16T01:48:44Z",
+    "raw_description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free. Python 34350 stars, 2182 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  },
+  {
+    "id": "github-20260502-020",
+    "title": "ZhuLinsen/daily_stock_analysis",
+    "source": "github",
+    "source_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+    "author": "ZhuLinsen",
+    "published_at": "2026-01-10T06:43:20Z",
+    "raw_description": "LLM驱动的 A/H/美股智能分析器：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets. Python 33617 stars, 33386 forks.",
+    "collected_at": "2026-05-02T09:13:22Z"
+  }
+]
