@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-02T09:14:38Z",
-  "total": 52,
+  "updated_at": "2026-05-03T09:27:12Z",
+  "total": 53,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -600,6 +600,18 @@
         "ai"
       ],
       "file": "2026-05-02-upcoming-blender-development-fund-and-ai-policies.json"
+    },
+    {
+      "id": "rss-20260503-001",
+      "title": "fabrica - A terminal-based minimal coding agent harness",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "code-generation",
+        "llm",
+        "open-source"
+      ],
+      "file": "2026-05-03-fabrica-a-terminal-based-minimal-coding-agent-harness.json"
     }
   ]
 }
