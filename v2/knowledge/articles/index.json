@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-03T09:27:12Z",
-  "total": 53,
+  "updated_at": "2026-05-05T10:09:22Z",
+  "total": 58,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -612,6 +612,65 @@
         "open-source"
       ],
       "file": "2026-05-03-fabrica-a-terminal-based-minimal-coding-agent-harness.json"
+    },
+    {
+      "id": "rss-20260505-001",
+      "title": "sectorllm: llama2 inference in &lt; 1500 bytes of x86 assembly",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "llm",
+        "open-source",
+        "deployment"
+      ],
+      "file": "2026-05-05-sectorllm-llama2-inference-in-lt-1500-bytes-of-x86-assembly.json"
+    },
+    {
+      "id": "rss-20260505-002",
+      "title": "OpenMythos: A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "llm",
+        "reasoning",
+        "open-source"
+      ],
+      "file": "2026-05-05-openmythos-a-theoretical-reconstruction-of-the-claude-mythos.json"
+    },
+    {
+      "id": "rss-20260505-003",
+      "title": "Do AI summaries hurt critical thinking?",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "ai",
+        "reasoning"
+      ],
+      "file": "2026-05-05-do-ai-summaries-hurt-critical-thinking.json"
+    },
+    {
+      "id": "rss-20260505-012",
+      "title": "The latest AI news we announced in April 2026",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "llm",
+        "open-source"
+      ],
+      "file": "2026-05-05-the-latest-ai-news-we-announced-in-april-2026.json"
+    },
+    {
+      "id": "rss-20260505-013",
+      "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "api",
+        "ai",
+        "deployment"
+      ],
+      "file": "2026-05-05-reduce-friction-and-latency-for-long-running-jobs-with-webho.json"
     }
   ]
 }
