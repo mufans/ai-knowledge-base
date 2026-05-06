@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260506-001",
+  "title": "Agent MetaSKILLs",
+  "source": "rss",
+  "source_url": "https://swival.dev/pages/metaskills.html",
+  "author": "",
+  "published_at": "2026-05-06T04:32:30Z",
+  "collected_at": "2026-05-06T04:32:30Z",
+  "summary": "Agent MetaSKILLs 是一个关于智能体元技能的技术概念，可能涉及智能体如何学习、适应和优化自身技能以提升任务执行效率。该内容在 Lobste.rs 上讨论，属于 AI 代理领域的前沿话题。",
+  "score": 7,
+  "tags": [
+    "agent",
+    "ai",
+    "reasoning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-06T04:33:52Z"
+}

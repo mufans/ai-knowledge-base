@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-05T10:09:22Z",
-  "total": 58,
+  "updated_at": "2026-05-06T04:33:52Z",
+  "total": 60,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -671,6 +671,29 @@
         "deployment"
       ],
       "file": "2026-05-05-reduce-friction-and-latency-for-long-running-jobs-with-webho.json"
+    },
+    {
+      "id": "rss-20260506-001",
+      "title": "Agent MetaSKILLs",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "agent",
+        "ai",
+        "reasoning"
+      ],
+      "file": "2026-05-06-agent-metaskills.json"
+    },
+    {
+      "id": "rss-20260506-013",
+      "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+      "source": "rss",
+      "score": 5,
+      "tags": [
+        "ai",
+        "open-source"
+      ],
+      "file": "2026-05-06-google-is-partnering-with-xprize-and-range-media-partners-on.json"
     }
   ]
 }
