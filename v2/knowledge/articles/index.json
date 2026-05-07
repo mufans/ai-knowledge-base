@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-06T04:33:52Z",
-  "total": 60,
+  "updated_at": "2026-05-07T04:34:40Z",
+  "total": 62,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -694,6 +694,30 @@
         "open-source"
       ],
       "file": "2026-05-06-google-is-partnering-with-xprize-and-range-media-partners-on.json"
+    },
+    {
+      "id": "github-20260507-006",
+      "title": "infiniflow/ragflow",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "rag",
+        "agent",
+        "open-source"
+      ],
+      "file": "2026-05-07-infiniflowragflow.json"
+    },
+    {
+      "id": "rss-20260507-010",
+      "title": "5 gardening tips you can try right in Search",
+      "source": "rss",
+      "score": 5,
+      "tags": [
+        "ai",
+        "search",
+        "tool-use"
+      ],
+      "file": "2026-05-07-5-gardening-tips-you-can-try-right-in-search.json"
     }
   ]
 }
