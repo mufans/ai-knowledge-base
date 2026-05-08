@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-07T04:34:40Z",
-  "total": 62,
+  "updated_at": "2026-05-08T04:16:12Z",
+  "total": 64,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -718,6 +718,29 @@
         "tool-use"
       ],
       "file": "2026-05-07-5-gardening-tips-you-can-try-right-in-search.json"
+    },
+    {
+      "id": "github-20260508-012",
+      "title": "earendil-works/pi",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai",
+        "agent",
+        "open-source"
+      ],
+      "file": "2026-05-08-earendil-workspi.json"
+    },
+    {
+      "id": "rss-20260508-001",
+      "title": "jlearn: Machine Learning Library in J",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "machine-learning",
+        "open-source"
+      ],
+      "file": "2026-05-08-jlearn-machine-learning-library-in-j.json"
     }
   ]
 }
