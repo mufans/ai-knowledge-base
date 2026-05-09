@@ -363,6 +363,7 @@ def save_node(state: KBState) -> dict:
             "score": display_score,
             "tags": article.get("tags", []),
             "audience": "intermediate",
+            "category": article.get("category", ""),
             "status": "draft",
             "updated_at": timestamp,
         }

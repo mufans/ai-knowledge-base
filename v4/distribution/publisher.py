@@ -32,6 +32,7 @@ import logging
 import os
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Any
 
 import aiohttp
@@ -384,3 +385,35 @@ async def publish_daily_digest(
     tasks = [p.send_digest(knowledge_dir, date, top_n) for p in publishers]
     results = await asyncio.gather(*tasks, return_exceptions=False)
     return list(results)
+
+
+# ── File export ─────────────────────────────────────────────────────
+
+
+def publish_file(
+    content: str,
+    filename: str | None = None,
+    output_dir: str = "output",
+) -> str:
+    """将简报内容导出为 Markdown 文件。
+
+    Args:
+        content: Markdown 格式的简报内容。
+        filename: 输出文件名，默认 ``digest-{today}.md``。
+        output_dir: 输出目录，默认 "output"。
+
+    Returns:
+        写入文件的绝对路径。
+    """
+    if filename is None:
+        from datetime import date as date_type
+
+        filename = f"digest-{date_type.today().isoformat()}.md"
+
+    out_path = Path(output_dir)
+    out_path.mkdir(parents=True, exist_ok=True)
+
+    file_path = out_path / filename
+    file_path.write_text(content, encoding="utf-8")
+    logger.info("简报已导出: %s", file_path.resolve())
+    return str(file_path.resolve())
