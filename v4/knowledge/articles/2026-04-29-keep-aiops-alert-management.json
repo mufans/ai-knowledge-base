@@ -1,0 +1,15 @@
+{
+  "id": "github-20260429-012",
+  "title": "Keep: The open-source AIOps and alert management platform",
+  "source": "github",
+  "source_url": "https://github.com/keephq/keep",
+  "author": "keephq",
+  "published_at": "2026-04-29T00:00:00Z",
+  "collected_at": "2026-04-29T10:00:00Z",
+  "summary": "开源 AIOps 告警管理平台，提供统一的告警聚合、关联分析和自动化响应能力。是 AI 技术在运维领域的成熟工程化实践。",
+  "score": 7,
+  "tags": ["agent", "deployment"],
+  "audience": "intermediate",
+  "status": "published",
+  "updated_at": "2026-04-29T12:00:00Z"
+}

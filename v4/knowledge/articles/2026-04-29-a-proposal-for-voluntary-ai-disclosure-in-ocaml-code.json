@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260429-007",
+  "title": "A Proposal for Voluntary AI Disclosure in OCaml Code",
+  "source": "rss",
+  "source_url": "https://anil.recoil.org/notes/opam-ai-disclosure",
+  "author": "",
+  "published_at": "2026-04-29T15:35:54Z",
+  "collected_at": "2026-04-29T15:35:54Z",
+  "summary": "提出在OCaml代码中自愿披露AI使用情况的提案，旨在增强代码透明度和可追溯性，涉及AI辅助编程的伦理与实践。",
+  "score": 6,
+  "tags": [
+    "ai",
+    "open-source",
+    "code-generation"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T15:37:34Z"
+}

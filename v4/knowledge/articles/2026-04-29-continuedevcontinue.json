@@ -1,0 +1,19 @@
+{
+  "id": "github-20260429-020",
+  "title": "continuedev/continue",
+  "source": "github",
+  "source_url": "https://github.com/continuedev/continue",
+  "author": "continuedev",
+  "published_at": "2023-05-24T03:39:39Z",
+  "collected_at": "2026-04-29T10:19:32Z",
+  "summary": "Continue 是一个开源的 AI 代码检查工具，通过 CLI 实现源代码控制的 AI 检查，并可在 CI 中强制执行。基于 TypeScript 构建，拥有 32883 颗星，支持开发者集成 AI 驱动的代码审查流程。",
+  "score": 8,
+  "tags": [
+    "ai",
+    "code-generation",
+    "open-source"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T10:20:58Z"
+}

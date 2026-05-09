@@ -1,0 +1,15 @@
+{
+  "id": "github-20260429-003",
+  "title": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API",
+  "source": "github",
+  "source_url": "https://github.com/ComposioHQ/awesome-codex-skills",
+  "author": "ComposioHQ",
+  "published_at": "2026-04-29T00:00:00Z",
+  "collected_at": "2026-04-29T10:00:00Z",
+  "summary": "ComposioHQ 维护的 OpenAI Codex 技能合集，收录了多种实用的自动化工作流技能，覆盖 CLI 和 API 两种使用方式。为 Codex 生态提供了丰富的即用型技能模板。",
+  "score": 7,
+  "tags": ["agent", "tool-use"],
+  "audience": "beginner",
+  "status": "published",
+  "updated_at": "2026-04-29T12:00:00Z"
+}

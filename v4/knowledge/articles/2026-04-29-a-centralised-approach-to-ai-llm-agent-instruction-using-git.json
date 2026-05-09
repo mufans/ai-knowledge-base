@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260429-001",
+  "title": "A Centralised Approach to AI / LLM Agent Instruction Using Git Submodules",
+  "source": "rss",
+  "source_url": "https://www.appsoftware.com/blog/a-centralised-approach-to-ai-llm-agent-instruction-using-git-submodules",
+  "author": "",
+  "published_at": "2026-04-29T10:19:32Z",
+  "collected_at": "2026-04-29T10:19:32Z",
+  "summary": "本文提出一种使用Git子模块集中管理AI/LLM代理指令的方法，通过将指令存储在版本控制的子模块中，实现指令的集中更新、版本管理和团队协作，提升代理行为的一致性和可维护性。",
+  "score": 7,
+  "tags": [
+    "llm",
+    "agent",
+    "mcp"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T10:20:58Z"
+}

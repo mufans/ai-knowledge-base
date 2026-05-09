@@ -1,0 +1,19 @@
+{
+  "id": "github-20260429-018",
+  "title": "patchy631/ai-engineering-hub",
+  "source": "github",
+  "source_url": "https://github.com/patchy631/ai-engineering-hub",
+  "author": "patchy631",
+  "published_at": "2024-10-21T10:43:24Z",
+  "collected_at": "2026-04-29T10:19:32Z",
+  "summary": "该仓库提供了关于大语言模型、检索增强生成和AI智能体应用的深入教程，包含Jupyter Notebook实现，拥有34325星标，是一个高质量的开源学习资源。",
+  "score": 8,
+  "tags": [
+    "llm",
+    "rag",
+    "agent"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T10:20:58Z"
+}

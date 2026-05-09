@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260429-002",
+  "title": "Ask HN: Why are so many rolling out their own AI/LLM agent sandboxing solution?",
+  "source": "rss",
+  "source_url": "https://news.ycombinator.com/item?id=46699324",
+  "author": "",
+  "published_at": "2026-04-29T10:19:32Z",
+  "collected_at": "2026-04-29T10:19:32Z",
+  "summary": "Hacker News 讨论为何开发者纷纷自建 AI/LLM 代理沙箱方案（如 Docker、VM、firejail、bubblewrap 等），分析现有工具在文件/网络访问控制上的不足，并探讨“足够好”的标准。",
+  "score": 7,
+  "tags": [
+    "ai",
+    "llm",
+    "security"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T10:20:58Z"
+}

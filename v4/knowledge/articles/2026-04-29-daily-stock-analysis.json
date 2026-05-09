@@ -1,0 +1,15 @@
+{
+  "id": "github-20260429-009",
+  "title": "daily_stock_analysis: LLM-driven A/H/US stock intelligent analyzer",
+  "source": "github",
+  "source_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+  "author": "ZhuLinsen",
+  "published_at": "2026-04-29T00:00:00Z",
+  "collected_at": "2026-04-29T10:00:00Z",
+  "summary": "LLM 驱动的 A 股/港股/美股智能分析系统，集成多数据源行情、实时新闻聚合和 LLM 决策仪表盘，支持零成本定时运行。展示了 LLM 在金融分析领域的端到端应用架构。",
+  "score": 8,
+  "tags": ["llm", "reasoning", "agent"],
+  "audience": "intermediate",
+  "status": "published",
+  "updated_at": "2026-04-29T12:00:00Z"
+}

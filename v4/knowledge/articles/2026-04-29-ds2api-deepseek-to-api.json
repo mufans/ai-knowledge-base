@@ -1,0 +1,15 @@
+{
+  "id": "github-20260429-007",
+  "title": "ds2api: Deepseek to API - lightweight full-stack middleware converting client protocols to universal APIs",
+  "source": "github",
+  "source_url": "https://github.com/CJackHwang/ds2api",
+  "author": "CJackHwang",
+  "published_at": "2026-04-29T00:00:00Z",
+  "collected_at": "2026-04-29T10:00:00Z",
+  "summary": "将 DeepSeek 客户端协议转换为兼容 OpenAI/Claude/Google 格式的通用 API 中间件，支持多账户轮换、Docker 和 Serverless 部署。反映了 LLM API 标准化和互操作性的市场需求。",
+  "score": 6,
+  "tags": ["llm", "deployment"],
+  "audience": "intermediate",
+  "status": "published",
+  "updated_at": "2026-04-29T12:00:00Z"
+}

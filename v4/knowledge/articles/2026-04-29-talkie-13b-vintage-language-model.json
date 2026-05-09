@@ -1,0 +1,15 @@
+{
+  "id": "hn-20260429-007",
+  "title": "Talkie: a 13B vintage language model from 1930",
+  "source": "hackernews",
+  "source_url": "https://talkie-lm.com/introducing-talkie",
+  "author": "jekude",
+  "published_at": "2026-04-29T00:00:00Z",
+  "collected_at": "2026-04-29T10:00:00Z",
+  "summary": "以 1930 年代为概念背景的 13B 参数语言模型 Talkie，671 分为当日 HN 最高评分项目。将复古美学与现代 LLM 技术结合，275 条评论反映了社区对这一创新叙事的浓厚兴趣。",
+  "score": 8,
+  "tags": ["llm"],
+  "audience": "intermediate",
+  "status": "published",
+  "updated_at": "2026-04-29T12:00:00Z"
+}

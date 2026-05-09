@@ -1,0 +1,19 @@
+{
+  "id": "github-20260429-006",
+  "title": "OpenHands/OpenHands",
+  "source": "github",
+  "source_url": "https://github.com/OpenHands/OpenHands",
+  "author": "OpenHands",
+  "published_at": "2024-03-13T03:33:31Z",
+  "collected_at": "2026-04-29T10:19:32Z",
+  "summary": "OpenHands 是一个基于 AI 驱动的开发平台，专注于 Python 环境，拥有超过 72k 星标和 9k 分支，体现了其在代码生成和 AI 辅助开发领域的重要影响力。该项目利用大型语言模型实现自动化编程任务，提升开发效率。",
+  "score": 8,
+  "tags": [
+    "code-generation",
+    "ai",
+    "open-source"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T10:20:58Z"
+}

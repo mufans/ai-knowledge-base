@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260429-003",
+  "title": "How are you protecting yourself against the imminent AI dooms zero day?",
+  "source": "rss",
+  "source_url": "https://lobste.rs/s/cfzhwf/how_are_you_protecting_yourself_against",
+  "author": "",
+  "published_at": "2026-04-29T15:35:54Z",
+  "collected_at": "2026-04-29T15:35:54Z",
+  "summary": "讨论LLM在模式匹配和逻辑推理能力提升后，可能发现大量零日漏洞（包括不可修补的），认为离线设备相对安全但气隙隔离也无法完全防御高级AI系统，提出回归原始技术作为应对方案。",
+  "score": 5,
+  "tags": [
+    "ai",
+    "llm",
+    "security"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T15:37:34Z"
+}

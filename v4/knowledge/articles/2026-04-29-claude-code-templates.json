@@ -1,0 +1,15 @@
+{
+  "id": "github-20260429-005",
+  "title": "CLI tool for configuring and monitoring Claude Code",
+  "source": "github",
+  "source_url": "https://github.com/davila7/claude-code-templates",
+  "author": "davila7",
+  "published_at": "2026-04-29T00:00:00Z",
+  "collected_at": "2026-04-29T10:00:00Z",
+  "summary": "Claude Code 的配置和监控 CLI 工具，提供模板化管理能力，帮助开发者更高效地定制和管理 Claude Code 编程助手。2.6 万 stars 说明 Claude Code 生态工具链已形成规模。",
+  "score": 7,
+  "tags": ["agent", "deployment"],
+  "audience": "intermediate",
+  "status": "published",
+  "updated_at": "2026-04-29T12:00:00Z"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "github-20260429-002",
+  "title": "GitNexus: The Zero-Server Code Intelligence Engine",
+  "source": "github",
+  "source_url": "https://github.com/abhigyanpatwari/GitNexus",
+  "author": "abhigyanpatwari",
+  "published_at": "2026-04-29T00:00:00Z",
+  "collected_at": "2026-04-29T10:00:00Z",
+  "summary": "纯浏览器端运行的知识图谱生成引擎，支持将 GitHub 仓库或 ZIP 文件转换为交互式代码知识图谱，并内置 Graph RAG Agent 进行智能代码探索。零服务器架构，代表了 RAG 技术向客户端轻量化部署的重要趋势。",
+  "score": 9,
+  "tags": ["rag", "agent"],
+  "audience": "intermediate",
+  "status": "published",
+  "updated_at": "2026-04-29T12:00:00Z"
+}

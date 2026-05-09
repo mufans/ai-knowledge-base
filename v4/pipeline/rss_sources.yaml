@@ -1,0 +1,72 @@
+# RSS data sources for AI Knowledge Base pipeline.
+# Each entry:
+#   name:       display name
+#   url:        RSS/Atom feed URL
+#   category:   grouping tag (tech / research / blog / chinese)
+#   enabled:    whether the pipeline collects from this source
+
+sources:
+  # --- 综合技术 ---
+  - name: Hacker News Best (AI)
+    url: https://hnrss.org/best?q=AI+LLM+agent&count=30
+    category: tech
+    enabled: true
+
+  - name: Lobsters AI/ML
+    url: https://lobste.rs/t/ai,ml.rss
+    category: tech
+    enabled: true
+
+  # --- AI 研究 ---
+  - name: arXiv cs.AI
+    url: https://rss.arxiv.org/rss/cs.AI
+    category: research
+    enabled: false  # 日均 50+ 篇，量太大，按需开启
+
+  - name: Reddit r/MachineLearning
+    url: https://www.reddit.com/r/MachineLearning/hot.rss
+    category: research
+    enabled: true
+
+  - name: Reddit r/LocalLLaMA
+    url: https://www.reddit.com/r/LocalLLaMA/hot.rss
+    category: open-source
+    enabled: true
+
+  # --- 行业资讯 ---
+  - name: Google AI Blog
+    url: https://blog.google/technology/ai/rss/
+    category: industry
+    enabled: true
+
+  - name: The Verge (AI)
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    category: news
+    enabled: true
+
+  # --- 公司博客 ---
+  - name: OpenAI Blog
+    url: https://openai.com/blog/rss.xml
+    category: blog
+    enabled: true
+
+  - name: Anthropic Research
+    url: https://www.anthropic.com/feed.xml
+    category: blog
+    enabled: true
+
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    category: blog
+    enabled: true
+
+  # --- 中文社区 ---
+  - name: 机器之心
+    url: https://www.jiqizhixin.com/rss
+    category: chinese
+    enabled: false  # 需确认 RSS 可用性
+
+  - name: 量子位
+    url: https://www.qbitai.com/rss
+    category: chinese
+    enabled: false  # 需确认 RSS 可用性

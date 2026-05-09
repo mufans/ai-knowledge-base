@@ -1,0 +1,19 @@
+{
+  "id": "github-20260429-016",
+  "title": "HKUDS/nanobot",
+  "source": "github",
+  "source_url": "https://github.com/HKUDS/nanobot",
+  "author": "HKUDS",
+  "published_at": "2026-02-01T07:16:15Z",
+  "collected_at": "2026-04-29T10:19:32Z",
+  "summary": "nanobot 是一个超轻量级的个人AI代理项目，基于Python开发，拥有41260颗星和7238个fork。它专注于提供轻量化的AI代理解决方案，适合个人使用，具有较高的社区关注度和实用性。",
+  "score": 8,
+  "tags": [
+    "ai",
+    "agent",
+    "open-source"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T10:20:58Z"
+}

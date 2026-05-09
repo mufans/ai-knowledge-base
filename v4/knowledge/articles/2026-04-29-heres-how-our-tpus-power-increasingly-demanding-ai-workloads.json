@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260429-012",
+  "title": "Here’s how our TPUs power increasingly demanding AI workloads.",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
+  "author": "",
+  "published_at": "2026-04-29T15:35:54Z",
+  "collected_at": "2026-04-29T15:35:54Z",
+  "summary": "谷歌介绍了其TPU如何支持日益增长的AI工作负载需求，通过新视频展示了TPU在加速大规模AI训练和推理中的关键作用，体现了专用硬件在提升AI性能方面的重要性。",
+  "score": 7,
+  "tags": [
+    "ai",
+    "hardware",
+    "deployment"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T15:37:34Z"
+}

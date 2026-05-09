@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260429-005",
+  "title": "Tell HN: An update from the new Tindie team",
+  "source": "rss",
+  "source_url": "https://news.ycombinator.com/item?id=47945522",
+  "author": "",
+  "published_at": "2026-04-29T10:19:32Z",
+  "collected_at": "2026-04-29T10:19:32Z",
+  "summary": "Tindie 平台被 EETree LLC 收购，新团队承认迁移过程因老旧技术框架导致长时间停机，承诺稳定平台、解决支付和订单问题，并长期投资改进。该更新主要涉及平台运维和社区管理，技术深度有限。",
+  "score": 3,
+  "tags": [
+    "deployment",
+    "open-source"
+  ],
+  "audience": "beginner",
+  "status": "draft",
+  "updated_at": "2026-04-29T10:20:58Z"
+}

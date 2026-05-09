@@ -1,0 +1,15 @@
+{
+  "id": "hn-20260429-003",
+  "title": "OpenAI models coming to Amazon Bedrock: Interview with OpenAI and AWS CEOs",
+  "source": "hackernews",
+  "source_url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
+  "author": "translocator",
+  "published_at": "2026-04-29T00:00:00Z",
+  "collected_at": "2026-04-29T10:00:00Z",
+  "summary": "OpenAI 模型正式接入 AWS Bedrock 平台，Sam Altman 和 AWS CEO Matt Garman 联合访谈涉及 Managed Agents 战略。标志着 AI 基础模型从独占走向多云部署的行业格局重大转变。",
+  "score": 7,
+  "tags": ["llm", "deployment"],
+  "audience": "intermediate",
+  "status": "published",
+  "updated_at": "2026-04-29T12:00:00Z"
+}

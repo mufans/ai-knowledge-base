@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260429-005",
+  "title": "Project Glasswing: Securing critical software for the AI era",
+  "source": "rss",
+  "source_url": "https://www.anthropic.com/glasswing",
+  "author": "",
+  "published_at": "2026-04-29T15:35:54Z",
+  "collected_at": "2026-04-29T15:35:54Z",
+  "summary": "Project Glasswing 是一个旨在保护AI时代关键软件安全的项目，重点关注软件供应链安全、漏洞检测和防御机制。该项目通过分析AI系统依赖的底层软件栈，提出新的安全策略和工具，以应对AI应用带来的新型威胁。",
+  "score": 8,
+  "tags": [
+    "security",
+    "ai",
+    "open-source"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-04-29T15:37:34Z"
+}
