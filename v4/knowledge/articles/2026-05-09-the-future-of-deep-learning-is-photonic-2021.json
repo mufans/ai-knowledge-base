@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260509-105",
+  "title": "The Future of Deep Learning Is Photonic (2021)",
+  "source": "rss",
+  "source_url": "https://spectrum.ieee.org/the-future-of-deep-learning-is-photonic",
+  "author": "",
+  "published_at": "2026-05-09T16:13:34Z",
+  "collected_at": "2026-05-09T16:13:34Z",
+  "summary": "该文章探讨了光子深度学习的前景，提出利用光子计算替代传统电子计算以突破硬件瓶颈。核心亮点包括光神经网络的能效优势、并行处理能力以及光学非线性激活函数的实现，为AI加速器提供新范式。",
+  "key_insight": "光子计算有望通过光学模拟信号处理实现超低功耗和高并行度，颠覆传统电子深度学习硬件架构。",
+  "score": 8,
+  "tags": [
+    "photonic-computing",
+    "deep-learning",
+    "hardware-acceleration"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "hardware",
+  "updated_at": "2026-05-09T16:13:34Z"
+}

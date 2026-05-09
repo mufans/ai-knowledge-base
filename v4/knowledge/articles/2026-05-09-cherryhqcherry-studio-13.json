@@ -1,23 +1,23 @@
 {
-  "id": "github-20260509-074",
+  "id": "github-20260509-094",
   "title": "CherryHQ/cherry-studio",
   "source": "github",
   "source_url": "https://github.com/CherryHQ/cherry-studio",
   "author": "CherryHQ",
-  "published_at": "2026-05-09T13:21:24Z",
-  "collected_at": "2026-05-09T13:21:24Z",
-  "summary": "Cherry Studio 是一个面向 AI 生产力的桌面应用，集成了智能聊天、自主代理和 300+ 预设助手。它统一访问前沿大语言模型，支持多模型切换、代码执行、文件处理、知识库检索等高级功能，并提供可扩展的技能系统。技术亮点包括基于 Electron 的跨平台架构、TypeScript 全栈开发、模块化技能框架和本地优先的数据安全策略。",
-  "key_insight": "通过统一接口集成 300+ 预设代理和自主技能系统，降低了多模型协作的门槛，是面向个人生产力的‘AI 工作站’典范。",
+  "published_at": "2026-05-09T16:13:34Z",
+  "collected_at": "2026-05-09T16:13:34Z",
+  "summary": "Cherry Studio 是一个 AI 生产力工作室，提供智能聊天、自主代理和300多个助手。它统一接入前沿大语言模型（LLM），支持多种代理和技能，如 agency-agents、claude-code、codex 等，强调 vibe-coding 和超级能力。基于 TypeScript 开发，具有高开放性和可扩展性。",
+  "key_insight": "通过统一多模型接入和300+预置助手，打造可扩展的AI生产力平台，降低AI应用门槛。",
   "score": 9,
   "tags": [
-    "AI-assistant",
-    "multi-agent",
-    "LLM-hub",
-    "productivity-tool",
-    "TypeScript"
+    "AI-Agent",
+    "LLM",
+    "Productivity",
+    "TypeScript",
+    "Vibe-Coding"
   ],
   "audience": "intermediate",
   "status": "draft",
   "category": "multi-agent",
-  "updated_at": "2026-05-09T13:21:24Z"
+  "updated_at": "2026-05-09T16:13:34Z"
 }

@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260509-107",
+  "title": "5 gardening tips you can try right in Search",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
+  "author": "",
+  "published_at": "2026-05-09T16:13:34Z",
+  "collected_at": "2026-05-09T16:13:34Z",
+  "summary": "该仓库介绍了如何利用Google的AI模式、实时搜索和购物功能来提升园艺体验。核心功能包括AI驱动的植物识别、个性化养护建议以及通过搜索引擎直接购买园艺产品的集成。技术亮点在于将多模态AI（图像与文本）与电商无缝结合，降低了园艺知识门槛。",
+  "key_insight": "将AI搜索与购物集成，为垂直领域（如园艺）提供端到端的智能解决方案。",
+  "score": 4,
+  "tags": [
+    "AI",
+    "Search",
+    "E-commerce",
+    "Gardening"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-09T16:13:34Z"
+}

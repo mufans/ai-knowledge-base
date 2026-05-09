@@ -1,17 +1,17 @@
 {
-  "id": "github-20260509-079",
+  "id": "github-20260509-099",
   "title": "ZhuLinsen/daily_stock_analysis",
   "source": "github",
   "source_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
   "author": "ZhuLinsen",
-  "published_at": "2026-05-09T13:21:24Z",
-  "collected_at": "2026-05-09T13:21:24Z",
-  "summary": "这是一个基于LLM的A/H/美股智能分析系统，整合多数据源行情、实时新闻和LLM决策仪表盘，支持多渠道推送和零成本定时运行。技术亮点包括使用Gemini等LLM模型进行市场分析、RAG技术增强决策、以及Agent架构实现自动化交易信号生成。系统完全开源，适合量化交易和AI投资领域的研究者。",
-  "key_insight": "LLM驱动多市场智能分析，通过Agent和RAG技术实现零成本自动化交易信号生成，但需注意实际投资风险。",
+  "published_at": "2026-05-09T16:13:34Z",
+  "collected_at": "2026-05-09T16:13:34Z",
+  "summary": "这是一个基于LLM的股票智能分析系统，支持A股、港股和美股市场。它整合了多数据源行情、实时新闻和LLM决策仪表盘，并通过多渠道推送结果。系统可零成本定时运行，利用Gemini等LLM进行市场分析，结合RAG和Agent架构实现量化交易辅助。项目开源、纯Python实现，适合个人投资者和量化爱好者使用。",
+  "key_insight": "将LLM与RAG和Agent结合，实现多市场股票分析的自动化与智能化，零成本部署降低了使用门槛。",
   "score": 8,
   "tags": [
-    "agent",
     "llm",
+    "agent",
     "rag",
     "quantitative-trading",
     "stock-analysis"
@@ -19,5 +19,5 @@
   "audience": "intermediate",
   "status": "draft",
   "category": "agent",
-  "updated_at": "2026-05-09T13:21:24Z"
+  "updated_at": "2026-05-09T16:13:34Z"
 }

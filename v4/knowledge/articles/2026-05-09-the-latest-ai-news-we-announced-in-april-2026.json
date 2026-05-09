@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260509-108",
+  "title": "The latest AI news we announced in April 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+  "author": "",
+  "published_at": "2026-05-09T16:13:34Z",
+  "collected_at": "2026-05-09T16:13:34Z",
+  "summary": "该仓库（或博客文章）汇总了Google在2026年4月发布的最新AI更新，涵盖模型、工具和应用进展。技术亮点包括可能的新一代基础模型、AI在搜索与云服务中的集成，以及多模态能力的提升。由于缺乏具体代码和详细技术说明，其核心价值在于展示了Google在AI领域的持续创新和产品化方向。",
+  "key_insight": "Google在2026年4月的AI更新体现了其从研究到产品化的快速转化，重点在于提升多模态能力和云服务集成。",
+  "score": 6,
+  "tags": [
+    "Google",
+    "AI",
+    "Foundation-Models",
+    "Multimodal",
+    "Cloud-AI"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-09T16:13:34Z"
+}

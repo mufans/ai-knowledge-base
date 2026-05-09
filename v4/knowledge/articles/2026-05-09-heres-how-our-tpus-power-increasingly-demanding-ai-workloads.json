@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260509-111",
+  "title": "Here’s how our TPUs power increasingly demanding AI workloads.",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/what-is-a-tpu/",
+  "author": "",
+  "published_at": "2026-05-09T16:13:34Z",
+  "collected_at": "2026-05-09T16:13:34Z",
+  "summary": "该博客文章介绍了谷歌TPU（张量处理单元）如何支持日益增长的AI工作负载。TPU是专为加速机器学习训练和推理而设计的定制芯片，具有高吞吐量和能效优势。文章通过视频形式展示了TPU在大型语言模型、推荐系统等复杂AI任务中的关键作用，强调了其在谷歌云基础设施中的核心地位。技术亮点包括矩阵运算优化、分布式训练支持和与TensorFlow等框架的深度集成。",
+  "key_insight": "谷歌TPU通过专用硬件优化，显著提升了大规模AI工作负载的训练和推理效率。",
+  "score": 8,
+  "tags": [
+    "TPU",
+    "Google Cloud",
+    "AI Accelerator",
+    "Hardware"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "infrastructure",
+  "updated_at": "2026-05-09T16:13:34Z"
+}

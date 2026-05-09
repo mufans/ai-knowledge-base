@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260509-109",
+  "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+  "author": "",
+  "published_at": "2026-05-09T16:13:34Z",
+  "collected_at": "2026-05-09T16:13:34Z",
+  "summary": "这是一个博客文章而非GitHub仓库，介绍了Gemini API中用于长时间运行任务的事件驱动Webhooks功能。该功能通过推送通知替代低效的轮询机制，显著降低延迟和资源消耗。技术亮点在于其异步事件驱动架构，支持实时状态更新，适用于批处理、数据分析和AI推理等长时间任务场景。",
+  "key_insight": "事件驱动Webhooks通过推送机制替代轮询，是优化长时间运行AI任务效率和响应性的关键模式。",
+  "score": 8,
+  "tags": [
+    "webhooks",
+    "event-driven",
+    "gemini-api",
+    "async"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-09T16:13:34Z"
+}

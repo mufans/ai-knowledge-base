@@ -1,23 +1,23 @@
 {
-  "id": "github-20260509-064",
+  "id": "github-20260509-084",
   "title": "Shubhamsaboo/awesome-llm-apps",
   "source": "github",
   "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
   "author": "Shubhamsaboo",
-  "published_at": "2026-05-09T13:21:24Z",
-  "collected_at": "2026-05-09T13:21:24Z",
-  "summary": "该项目汇集了超过100个可直接运行的AI Agent和RAG应用示例，涵盖从简单聊天机器人到复杂多代理系统。所有应用均基于Python实现，强调实用性和可定制性，用户可快速克隆、修改并部署。技术亮点包括模块化设计、主流LLM集成（如OpenAI、Llama）、以及多种检索增强生成策略。",
-  "key_insight": "一个大规模、可执行的AI应用集合，聚焦Agent与RAG的实用落地。",
+  "published_at": "2026-05-09T16:13:34Z",
+  "collected_at": "2026-05-09T16:13:34Z",
+  "summary": "该项目集合了100多个可运行的人工智能代理和检索增强生成应用，涵盖LLM集成、RAG系统、自动化代理等。所有应用基于Python开发，提供克隆、定制和部署的完整流程，强调实用性和可操作性。技术亮点包括模块化设计、多种LLM后端支持（如OpenAI、Anthropic）、丰富的应用场景（如客服、文档分析、代码生成），以及清晰的文档和示例。",
+  "key_insight": "提供了一个可直接运行的LLM应用生态，降低了AI代理和RAG系统的开发门槛，适合快速原型设计和生产部署。",
   "score": 9,
   "tags": [
     "agents",
     "llms",
     "rag",
     "python",
-    "multi-agent"
+    "applications"
   ],
   "audience": "intermediate",
   "status": "draft",
   "category": "multi-agent",
-  "updated_at": "2026-05-09T13:21:24Z"
+  "updated_at": "2026-05-09T16:13:34Z"
 }
