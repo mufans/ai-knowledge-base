@@ -16,7 +16,15 @@
       "Bash(git push)",
       "Bash(git fetch:*)",
       "Bash(git merge:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(/Users/liujun/agentProj/practices/ai-knowledge-base/v4/.venv/bin/pip:*)",
+      "Bash(.venv/bin/python3:*)",
+      "Bash(.venv/bin/pip:*)",
+      "Bash(/Users/liujun/agentProj/practices/ai-knowledge-base/v4/.venv/bin/python3:*)",
+      "Bash(env:*)",
+      "Bash(source:*)",
+      "Bash(export:*)",
+      "Bash(~/.zshrc)"
     ]
   }
 }
