@@ -5,6 +5,7 @@
 """
 
 import json
+import logging
 import os
 import re
 import urllib.parse
@@ -13,12 +14,16 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+import httpx
+
 from workflows.model_client import (
     Usage,
     chat_with_retry,
     create_provider,
 )
 from workflows.state import KBState
+
+logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
 # 目录常量
@@ -27,6 +32,18 @@ from workflows.state import KBState
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent
 _ARTICLES_DIR = _PROJECT_ROOT / "knowledge" / "articles"
 _INDEX_FILE = _ARTICLES_DIR / "index.json"
+_RSS_CONFIG_PATH = _PROJECT_ROOT / "pipeline" / "rss_sources.yaml"
+
+AI_KEYWORDS = [
+    "ai", "llm", "agent", "gpt", "claude", "transformer",
+    "machine learning", "deep learning", "nlp", "rag", "mcp",
+    "openai", "anthropic", "copilot", "codex",
+]
+
+_DEFAULT_RSS_FEEDS = [
+    "https://hnrss.org/best?q=AI+LLM+agent&count=30",
+    "https://lobste.rs/t/ai,ml.rss",
+]
 
 # ---------------------------------------------------------------------------
 # LLM 调用辅助函数
@@ -72,17 +89,128 @@ def accumulate_usage(tracker: dict, usage: Usage, node: str = "") -> None:
 
 
 # ---------------------------------------------------------------------------
+# RSS 采集辅助函数（复用 pipeline 逻辑）
+# ---------------------------------------------------------------------------
+
+
+def _parse_rss_items(text: str) -> list[dict]:
+    """正则解析 RSS XML，提取 title/link/description。"""
+    items: list[dict] = []
+
+    item_pattern = re.compile(r"<item>(.*?)</item>", re.DOTALL)
+    title_pattern = re.compile(
+        r"<title><!\[CDATA\[(.*?)\]\]></title>"
+        r"|<title>(.*?)</title>",
+        re.DOTALL,
+    )
+    link_pattern = re.compile(r"<link>(.*?)</link>", re.DOTALL)
+    desc_pattern = re.compile(
+        r"<description><!\[CDATA\[(.*?)\]\]></description>"
+        r"|<description>(.*?)</description>",
+        re.DOTALL,
+    )
+
+    for match in item_pattern.finditer(text):
+        block = match.group(1)
+
+        title_m = title_pattern.search(block)
+        title = ""
+        if title_m:
+            title = (title_m.group(1) or title_m.group(2) or "").strip()
+
+        link_m = link_pattern.search(block)
+        link = link_m.group(1).strip() if link_m else ""
+
+        desc_m = desc_pattern.search(block)
+        desc = ""
+        if desc_m:
+            desc = (desc_m.group(1) or desc_m.group(2) or "").strip()
+
+        if title and link:
+            items.append({"title": title, "link": link, "description": desc})
+
+    return items
+
+
+def _load_rss_sources() -> list[dict]:
+    """读取 pipeline/rss_sources.yaml 中 enabled 的源，fallback 到默认列表。"""
+    try:
+        import yaml
+    except ImportError:
+        logger.warning("PyYAML not installed, using default RSS feeds")
+        return [{"url": u} for u in _DEFAULT_RSS_FEEDS]
+
+    if not _RSS_CONFIG_PATH.exists():
+        logger.warning("RSS config not found: %s", _RSS_CONFIG_PATH)
+        return [{"url": u} for u in _DEFAULT_RSS_FEEDS]
+
+    with open(_RSS_CONFIG_PATH, encoding="utf-8") as f:
+        config = yaml.safe_load(f)
+
+    sources = [e for e in config.get("sources", []) if e.get("enabled", False)]
+    if not sources:
+        logger.warning("No enabled RSS sources in config, using defaults")
+        return [{"url": u} for u in _DEFAULT_RSS_FEEDS]
+
+    return sources
+
+
+def _collect_rss(limit: int = 20) -> list[dict]:
+    """采集 RSS feed，按 AI_KEYWORDS 过滤，返回 sources 格式列表。"""
+    items: list[dict] = []
+
+    for source in _load_rss_sources():
+        feed_url = source["url"]
+        source_name = source.get("name", feed_url)
+        logger.info("Fetching RSS feed: %s", source_name)
+
+        try:
+            with httpx.Client(timeout=30.0, follow_redirects=True) as client:
+                resp = client.get(feed_url)
+                resp.raise_for_status()
+            text = resp.text
+        except Exception as exc:
+            logger.error("RSS fetch failed (%s): %s", source_name, exc)
+            continue
+
+        for entry in _parse_rss_items(text):
+            combined = f"{entry['title']} {entry['description']}".lower()
+            if not any(kw.lower() in combined for kw in AI_KEYWORDS):
+                continue
+
+            items.append({
+                "url": entry["link"],
+                "title": entry["title"],
+                "content": entry["description"],
+                "source_type": "rss",
+                "stars": 0,
+                "language": "",
+                "topics": [],
+            })
+
+            if len(items) >= limit:
+                break
+
+        if len(items) >= limit:
+            break
+
+    logger.info("Collected %d items from RSS feeds", len(items))
+    return items[:limit]
+
+
+# ---------------------------------------------------------------------------
 # 节点 1: collect_node
 # ---------------------------------------------------------------------------
 
 
 def collect_node(state: KBState) -> dict:
-    """采集节点：调用 GitHub Search API 采集 AI 相关仓库。"""
-    print("[CollectNode] 开始采集 GitHub AI 相关仓库...")
+    """采集节点：调用 GitHub Search API 和 RSS feeds 采集 AI 相关内容。"""
+    print("[CollectNode] 开始采集 AI 相关内容（GitHub + RSS）...")
 
     plan = state.get("plan", {})
     per_page = plan.get("per_source_limit", 30)
 
+    # --- GitHub API 采集 ---
     token = os.environ.get("GITHUB_TOKEN", "")
     query = "AI agent LLM"
     url = (
@@ -97,23 +225,32 @@ def collect_node(state: KBState) -> dict:
     if token:
         headers["Authorization"] = f"token {token}"
 
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
+    github_sources = []
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        items = data.get("items", [])
+        for item in items:
+            github_sources.append({
+                "url": item["html_url"],
+                "title": item["full_name"],
+                "content": item.get("description") or "",
+                "source_type": "github",
+                "stars": item.get("stargazers_count", 0),
+                "language": item.get("language", ""),
+                "topics": item.get("topics", []),
+            })
+        print(f"[CollectNode] GitHub 采集: {len(github_sources)} 条")
+    except Exception as exc:
+        logger.error("GitHub API request failed: %s", exc)
 
-    items = data.get("items", [])
-    sources = []
-    for item in items:
-        sources.append({
-            "url": item["html_url"],
-            "title": item["full_name"],
-            "content": item.get("description") or "",
-            "source_type": "api",
-            "stars": item.get("stargazers_count", 0),
-            "language": item.get("language", ""),
-            "topics": item.get("topics", []),
-        })
+    # --- RSS 采集 ---
+    rss_sources = _collect_rss(limit=per_page)
+    print(f"[CollectNode] RSS 采集: {len(rss_sources)} 条")
 
+    # --- 合并 ---
+    sources = github_sources + rss_sources
     print(f"[CollectNode] 采集完成，共 {len(sources)} 条来源")
     return {"sources": sources}
 
@@ -167,6 +304,7 @@ def analyze_node(state: KBState) -> dict:
             "category": result.get("category", ""),
             "stars": source.get("stars", 0),
             "language": source.get("language", ""),
+            "source_type": source.get("source_type", "github"),
         })
 
         if (i + 1) % 5 == 0:
@@ -216,6 +354,7 @@ def organize_node(state: KBState) -> dict:
             "score": a.get("score", 0),
             "language": a.get("language", ""),
             "stars": a.get("stars", 0),
+            "source_type": a.get("source_type", "github"),
         }
         for a in deduped
     ]
@@ -312,6 +451,7 @@ def save_node(state: KBState) -> dict:
 
     now = datetime.now(timezone.utc)
     date_str = now.strftime("%Y-%m-%d")
+    date_compact = now.strftime("%Y%m%d")
     timestamp = now.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     # 加载现有索引
@@ -326,13 +466,8 @@ def save_node(state: KBState) -> dict:
     saved_count = 0
     seq = 1
     for article in articles:
-        # 跳过已存在的条目（按 source_url 去重）
         source_url = article.get("source_url", "")
-        already_indexed = any(
-            entry.get("id", "").startswith(f"github-{now.strftime('%Y%m%d')}")
-            and entry.get("file", "").startswith(date_str)
-            for entry in index.get("articles", [])
-        )
+        source_type = article.get("source_type", "github")
 
         # 生成文件名：日期 + 标题 slug
         title_slug = re.sub(r"[^\w\s-]", "", article.get("title", "untitled"))
@@ -343,11 +478,11 @@ def save_node(state: KBState) -> dict:
         if filename in existing_files:
             filename = f"{date_str}-{title_slug}-{saved_count}.json"
 
-        # 生成唯一 ID
-        article_id = f"github-{now.strftime('%Y%m%d')}-{seq:03d}"
+        # 生成唯一 ID（根据来源使用不同前缀）
+        article_id = f"{source_type}-{date_compact}-{seq:03d}"
         while article_id in existing_ids:
             seq += 1
-            article_id = f"github-{now.strftime('%Y%m%d')}-{seq:03d}"
+            article_id = f"{source_type}-{date_compact}-{seq:03d}"
         seq += 1
 
         # 0-1 评分 → 1-10 整数
@@ -357,7 +492,7 @@ def save_node(state: KBState) -> dict:
         article_data = {
             "id": article_id,
             "title": article.get("title", ""),
-            "source": "github",
+            "source": source_type,
             "source_url": source_url,
             "author": article.get("title", "").split("/")[0] if "/" in article.get("title", "") else "",
             "published_at": timestamp,
@@ -380,7 +515,7 @@ def save_node(state: KBState) -> dict:
         index["articles"].append({
             "id": article_id,
             "title": article.get("title", ""),
-            "source": "github",
+            "source": source_type,
             "score": display_score,
             "tags": article.get("tags", []),
             "category": article.get("category", ""),
@@ -399,4 +534,54 @@ def save_node(state: KBState) -> dict:
         json.dump(index, f, ensure_ascii=False, indent=2)
 
     print(f"[SaveNode] 保存完成，新增 {saved_count} 条，索引共 {index['total']} 条")
+    return {}
+
+
+# ---------------------------------------------------------------------------
+# 节点 6: publish_node
+# ---------------------------------------------------------------------------
+
+
+def publish_node(state: KBState) -> dict:
+    """推送节点：生成每日摘要并推送到飞书等渠道，导出 markdown 文件。"""
+    print("[PublishNode] 开始生成摘要并推送...")
+
+    import asyncio
+
+    from distribution.formatter import generate_daily_digest
+    from distribution.publisher import publish_daily_digest, publish_file
+
+    knowledge_dir = str(_PROJECT_ROOT / "knowledge" / "articles")
+
+    # 1. 生成三种格式的每日摘要
+    try:
+        digest = generate_daily_digest(knowledge_dir=knowledge_dir)
+    except Exception as exc:
+        logger.error("生成摘要失败: %s", exc)
+        return {}
+
+    # 2. 导出 markdown 到 output/
+    md_path = ""
+    try:
+        md_path = publish_file(
+            digest["markdown"],
+            output_dir=str(_PROJECT_ROOT / "output"),
+        )
+        print(f"[PublishNode] Markdown 已导出: {md_path}")
+    except Exception as exc:
+        logger.error("导出 markdown 失败: %s", exc)
+
+    # 3. 推送到飞书等渠道
+    results = []
+    try:
+        results = asyncio.run(
+            publish_daily_digest(knowledge_dir=knowledge_dir)
+        )
+        for r in results:
+            status = "成功" if r.success else f"失败({r.error})"
+            print(f"[PublishNode] {r.channel}: {status}")
+    except Exception as exc:
+        logger.error("推送失败: %s", exc)
+
+    print(f"[PublishNode] 推送完成（{len(results)} 个渠道）")
     return {}

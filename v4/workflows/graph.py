@@ -2,7 +2,7 @@
 
 图结构::
 
-    plan → collect → analyze → review ──┬── (通过) ─────→ organize → save → END
+    plan → collect → analyze → review ──┬── (通过) ─────→ organize → save → publish → END
                               ↑        │
                               │   (未通过, < max_iter)
                               │        ↓
@@ -28,6 +28,7 @@ from workflows.nodes import (
     analyze_node,
     collect_node,
     organize_node,
+    publish_node,
     save_node,
 )
 from workflows.planner import planner_node
@@ -73,6 +74,7 @@ def build_graph() -> StateGraph:
     graph.add_node("human_flag", human_flag_node)
     graph.add_node("organize", organize_node)
     graph.add_node("save", save_node)
+    graph.add_node("publish", publish_node)
 
     # 入口点
     graph.set_entry_point("plan")
@@ -97,7 +99,8 @@ def build_graph() -> StateGraph:
 
     # 审核通过后整理并保存
     graph.add_edge("organize", "save")
-    graph.add_edge("save", END)
+    graph.add_edge("save", "publish")
+    graph.add_edge("publish", END)
 
     return graph.compile()
 

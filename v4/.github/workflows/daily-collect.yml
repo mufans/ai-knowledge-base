@@ -31,7 +31,10 @@ jobs:
           QWEN_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python pipeline/pipeline.py --sources github,rss --limit 20 --verbose
+          FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+          FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+          FEISHU_CHAT_ID: ${{ secrets.FEISHU_CHAT_ID }}
+        run: python workflows/graph.py
 
       - name: Validate JSON
         run: python hooks/validate_json.py knowledge/articles/*.json
@@ -52,6 +55,6 @@ jobs:
           DATE=$(date -u +%Y-%m-%d)
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add knowledge/
+          git add knowledge/ output/
           git commit -m "docs: add ${DATE} collection — ${{ steps.count.outputs.count }} articles"
           git push

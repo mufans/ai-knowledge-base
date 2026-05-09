@@ -10,5 +10,8 @@ python-dotenv>=1.0.0
 # YAML 配置解析（RSS 源配置）
 pyyaml>=6.0
 
+# 异步 HTTP 客户端（publisher 推送用）
+aiohttp>=3.9.0
+
 # OpenAI SDK（可选，作为 httpx 的替代）
 # openai>=1.30.0
