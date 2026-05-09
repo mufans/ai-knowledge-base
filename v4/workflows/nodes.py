@@ -462,12 +462,19 @@ def save_node(state: KBState) -> dict:
 
     existing_ids = {entry["id"] for entry in index.get("articles", [])}
     existing_files = {entry["file"] for entry in index.get("articles", [])}
+    existing_urls = {entry.get("source_url", "") for entry in index.get("articles", [])}
 
+    skipped_count = 0
     saved_count = 0
     seq = 1
     for article in articles:
         source_url = article.get("source_url", "")
         source_type = article.get("source_type", "github")
+
+        # 按 source_url 去重：已存在则跳过
+        if source_url and source_url in existing_urls:
+            skipped_count += 1
+            continue
 
         # 生成文件名：日期 + 标题 slug
         title_slug = re.sub(r"[^\w\s-]", "", article.get("title", "untitled"))
@@ -524,6 +531,7 @@ def save_node(state: KBState) -> dict:
 
         existing_ids.add(article_id)
         existing_files.add(filename)
+        existing_urls.add(source_url)
         saved_count += 1
 
     # 更新索引元数据并写回
@@ -533,7 +541,7 @@ def save_node(state: KBState) -> dict:
     with open(_INDEX_FILE, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=2)
 
-    print(f"[SaveNode] 保存完成，新增 {saved_count} 条，索引共 {index['total']} 条")
+    print(f"[SaveNode] 保存完成，新增 {saved_count} 条，跳过重复 {skipped_count} 条，索引共 {index['total']} 条")
     return {}
 
 

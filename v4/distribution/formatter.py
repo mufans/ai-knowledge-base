@@ -324,9 +324,16 @@ def generate_daily_digest(
         return {"markdown": empty_msg, "telegram": empty_msg, "feishu": empty_msg}
 
     all_articles: list[dict[str, Any]] = []
+    seen_urls: set[str] = set()
     for fp in files:
         with open(fp, encoding="utf-8") as f:
-            all_articles.append(json.load(f))
+            article = json.load(f)
+        url = article.get("source_url", "")
+        if url and url in seen_urls:
+            continue
+        if url:
+            seen_urls.add(url)
+        all_articles.append(article)
 
     # 按 category 分组，无 category 归入 uncategorized
     from collections import OrderedDict
