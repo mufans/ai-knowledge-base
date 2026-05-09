@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-08T04:16:12Z",
-  "total": 64,
+  "updated_at": "2026-05-09T04:22:40Z",
+  "total": 65,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -741,6 +741,18 @@
         "open-source"
       ],
       "file": "2026-05-08-jlearn-machine-learning-library-in-j.json"
+    },
+    {
+      "id": "rss-20260509-011",
+      "title": "See what happens when creative legends use AI to make ads for small businesses.",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "ai",
+        "creative-ai",
+        "small-business"
+      ],
+      "file": "2026-05-09-see-what-happens-when-creative-legends-use-ai-to-make-ads-fo.json"
     }
   ]
 }
