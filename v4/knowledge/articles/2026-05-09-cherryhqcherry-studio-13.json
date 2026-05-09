@@ -1,0 +1,23 @@
+{
+  "id": "github-20260509-074",
+  "title": "CherryHQ/cherry-studio",
+  "source": "github",
+  "source_url": "https://github.com/CherryHQ/cherry-studio",
+  "author": "CherryHQ",
+  "published_at": "2026-05-09T13:21:24Z",
+  "collected_at": "2026-05-09T13:21:24Z",
+  "summary": "Cherry Studio 是一个面向 AI 生产力的桌面应用，集成了智能聊天、自主代理和 300+ 预设助手。它统一访问前沿大语言模型，支持多模型切换、代码执行、文件处理、知识库检索等高级功能，并提供可扩展的技能系统。技术亮点包括基于 Electron 的跨平台架构、TypeScript 全栈开发、模块化技能框架和本地优先的数据安全策略。",
+  "key_insight": "通过统一接口集成 300+ 预设代理和自主技能系统，降低了多模型协作的门槛，是面向个人生产力的‘AI 工作站’典范。",
+  "score": 9,
+  "tags": [
+    "AI-assistant",
+    "multi-agent",
+    "LLM-hub",
+    "productivity-tool",
+    "TypeScript"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "multi-agent",
+  "updated_at": "2026-05-09T13:21:24Z"
+}

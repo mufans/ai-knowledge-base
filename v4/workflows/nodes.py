@@ -124,12 +124,13 @@ def collect_node(state: KBState) -> dict:
 
 _ANALYZE_SYSTEM = (
     "你是一个 AI 技术分析专家。请对以下 GitHub 仓库信息进行分析，"
-    "输出 JSON 格式：\n"
+    "输出 JSON 格式：\n" 
     "{\n"
     '  "summary": "中文摘要（100-200字，概括仓库核心功能和技术亮点）",\n'
     '  "tags": ["标签1", "标签2"],  // 3-5个英文技术标签\n'
     '  "score": 0.85,  // 0-1浮点数，表示AI领域技术价值\n'
     '  "category": "分类名"  // 如 agent/rag/llm/code-generation/multi-agent 等\n'
+    '  "key_insight": "一句话关键洞察" '
     "}\n"
     "只输出 JSON，不要其他文字。"
 )
@@ -160,6 +161,7 @@ def analyze_node(state: KBState) -> dict:
             "source_url": source["url"],
             "title": source.get("title", ""),
             "summary": result.get("summary", ""),
+            "key_insight": result.get("key_insight", ""),
             "tags": result.get("tags", []),
             "score": float(result.get("score", 0.0)),
             "category": result.get("category", ""),
@@ -207,6 +209,7 @@ def organize_node(state: KBState) -> dict:
         {
             "title": a.get("title", ""),
             "content": a.get("summary", ""),
+            "key_insight": a.get("key_insight", ""),
             "category": a.get("category", ""),
             "tags": a.get("tags", []),
             "source_url": a.get("source_url", ""),
@@ -360,10 +363,12 @@ def save_node(state: KBState) -> dict:
             "published_at": timestamp,
             "collected_at": timestamp,
             "summary": article.get("content", ""),
+            "key_insight": article.get("key_insight", ""),
             "score": display_score,
             "tags": article.get("tags", []),
             "audience": "intermediate",
             "status": "draft",
+            "category": article.get("category", ""),
             "updated_at": timestamp,
         }
 
@@ -378,6 +383,7 @@ def save_node(state: KBState) -> dict:
             "source": "github",
             "score": display_score,
             "tags": article.get("tags", []),
+            "category": article.get("category", ""),
             "file": filename,
         })
 

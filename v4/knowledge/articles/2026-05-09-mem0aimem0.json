@@ -1,0 +1,22 @@
+{
+  "id": "github-20260509-011",
+  "title": "mem0ai/mem0",
+  "source": "github",
+  "source_url": "https://github.com/mem0ai/mem0",
+  "author": "mem0ai",
+  "published_at": "2026-05-09T10:47:40Z",
+  "collected_at": "2026-05-09T10:47:40Z",
+  "summary": "Mem0 是一个为 AI 代理设计的通用内存层，提供长期记忆管理功能。它支持多种大型语言模型（LLM）和检索增强生成（RAG）技术，能够高效存储、检索和更新代理的记忆状态。该库采用 Python 实现，适用于聊天机器人、智能助手等应用场景，通过记忆管理提升 AI 代理的上下文理解和个性化交互能力。",
+  "score": 9,
+  "tags": [
+    "memory",
+    "rag",
+    "llm",
+    "ai-agents",
+    "python"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-05-09T10:47:40Z"
+}

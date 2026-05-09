@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-30T07:36:10Z",
-  "total": 199,
+  "updated_at": "2026-05-09T13:21:24Z",
+  "total": 279,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -2750,6 +2750,1185 @@
         "stock-analysis"
       ],
       "file": "2026-04-30-zhulinsendaily-stock-analysis-19.json"
+    },
+    {
+      "id": "github-20260509-001",
+      "title": "langgenius/dify",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "workflow",
+        "llm",
+        "low-code",
+        "rag"
+      ],
+      "file": "2026-05-09-langgeniusdify.json"
+    },
+    {
+      "id": "github-20260509-002",
+      "title": "NousResearch/hermes-agent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "python",
+        "code-generation",
+        "multi-agent"
+      ],
+      "file": "2026-05-09-nousresearchhermes-agent.json"
+    },
+    {
+      "id": "github-20260509-003",
+      "title": "langchain-ai/langchain",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "langchain",
+        "agents",
+        "llm",
+        "rag",
+        "multi-agent"
+      ],
+      "file": "2026-05-09-langchain-ailangchain.json"
+    },
+    {
+      "id": "github-20260509-004",
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agents",
+        "llms",
+        "rag",
+        "python",
+        "applications"
+      ],
+      "file": "2026-05-09-shubhamsabooawesome-llm-apps.json"
+    },
+    {
+      "id": "github-20260509-005",
+      "title": "browser-use/browser-use",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agents",
+        "browser-automation",
+        "llm",
+        "playwright",
+        "python"
+      ],
+      "file": "2026-05-09-browser-usebrowser-use.json"
+    },
+    {
+      "id": "github-20260509-006",
+      "title": "infiniflow/ragflow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "RAG",
+        "Agent",
+        "LLM",
+        "Retrieval-Augmented-Generation",
+        "Context-Engine"
+      ],
+      "file": "2026-05-09-infiniflowragflow.json"
+    },
+    {
+      "id": "github-20260509-007",
+      "title": "OpenHands/OpenHands",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "llm",
+        "developer-tools",
+        "code-generation",
+        "cli"
+      ],
+      "file": "2026-05-09-openhandsopenhands.json"
+    },
+    {
+      "id": "github-20260509-008",
+      "title": "hiyouga/LlamaFactory",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "fine-tuning",
+        "llm",
+        "peft",
+        "transformers",
+        "deepseek"
+      ],
+      "file": "2026-05-09-hiyougallamafactory.json"
+    },
+    {
+      "id": "github-20260509-009",
+      "title": "FoundationAgents/MetaGPT",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "multi-agent",
+        "llm",
+        "agent",
+        "code-generation",
+        "gpt"
+      ],
+      "file": "2026-05-09-foundationagentsmetagpt.json"
+    },
+    {
+      "id": "github-20260509-010",
+      "title": "bytedance/deer-flow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agentic-framework",
+        "multi-agent",
+        "llm",
+        "langgraph",
+        "python"
+      ],
+      "file": "2026-05-09-bytedancedeer-flow.json"
+    },
+    {
+      "id": "github-20260509-011",
+      "title": "mem0ai/mem0",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "memory",
+        "rag",
+        "llm",
+        "ai-agents",
+        "python"
+      ],
+      "file": "2026-05-09-mem0aimem0.json"
+    },
+    {
+      "id": "github-20260509-012",
+      "title": "earendil-works/pi",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "TypeScript",
+        "AI Agent",
+        "LLM",
+        "CLI",
+        "TUI"
+      ],
+      "file": "2026-05-09-earendil-workspi.json"
+    },
+    {
+      "id": "github-20260509-013",
+      "title": "jeecgboot/JeecgBoot",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "low-code",
+        "AI",
+        "code-generation",
+        "spring-boot",
+        "vue3"
+      ],
+      "file": "2026-05-09-jeecgbootjeecgboot.json"
+    },
+    {
+      "id": "github-20260509-014",
+      "title": "CherryHQ/cherry-studio",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "productivity",
+        "typescript",
+        "code-generation"
+      ],
+      "file": "2026-05-09-cherryhqcherry-studio.json"
+    },
+    {
+      "id": "github-20260509-015",
+      "title": "aaif-goose/goose",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "rust",
+        "llm",
+        "code-generation",
+        "automation"
+      ],
+      "file": "2026-05-09-aaif-goosegoose.json"
+    },
+    {
+      "id": "github-20260509-016",
+      "title": "zhayujie/CowAgent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "multi-agent",
+        "skills",
+        "wechat"
+      ],
+      "file": "2026-05-09-zhayujiecowagent.json"
+    },
+    {
+      "id": "github-20260509-017",
+      "title": "HKUDS/nanobot",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "lightweight",
+        "python",
+        "multi-model"
+      ],
+      "file": "2026-05-09-hkudsnanobot.json"
+    },
+    {
+      "id": "github-20260509-018",
+      "title": "reworkd/AgentGPT",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "autonomous-agents",
+        "langchain",
+        "nextjs",
+        "openai"
+      ],
+      "file": "2026-05-09-reworkdagentgpt.json"
+    },
+    {
+      "id": "github-20260509-019",
+      "title": "patchy631/ai-engineering-hub",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "LLM",
+        "RAG",
+        "AI-Agents",
+        "MCP",
+        "Machine-Learning"
+      ],
+      "file": "2026-05-09-patchy631ai-engineering-hub.json"
+    },
+    {
+      "id": "github-20260509-020",
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "llm",
+        "agent",
+        "rag",
+        "quant",
+        "stock-analysis"
+      ],
+      "file": "2026-05-09-zhulinsendaily-stock-analysis.json"
+    },
+    {
+      "id": "github-20260509-021",
+      "title": "langgenius/dify",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "llm",
+        "low-code",
+        "rag",
+        "workflow"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-langgeniusdify-0.json"
+    },
+    {
+      "id": "github-20260509-022",
+      "title": "NousResearch/hermes-agent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "python",
+        "anthropic",
+        "openai"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-nousresearchhermes-agent-1.json"
+    },
+    {
+      "id": "github-20260509-023",
+      "title": "langchain-ai/langchain",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agents",
+        "llm",
+        "rag",
+        "multi-agent",
+        "framework"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-langchain-ailangchain-2.json"
+    },
+    {
+      "id": "github-20260509-024",
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agents",
+        "rag",
+        "llms",
+        "python",
+        "multi-agent"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-09-shubhamsabooawesome-llm-apps-3.json"
+    },
+    {
+      "id": "github-20260509-025",
+      "title": "browser-use/browser-use",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai-agents",
+        "browser-automation",
+        "llm",
+        "playwright",
+        "python"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-browser-usebrowser-use-4.json"
+    },
+    {
+      "id": "github-20260509-026",
+      "title": "infiniflow/ragflow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "RAG",
+        "LLM",
+        "Agent",
+        "Retrieval-Augmented Generation",
+        "AI"
+      ],
+      "category": "rag",
+      "file": "2026-05-09-infiniflowragflow-5.json"
+    },
+    {
+      "id": "github-20260509-027",
+      "title": "OpenHands/OpenHands",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "llm",
+        "developer-tools",
+        "cli",
+        "python"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-openhandsopenhands-6.json"
+    },
+    {
+      "id": "github-20260509-028",
+      "title": "hiyouga/LlamaFactory",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "fine-tuning",
+        "LLM",
+        "LoRA",
+        "transformers",
+        "NLP"
+      ],
+      "category": "llm",
+      "file": "2026-05-09-hiyougallamafactory-7.json"
+    },
+    {
+      "id": "github-20260509-029",
+      "title": "FoundationAgents/MetaGPT",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "multi-agent",
+        "llm",
+        "agent",
+        "code-generation",
+        "nlp"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-09-foundationagentsmetagpt-8.json"
+    },
+    {
+      "id": "github-20260509-030",
+      "title": "bytedance/deer-flow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "multi-agent",
+        "agentic-framework",
+        "LLM",
+        "Python",
+        "deep-research"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-09-bytedancedeer-flow-9.json"
+    },
+    {
+      "id": "github-20260509-031",
+      "title": "mem0ai/mem0",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "memory-management",
+        "rag",
+        "ai-agents",
+        "llm",
+        "state-management"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-mem0aimem0-10.json"
+    },
+    {
+      "id": "github-20260509-032",
+      "title": "earendil-works/pi",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "TypeScript",
+        "LLM",
+        "Agent",
+        "CLI",
+        "API"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-earendil-workspi-11.json"
+    },
+    {
+      "id": "github-20260509-033",
+      "title": "jeecgboot/JeecgBoot",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "low-code",
+        "ai",
+        "code-generation",
+        "spring-boot",
+        "llm"
+      ],
+      "category": "low-code",
+      "file": "2026-05-09-jeecgbootjeecgboot-12.json"
+    },
+    {
+      "id": "github-20260509-034",
+      "title": "CherryHQ/cherry-studio",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "code-generation",
+        "multi-agent",
+        "productivity"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-09-cherryhqcherry-studio-13.json"
+    },
+    {
+      "id": "github-20260509-035",
+      "title": "aaif-goose/goose",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "AI-Agent",
+        "LLM",
+        "MCP",
+        "Rust",
+        "Automation"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-aaif-goosegoose-14.json"
+    },
+    {
+      "id": "github-20260509-036",
+      "title": "zhayujie/CowAgent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "AI-Agent",
+        "Multi-Agent",
+        "LLM",
+        "MCP",
+        "Skills"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-09-zhayujiecowagent-15.json"
+    },
+    {
+      "id": "github-20260509-037",
+      "title": "HKUDS/nanobot",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "python",
+        "lightweight",
+        "personal-assistant"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-hkudsnanobot-16.json"
+    },
+    {
+      "id": "github-20260509-038",
+      "title": "reworkd/AgentGPT",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "autonomous-agents",
+        "langchain",
+        "nextjs",
+        "openai"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-reworkdagentgpt-17.json"
+    },
+    {
+      "id": "github-20260509-039",
+      "title": "patchy631/ai-engineering-hub",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "LLM",
+        "RAG",
+        "AI-Agents",
+        "MCP",
+        "Machine-Learning"
+      ],
+      "category": "llm",
+      "file": "2026-05-09-patchy631ai-engineering-hub-18.json"
+    },
+    {
+      "id": "github-20260509-040",
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "llm",
+        "agent",
+        "rag",
+        "quantitative-trading",
+        "stock"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-zhulinsendaily-stock-analysis-19.json"
+    },
+    {
+      "id": "github-20260509-041",
+      "title": "langgenius/dify",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "low-code",
+        "RAG",
+        "workflow",
+        "LLM"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-langgeniusdify-0.json"
+    },
+    {
+      "id": "github-20260509-042",
+      "title": "NousResearch/hermes-agent",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "python",
+        "llm",
+        "ai-agent",
+        "multi-model",
+        "adaptive"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-nousresearchhermes-agent-1.json"
+    },
+    {
+      "id": "github-20260509-043",
+      "title": "langchain-ai/langchain",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agents",
+        "llm",
+        "rag",
+        "framework",
+        "multi-agent"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-langchain-ailangchain-2.json"
+    },
+    {
+      "id": "github-20260509-044",
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agents",
+        "llms",
+        "rag",
+        "python"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-09-shubhamsabooawesome-llm-apps-3.json"
+    },
+    {
+      "id": "github-20260509-045",
+      "title": "browser-use/browser-use",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "ai-agents",
+        "browser-automation",
+        "llm",
+        "playwright",
+        "python"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-browser-usebrowser-use-4.json"
+    },
+    {
+      "id": "github-20260509-046",
+      "title": "infiniflow/ragflow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "rag",
+        "agentic-ai",
+        "retrieval-augmented-generation",
+        "llm-apps",
+        "context-management"
+      ],
+      "category": "rag",
+      "file": "2026-05-09-infiniflowragflow-5.json"
+    },
+    {
+      "id": "github-20260509-047",
+      "title": "OpenHands/OpenHands",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "llm",
+        "code-generation",
+        "developer-tools",
+        "cli"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-openhandsopenhands-6.json"
+    },
+    {
+      "id": "github-20260509-048",
+      "title": "hiyouga/LlamaFactory",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "fine-tuning",
+        "LLM",
+        "LoRA",
+        "RLHF",
+        "transformers"
+      ],
+      "category": "fine-tuning",
+      "file": "2026-05-09-hiyougallamafactory-7.json"
+    },
+    {
+      "id": "github-20260509-049",
+      "title": "FoundationAgents/MetaGPT",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "multi-agent",
+        "llm",
+        "code-generation",
+        "agent",
+        "metagpt"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-09-foundationagentsmetagpt-8.json"
+    },
+    {
+      "id": "github-20260509-050",
+      "title": "bytedance/deer-flow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agentic-framework",
+        "multi-agent",
+        "langgraph",
+        "superagent",
+        "long-horizon"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-09-bytedancedeer-flow-9.json"
+    },
+    {
+      "id": "github-20260509-051",
+      "title": "mem0ai/mem0",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "memory-management",
+        "rag",
+        "ai-agents",
+        "llm",
+        "state-management"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-mem0aimem0-10.json"
+    },
+    {
+      "id": "github-20260509-052",
+      "title": "earendil-works/pi",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "LLM",
+        "CLI",
+        "TypeScript",
+        "toolkit"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-earendil-workspi-11.json"
+    },
+    {
+      "id": "github-20260509-053",
+      "title": "jeecgboot/JeecgBoot",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "low-code",
+        "AI",
+        "agent",
+        "code-generation",
+        "spring-boot"
+      ],
+      "category": "low-code",
+      "file": "2026-05-09-jeecgbootjeecgboot-12.json"
+    },
+    {
+      "id": "github-20260509-054",
+      "title": "CherryHQ/cherry-studio",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "multi-agent",
+        "llm",
+        "code-generation",
+        "cli",
+        "productivity"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-09-cherryhqcherry-studio-13.json"
+    },
+    {
+      "id": "github-20260509-055",
+      "title": "aaif-goose/goose",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "AI-Agent",
+        "LLM",
+        "Code-Generation",
+        "Rust",
+        "MCP"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-aaif-goosegoose-14.json"
+    },
+    {
+      "id": "github-20260509-056",
+      "title": "zhayujie/CowAgent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "multi-platform",
+        "skills",
+        "knowledge-base"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-zhayujiecowagent-15.json"
+    },
+    {
+      "id": "github-20260509-057",
+      "title": "HKUDS/nanobot",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "AI-Agent",
+        "LLM",
+        "Python",
+        "Lightweight",
+        "Tool-Use"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-hkudsnanobot-16.json"
+    },
+    {
+      "id": "github-20260509-058",
+      "title": "reworkd/AgentGPT",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "autonomous-agents",
+        "langchain",
+        "nextjs",
+        "openai"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-reworkdagentgpt-17.json"
+    },
+    {
+      "id": "github-20260509-059",
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "Agent",
+        "RAG",
+        "Quant",
+        "Stock"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-zhulinsendaily-stock-analysis-18.json"
+    },
+    {
+      "id": "github-20260509-060",
+      "title": "patchy631/ai-engineering-hub",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "LLM",
+        "RAG",
+        "AI-Agents",
+        "Jupyter-Notebook",
+        "MCP"
+      ],
+      "category": "tutorial",
+      "file": "2026-05-09-patchy631ai-engineering-hub-19.json"
+    },
+    {
+      "id": "github-20260509-061",
+      "title": "langgenius/dify",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "rag",
+        "low-code",
+        "workflow",
+        "llm"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-langgeniusdify-0.json"
+    },
+    {
+      "id": "github-20260509-062",
+      "title": "NousResearch/hermes-agent",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "multi-agent",
+        "code-generation",
+        "python"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-nousresearchhermes-agent-1.json"
+    },
+    {
+      "id": "github-20260509-063",
+      "title": "langchain-ai/langchain",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agents",
+        "llm",
+        "rag",
+        "multi-agent",
+        "framework"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-langchain-ailangchain-2.json"
+    },
+    {
+      "id": "github-20260509-064",
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agents",
+        "llms",
+        "rag",
+        "python",
+        "multi-agent"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-09-shubhamsabooawesome-llm-apps-3.json"
+    },
+    {
+      "id": "github-20260509-065",
+      "title": "browser-use/browser-use",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "browser-automation",
+        "ai-agents",
+        "llm",
+        "playwright",
+        "python"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-browser-usebrowser-use-4.json"
+    },
+    {
+      "id": "github-20260509-066",
+      "title": "infiniflow/ragflow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "RAG",
+        "Agent",
+        "LLM",
+        "Retrieval-Augmented Generation",
+        "Context Engine"
+      ],
+      "category": "rag",
+      "file": "2026-05-09-infiniflowragflow-5.json"
+    },
+    {
+      "id": "github-20260509-067",
+      "title": "OpenHands/OpenHands",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "llm",
+        "developer-tools",
+        "code-generation",
+        "cli"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-openhandsopenhands-6.json"
+    },
+    {
+      "id": "github-20260509-068",
+      "title": "hiyouga/LlamaFactory",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "fine-tuning",
+        "peft",
+        "llm",
+        "vlm",
+        "transformers"
+      ],
+      "category": "fine-tuning",
+      "file": "2026-05-09-hiyougallamafactory-7.json"
+    },
+    {
+      "id": "github-20260509-069",
+      "title": "FoundationAgents/MetaGPT",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "multi-agent",
+        "llm",
+        "gpt",
+        "code-generation",
+        "metagpt"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-09-foundationagentsmetagpt-8.json"
+    },
+    {
+      "id": "github-20260509-070",
+      "title": "bytedance/deer-flow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agentic-framework",
+        "multi-agent",
+        "deep-research",
+        "llm",
+        "workflow-automation"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-09-bytedancedeer-flow-9.json"
+    },
+    {
+      "id": "github-20260509-071",
+      "title": "mem0ai/mem0",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "memory-management",
+        "rag",
+        "ai-agents",
+        "llm",
+        "state-management"
+      ],
+      "category": "rag",
+      "file": "2026-05-09-mem0aimem0-10.json"
+    },
+    {
+      "id": "github-20260509-072",
+      "title": "earendil-works/pi",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "AI Agent",
+        "LLM API",
+        "TypeScript",
+        "Toolkit",
+        "vLLM"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-earendil-workspi-11.json"
+    },
+    {
+      "id": "github-20260509-073",
+      "title": "jeecgboot/JeecgBoot",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "low-code",
+        "AI",
+        "Java",
+        "SpringBoot",
+        "code-generation"
+      ],
+      "category": "low-code",
+      "file": "2026-05-09-jeecgbootjeecgboot-12.json"
+    },
+    {
+      "id": "github-20260509-074",
+      "title": "CherryHQ/cherry-studio",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "AI-assistant",
+        "multi-agent",
+        "LLM-hub",
+        "productivity-tool",
+        "TypeScript"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-09-cherryhqcherry-studio-13.json"
+    },
+    {
+      "id": "github-20260509-075",
+      "title": "aaif-goose/goose",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "Rust",
+        "AI-Agent",
+        "LLM",
+        "MCP",
+        "Code-Execution"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-aaif-goosegoose-14.json"
+    },
+    {
+      "id": "github-20260509-076",
+      "title": "zhayujie/CowAgent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "multi-agent",
+        "wechat",
+        "skills"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-09-zhayujiecowagent-15.json"
+    },
+    {
+      "id": "github-20260509-077",
+      "title": "HKUDS/nanobot",
+      "source": "github",
+      "score": 7,
+      "tags": [
+        "ai-agent",
+        "lightweight",
+        "llm",
+        "personal-assistant",
+        "python"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-hkudsnanobot-16.json"
+    },
+    {
+      "id": "github-20260509-078",
+      "title": "reworkd/AgentGPT",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "autonomous-agents",
+        "langchain",
+        "nextjs",
+        "llm"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-reworkdagentgpt-17.json"
+    },
+    {
+      "id": "github-20260509-079",
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "llm",
+        "rag",
+        "quantitative-trading",
+        "stock-analysis"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-zhulinsendaily-stock-analysis-18.json"
+    },
+    {
+      "id": "github-20260509-080",
+      "title": "patchy631/ai-engineering-hub",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "RAG",
+        "AI-Agents",
+        "MCP",
+        "Machine-Learning"
+      ],
+      "category": "agent",
+      "file": "2026-05-09-patchy631ai-engineering-hub-19.json"
     }
   ]
 }

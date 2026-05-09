@@ -17,6 +17,7 @@ _REVISE_SYSTEM = (
     '  "source_url": "原 URL",\n'
     '  "title": "标题",\n'
     '  "summary": "修正后的中文摘要（100-200字）",\n'
+    '  "key_insight": "一句话关键洞察",\n'
     '  "tags": ["标签1", "标签2"],\n'
     '  "score": 0.85,\n'
     '  "category": "分类",\n'
