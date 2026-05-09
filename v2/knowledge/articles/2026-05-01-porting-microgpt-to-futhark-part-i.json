@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260501-002",
+  "title": "Porting microgpt to Futhark, Part I",
+  "source": "rss",
+  "source_url": "https://www.kmjn.org/notes/microgpt_futhark.html",
+  "author": "",
+  "published_at": "2026-05-01T09:51:48Z",
+  "collected_at": "2026-05-01T09:51:48Z",
+  "summary": "本文介绍了将 microgpt 移植到 Futhark 语言的第一部分，探讨了使用 Futhark 进行 GPU 编程和深度学习模型加速的技术细节，涉及 GPT 模型在函数式并行语言中的实现挑战与优化。",
+  "score": 7,
+  "tags": [
+    "gpt",
+    "gpu",
+    "open-source"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-01T09:53:10Z"
+}

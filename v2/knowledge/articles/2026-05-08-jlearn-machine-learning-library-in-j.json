@@ -1,0 +1,18 @@
+{
+  "id": "rss-20260508-001",
+  "title": "jlearn: Machine Learning Library in J",
+  "source": "rss",
+  "source_url": "https://github.com/jonghough/jlearn",
+  "author": "",
+  "published_at": "2026-05-08T04:14:44Z",
+  "collected_at": "2026-05-08T04:14:44Z",
+  "summary": "jlearn 是一个基于 J 语言的机器学习库，J 语言以其数组处理能力著称，该库可能利用 J 的向量化操作实现高效的机器学习算法。",
+  "score": 6,
+  "tags": [
+    "machine-learning",
+    "open-source"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-08T04:16:12Z"
+}

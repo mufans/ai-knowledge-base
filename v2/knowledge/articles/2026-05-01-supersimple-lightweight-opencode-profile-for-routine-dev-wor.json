@@ -1,0 +1,19 @@
+{
+  "id": "rss-20260501-001",
+  "title": "Supersimple: Lightweight OpenCode profile for routine dev work with focused agents, local skills, and conductor-based track management",
+  "source": "rss",
+  "source_url": "https://github.com/gc-victor/supersimple",
+  "author": "",
+  "published_at": "2026-05-01T09:51:48Z",
+  "collected_at": "2026-05-01T09:51:48Z",
+  "summary": "Supersimple 是一个轻量级的 OpenCode 配置文件，专为日常开发工作设计。它支持聚焦型代理、本地技能和基于指挥者的任务跟踪管理，旨在简化开发流程并提升效率。该项目强调轻量化和实用性，适合需要快速迭代的开发者。",
+  "score": 7,
+  "tags": [
+    "agent",
+    "open-source",
+    "deployment"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "updated_at": "2026-05-01T09:53:10Z"
+}
