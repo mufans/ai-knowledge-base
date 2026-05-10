@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260510-028",
+  "title": "How are you protecting yourself against the imminent AI dooms zero day?",
+  "source": "rss",
+  "source_url": "https://lobste.rs/s/cfzhwf/how_are_you_protecting_yourself_against",
+  "author": "",
+  "published_at": "2026-05-10T02:52:00Z",
+  "collected_at": "2026-05-10T02:52:00Z",
+  "summary": "该讨论以轻松方式探讨了LLM在逻辑推理和漏洞模式匹配能力增强后可能发现大量零日漏洞（包括不可修补的）的潜在风险。用户认为即使离线设备也可能不安全，甚至空气隔离也无法完全防御高级AI系统，提出在金融等领域可能回归原始技术以避免操纵。核心是AI安全与零日漏洞的战略思考。",
+  "key_insight": "即使空气隔离也可能无法防御未来高级AI系统对零日漏洞的发现，促使关键领域回归原始技术。",
+  "score": 6,
+  "tags": [
+    "AI-safety",
+    "zero-day",
+    "LLM",
+    "airgap",
+    "speculative-risk"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "speculative-risk",
+  "updated_at": "2026-05-10T02:52:00Z"
+}
