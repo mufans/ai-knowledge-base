@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260511-023",
+  "title": "sectorllm: llama2 inference in &lt; 1500 bytes of x86 assembly",
+  "source": "rss",
+  "source_url": "https://github.com/rdmsr/sectorllm",
+  "author": "",
+  "published_at": "2026-05-11T03:01:33Z",
+  "collected_at": "2026-05-11T03:01:33Z",
+  "summary": "SectorLLM 是一个极简的 x86 汇编实现，能在不到 1500 字节的代码中运行 Llama2 推理。该项目展示了如何通过手动优化汇编代码，将大型语言模型压缩到极致的内存和磁盘占用，同时保持基本的推理功能。技术亮点包括直接操作 x86 指令集、无外部依赖、以及高度精简的模型加载与计算流程，体现了对底层硬件和模型架构的深刻理解。",
+  "key_insight": "用小于 1500 字节的 x86 汇编实现 Llama2 推理，展示了极致的代码压缩和底层优化能力。",
+  "score": 8,
+  "tags": [
+    "llm",
+    "assembly",
+    "x86",
+    "inference",
+    "minimal"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-11T03:01:33Z"
+}

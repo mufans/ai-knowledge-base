@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-10T02:52:00Z",
-  "total": 343,
+  "updated_at": "2026-05-11T03:01:33Z",
+  "total": 376,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -4875,6 +4875,493 @@
       ],
       "category": "infrastructure",
       "file": "2026-05-10-heres-how-our-tpus-power-increasingly-demanding-ai-workloads.json"
+    },
+    {
+      "id": "github-20260511-001",
+      "title": "NousResearch/hermes-agent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "python",
+        "code-generation",
+        "multi-agent"
+      ],
+      "category": "agent",
+      "file": "2026-05-11-nousresearchhermes-agent.json"
+    },
+    {
+      "id": "github-20260511-002",
+      "title": "langgenius/dify",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agentic-workflow",
+        "low-code",
+        "llm",
+        "rag",
+        "automation"
+      ],
+      "category": "agent",
+      "file": "2026-05-11-langgeniusdify.json"
+    },
+    {
+      "id": "github-20260511-003",
+      "title": "langchain-ai/langchain",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agents",
+        "llm",
+        "rag",
+        "python",
+        "framework"
+      ],
+      "category": "agent",
+      "file": "2026-05-11-langchain-ailangchain.json"
+    },
+    {
+      "id": "github-20260511-004",
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agents",
+        "llms",
+        "rag",
+        "python",
+        "app-templates"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-11-shubhamsabooawesome-llm-apps.json"
+    },
+    {
+      "id": "github-20260511-005",
+      "title": "browser-use/browser-use",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agents",
+        "browser-automation",
+        "llm",
+        "playwright",
+        "python"
+      ],
+      "category": "agent",
+      "file": "2026-05-11-browser-usebrowser-use.json"
+    },
+    {
+      "id": "github-20260511-006",
+      "title": "infiniflow/ragflow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "RAG",
+        "Agent",
+        "Retrieval-Augmented Generation",
+        "LLM",
+        "Open Source"
+      ],
+      "category": "rag",
+      "file": "2026-05-11-infiniflowragflow.json"
+    },
+    {
+      "id": "github-20260511-007",
+      "title": "OpenHands/OpenHands",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "llm",
+        "developer-tools",
+        "code-generation",
+        "cli"
+      ],
+      "category": "agent",
+      "file": "2026-05-11-openhandsopenhands.json"
+    },
+    {
+      "id": "github-20260511-008",
+      "title": "hiyouga/LlamaFactory",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "fine-tuning",
+        "llm",
+        "lora",
+        "transformers",
+        "peft"
+      ],
+      "category": "llm",
+      "file": "2026-05-11-hiyougallamafactory.json"
+    },
+    {
+      "id": "github-20260511-009",
+      "title": "FoundationAgents/MetaGPT",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "multi-agent",
+        "llm",
+        "code-generation",
+        "agent",
+        "python"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-11-foundationagentsmetagpt.json"
+    },
+    {
+      "id": "github-20260511-010",
+      "title": "bytedance/deer-flow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "multi-agent",
+        "agentic-framework",
+        "llm",
+        "python",
+        "langchain"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-11-bytedancedeer-flow.json"
+    },
+    {
+      "id": "github-20260511-011",
+      "title": "mem0ai/mem0",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "memory-management",
+        "rag",
+        "ai-agents",
+        "llm",
+        "state-management"
+      ],
+      "category": "agent",
+      "file": "2026-05-11-mem0aimem0.json"
+    },
+    {
+      "id": "github-20260511-012",
+      "title": "earendil-works/pi",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "AI-agent",
+        "LLM",
+        "CLI",
+        "TypeScript",
+        "toolkit"
+      ],
+      "category": "agent",
+      "file": "2026-05-11-earendil-workspi.json"
+    },
+    {
+      "id": "github-20260511-013",
+      "title": "jeecgboot/JeecgBoot",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "low-code",
+        "AI",
+        "code-generation",
+        "Java",
+        "spring-boot"
+      ],
+      "category": "code-generation",
+      "file": "2026-05-11-jeecgbootjeecgboot.json"
+    },
+    {
+      "id": "github-20260511-014",
+      "title": "CherryHQ/cherry-studio",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "AI-Agent",
+        "LLM",
+        "Productivity",
+        "TypeScript",
+        "Multi-Model"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-11-cherryhqcherry-studio.json"
+    },
+    {
+      "id": "github-20260511-015",
+      "title": "aaif-goose/goose",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "rust",
+        "llm",
+        "automation",
+        "mcp"
+      ],
+      "category": "agent",
+      "file": "2026-05-11-aaif-goosegoose.json"
+    },
+    {
+      "id": "github-20260511-016",
+      "title": "zhayujie/CowAgent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "LLM",
+        "Agent",
+        "Multi-Agent",
+        "WeChat",
+        "Python"
+      ],
+      "category": "agent",
+      "file": "2026-05-11-zhayujiecowagent.json"
+    },
+    {
+      "id": "github-20260511-017",
+      "title": "HKUDS/nanobot",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "lightweight",
+        "python",
+        "code-generation"
+      ],
+      "category": "agent",
+      "file": "2026-05-11-hkudsnanobot.json"
+    },
+    {
+      "id": "github-20260511-018",
+      "title": "reworkd/AgentGPT",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "langchain",
+        "nextjs",
+        "openai",
+        "autonomous-agents"
+      ],
+      "category": "agent",
+      "file": "2026-05-11-reworkdagentgpt.json"
+    },
+    {
+      "id": "github-20260511-019",
+      "title": "ZhuLinsen/daily_stock_analysis",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "stock-analysis",
+        "agent",
+        "RAG",
+        "quantitative-trading"
+      ],
+      "category": "agent",
+      "file": "2026-05-11-zhulinsendaily-stock-analysis.json"
+    },
+    {
+      "id": "github-20260511-020",
+      "title": "patchy631/ai-engineering-hub",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "LLMs",
+        "RAG",
+        "AI Agents",
+        "MCP",
+        "Machine Learning"
+      ],
+      "category": "agent",
+      "file": "2026-05-11-patchy631ai-engineering-hub.json"
+    },
+    {
+      "id": "rss-20260511-021",
+      "title": "Training an LLM in Swift, Part 1: Taking matrix multiplication from Gflop/s to Tflop/s",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "Swift",
+        "Matrix Multiplication",
+        "LLM",
+        "HPC",
+        "Performance Optimization"
+      ],
+      "category": "llm",
+      "file": "2026-05-11-training-an-llm-in-swift-part-1-taking-matrix-multiplication.json"
+    },
+    {
+      "id": "rss-20260511-022",
+      "title": "Aurora: A Leverage-Aware Optimizer for Rectangular Matrices",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "optimizer",
+        "matrix-computation",
+        "low-rank",
+        "leverage-scores"
+      ],
+      "category": "optimization",
+      "file": "2026-05-11-aurora-a-leverage-aware-optimizer-for-rectangular-matrices.json"
+    },
+    {
+      "id": "rss-20260511-023",
+      "title": "sectorllm: llama2 inference in &lt; 1500 bytes of x86 assembly",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "llm",
+        "assembly",
+        "x86",
+        "inference",
+        "minimal"
+      ],
+      "category": "llm",
+      "file": "2026-05-11-sectorllm-llama2-inference-in-lt-1500-bytes-of-x86-assembly.json"
+    },
+    {
+      "id": "rss-20260511-024",
+      "title": "Do AI summaries hurt critical thinking?",
+      "source": "rss",
+      "score": 5,
+      "tags": [
+        "AI",
+        "critical-thinking",
+        "cognitive-science"
+      ],
+      "category": "essay",
+      "file": "2026-05-11-do-ai-summaries-hurt-critical-thinking.json"
+    },
+    {
+      "id": "rss-20260511-025",
+      "title": "Porting microgpt to Futhark, Part I",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "Futhark",
+        "GPT",
+        "Parallel-Computing",
+        "GPU",
+        "Model-Porting"
+      ],
+      "category": "llm",
+      "file": "2026-05-11-porting-microgpt-to-futhark-part-i.json"
+    },
+    {
+      "id": "rss-20260511-026",
+      "title": "Scaling Pain of Coding Agent Serving: Lessons from Debugging GLM-5 at Scale",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "coding-agent",
+        "scaling",
+        "inference-optimization",
+        "distributed-system"
+      ],
+      "category": "agent",
+      "file": "2026-05-11-scaling-pain-of-coding-agent-serving-lessons-from-debugging-.json"
+    },
+    {
+      "id": "rss-20260511-027",
+      "title": "Transformers are Inherently Succinct",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "transformer",
+        "expressivity",
+        "formal-language",
+        "complexity"
+      ],
+      "category": "llm",
+      "file": "2026-05-11-transformers-are-inherently-succinct.json"
+    },
+    {
+      "id": "rss-20260511-028",
+      "title": "The Future of Deep Learning Is Photonic (2021)",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "photonic-computing",
+        "deep-learning",
+        "hardware-acceleration",
+        "optical-neural-networks"
+      ],
+      "category": "llm",
+      "file": "2026-05-11-the-future-of-deep-learning-is-photonic-2021.json"
+    },
+    {
+      "id": "rss-20260511-029",
+      "title": "See what happens when creative legends use AI to make ads for small businesses.",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "AI",
+        "advertising",
+        "content-generation",
+        "small-business"
+      ],
+      "category": "content-generation",
+      "file": "2026-05-11-see-what-happens-when-creative-legends-use-ai-to-make-ads-fo.json"
+    },
+    {
+      "id": "rss-20260511-030",
+      "title": "The latest AI news we announced in April 2026",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "multimodal",
+        "Google",
+        "AI-updates",
+        "platform"
+      ],
+      "category": "llm",
+      "file": "2026-05-11-the-latest-ai-news-we-announced-in-april-2026.json"
+    },
+    {
+      "id": "rss-20260511-031",
+      "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "webhooks",
+        "event-driven",
+        "gemini-api",
+        "latency-optimization",
+        "push-notification"
+      ],
+      "category": "llm",
+      "file": "2026-05-11-reduce-friction-and-latency-for-long-running-jobs-with-webho.json"
+    },
+    {
+      "id": "rss-20260511-032",
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "AI-Agents",
+        "Google",
+        "Kaggle",
+        "Education",
+        "Vibe-Coding"
+      ],
+      "category": "course",
+      "file": "2026-05-11-join-the-new-ai-agents-vibe-coding-course-from-google-and-ka.json"
+    },
+    {
+      "id": "rss-20260511-033",
+      "title": "Here’s how our TPUs power increasingly demanding AI workloads.",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "TPU",
+        "Google",
+        "AI-acceleration",
+        "hardware"
+      ],
+      "category": "ai-acceleration",
+      "file": "2026-05-11-heres-how-our-tpus-power-increasingly-demanding-ai-workloads.json"
     }
   ]
 }
