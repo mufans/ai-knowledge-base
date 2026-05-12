@@ -1,0 +1,23 @@
+{
+  "id": "github-20260512-014",
+  "title": "CherryHQ/cherry-studio",
+  "source": "github",
+  "source_url": "https://github.com/CherryHQ/cherry-studio",
+  "author": "CherryHQ",
+  "published_at": "2026-05-12T02:53:15Z",
+  "collected_at": "2026-05-12T02:53:15Z",
+  "summary": "Cherry Studio 是一个面向AI生产力提升的桌面客户端，支持智能对话、自主代理和超过300个预设助手。它统一接入前沿LLM，提供类似Claude Code和Codex的编码能力，强调“vibe coding”和技能增强。采用TypeScript开发，开源且社区活跃，核心亮点在于将多模型、多代理和编码功能整合到单一界面，降低AI使用门槛。",
+  "key_insight": "通过整合多模型代理和编码助手，打造统一AI生产力入口，降低用户切换成本。",
+  "score": 8,
+  "tags": [
+    "AI-Agent",
+    "LLM",
+    "Productivity",
+    "Desktop-Client",
+    "Code-Generation"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "multi-agent",
+  "updated_at": "2026-05-12T02:53:15Z"
+}

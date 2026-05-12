@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260512-028",
+  "title": "Scaling Pain of Coding Agent Serving: Lessons from Debugging GLM-5 at Scale",
+  "source": "rss",
+  "source_url": "https://z.ai/blog/scaling-pain",
+  "author": "",
+  "published_at": "2026-05-12T02:53:15Z",
+  "collected_at": "2026-05-12T02:53:15Z",
+  "summary": "该仓库分享了在规模化部署GLM-5代码智能体服务时遇到的扩展痛点与调试经验。核心聚焦于高并发场景下推理延迟、资源调度和系统稳定性等挑战，提供了实际工程中的优化策略与教训总结，对构建高性能代码生成Agent服务具有重要参考价值。",
+  "key_insight": "规模化代码Agent服务的关键瓶颈在于推理延迟与资源调度，而非模型本身。",
+  "score": 8,
+  "tags": [
+    "coding-agent",
+    "scaling",
+    "inference-optimization",
+    "system-design"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-05-12T02:53:15Z"
+}

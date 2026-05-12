@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260512-021",
+  "title": "The Crystallization of Transformer Architectures (2017-2025)",
+  "source": "rss",
+  "source_url": "https://jytan.net/blog/2025/transformer-architectures/",
+  "author": "",
+  "published_at": "2026-05-12T02:53:15Z",
+  "collected_at": "2026-05-12T02:53:15Z",
+  "summary": "该博客文章系统梳理了2017年至2025年间Transformer架构的演进历程，从原始Transformer到GPT、BERT、ViT等关键变体，再到近年来的稀疏注意力、混合专家模型（MoE）和多模态Transformer。技术亮点包括对架构设计原则（如自注意力、位置编码、层归一化）的深入分析，以及各模型在计算效率、扩展性和任务适配上的权衡。文章提供了清晰的演进脉络和关键设计选择。",
+  "key_insight": "Transformer架构的‘结晶化’过程揭示了从通用序列模型到专业化变体的分化路径，核心创新集中在注意力机制的效率优化和跨模态扩展。",
+  "score": 8,
+  "tags": [
+    "Transformer",
+    "Architecture Evolution",
+    "Attention Mechanism",
+    "Deep Learning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-12T02:53:15Z"
+}

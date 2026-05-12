@@ -1,0 +1,23 @@
+{
+  "id": "github-20260512-019",
+  "title": "ZhuLinsen/daily_stock_analysis",
+  "source": "github",
+  "source_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+  "author": "ZhuLinsen",
+  "published_at": "2026-05-12T02:53:15Z",
+  "collected_at": "2026-05-12T02:53:15Z",
+  "summary": "一个基于LLM的股票分析系统，支持A股、港股和美股市场。整合多数据源行情、实时新闻，并通过LLM生成决策建议，提供仪表盘展示和多渠道推送通知。系统设计为零成本定时运行，利用免费API和开源模型实现。技术亮点包括RAG增强的知识检索、Agent化的分析流程，以及量化交易策略集成。",
+  "key_insight": "利用LLM和RAG技术，将海量金融数据转化为可操作的交易决策，并通过零成本架构实现自动化分析，展示了AI在个人量化投资中的实用落地。",
+  "score": 8,
+  "tags": [
+    "llm",
+    "agent",
+    "rag",
+    "quant",
+    "stock-analysis"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-05-12T02:53:15Z"
+}

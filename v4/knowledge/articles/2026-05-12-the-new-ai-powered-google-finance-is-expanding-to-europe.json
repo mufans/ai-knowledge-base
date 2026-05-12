@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260512-032",
+  "title": "The new AI-powered Google Finance is expanding to Europe.",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
+  "author": "",
+  "published_at": "2026-05-12T02:53:15Z",
+  "collected_at": "2026-05-12T02:53:15Z",
+  "summary": "该博客宣布AI驱动的Google Finance在欧洲扩展，支持本地语言。核心功能包括AI增强的金融数据分析和个性化投资洞察，利用大语言模型提供市场趋势解读和智能搜索。技术亮点在于将生成式AI集成到传统金融工具中，提升用户体验和数据交互效率。",
+  "key_insight": "AI正在重塑传统金融信息服务，通过LLM实现从数据查询到智能决策辅助的转变。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "FinTech",
+    "LLM",
+    "Google",
+    "Data-Analysis"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-12T02:53:15Z"
+}

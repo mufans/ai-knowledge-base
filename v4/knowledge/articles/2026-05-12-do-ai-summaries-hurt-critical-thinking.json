@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260512-026",
+  "title": "Do AI summaries hurt critical thinking?",
+  "source": "rss",
+  "source_url": "https://medium.com/blueprint-for-disaster/ai-summaries-are-a-threat-to-our-cognitive-sovereignty-917afc37692f",
+  "author": "",
+  "published_at": "2026-05-12T02:53:15Z",
+  "collected_at": "2026-05-12T02:53:15Z",
+  "summary": "该仓库讨论AI摘要对批判性思维的潜在负面影响。核心观点是AI摘要可能削弱用户的认知自主权，减少深入阅读和独立思考的机会。技术亮点在于对AI辅助信息处理的社会和认知影响的分析。",
+  "key_insight": "AI摘要可能成为认知依赖的风险，而非纯粹效率提升工具。",
+  "score": 4,
+  "tags": [
+    "critical-thinking",
+    "AI-summaries",
+    "cognitive-sovereignty"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-12T02:53:15Z"
+}

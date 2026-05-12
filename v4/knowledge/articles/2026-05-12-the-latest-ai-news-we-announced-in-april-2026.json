@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260512-034",
+  "title": "The latest AI news we announced in April 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+  "author": "",
+  "published_at": "2026-05-12T02:53:15Z",
+  "collected_at": "2026-05-12T02:53:15Z",
+  "summary": "该仓库是Google在2026年4月发布的AI技术更新汇总，涵盖多模态模型、推理优化、搜索增强等核心进展。技术亮点包括新一代Gemini模型的能力提升、AI在医疗和代码生成领域的突破，以及通过高效推理架构降低计算成本。展示了Google在AI前沿的持续创新和实用化方向。",
+  "key_insight": "Google在2026年4月的AI更新聚焦于多模态融合与推理效率，表明行业正从单一模型能力转向实用化和成本优化。",
+  "score": 8,
+  "tags": [
+    "multimodal",
+    "reasoning",
+    "search",
+    "code-generation",
+    "inference-optimization"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-12T02:53:15Z"
+}
