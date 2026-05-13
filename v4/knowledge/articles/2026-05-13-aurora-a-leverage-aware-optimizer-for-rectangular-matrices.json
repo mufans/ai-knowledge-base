@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260513-023",
+  "title": "Aurora: A Leverage-Aware Optimizer for Rectangular Matrices",
+  "source": "rss",
+  "source_url": "https://blog.tilderesearch.com/blog/aurora",
+  "author": "",
+  "published_at": "2026-05-13T02:57:45Z",
+  "collected_at": "2026-05-13T02:57:45Z",
+  "summary": "Aurora 是一种针对矩形矩阵的杠杆感知优化器，旨在提升矩阵运算效率。核心技术亮点包括利用杠杆（leverage）概念动态调整优化策略，适用于大规模稀疏或矩形矩阵场景，可能涉及线性代数、机器学习中的矩阵分解或特征值计算。该工具通过智能分配计算资源，减少冗余操作，从而加速训练或推理过程。",
+  "key_insight": "通过杠杆感知机制优化矩形矩阵运算，减少计算冗余，提升大规模矩阵处理效率。",
+  "score": 6,
+  "tags": [
+    "optimizer",
+    "matrix-computation",
+    "linear-algebra",
+    "leverage-aware",
+    "rectangular-matrices"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "optimization",
+  "updated_at": "2026-05-13T02:57:45Z"
+}

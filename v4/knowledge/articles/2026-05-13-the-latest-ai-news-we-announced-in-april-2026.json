@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260513-032",
+  "title": "The latest AI news we announced in April 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+  "author": "",
+  "published_at": "2026-05-13T02:57:45Z",
+  "collected_at": "2026-05-13T02:57:45Z",
+  "summary": "该仓库（实为博客文章）汇总了Google在2026年4月发布的最新AI更新，涵盖模型优化、应用集成和基础设施改进。技术亮点包括Gemini系列模型的性能提升、AI在搜索和云服务中的深度整合，以及负责任AI实践的进展。文章体现了Google在保持技术领先的同时，注重实用性和伦理合规。",
+  "key_insight": "Google在2026年4月的AI更新聚焦于模型效率与多场景落地，而非突破性创新。",
+  "score": 8,
+  "tags": [
+    "Gemini",
+    "Google AI",
+    "Model Optimization",
+    "AI Infrastructure",
+    "Responsible AI"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-13T02:57:45Z"
+}

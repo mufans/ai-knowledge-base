@@ -1,0 +1,23 @@
+{
+  "id": "github-20260513-011",
+  "title": "mem0ai/mem0",
+  "source": "github",
+  "source_url": "https://github.com/mem0ai/mem0",
+  "author": "mem0ai",
+  "published_at": "2026-05-13T02:57:45Z",
+  "collected_at": "2026-05-13T02:57:45Z",
+  "summary": "Mem0 是一个为 AI 代理提供通用记忆层的开源库，专注于长期记忆管理。它通过结合向量数据库和知识图谱技术，实现了高效、可扩展的记忆存储与检索，支持上下文感知和个性化交互。该库与主流 LLM 和框架兼容，旨在增强 AI 代理的持续学习和记忆能力。",
+  "key_insight": "Mem0 通过统一的记忆层解决了 AI 代理的长期记忆和上下文连续性难题，是构建持久化、个性化 AI 系统的关键基础设施。",
+  "score": 9,
+  "tags": [
+    "memory-management",
+    "ai-agents",
+    "rag",
+    "llm",
+    "long-term-memory"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-05-13T02:57:45Z"
+}

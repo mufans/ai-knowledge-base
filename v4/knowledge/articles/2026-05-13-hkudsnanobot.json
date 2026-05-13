@@ -1,0 +1,23 @@
+{
+  "id": "github-20260513-017",
+  "title": "HKUDS/nanobot",
+  "source": "github",
+  "source_url": "https://github.com/HKUDS/nanobot",
+  "author": "HKUDS",
+  "published_at": "2026-05-13T02:57:45Z",
+  "collected_at": "2026-05-13T02:57:45Z",
+  "summary": "nanobot 是一个超轻量级的个人 AI 智能体，基于 Python 实现，支持多种大型语言模型（如 OpenAI、Anthropic、Claude 等），提供类似 Claude Code 和 Codex 的代码交互能力。其核心亮点在于极简设计，适合个人开发者快速部署和使用，强调轻量化和易用性。",
+  "key_insight": "以极简设计实现个人 AI 智能体，降低使用门槛。",
+  "score": 8,
+  "tags": [
+    "ai-agent",
+    "llm",
+    "python",
+    "code-generation",
+    "lightweight"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-05-13T02:57:45Z"
+}

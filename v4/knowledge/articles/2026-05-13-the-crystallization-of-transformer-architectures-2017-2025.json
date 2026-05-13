@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260513-021",
+  "title": "The Crystallization of Transformer Architectures (2017-2025)",
+  "source": "rss",
+  "source_url": "https://jytan.net/blog/2025/transformer-architectures/",
+  "author": "",
+  "published_at": "2026-05-13T02:57:45Z",
+  "collected_at": "2026-05-13T02:57:45Z",
+  "summary": "该仓库是一篇博客文章，系统回顾了2017至2025年间Transformer架构的演进与结晶过程。文章梳理了从原始Transformer到GPT、BERT、T5、LLaMA等关键模型的技术路线，分析了注意力机制、位置编码、层归一化等核心组件的演变。技术亮点在于提供了一个清晰的架构演化时间线，帮助理解Transformer如何从机器翻译模型逐步成为通用AI基础架构。",
+  "key_insight": "Transformer架构的演化是一个逐步收敛的过程，关键创新集中在注意力机制和位置编码的优化上。",
+  "score": 7,
+  "tags": [
+    "transformer",
+    "architecture",
+    "evolution",
+    "survey",
+    "deep-learning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-13T02:57:45Z"
+}
