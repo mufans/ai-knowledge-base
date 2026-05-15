@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260515-030",
+  "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
+  "author": "",
+  "published_at": "2026-05-15T03:00:39Z",
+  "collected_at": "2026-05-15T03:00:39Z",
+  "summary": "该仓库关联Google与XPRIZE、Range Media Partners合作的Future Vision电影竞赛，奖金350万美元。核心功能是鼓励利用AI技术创作未来主义短片，展示AI在叙事和视觉创新中的应用。技术亮点在于结合AI生成内容与人类创意，探索AI在电影制作中的边界。",
+  "key_insight": "该竞赛通过奖金激励，推动AI在电影叙事中的创意应用，但技术价值受限于竞赛性质而非直接技术贡献。",
+  "score": 6,
+  "tags": [
+    "AI",
+    "Film",
+    "Competition",
+    "Creativity",
+    "Google"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-15T03:00:39Z"
+}
