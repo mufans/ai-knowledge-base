@@ -1,0 +1,23 @@
+{
+  "id": "github-20260516-018",
+  "title": "HKUDS/nanobot",
+  "source": "github",
+  "source_url": "https://github.com/HKUDS/nanobot",
+  "author": "HKUDS",
+  "published_at": "2026-05-16T02:49:08Z",
+  "collected_at": "2026-05-16T02:49:08Z",
+  "summary": "nanobot 是一个超轻量级的个人 AI 代理，旨在提供高效、可扩展的智能助手功能。它支持多种大语言模型（如 OpenAI、Claude、Codex 等），并集成了代码执行、任务规划和工具调用能力。技术亮点包括极简的依赖设计、模块化架构和低资源占用，适合在边缘设备或资源受限环境中运行。",
+  "key_insight": "nanobot 通过超轻量级设计，将强大的 AI 代理能力压缩到最小依赖，为资源受限场景提供了高效的个人智能助手解决方案。",
+  "score": 8,
+  "tags": [
+    "AI Agent",
+    "LLM",
+    "Lightweight",
+    "Python",
+    "Multi-Model"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-05-16T02:49:08Z"
+}

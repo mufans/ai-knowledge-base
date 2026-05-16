@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260516-028",
+  "title": "OpenMythos: A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature",
+  "source": "rss",
+  "source_url": "https://github.com/kyegomez/OpenMythos",
+  "author": "",
+  "published_at": "2026-05-16T02:49:08Z",
+  "collected_at": "2026-05-16T02:49:08Z",
+  "summary": "OpenMythos 是一个从第一性原理出发，基于现有研究文献对 Claude Mythos 架构进行理论重构的开源项目。该项目旨在通过公开文献和推理，复现并理解 Anthropic 的 Claude 模型背后的核心设计思想，包括其可能使用的稀疏自编码器、激活函数、注意力机制等关键技术。它提供了一个实验性的代码库，用于探索和验证这些理论假设，有助于推动对大型语言模型内部机制的研究。",
+  "key_insight": "该项目通过理论重构尝试破解闭源模型架构，为开源社区提供了理解前沿LLM设计的新视角。",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "architecture",
+    "interpretability",
+    "theoretical",
+    "research"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-16T02:49:08Z"
+}
