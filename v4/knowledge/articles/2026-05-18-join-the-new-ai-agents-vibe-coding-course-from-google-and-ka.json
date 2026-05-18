@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260518-034",
+  "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+  "author": "",
+  "published_at": "2026-05-18T03:36:27Z",
+  "collected_at": "2026-05-18T03:36:27Z",
+  "summary": "Google与Kaggle联合推出为期5天的AI Agent密集课程，专注于“Vibe Coding”编程范式。课程旨在教授开发者如何构建和部署AI Agent，结合Google的Gemini等先进模型，通过实践项目掌握Agent架构、工具调用与多步骤推理。该课程强调低代码/无代码与AI辅助编程的融合，适合初学者到中级开发者快速提升AI Agent开发能力。",
+  "key_insight": "Google与Kaggle的5日密集课程将Vibe Coding概念系统化，推动AI Agent开发民主化，但内容偏教育而非前沿研究。",
+  "score": 8,
+  "tags": [
+    "AI Agents",
+    "Vibe Coding",
+    "Google Gemini",
+    "Kaggle",
+    "Agentic AI"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-05-18T03:36:27Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260518-027",
+  "title": "Porting microgpt to Futhark, Part I",
+  "source": "rss",
+  "source_url": "https://www.kmjn.org/notes/microgpt_futhark.html",
+  "author": "",
+  "published_at": "2026-05-18T03:36:27Z",
+  "collected_at": "2026-05-18T03:36:27Z",
+  "summary": "该仓库是作者将微型GPT（microgpt）移植到Futhark（一种面向GPU的纯函数式数据并行语言）的过程记录。核心功能是展示如何用Futhark重写GPT的推理逻辑，利用其自动并行化和编译器优化实现高效GPU加速。技术亮点包括将Transformer的注意力机制、层归一化等操作映射为Futhark的并行原语，并解决函数式语言中状态管理、随机数生成等挑战。该系列文章提供了从概念到实现的详细步骤，适合对GPU编程和深度学习推理优化感兴趣的开发者。",
+  "key_insight": "将GPT推理逻辑移植到Futhark，展示了函数式数据并行语言在自动并行化和GPU加速方面的潜力，但受限于语言生态，实际应用价值有限。",
+  "score": 6,
+  "tags": [
+    "Futhark",
+    "GPT",
+    "GPU",
+    "Parallel-Programming",
+    "Transformer"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-18T03:36:27Z"
+}

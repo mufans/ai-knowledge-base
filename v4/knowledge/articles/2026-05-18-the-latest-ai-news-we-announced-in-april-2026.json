@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260518-032",
+  "title": "The latest AI news we announced in April 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+  "author": "",
+  "published_at": "2026-05-18T03:36:27Z",
+  "collected_at": "2026-05-18T03:36:27Z",
+  "summary": "该仓库是Google在2026年4月发布的AI最新动态汇总，涵盖多模态模型、语言模型、AI工具与应用等多项技术更新。核心亮点包括Gemini系列模型的升级、AI助手功能的增强以及开发者工具的改进，展示了Google在AI领域的持续创新与整合能力。",
+  "key_insight": "Google通过月度更新持续巩固其AI生态，重点在于多模态能力与实用工具的融合，而非单一模型突破。",
+  "score": 8,
+  "tags": [
+    "multimodal",
+    "large-language-model",
+    "ai-tools",
+    "google-ai"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-18T03:36:27Z"
+}
