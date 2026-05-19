@@ -1,0 +1,23 @@
+{
+  "id": "github-20260519-017",
+  "title": "zhayujie/CowAgent",
+  "source": "github",
+  "source_url": "https://github.com/zhayujie/CowAgent",
+  "author": "zhayujie",
+  "published_at": "2026-05-19T03:29:41Z",
+  "collected_at": "2026-05-19T03:29:41Z",
+  "summary": "CowAgent（chatgpt-on-wechat）是一个基于大模型的轻量级AI助理框架，支持主动思考、任务规划、操作系统访问、外部资源调用及Skills创建与执行，具备长期记忆和知识库成长能力。它支持微信、飞书、钉钉、企微、QQ、公众号和网页等多平台接入，兼容DeepSeek、OpenAI、Claude、Gemini等主流模型，可处理文本、语音、图片和文件，适合快速搭建个人AI助理或企业数字员工。",
+  "key_insight": "通过轻量化设计集成多平台接入和主动任务规划能力，CowAgent降低了AI助理的部署门槛，同时保持强大的扩展性。",
+  "score": 9,
+  "tags": [
+    "ai-agent",
+    "multi-agent",
+    "llm",
+    "wechat",
+    "skills"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-05-19T03:29:41Z"
+}

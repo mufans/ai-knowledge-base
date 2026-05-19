@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-18T03:36:27Z",
-  "total": 580,
+  "updated_at": "2026-05-19T03:29:41Z",
+  "total": 612,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -8386,6 +8386,479 @@
       ],
       "category": "agent",
       "file": "2026-05-18-join-the-new-ai-agents-vibe-coding-course-from-google-and-ka.json"
+    },
+    {
+      "id": "github-20260519-001",
+      "title": "NousResearch/hermes-agent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "python",
+        "multi-agent",
+        "adaptive-learning"
+      ],
+      "category": "agent",
+      "file": "2026-05-19-nousresearchhermes-agent.json"
+    },
+    {
+      "id": "github-20260519-002",
+      "title": "langgenius/dify",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "Agent",
+        "LLM",
+        "RAG",
+        "Low-Code",
+        "Workflow"
+      ],
+      "category": "agent",
+      "file": "2026-05-19-langgeniusdify.json"
+    },
+    {
+      "id": "github-20260519-003",
+      "title": "langchain-ai/langchain",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agents",
+        "llm",
+        "rag",
+        "multi-agent",
+        "framework"
+      ],
+      "category": "agent",
+      "file": "2026-05-19-langchain-ailangchain.json"
+    },
+    {
+      "id": "github-20260519-004",
+      "title": "firecrawl/firecrawl",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "web-scraping",
+        "ai-agents",
+        "data-extraction",
+        "markdown",
+        "crawler"
+      ],
+      "category": "data-extraction",
+      "file": "2026-05-19-firecrawlfirecrawl.json"
+    },
+    {
+      "id": "github-20260519-005",
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agents",
+        "rag",
+        "llms",
+        "python",
+        "langchain"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-19-shubhamsabooawesome-llm-apps.json"
+    },
+    {
+      "id": "github-20260519-006",
+      "title": "browser-use/browser-use",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "browser-automation",
+        "ai-agents",
+        "playwright",
+        "llm",
+        "python"
+      ],
+      "category": "agent",
+      "file": "2026-05-19-browser-usebrowser-use.json"
+    },
+    {
+      "id": "github-20260519-007",
+      "title": "infiniflow/ragflow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "RAG",
+        "Agent",
+        "LLM",
+        "Retrieval-Augmented Generation",
+        "Context Management"
+      ],
+      "category": "rag",
+      "file": "2026-05-19-infiniflowragflow.json"
+    },
+    {
+      "id": "github-20260519-008",
+      "title": "OpenHands/OpenHands",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "llm",
+        "developer-tools",
+        "ai-driven-development",
+        "code-generation"
+      ],
+      "category": "agent",
+      "file": "2026-05-19-openhandsopenhands.json"
+    },
+    {
+      "id": "github-20260519-009",
+      "title": "hiyouga/LlamaFactory",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "fine-tuning",
+        "LLM",
+        "LoRA",
+        "transformers",
+        "deep-learning"
+      ],
+      "category": "llm",
+      "file": "2026-05-19-hiyougallamafactory.json"
+    },
+    {
+      "id": "github-20260519-010",
+      "title": "bytedance/deer-flow",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agentic-framework",
+        "multi-agent",
+        "superagent",
+        "deep-research",
+        "langgraph"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-19-bytedancedeer-flow.json"
+    },
+    {
+      "id": "github-20260519-011",
+      "title": "FoundationAgents/MetaGPT",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "multi-agent",
+        "llm",
+        "code-generation",
+        "natural-language-programming"
+      ],
+      "category": "multi-agent",
+      "file": "2026-05-19-foundationagentsmetagpt.json"
+    },
+    {
+      "id": "github-20260519-012",
+      "title": "mem0ai/mem0",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "memory-management",
+        "RAG",
+        "AI-agents",
+        "long-term-memory",
+        "state-management"
+      ],
+      "category": "agent",
+      "file": "2026-05-19-mem0aimem0.json"
+    },
+    {
+      "id": "github-20260519-013",
+      "title": "earendil-works/pi",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "AI Agent",
+        "LLM",
+        "TypeScript",
+        "CLI",
+        "Toolkit"
+      ],
+      "category": "agent",
+      "file": "2026-05-19-earendil-workspi.json"
+    },
+    {
+      "id": "github-20260519-014",
+      "title": "jeecgboot/JeecgBoot",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "low-code",
+        "AI",
+        "Java",
+        "SpringBoot",
+        "code-generation"
+      ],
+      "category": "code-generation",
+      "file": "2026-05-19-jeecgbootjeecgboot.json"
+    },
+    {
+      "id": "github-20260519-015",
+      "title": "CherryHQ/cherry-studio",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "AI-Agent",
+        "LLM",
+        "Productivity",
+        "TypeScript",
+        "Multi-Model"
+      ],
+      "category": "agent",
+      "file": "2026-05-19-cherryhqcherry-studio.json"
+    },
+    {
+      "id": "github-20260519-016",
+      "title": "aaif-goose/goose",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agents",
+        "llm",
+        "mcp",
+        "rust",
+        "code-generation"
+      ],
+      "category": "agent",
+      "file": "2026-05-19-aaif-goosegoose.json"
+    },
+    {
+      "id": "github-20260519-017",
+      "title": "zhayujie/CowAgent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "multi-agent",
+        "llm",
+        "wechat",
+        "skills"
+      ],
+      "category": "agent",
+      "file": "2026-05-19-zhayujiecowagent.json"
+    },
+    {
+      "id": "github-20260519-018",
+      "title": "HKUDS/nanobot",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "lightweight",
+        "python",
+        "multi-model"
+      ],
+      "category": "agent",
+      "file": "2026-05-19-hkudsnanobot.json"
+    },
+    {
+      "id": "github-20260519-019",
+      "title": "reworkd/AgentGPT",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "autonomous",
+        "langchain",
+        "llm",
+        "typescript"
+      ],
+      "category": "agent",
+      "file": "2026-05-19-reworkdagentgpt.json"
+    },
+    {
+      "id": "github-20260519-020",
+      "title": "patchy631/ai-engineering-hub",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "LLM",
+        "RAG",
+        "AI-Agents",
+        "MCP",
+        "Machine-Learning"
+      ],
+      "category": "llm",
+      "file": "2026-05-19-patchy631ai-engineering-hub.json"
+    },
+    {
+      "id": "rss-20260519-021",
+      "title": "Autonomous AI research for nanogpt speedrun",
+      "source": "rss",
+      "score": 4,
+      "tags": [
+        "autonomous-ai",
+        "nanogpt",
+        "speedrun",
+        "optimization",
+        "code-generation"
+      ],
+      "category": "code-generation",
+      "file": "2026-05-19-autonomous-ai-research-for-nanogpt-speedrun.json"
+    },
+    {
+      "id": "rss-20260519-022",
+      "title": "A few works on DS4",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "LLM",
+        "Deepseek",
+        "Optimization",
+        "Edge-Computing"
+      ],
+      "category": "llm",
+      "file": "2026-05-19-a-few-works-on-ds4.json"
+    },
+    {
+      "id": "rss-20260519-023",
+      "title": "AI as Social Technology",
+      "source": "rss",
+      "score": 4,
+      "tags": [
+        "AI-ethics",
+        "social-computing",
+        "human-computer-interaction"
+      ],
+      "category": "llm",
+      "file": "2026-05-19-ai-as-social-technology.json"
+    },
+    {
+      "id": "rss-20260519-024",
+      "title": "The Crystallization of Transformer Architectures (2017-2025)",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "transformer",
+        "architecture-evolution",
+        "attention-mechanism",
+        "deep-learning-history"
+      ],
+      "category": "llm",
+      "file": "2026-05-19-the-crystallization-of-transformer-architectures-2017-2025.json"
+    },
+    {
+      "id": "rss-20260519-025",
+      "title": "Training an LLM in Swift, Part 1: Taking matrix multiplication from Gflop/s to Tflop/s",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "Swift",
+        "Matrix Multiplication",
+        "GPU Acceleration",
+        "Metal",
+        "LLM Training"
+      ],
+      "category": "llm",
+      "file": "2026-05-19-training-an-llm-in-swift-part-1-taking-matrix-multiplication.json"
+    },
+    {
+      "id": "rss-20260519-026",
+      "title": "Aurora: A Leverage-Aware Optimizer for Rectangular Matrices",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "optimizer",
+        "matrix",
+        "leveraged-scores",
+        "efficiency",
+        "machine-learning"
+      ],
+      "category": "llm",
+      "file": "2026-05-19-aurora-a-leverage-aware-optimizer-for-rectangular-matrices.json"
+    },
+    {
+      "id": "rss-20260519-027",
+      "title": "Do AI summaries hurt critical thinking?",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "AI-summarization",
+        "critical-thinking",
+        "cognitive-bias",
+        "LLM-safety"
+      ],
+      "category": "llm",
+      "file": "2026-05-19-do-ai-summaries-hurt-critical-thinking.json"
+    },
+    {
+      "id": "rss-20260519-028",
+      "title": "Porting microgpt to Futhark, Part I",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "Futhark",
+        "GPT",
+        "parallel-computing",
+        "GPU",
+        "transformer"
+      ],
+      "category": "llm",
+      "file": "2026-05-19-porting-microgpt-to-futhark-part-i.json"
+    },
+    {
+      "id": "rss-20260519-029",
+      "title": "Scaling Pain of Coding Agent Serving: Lessons from Debugging GLM-5 at Scale",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "coding-agent",
+        "scaling",
+        "inference-optimization",
+        "system-engineering",
+        "llm-serving"
+      ],
+      "category": "agent",
+      "file": "2026-05-19-scaling-pain-of-coding-agent-serving-lessons-from-debugging-.json"
+    },
+    {
+      "id": "rss-20260519-030",
+      "title": "The new AI-powered Google Finance is expanding to Europe.",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "AI",
+        "Finance",
+        "Google",
+        "NLP",
+        "Personalization"
+      ],
+      "category": "llm",
+      "file": "2026-05-19-the-new-ai-powered-google-finance-is-expanding-to-europe.json"
+    },
+    {
+      "id": "rss-20260519-031",
+      "title": "The latest AI news we announced in April 2026",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "Google AI",
+        "LLM",
+        "AI Updates",
+        "Technology Blog"
+      ],
+      "category": "llm",
+      "file": "2026-05-19-the-latest-ai-news-we-announced-in-april-2026.json"
+    },
+    {
+      "id": "rss-20260519-032",
+      "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "Webhooks",
+        "Gemini API",
+        "Event-Driven",
+        "Latency Reduction",
+        "Asynchronous"
+      ],
+      "category": "llm",
+      "file": "2026-05-19-reduce-friction-and-latency-for-long-running-jobs-with-webho.json"
     }
   ]
 }

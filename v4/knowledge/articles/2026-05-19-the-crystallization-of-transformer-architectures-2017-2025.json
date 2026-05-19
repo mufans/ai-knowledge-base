@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260519-024",
+  "title": "The Crystallization of Transformer Architectures (2017-2025)",
+  "source": "rss",
+  "source_url": "https://jytan.net/blog/2025/transformer-architectures/",
+  "author": "",
+  "published_at": "2026-05-19T03:29:41Z",
+  "collected_at": "2026-05-19T03:29:41Z",
+  "summary": "这篇博客文章系统梳理了2017年至2025年间Transformer架构的演化历程，重点分析了架构设计从多样化探索到逐渐收敛为少数主流变体的“结晶化”过程。文章通过时间线展示了关键创新如多头注意力、位置编码、层归一化等技术的演进，并讨论了不同架构（如编码器-解码器、仅解码器、混合模型）的优劣与适用场景。技术亮点包括对稀疏注意力、线性注意力等效率改进方案的深入分析，以及对未来可能发展方向的前瞻性预测。",
+  "key_insight": "Transformer架构的演化并非线性进步，而是通过试错和淘汰，最终形成了以仅解码器架构为主流的稳定形态。",
+  "score": 7,
+  "tags": [
+    "transformer",
+    "architecture-evolution",
+    "attention-mechanism",
+    "deep-learning-history"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-19T03:29:41Z"
+}
