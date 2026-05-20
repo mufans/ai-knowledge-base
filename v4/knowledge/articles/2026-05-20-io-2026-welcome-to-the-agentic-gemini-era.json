@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260520-033",
+  "title": "I/O 2026: Welcome to the agentic Gemini era",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+  "author": "I",
+  "published_at": "2026-05-20T03:30:15Z",
+  "collected_at": "2026-05-20T03:30:15Z",
+  "summary": "该仓库是Google I/O 2026中关于Gemini智能体时代的技术公告，展示了如何通过Gemini帮助用户更高效地完成任务。核心功能包括Gemini的智能体能力、多模态交互和自动化任务执行，技术亮点在于其强大的推理、规划和工具调用能力，标志着AI从辅助工具向主动智能体的转变。",
+  "key_insight": "Google I/O 2026标志着AI从响应式工具向主动智能体时代的跨越，Gemini成为核心驱动力。",
+  "score": 9,
+  "tags": [
+    "agent",
+    "gemini",
+    "multi-modal",
+    "task-automation",
+    "google-ai"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-05-20T03:30:15Z"
+}

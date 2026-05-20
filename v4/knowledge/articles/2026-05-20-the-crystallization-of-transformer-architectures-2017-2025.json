@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260520-024",
+  "title": "The Crystallization of Transformer Architectures (2017-2025)",
+  "source": "rss",
+  "source_url": "https://jytan.net/blog/2025/transformer-architectures/",
+  "author": "",
+  "published_at": "2026-05-20T03:30:15Z",
+  "collected_at": "2026-05-20T03:30:15Z",
+  "summary": "该博客文章系统梳理了2017年至2025年间Transformer架构的演变历程，聚焦于关键设计决策如何从众多探索中“结晶”为当前主流架构。技术亮点包括对注意力机制、位置编码、归一化层、前馈网络等核心组件的演化分析，并探讨了MoE、线性注意力等变体。文章提供了架构演变的清晰时间线，有助于理解现代LLM的设计原理。",
+  "key_insight": "Transformer架构的演化是一个从多样化探索到设计收敛的“结晶”过程，理解这一历史有助于预测未来架构趋势。",
+  "score": 7,
+  "tags": [
+    "Transformer",
+    "Architecture Evolution",
+    "Deep Learning",
+    "NLP",
+    "LLM"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-20T03:30:15Z"
+}

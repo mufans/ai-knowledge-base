@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260520-021",
+  "title": "Autonomous AI research for nanogpt speedrun",
+  "source": "rss",
+  "source_url": "https://www.primeintellect.ai/auto-nanogpt",
+  "author": "",
+  "published_at": "2026-05-20T03:30:15Z",
+  "collected_at": "2026-05-20T03:30:15Z",
+  "summary": "该项目旨在通过自主AI研究加速nanogpt的训练过程，探索自动化神经网络优化技术。核心功能包括自动超参数调优、架构搜索和训练策略优化，以提升小型GPT模型的性能。技术亮点在于将AI自我改进方法应用于模型训练，实现高效的速度提升。",
+  "key_insight": "自主AI研究自动化加速nanogpt训练，但项目尚处早期，技术价值待验证。",
+  "score": 6,
+  "tags": [
+    "autonomous-ai",
+    "nanogpt",
+    "training-optimization",
+    "neural-architecture-search"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-20T03:30:15Z"
+}
