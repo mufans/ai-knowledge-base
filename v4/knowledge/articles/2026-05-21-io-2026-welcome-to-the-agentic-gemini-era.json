@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260521-035",
+  "title": "I/O 2026: Welcome to the agentic Gemini era",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+  "author": "I",
+  "published_at": "2026-05-21T03:35:47Z",
+  "collected_at": "2026-05-21T03:35:47Z",
+  "summary": "该博客文章是Google I/O 2026的主题演讲，由CEO Sundar Pichai主讲，介绍了Gemini模型进入“智能体时代”（Agentic Era）的最新进展。核心内容包括Gemini在理解、规划、记忆和工具使用方面的能力提升，以及如何帮助用户更高效地完成任务。技术亮点在于Gemini从单纯的对话模型向主动执行任务的智能体系统演进，展示了多模态交互、长期记忆和跨应用操作等能力。",
+  "key_insight": "Google I/O 2026标志着Gemini从问答模型转向主动智能体系统，核心突破在于规划、记忆和工具使用能力。",
+  "score": 9,
+  "tags": [
+    "Gemini",
+    "Agent",
+    "Multi-modal",
+    "Memory",
+    "Tool-use"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-05-21T03:35:47Z"
+}

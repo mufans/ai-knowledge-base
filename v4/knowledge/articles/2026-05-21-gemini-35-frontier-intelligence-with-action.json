@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260521-036",
+  "title": "Gemini 3.5: frontier intelligence with action",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+  "author": "",
+  "published_at": "2026-05-21T03:35:47Z",
+  "collected_at": "2026-05-21T03:35:47Z",
+  "summary": "Gemini 3.5是Google在I/O大会上发布的最新系列模型，结合了前沿智能与行动能力。该模型在推理、多模态理解和任务执行方面有显著提升，旨在实现更自然的人机交互和自动化操作。技术亮点包括增强的上下文理解、多步骤推理以及可执行复杂动作的智能体能力。",
+  "key_insight": "Gemini 3.5将前沿智能与行动能力结合，标志着AI从被动响应转向主动执行复杂任务的关键一步。",
+  "score": 9,
+  "tags": [
+    "LLM",
+    "multimodal",
+    "agent",
+    "reasoning",
+    "frontier"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-21T03:35:47Z"
+}

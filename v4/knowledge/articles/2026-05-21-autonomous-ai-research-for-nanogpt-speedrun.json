@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260521-023",
+  "title": "Autonomous AI research for nanogpt speedrun",
+  "source": "rss",
+  "source_url": "https://www.primeintellect.ai/auto-nanogpt",
+  "author": "",
+  "published_at": "2026-05-21T03:35:47Z",
+  "collected_at": "2026-05-21T03:35:47Z",
+  "summary": "该项目旨在通过自主AI研究加速纳米GPT（nanogpt）的训练速度，探索自动化机器学习优化技术。核心亮点包括利用AI自主设计训练策略、调整超参数和优化模型架构，以提升小型语言模型的效率。技术层面涉及强化学习、元学习和自动化超参数搜索，目标是在资源受限条件下实现性能突破。",
+  "key_insight": "自主AI研究可显著加速小型语言模型训练，但需在算法效率与计算成本间平衡。",
+  "score": 6,
+  "tags": [
+    "automl",
+    "reinforcement-learning",
+    "meta-learning",
+    "nanogpt",
+    "optimization"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "automl",
+  "updated_at": "2026-05-21T03:35:47Z"
+}

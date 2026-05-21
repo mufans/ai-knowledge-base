@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260521-030",
+  "title": "100 things we announced at I/O 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+  "author": "100 things we announced at I",
+  "published_at": "2026-05-21T03:35:47Z",
+  "collected_at": "2026-05-21T03:35:47Z",
+  "summary": "该仓库介绍了Google I/O 2026发布的100项重要AI技术，包括Gemini Omni多模态模型、Google Antigravity反重力技术、Universal Cart通用购物车等核心产品，展示了AI在多模态交互、物理世界模拟和日常应用中的突破性进展。技术亮点包括大规模多模态模型、物理模拟系统和通用交互界面。",
+  "key_insight": "Google I/O 2026集中展示了AI从纯数字智能向物理世界交互和日常应用渗透的趋势，Gemini Omni多模态模型是核心驱动力。",
+  "score": 9,
+  "tags": [
+    "multimodal",
+    "foundation-model",
+    "physical-simulation",
+    "interactive-system",
+    "google-io"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-21T03:35:47Z"
+}
