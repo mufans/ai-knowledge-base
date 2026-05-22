@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260522-035",
+  "title": "I/O 2026: Welcome to the agentic Gemini era",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+  "author": "I",
+  "published_at": "2026-05-22T03:34:43Z",
+  "collected_at": "2026-05-22T03:34:43Z",
+  "summary": "该仓库是Google I/O 2026大会的官方博客文章，由CEO Sundar Pichai发布，主题是进入“Agentic Gemini时代”。核心功能是展示Gemini模型如何从对话式AI进化为主动代理（Agent），能自主规划、执行多步骤任务（如订餐、管理日程）。技术亮点包括增强的推理能力、长上下文窗口、多模态处理（视觉+语音+代码）以及与其他Google服务（如Gmail、Maps）的深度集成，旨在让用户通过自然语言完成复杂工作流。",
+  "key_insight": "Gemini从被动问答转向主动代理，标志着AI从工具到自主执行者的范式转变。",
+  "score": 9,
+  "tags": [
+    "agent",
+    "gemini",
+    "multimodal",
+    "google-io"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-05-22T03:34:43Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260522-028",
+  "title": "jlearn: Machine Learning Library in J",
+  "source": "rss",
+  "source_url": "https://github.com/jonghough/jlearn",
+  "author": "",
+  "published_at": "2026-05-22T03:34:43Z",
+  "collected_at": "2026-05-22T03:34:43Z",
+  "summary": "jlearn 是一个用 J 语言编写的机器学习库，展示了在数组编程语言中实现 ML 算法的可能性。核心功能包括线性回归、逻辑回归、K-means 聚类等基础算法，技术亮点在于利用 J 的数组操作特性实现高效计算。",
+  "key_insight": "在 J 语言中实现 ML 库，展示了数组编程范式在机器学习中的潜力，但缺乏现代深度学习支持。",
+  "score": 4,
+  "tags": [
+    "J",
+    "machine-learning",
+    "array-programming"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-22T03:34:43Z"
+}

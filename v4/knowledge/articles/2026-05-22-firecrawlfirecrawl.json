@@ -1,0 +1,23 @@
+{
+  "id": "github-20260522-004",
+  "title": "firecrawl/firecrawl",
+  "source": "github",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "author": "firecrawl",
+  "published_at": "2026-05-22T03:34:43Z",
+  "collected_at": "2026-05-22T03:34:43Z",
+  "summary": "Firecrawl 是一个专为 AI 智能体设计的开源 web 数据提取工具，支持智能搜索、网页抓取和数据清洗，能将网页内容转换为干净的 Markdown 格式。其核心技术亮点包括：智能爬虫自动处理 JavaScript 渲染、反爬机制和动态内容；提供结构化数据提取 API；支持 LLM 友好的输出格式。项目采用 TypeScript 实现，拥有 12.2 万星标，活跃社区维护。",
+  "key_insight": "Firecrawl 通过将复杂 web 数据转化为 LLM 可消费的干净 Markdown 格式，成为连接互联网与 AI 智能体的关键数据管道。",
+  "score": 9,
+  "tags": [
+    "web-scraping",
+    "ai-agents",
+    "data-extraction",
+    "llm",
+    "crawler"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "rag",
+  "updated_at": "2026-05-22T03:34:43Z"
+}
