@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260523-034",
+  "title": "How AI Mode is changing the way people search in the U.S.",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
+  "author": "",
+  "published_at": "2026-05-23T02:53:03Z",
+  "collected_at": "2026-05-23T02:53:03Z",
+  "summary": "该博客文章探讨了Google AI Mode上线一年后如何改变美国用户的搜索行为，从传统关键词搜索向自然语言查询转变。核心功能包括理解复杂问题、提供上下文相关答案，并支持多轮对话。技术亮点在于利用大型语言模型（LLM）和检索增强生成（RAG）技术，提升搜索的准确性和用户体验。",
+  "key_insight": "AI Mode通过自然语言处理技术，推动搜索从关键词匹配转向语义理解，标志着人机交互范式的转变。",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "RAG",
+    "Search",
+    "NLP",
+    "User-Behavior"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-23T02:53:03Z"
+}

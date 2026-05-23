@@ -1,0 +1,23 @@
+{
+  "id": "github-20260523-020",
+  "title": "patchy631/ai-engineering-hub",
+  "source": "github",
+  "source_url": "https://github.com/patchy631/ai-engineering-hub",
+  "author": "patchy631",
+  "published_at": "2026-05-23T02:53:03Z",
+  "collected_at": "2026-05-23T02:53:03Z",
+  "summary": "该仓库提供关于LLM、RAG和AI代理应用的深入教程，包含大量Jupyter Notebook示例。它聚焦于实际应用，涵盖从基础概念到高级主题，如MCP（模型上下文协议）和复杂代理系统，适合希望掌握现代AI工程实践的开发者。",
+  "key_insight": "一个综合性的AI工程教程库，通过实际代码示例和最新技术（如MCP）帮助开发者快速上手LLM和代理应用。",
+  "score": 9,
+  "tags": [
+    "llm",
+    "rag",
+    "agents",
+    "tutorial",
+    "machine-learning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-23T02:53:03Z"
+}

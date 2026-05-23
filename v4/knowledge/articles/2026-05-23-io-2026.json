@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260523-033",
+  "title": "I/O 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+  "author": "I",
+  "published_at": "2026-05-23T02:53:03Z",
+  "collected_at": "2026-05-23T02:53:03Z",
+  "summary": "Google I/O 2026 展示了其AI技术的最新进展，强调让AI对每个人都更有帮助。本次发布涵盖了从开发者工具到消费者应用的全面更新，核心亮点包括更强大的多模态模型、增强的AI代理能力、以及更深入的与Google生态系统的集成。技术层面，重点包括提升模型推理效率、降低延迟、以及改进上下文理解能力，同时推出了新的API和云服务，旨在简化AI应用的开发与部署。",
+  "key_insight": "Google I/O 2026 的核心是推动AI从实验走向实用，通过更高效的模型和更易用的工具，将AI能力无缝嵌入现有开发工作流和用户日常体验中。",
+  "score": 8,
+  "tags": [
+    "Google I/O",
+    "AI",
+    "LLM",
+    "Developer Tools",
+    "Multimodal"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-23T02:53:03Z"
+}
