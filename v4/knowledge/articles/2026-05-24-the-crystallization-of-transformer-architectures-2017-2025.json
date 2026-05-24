@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260524-025",
+  "title": "The Crystallization of Transformer Architectures (2017-2025)",
+  "source": "rss",
+  "source_url": "https://jytan.net/blog/2025/transformer-architectures/",
+  "author": "",
+  "published_at": "2026-05-24T03:31:05Z",
+  "collected_at": "2026-05-24T03:31:05Z",
+  "summary": "该博客文章系统梳理了2017年至2025年间Transformer架构的演变与固化过程。核心功能是作为一篇技术综述，深入分析了从原始Transformer到现代变体（如GPT、BERT、T5及多模态模型）的关键设计选择与性能权衡。技术亮点在于揭示了架构“晶体化”的趋势，即某些设计模式（如层归一化位置、激活函数选择）逐渐成为主流，并探讨了这些选择背后的理论基础与实证结果，为理解当前LLM设计提供了历史视角。",
+  "key_insight": "Transformer架构的演进并非线性进步，而是通过经验性试错与理论理解共同推动的‘晶体化’过程，最终形成了当前高效且稳定的设计范式。",
+  "score": 8,
+  "tags": [
+    "Transformer",
+    "Architecture",
+    "Evolution",
+    "Survey",
+    "Deep Learning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-24T03:31:05Z"
+}
