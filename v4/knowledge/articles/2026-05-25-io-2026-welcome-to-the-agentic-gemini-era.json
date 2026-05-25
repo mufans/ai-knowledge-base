@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260525-036",
+  "title": "I/O 2026: Welcome to the agentic Gemini era",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+  "author": "I",
+  "published_at": "2026-05-25T03:42:36Z",
+  "collected_at": "2026-05-25T03:42:36Z",
+  "summary": "谷歌I/O 2026大会主题演讲，重点介绍了Gemini模型在代理（Agent）时代的全新能力。核心功能包括多模态交互、任务自动化和跨应用协同，展示了AI从单纯对话向主动执行复杂任务的演进。技术亮点在于Gemini对上下文理解和工具调用的深度集成，标志着谷歌全面进入智能代理时代。",
+  "key_insight": "谷歌Gemini从对话模型升级为自主代理，标志着AI能力从‘回答问题’到‘主动执行任务’的关键转折。",
+  "score": 9,
+  "tags": [
+    "Gemini",
+    "Agent",
+    "Google",
+    "Multimodal",
+    "Automation"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-05-25T03:42:36Z"
+}
