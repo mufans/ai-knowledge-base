@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260526-032",
+  "title": "I/O 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+  "author": "I",
+  "published_at": "2026-05-26T03:27:17Z",
+  "collected_at": "2026-05-26T03:27:17Z",
+  "summary": "该仓库汇总了Google I/O 2026大会上发布的AI相关工具和更新，重点展示了如何使AI更具实用性。包含开发者工具、平台更新等，体现了Google在AI领域的持续创新，特别是面向开发者的实用技术。",
+  "key_insight": "Google I/O 2026展示了AI从模型到应用的全栈实用化进展，核心是降低开发者门槛。",
+  "score": 6,
+  "tags": [
+    "Google I/O",
+    "AI",
+    "Developer Tools",
+    "Platform Updates"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-26T03:27:17Z"
+}

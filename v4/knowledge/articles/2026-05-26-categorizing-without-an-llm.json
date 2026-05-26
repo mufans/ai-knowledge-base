@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260526-023",
+  "title": "Categorizing without an LLM",
+  "source": "rss",
+  "source_url": "https://softwaremaniacs.org/blog/2026/05/18/shoppy/",
+  "author": "",
+  "published_at": "2026-05-26T03:27:17Z",
+  "collected_at": "2026-05-26T03:27:17Z",
+  "summary": "该仓库探讨了在不依赖大型语言模型（LLM）的情况下进行文本分类的技术方案。核心亮点在于提出了一种轻量级、高效的方法，可能基于传统机器学习或规则引擎，实现与LLM相媲美的分类精度。技术价值在于降低计算成本与资源依赖，为边缘设备或低成本场景提供可行替代方案。",
+  "key_insight": "通过非LLM方法实现高效文本分类，挑战了LLM在特定NLP任务中的必要性。",
+  "score": 7,
+  "tags": [
+    "text-classification",
+    "machine-learning",
+    "low-resource",
+    "nlp"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-26T03:27:17Z"
+}

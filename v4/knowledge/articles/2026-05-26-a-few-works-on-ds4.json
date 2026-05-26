@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260526-025",
+  "title": "A few works on DS4",
+  "source": "rss",
+  "source_url": "https://antirez.com/news/165",
+  "author": "",
+  "published_at": "2026-05-26T03:27:17Z",
+  "collected_at": "2026-05-26T03:27:17Z",
+  "summary": "该项目实现了一个高度针对性的LLM部署方案，专注于在普通开发者机器（如DGX Spark或128GB内存Macbook）上运行Deepseek V4 Flash模型。它通过优化资源利用，使得高性能AI模型能够在非专业硬件上高效运行，降低了LLM应用的门槛。技术亮点在于其紧凑的架构设计和针对特定模型的深度优化。",
+  "key_insight": "通过针对特定模型和硬件的深度优化，实现了在消费级设备上运行大型语言模型的能力。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "Deepseek",
+    "Optimization",
+    "Edge-Computing",
+    "Deployment"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-26T03:27:17Z"
+}

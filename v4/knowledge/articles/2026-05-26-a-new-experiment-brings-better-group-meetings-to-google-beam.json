@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260526-031",
+  "title": "A new experiment brings better group meetings to Google Beam",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
+  "author": "",
+  "published_at": "2026-05-26T03:27:17Z",
+  "collected_at": "2026-05-26T03:27:17Z",
+  "summary": "Google Beam是一项创新实验，旨在通过真实大小和声音的远程呈现技术，提升混合会议中的包容性和连接感。该技术可能结合了AI驱动的音频/视频处理，以优化空间音频和视觉保真度，使远程参与者感觉更身临其境。核心亮点包括高保真音视频传输和沉浸式协作体验。",
+  "key_insight": "通过真实大小和声音的远程呈现，Google Beam重新定义了混合会议的沉浸式体验，可能依赖AI优化音视频同步与空间感知。",
+  "score": 8,
+  "tags": [
+    "remote-collaboration",
+    "audio-processing",
+    "video-processing",
+    "immersive-tech",
+    "hybrid-meetings"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "multi-modal",
+  "updated_at": "2026-05-26T03:27:17Z"
+}
