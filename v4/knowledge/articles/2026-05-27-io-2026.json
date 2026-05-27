@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260527-032",
+  "title": "I/O 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+  "author": "I",
+  "published_at": "2026-05-27T03:41:49Z",
+  "collected_at": "2026-05-27T03:41:49Z",
+  "summary": "该仓库记录了Google I/O 2026大会发布的AI技术更新，重点展示了如何让AI对每个人更有帮助。内容涵盖多模态AI、开发者工具和模型优化等核心进展，体现了Google在AI应用层面的持续创新。",
+  "key_insight": "Google I/O 2026聚焦AI普惠化，多模态与开发者工具是核心亮点。",
+  "score": 8,
+  "tags": [
+    "google-io",
+    "multimodal-ai",
+    "developer-tools",
+    "ai-application"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-27T03:41:49Z"
+}

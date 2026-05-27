@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260527-031",
+  "title": "A new experiment brings better group meetings to Google Beam",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
+  "author": "",
+  "published_at": "2026-05-27T03:41:49Z",
+  "collected_at": "2026-05-27T03:41:49Z",
+  "summary": "该项目通过Google Beam实现增强的群组会议功能，利用AI技术提供真实比例的视听体验，使混合会议更具包容性和连接性。技术亮点包括空间音频和视频优化，提升远程协作的自然感。",
+  "key_insight": "通过AI驱动的真实感视听技术，重塑混合会议的沉浸式体验。",
+  "score": 6,
+  "tags": [
+    "AI-meeting",
+    "spatial-audio",
+    "video-enhancement",
+    "collaboration"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-27T03:41:49Z"
+}

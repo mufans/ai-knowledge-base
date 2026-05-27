@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260527-026",
+  "title": "The Crystallization of Transformer Architectures (2017-2025)",
+  "source": "rss",
+  "source_url": "https://jytan.net/blog/2025/transformer-architectures/",
+  "author": "",
+  "published_at": "2026-05-27T03:41:49Z",
+  "collected_at": "2026-05-27T03:41:49Z",
+  "summary": "该博客文章回顾了从2017年至2025年Transformer架构的演变历程，分析了其从初始设计到多样化变体的结晶过程。文章探讨了关键改进如注意力机制优化、位置编码创新和模型规模扩展，突出了Transformer在自然语言处理和多模态任务中的核心地位。技术亮点包括对架构稳定性和可扩展性的深入洞察。",
+  "key_insight": "Transformer架构的演变反映了深度学习从通用设计到专业化优化的必然趋势，核心创新如高效注意力机制是推动其广泛采用的关键。",
+  "score": 9,
+  "tags": [
+    "Transformer",
+    "Architecture Evolution",
+    "Attention Mechanism",
+    "Deep Learning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-27T03:41:49Z"
+}
