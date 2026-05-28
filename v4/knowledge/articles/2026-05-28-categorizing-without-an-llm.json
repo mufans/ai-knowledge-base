@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260528-023",
+  "title": "Categorizing without an LLM",
+  "source": "rss",
+  "source_url": "https://softwaremaniacs.org/blog/2026/05/18/shoppy/",
+  "author": "",
+  "published_at": "2026-05-28T03:01:26Z",
+  "collected_at": "2026-05-28T03:01:26Z",
+  "summary": "该仓库讨论了一种无需大型语言模型（LLM）即可实现内容分类的方法。核心思路是利用传统的NLP技术（如TF-IDF、词嵌入或规则匹配）替代LLM，从而降低计算成本和延迟。技术亮点在于展示了在特定场景下，轻量级方法可以高效完成分类任务，避免过度依赖复杂模型。",
+  "key_insight": "展示了在分类任务中，传统NLP方法可以替代LLM，实现低成本、高效率的解决方案。",
+  "score": 4,
+  "tags": [
+    "NLP",
+    "classification",
+    "rule-based",
+    "lightweight"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-28T03:01:26Z"
+}

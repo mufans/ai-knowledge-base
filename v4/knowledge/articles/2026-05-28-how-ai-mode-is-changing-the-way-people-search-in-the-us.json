@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260528-035",
+  "title": "How AI Mode is changing the way people search in the U.S.",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
+  "author": "",
+  "published_at": "2026-05-28T03:01:26Z",
+  "collected_at": "2026-05-28T03:01:26Z",
+  "summary": "该博客文章总结了谷歌AI模式在美国上线一年后的用户行为变化，核心发现是用户从传统关键词搜索转向自然语言查询。技术亮点包括AI模式对搜索意图理解的提升、实时信息整合能力以及多轮对话支持。文章通过数据展示了AI如何重塑搜索体验，强调自然语言处理在信息检索中的关键作用。",
+  "key_insight": "AI模式推动搜索从关键词匹配向语义理解转变，自然语言查询占比显著提升。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "NLP",
+    "Search",
+    "Natural Language Processing"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-28T03:01:26Z"
+}

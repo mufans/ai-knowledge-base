@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260528-027",
+  "title": "The Crystallization of Transformer Architectures (2017-2025)",
+  "source": "rss",
+  "source_url": "https://jytan.net/blog/2025/transformer-architectures/",
+  "author": "",
+  "published_at": "2026-05-28T03:01:26Z",
+  "collected_at": "2026-05-28T03:01:26Z",
+  "summary": "该仓库以博客文章形式系统梳理了Transformer架构从2017年提出到2025年的演化历程，聚焦关键架构变体（如GPT、BERT、T5、LLaMA等）的结晶化过程。技术亮点在于通过时间线分析揭示架构设计中的收敛趋势与创新节点，为理解现代大语言模型的基础设计提供系统性视角。",
+  "key_insight": "Transformer架构在8年间经历了从多样化探索到少数高效变体（如decoder-only、pre-norm、RoPE）的收敛，这一结晶化过程定义了现代大模型的基础范式。",
+  "score": 8,
+  "tags": [
+    "transformer",
+    "architecture-evolution",
+    "survey",
+    "llm",
+    "deep-learning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-28T03:01:26Z"
+}

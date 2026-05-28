@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260528-021",
+  "title": "The Open/Closed Problem in AI",
+  "source": "rss",
+  "source_url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+  "author": "The Open",
+  "published_at": "2026-05-28T03:01:26Z",
+  "collected_at": "2026-05-28T03:01:26Z",
+  "summary": "该博客文章探讨了AI领域中的“开放/封闭问题”，指出当前AI系统（如大型语言模型）在开放性（即处理新任务、生成新内容的能力）与封闭性（即确保可靠性、安全性和可控性）之间存在根本性矛盾。文章认为，传统的软件工程原则（如开放封闭原则）在AI中面临挑战，因为AI的开放性可能导致不可预测的行为，而过度封闭则会限制其泛化能力。文章提出需要新的架构和方法来平衡这两者，例如通过模块化设计、可解释性增强和动态约束机制。技术亮点在于对AI系统设计哲学的系统性反思。",
+  "key_insight": "AI的开放性与封闭性矛盾是当前系统设计的关键瓶颈，需要从软件工程原则中寻找平衡点。",
+  "score": 6,
+  "tags": [
+    "AI",
+    "open-closed-principle",
+    "safety",
+    "robustness",
+    "generalization"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-28T03:01:26Z"
+}
