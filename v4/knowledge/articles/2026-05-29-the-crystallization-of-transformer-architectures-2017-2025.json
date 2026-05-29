@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260529-027",
+  "title": "The Crystallization of Transformer Architectures (2017-2025)",
+  "source": "rss",
+  "source_url": "https://jytan.net/blog/2025/transformer-architectures/",
+  "author": "",
+  "published_at": "2026-05-29T03:30:28Z",
+  "collected_at": "2026-05-29T03:30:28Z",
+  "summary": "该仓库以博客文章形式回顾了Transformer架构从2017年提出到2025年的演变历程，系统梳理了关键技术创新如多头注意力、位置编码、层归一化、GELU激活函数等。文章深入分析了架构的“结晶化”过程，即哪些设计被证明是稳定有效的核心组件。技术亮点在于对Transformer设计空间的清晰分类和演化脉络的总结。",
+  "key_insight": "Transformer架构的稳定核心组件（如多头注意力、层归一化）在多年实践中被固化，反映了深度学习设计中的“结晶化”现象。",
+  "score": 8,
+  "tags": [
+    "Transformer",
+    "Architecture",
+    "Deep Learning",
+    "NLP",
+    "Evolution"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-29T03:30:28Z"
+}

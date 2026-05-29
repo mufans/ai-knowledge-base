@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260529-033",
+  "title": "I/O 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+  "author": "I",
+  "published_at": "2026-05-29T03:30:28Z",
+  "collected_at": "2026-05-29T03:30:28Z",
+  "summary": "该仓库是Google I/O 2026大会发布的AI技术合集，展示了Google在AI领域的多项创新。核心功能包括新一代AI开发工具、模型优化和跨平台集成，技术亮点在于将AI更无缝地融入日常应用场景，提升开发者和用户的体验。",
+  "key_insight": "Google I/O 2026强调了AI的实用性和可及性，通过工具和平台优化，降低AI开发门槛。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Google I/O",
+    "Developer Tools",
+    "Machine Learning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-29T03:30:28Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260529-035",
+  "title": "New ways to create and get things done in Google Workspace",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
+  "author": "",
+  "published_at": "2026-05-29T03:30:28Z",
+  "collected_at": "2026-05-29T03:30:28Z",
+  "summary": "该仓库是Google Workspace的官方更新博客，介绍了Gmail、Docs和Keep中的新语音功能，以及名为Google Pics的设计工具和AI Inbox的更新。核心功能包括语音交互增强、AI驱动的收件箱管理和设计工具集成，技术亮点在于将AI能力无缝嵌入办公套件，提升生产力和用户体验。",
+  "key_insight": "Google通过AI语音和设计工具扩展Workspace生态，强调多模态交互和自动化办公体验。",
+  "score": 6,
+  "tags": [
+    "AI",
+    "Google Workspace",
+    "voice",
+    "productivity",
+    "design-tool"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "productivity",
+  "updated_at": "2026-05-29T03:30:28Z"
+}

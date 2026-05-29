@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260529-021",
+  "title": "The Open/Closed Problem in AI",
+  "source": "rss",
+  "source_url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+  "author": "The Open",
+  "published_at": "2026-05-29T03:30:28Z",
+  "collected_at": "2026-05-29T03:30:28Z",
+  "summary": "该博客文章探讨了AI领域中的“开放/封闭问题”，即AI系统在开放世界（动态、不可预测）与封闭世界（固定、可控）之间的权衡。文章可能讨论了如何设计AI以适应现实世界的复杂性，以及封闭假设带来的局限性。核心是批判当前AI系统在面对开放环境时的脆弱性，并可能提出需要更灵活、自适应的架构。",
+  "key_insight": "AI系统在开放环境中的适应能力是当前技术瓶颈，封闭世界假设导致其在复杂现实中的应用受限。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "open-world",
+    "closed-world",
+    "robustness"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-29T03:30:28Z"
+}
