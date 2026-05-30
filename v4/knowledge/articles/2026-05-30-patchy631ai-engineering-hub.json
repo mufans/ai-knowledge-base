@@ -1,0 +1,23 @@
+{
+  "id": "github-20260530-019",
+  "title": "patchy631/ai-engineering-hub",
+  "source": "github",
+  "source_url": "https://github.com/patchy631/ai-engineering-hub",
+  "author": "patchy631",
+  "published_at": "2026-05-30T02:56:47Z",
+  "collected_at": "2026-05-30T02:56:47Z",
+  "summary": "该仓库提供了关于LLM、RAG和实际AI Agent应用的深入教程，涵盖从基础到高级的多个主题，如MCP、机器学习等。所有内容均以Jupyter Notebook形式呈现，便于实践和学习。项目拥有大量星标，表明其在AI工程社区中具有广泛影响力和实用价值。",
+  "key_insight": "通过丰富的实战教程，将LLM、RAG和AI Agent技术从理论转化为可执行的工程实践，是AI应用开发者的宝贵学习资源。",
+  "score": 9,
+  "tags": [
+    "LLM",
+    "RAG",
+    "AI Agent",
+    "Tutorial",
+    "Jupyter Notebook"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-05-30T02:56:47Z"
+}

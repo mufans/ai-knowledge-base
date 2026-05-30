@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260530-030",
+  "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+  "author": "Take our I",
+  "published_at": "2026-05-30T02:56:47Z",
+  "collected_at": "2026-05-30T02:56:47Z",
+  "summary": "该仓库展示了使用 Google AI Studio 进行“氛围编码”创建的一个关于 I/O 2026 公告的问答测验。核心功能是通过 AI 辅助快速生成交互式网页应用，体现了 AI 在低代码/无代码开发中的潜力。技术亮点在于利用大语言模型（LLM）和生成式 AI 工具链，将自然语言描述直接转化为可运行的代码，实现快速原型开发。",
+  "key_insight": "通过 AI Studio 的“氛围编码”模式，非开发者也能快速构建交互式应用，展示了生成式 AI 在降低编程门槛方面的实际应用价值。",
+  "score": 7,
+  "tags": [
+    "vibe-coding",
+    "google-ai-studio",
+    "llm",
+    "low-code",
+    "generative-ai"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "code-generation",
+  "updated_at": "2026-05-30T02:56:47Z"
+}
