@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260531-021",
+  "title": "The Open/Closed Problem in AI",
+  "source": "rss",
+  "source_url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+  "author": "The Open",
+  "published_at": "2026-05-31T03:42:17Z",
+  "collected_at": "2026-05-31T03:42:17Z",
+  "summary": "该博客文章探讨了AI领域中的“开放/封闭问题”，即AI系统在开放环境（动态、未知）与封闭环境（静态、可预测）下的性能与挑战。核心观点是当前AI（如大语言模型）在封闭任务中表现优异，但在开放场景下缺乏鲁棒性和适应性，需结合符号推理与连接主义方法。技术亮点在于提出了一种混合架构，融合统计学习与逻辑推理以平衡开放性与封闭性。",
+  "key_insight": "AI的开放性问题本质上是统计学习与符号推理的互补需求，混合架构是突破封闭场景局限的关键。",
+  "score": 6,
+  "tags": [
+    "open-closed-problem",
+    "AI-robustness",
+    "hybrid-architecture",
+    "symbolic-reasoning",
+    "connectionism"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-05-31T03:42:17Z"
+}
