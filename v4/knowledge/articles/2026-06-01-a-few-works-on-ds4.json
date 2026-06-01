@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260601-027",
+  "title": "A few works on DS4",
+  "source": "rss",
+  "source_url": "https://antirez.com/news/165",
+  "author": "",
+  "published_at": "2026-06-01T03:57:25Z",
+  "collected_at": "2026-06-01T03:57:25Z",
+  "summary": "该仓库介绍了一个针对Deepseek V4 Flash的超特定LLM实现，能够在DGX Spark或128GB RAM Macbook等普通开发者机器上运行。核心亮点是优化了模型部署，使其在消费级硬件上高效运行，无需高端GPU集群。技术思路聚焦于模型压缩和推理优化，可能涉及量化、剪枝或注意力机制优化，以降低资源需求。",
+  "key_insight": "通过超特定优化，使大型LLM在普通硬件上运行，降低AI部署门槛。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "optimization",
+    "deployment",
+    "deepseek"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-01T03:57:25Z"
+}

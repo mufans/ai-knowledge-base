@@ -1,0 +1,23 @@
+{
+  "id": "github-20260601-016",
+  "title": "zhayujie/CowAgent",
+  "source": "github",
+  "source_url": "https://github.com/zhayujie/CowAgent",
+  "author": "zhayujie",
+  "published_at": "2026-06-01T03:57:25Z",
+  "collected_at": "2026-06-01T03:57:25Z",
+  "summary": "CowAgent 是一个开源的超级 AI 助手与代理框架，能够规划任务、运行工具和技能，并通过记忆和知识自主成长。它支持多模型（如 ChatGPT、Claude、DeepSeek）和多渠道（如微信），以轻量级、可扩展和一行安装为特点，融合了 MCP、Codex 和 Claw 等先进机制，实现了从简单对话到复杂多步任务执行的跨越。",
+  "key_insight": "CowAgent 通过整合任务规划、工具调用和自主记忆增长，提供了一个轻量级但功能完备的通用代理框架，显著降低了 AI 代理的开发门槛。",
+  "score": 9,
+  "tags": [
+    "ai-agent",
+    "llm",
+    "multi-agent",
+    "tool-use",
+    "memory"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-06-01T03:57:25Z"
+}

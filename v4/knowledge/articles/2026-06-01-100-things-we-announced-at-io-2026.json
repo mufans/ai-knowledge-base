@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260601-037",
+  "title": "100 things we announced at I/O 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+  "author": "100 things we announced at I",
+  "published_at": "2026-06-01T03:57:25Z",
+  "collected_at": "2026-06-01T03:57:25Z",
+  "summary": "该仓库记录了Google I/O 2026大会上的100项重要发布，涵盖AI、硬件、软件等多领域创新。核心亮点包括新一代Gemini模型、AI助手功能升级、Android系统革新、以及面向开发者的工具与平台更新。技术层面涉及多模态AI、边缘计算、隐私保护等前沿方向，展示了Google在AI驱动下的生态扩展与产品整合能力。",
+  "key_insight": "Google I/O 2026全面展示了AI从模型到应用的端到端渗透，Gemini成为连接搜索、云服务和消费级产品的核心引擎。",
+  "score": 9,
+  "tags": [
+    "Google I/O",
+    "Gemini",
+    "AI",
+    "Multimodal",
+    "Developer Tools"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-01T03:57:25Z"
+}

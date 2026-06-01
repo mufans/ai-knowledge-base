@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260601-025",
+  "title": "Categorizing without an LLM",
+  "source": "rss",
+  "source_url": "https://softwaremaniacs.org/blog/2026/05/18/shoppy/",
+  "author": "",
+  "published_at": "2026-06-01T03:57:25Z",
+  "collected_at": "2026-06-01T03:57:25Z",
+  "summary": "该仓库探讨了在不依赖大型语言模型（LLM）的情况下进行文本分类的方法。核心思路是利用传统机器学习技术（如TF-IDF、朴素贝叶斯或轻量级分类器）实现高效、低成本的数据分类，避免LLM的高计算开销和延迟。技术亮点包括轻量化模型设计、快速推理和适合资源受限场景的部署方案。",
+  "key_insight": "在无需LLM的场景下，传统机器学习方法仍可高效完成分类任务，尤其适合资源受限或实时性要求高的应用。",
+  "score": 4,
+  "tags": [
+    "text-classification",
+    "machine-learning",
+    "nlp",
+    "lightweight"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-01T03:57:25Z"
+}
