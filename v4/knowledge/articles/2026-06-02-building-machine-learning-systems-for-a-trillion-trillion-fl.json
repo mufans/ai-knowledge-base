@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260602-022",
+  "title": "Building Machine Learning Systems for a Trillion Trillion Floating Point Operations (2024)",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=139UPjoq7Kw",
+  "author": "",
+  "published_at": "2026-06-02T03:52:48Z",
+  "collected_at": "2026-06-02T03:52:48Z",
+  "summary": "该仓库是一个YouTube视频链接，标题为“Building Machine Learning Systems for a Trillion Trillion Floating Point Operations (2024)”。视频讨论构建支持千万亿次浮点运算的机器学习系统，涉及大规模分布式计算、硬件优化和算法效率提升。由于是外部视频，仓库本身无代码或文档。",
+  "key_insight": "视频聚焦于超大规模ML系统的工程挑战，但仓库无实际资源，价值有限。",
+  "score": 6,
+  "tags": [
+    "distributed-computing",
+    "high-performance-computing",
+    "scalability"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-02T03:52:48Z"
+}

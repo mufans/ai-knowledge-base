@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260602-023",
+  "title": "The Open/Closed Problem in AI",
+  "source": "rss",
+  "source_url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+  "author": "The Open",
+  "published_at": "2026-06-02T03:52:48Z",
+  "collected_at": "2026-06-02T03:52:48Z",
+  "summary": "该仓库探讨了AI领域中的“开放/封闭问题”，即AI系统在开放环境中的泛化能力与封闭环境中的专用性能之间的权衡。核心观点是，当前AI模型在封闭任务上表现优异，但在面对开放、动态的真实世界场景时存在局限性。技术亮点包括对AI模型泛化能力的理论分析，以及提出了一种结合开放与封闭方法的混合框架。",
+  "key_insight": "AI模型的开放与封闭问题揭示了当前系统在真实世界泛化中的根本限制，混合框架是潜在解决方案。",
+  "score": 6,
+  "tags": [
+    "AI",
+    "generalization",
+    "open-world",
+    "closed-world",
+    "theory"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "theory",
+  "updated_at": "2026-06-02T03:52:48Z"
+}

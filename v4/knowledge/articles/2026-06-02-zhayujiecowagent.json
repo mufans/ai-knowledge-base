@@ -1,0 +1,23 @@
+{
+  "id": "github-20260602-016",
+  "title": "zhayujie/CowAgent",
+  "source": "github",
+  "source_url": "https://github.com/zhayujie/CowAgent",
+  "author": "zhayujie",
+  "published_at": "2026-06-02T03:52:48Z",
+  "collected_at": "2026-06-02T03:52:48Z",
+  "summary": "CowAgent 是一个开源的超级 AI 助手与 Agent 框架，核心功能包括任务规划、工具与技能执行、自主记忆与知识增长。它支持多模型（如 OpenAI、Claude、DeepSeek）和多渠道集成（如微信），设计轻量、可扩展，一行命令即可安装。技术亮点在于其 Harness 架构，能够灵活编排 MCP 协议、多 Agent 协作和技能库管理，旨在构建一个能自主进化、适应复杂任务的智能体系统。",
+  "key_insight": "CowAgent 通过 Harness 架构和 MCP 协议，实现了多模型、多渠道下任务规划与技能执行的轻量化、可扩展 Agent 框架，并赋予自主记忆与知识增长能力。",
+  "score": 9,
+  "tags": [
+    "ai-agent",
+    "multi-agent",
+    "llm",
+    "mcp",
+    "task-planning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-06-02T03:52:48Z"
+}
