@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260603-025",
+  "title": "The Open/Closed Problem in AI",
+  "source": "rss",
+  "source_url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+  "author": "The Open",
+  "published_at": "2026-06-03T03:59:41Z",
+  "collected_at": "2026-06-03T03:59:41Z",
+  "summary": "该仓库探讨了AI领域中的一个核心哲学与技术问题：开放/封闭问题。它分析了AI系统在开放环境中的适应性与封闭系统中的可控性之间的张力，提出了当前AI模型（如大语言模型）在应对未知输入、动态任务和持续学习方面的局限性。技术亮点包括对现有AI架构（如Transformer）在开放性问题上的批判性思考，以及对未来AI设计原则的展望。",
+  "key_insight": "AI的开放与封闭问题揭示了当前模型在动态环境中缺乏真正适应性的根本矛盾。",
+  "score": 6,
+  "tags": [
+    "AI-philosophy",
+    "open-systems",
+    "closed-systems",
+    "AI-limitations"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-03T03:59:41Z"
+}

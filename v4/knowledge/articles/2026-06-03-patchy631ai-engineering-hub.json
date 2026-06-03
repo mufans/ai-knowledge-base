@@ -1,0 +1,23 @@
+{
+  "id": "github-20260603-019",
+  "title": "patchy631/ai-engineering-hub",
+  "source": "github",
+  "source_url": "https://github.com/patchy631/ai-engineering-hub",
+  "author": "patchy631",
+  "published_at": "2026-06-03T03:59:41Z",
+  "collected_at": "2026-06-03T03:59:41Z",
+  "summary": "该仓库提供了关于大型语言模型（LLMs）、检索增强生成（RAG）和实际AI智能体应用的深入教程，涵盖从基础到高级的实践内容。核心亮点包括系统化的学习路径、真实世界案例以及MCP（模型上下文协议）等前沿技术的实现，适合开发者快速上手AI工程。",
+  "key_insight": "通过高质量教程和实际案例，成为AI工程实践的核心学习资源，尤其聚焦智能体和LLM应用开发。",
+  "score": 9,
+  "tags": [
+    "LLM",
+    "RAG",
+    "AI Agents",
+    "MCP",
+    "Tutorial"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-06-03T03:59:41Z"
+}

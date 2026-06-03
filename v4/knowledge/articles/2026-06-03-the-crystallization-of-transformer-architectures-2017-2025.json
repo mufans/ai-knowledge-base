@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260603-030",
+  "title": "The Crystallization of Transformer Architectures (2017-2025)",
+  "source": "rss",
+  "source_url": "https://jytan.net/blog/2025/transformer-architectures/",
+  "author": "",
+  "published_at": "2026-06-03T03:59:41Z",
+  "collected_at": "2026-06-03T03:59:41Z",
+  "summary": "该仓库以博客文章形式回顾了2017年至2025年间Transformer架构的发展历程，重点分析了从原始Transformer到GPT系列、BERT、T5等关键变体的演进路径，以及混合专家模型（MoE）、稀疏注意力、长上下文等技术突破。文章通过时间线梳理了架构的“结晶化”过程，即核心设计逐渐稳定并形成主流范式。技术亮点在于系统性地总结了Transformer在自然语言处理、多模态等领域的扩展与优化，并探讨了未来可能的方向如高效推理和架构简化。",
+  "key_insight": "Transformer架构的演进并非线性创新，而是通过反复实验和优化逐渐固化核心设计，形成高效、可扩展的通用基础模型范式。",
+  "score": 8,
+  "tags": [
+    "Transformer",
+    "Architecture Evolution",
+    "NLP",
+    "Deep Learning",
+    "Language Model"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-03T03:59:41Z"
+}

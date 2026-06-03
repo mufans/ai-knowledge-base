@@ -1,0 +1,23 @@
+{
+  "id": "github-20260603-011",
+  "title": "earendil-works/pi",
+  "source": "github",
+  "source_url": "https://github.com/earendil-works/pi",
+  "author": "earendil-works",
+  "published_at": "2026-06-03T03:59:41Z",
+  "collected_at": "2026-06-03T03:59:41Z",
+  "summary": "这是一个全面的AI Agent工具包，提供编码代理CLI、统一LLM API、终端和Web UI库、Slack机器人以及vLLM部署支持。基于TypeScript构建，旨在简化AI工作流的开发与集成，技术亮点包括模块化架构和多平台交互能力。",
+  "key_insight": "以TypeScript为核心，整合编码代理与多模态LLM接口，打造一站式AI开发工具链。",
+  "score": 9,
+  "tags": [
+    "agent",
+    "llm",
+    "cli",
+    "typescript",
+    "devtools"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-06-03T03:59:41Z"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260603-023",
+  "title": "Constraining LLMs Just Like Users",
+  "source": "rss",
+  "source_url": "https://www.aeracode.org/2026/06/01/constraining-llms/",
+  "author": "",
+  "published_at": "2026-06-03T03:59:41Z",
+  "collected_at": "2026-06-03T03:59:41Z",
+  "summary": "该仓库探讨如何像约束普通用户一样约束大语言模型（LLMs），提出一种通过定义规则和限制来引导LLM行为的方法。技术亮点在于将用户权限管理概念应用于AI模型，实现更可控的输出。",
+  "key_insight": "将用户权限管理思想迁移到LLM约束中，提供了一种新颖的安全控制框架。",
+  "score": 6,
+  "tags": [
+    "LLM",
+    "AI-Safety",
+    "Constraint",
+    "Prompt-Engineering"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-03T03:59:41Z"
+}
