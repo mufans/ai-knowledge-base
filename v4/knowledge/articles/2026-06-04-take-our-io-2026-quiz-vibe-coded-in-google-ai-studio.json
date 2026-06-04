@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260604-030",
+  "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+  "author": "Take our I",
+  "published_at": "2026-06-04T03:54:41Z",
+  "collected_at": "2026-06-04T03:54:41Z",
+  "summary": "该仓库是Google I/O 2026的互动测验项目，使用Google AI Studio的“vibe code”功能开发。核心功能是生成关于I/O 2026重大公告的问答测验，技术亮点在于展示了AI辅助编程（vibe coding）在快速原型开发中的应用，体现了低代码/无代码AI工具链的实用性。",
+  "key_insight": "通过AI Studio的vibe coding模式，非专业开发者也能快速构建交互式AI应用，降低了AI开发门槛。",
+  "score": 6,
+  "tags": [
+    "vibe-coding",
+    "ai-studio",
+    "quiz-generator",
+    "google-io"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "code-generation",
+  "updated_at": "2026-06-04T03:54:41Z"
+}

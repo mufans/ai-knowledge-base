@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260604-035",
+  "title": "100 things we announced at I/O 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+  "author": "100 things we announced at I",
+  "published_at": "2026-06-04T03:54:41Z",
+  "collected_at": "2026-06-04T03:54:41Z",
+  "summary": "该仓库是对Google I/O 2026大会上发布的100项技术公告的汇总，涵盖AI、硬件、软件等多个领域的创新。技术亮点包括新一代AI模型、多模态交互、边缘计算和开发者工具。内容以博客形式呈现，非代码库，但提供了对AI技术趋势的全面洞察。",
+  "key_insight": "Google I/O 2026展示了AI从模型到应用的全面落地，强调多模态和边缘化趋势。",
+  "score": 6,
+  "tags": [
+    "Google I/O",
+    "AI",
+    "Multimodal",
+    "Edge Computing",
+    "Developer Tools"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-04T03:54:41Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260604-026",
+  "title": "Categorizing without an LLM",
+  "source": "rss",
+  "source_url": "https://softwaremaniacs.org/blog/2026/05/18/shoppy/",
+  "author": "",
+  "published_at": "2026-06-04T03:54:41Z",
+  "collected_at": "2026-06-04T03:54:41Z",
+  "summary": "该仓库探讨了在不使用大型语言模型（LLM）的情况下进行文本分类的方法。通过分析传统机器学习技术如朴素贝叶斯、支持向量机（SVM）或基于规则的方法，展示了如何高效实现分类任务。亮点在于强调非LLM方案在资源消耗、隐私保护和可解释性方面的优势，适合轻量级或离线场景。",
+  "key_insight": "在不依赖LLM的情况下，传统ML方法仍能有效实现文本分类，且具备资源效率高和隐私保护的优势。",
+  "score": 6,
+  "tags": [
+    "text-classification",
+    "machine-learning",
+    "nlp",
+    "rule-based",
+    "efficiency"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-04T03:54:41Z"
+}

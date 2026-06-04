@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260604-022",
+  "title": "Constraining LLMs Just Like Users",
+  "source": "rss",
+  "source_url": "https://www.aeracode.org/2026/06/01/constraining-llms/",
+  "author": "",
+  "published_at": "2026-06-04T03:54:41Z",
+  "collected_at": "2026-06-04T03:54:41Z",
+  "summary": "该仓库提出了一种通过类似用户约束的方式限制大型语言模型（LLM）的方法，旨在增强模型的安全性和可控性。技术亮点在于将用户级约束（如权限、规则）直接应用于LLM推理过程，而非依赖传统微调或后处理。",
+  "key_insight": "通过模拟用户权限机制约束LLM输出，提供一种轻量级、可解释的安全增强方案。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "Safety",
+    "Constraint",
+    "Explainability"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-04T03:54:41Z"
+}
