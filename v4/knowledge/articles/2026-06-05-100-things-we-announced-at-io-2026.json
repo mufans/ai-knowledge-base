@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260605-037",
+  "title": "100 things we announced at I/O 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+  "author": "100 things we announced at I",
+  "published_at": "2026-06-05T03:39:20Z",
+  "collected_at": "2026-06-05T03:39:20Z",
+  "summary": "该仓库无法直接获取代码内容，但链接指向谷歌I/O 2026大会的100项AI技术公告，涵盖模型升级、多模态能力、开发者工具等。核心亮点包括新一代Gemini模型、AI Agent框架、以及跨平台集成。技术价值体现在前沿AI应用生态的广度，但缺乏具体开源实现细节。",
+  "key_insight": "谷歌I/O 2026聚焦AI生态整合，但仓库仅为公告列表，缺乏可复用的技术实现。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Google",
+    "Gemini",
+    "Multimodal",
+    "Developer Tools"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-05T03:39:20Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260605-035",
+  "title": "Check out real-life AI prototypes from the Futures Lab.",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+  "author": "",
+  "published_at": "2026-06-05T03:39:20Z",
+  "collected_at": "2026-06-05T03:39:20Z",
+  "summary": "该项目展示了滑铁卢大学未来实验室学生开发的AI原型，包括手语导师等应用，旨在重塑教育和工作的未来。这些原型结合了前沿AI技术，如自然语言处理和计算机视觉，以解决实际社会问题。技术亮点在于将AI应用于教育辅助和沟通无障碍领域，体现了AI在提升学习效率和包容性方面的潜力。",
+  "key_insight": "该仓库通过学生AI原型探索AI在教育和工作中的实际应用，强调技术的社会价值而非纯理论研究。",
+  "score": 6,
+  "tags": [
+    "AI",
+    "Education",
+    "Prototype",
+    "Computer Vision",
+    "Natural Language Processing"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "education",
+  "updated_at": "2026-06-05T03:39:20Z"
+}
