@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260606-029",
+  "title": "The latest AI news we announced in May 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "author": "",
+  "published_at": "2026-06-06T03:00:01Z",
+  "collected_at": "2026-06-06T03:00:01Z",
+  "summary": "该博客文章总结了谷歌在2026年5月发布的最新AI更新，涵盖多模态模型、生成式AI工具、AI基础设施优化等核心进展。技术亮点包括新型Transformer架构、大规模分布式训练效率提升，以及面向开发者的API增强。展示了谷歌在AI领域的持续创新和生态扩展。",
+  "key_insight": "谷歌2026年5月的AI更新聚焦于多模态能力和基础设施效率，推动生成式AI的实用化和规模化部署。",
+  "score": 8,
+  "tags": [
+    "multimodal",
+    "generative-ai",
+    "transformer",
+    "distributed-training",
+    "API"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-06T03:00:01Z"
+}
