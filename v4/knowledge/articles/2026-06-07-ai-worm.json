@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260607-022",
+  "title": "AI Worm",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2606.03811",
+  "author": "",
+  "published_at": "2026-06-07T03:46:44Z",
+  "collected_at": "2026-06-07T03:46:44Z",
+  "summary": "AI Worm 是一篇学术论文，探讨了人工智能系统中的蠕虫病毒概念。技术亮点在于提出了一种新型的AI安全威胁模型，展示了如何在AI网络环境中实现自我复制和传播的恶意代码。该研究揭示了AI系统的潜在漏洞，并为防御机制提供了理论基础。",
+  "key_insight": "AI Worm 论文首次系统化描述了AI环境中的蠕虫病毒，突出了AI系统特有的安全风险。",
+  "score": 7,
+  "tags": [
+    "AI Security",
+    "Malware",
+    "Self-Replication",
+    "Cyber Threat"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-07T03:46:44Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260607-029",
+  "title": "OCaml Infrastructure: How the opam-repository Works",
+  "source": "rss",
+  "source_url": "https://ocaml.org/backstage/2025-11-05-how-the-opam-repository-works",
+  "author": "",
+  "published_at": "2026-06-07T03:46:44Z",
+  "collected_at": "2026-06-07T03:46:44Z",
+  "summary": "该文深入剖析了opam包仓库的运作机制，强调其作为公共资源而非发布平台的特点：仓库由社区手动审核，并非所有提交的包都会被接受；同时采用社区维护模式，任何人都可以对任何包提出修改建议。文章揭示了OCaml生态中包管理的核心治理理念，即通过人工审核和开放贡献平衡质量与开放性。",
+  "key_insight": "opam仓库通过人工审核和社区维护实现了包质量与开放性的平衡，是OCaml生态系统治理的关键机制。",
+  "score": 6,
+  "tags": [
+    "ocaml",
+    "package-management",
+    "open-source-governance"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "package-management",
+  "updated_at": "2026-06-07T03:46:44Z"
+}

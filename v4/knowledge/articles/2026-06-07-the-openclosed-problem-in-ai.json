@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260607-027",
+  "title": "The Open/Closed Problem in AI",
+  "source": "rss",
+  "source_url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+  "author": "The Open",
+  "published_at": "2026-06-07T03:46:44Z",
+  "collected_at": "2026-06-07T03:46:44Z",
+  "summary": "该博客文章探讨了AI领域中的“开放/封闭问题”，即AI系统的开放性与封闭性之间的权衡。文章可能讨论了开源AI与专有AI的优缺点，包括透明度、可定制性、安全性、商业价值等。核心观点是AI的发展需要在开放共享与封闭控制之间找到平衡，以促进创新同时确保安全与伦理。技术亮点在于提出了一个框架来理解这一矛盾，并可能涉及模型可解释性、数据隐私、监管等议题。",
+  "key_insight": "AI的开放与封闭不是非此即彼，而是需要在透明度、创新、安全与控制之间动态平衡。",
+  "score": 6,
+  "tags": [
+    "AI-ethics",
+    "open-source",
+    "closed-source",
+    "AI-governance",
+    "transparency"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "AI-ethics",
+  "updated_at": "2026-06-07T03:46:44Z"
+}

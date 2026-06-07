@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260607-024",
+  "title": "strace-ui, Bonsai_term, and the TUI renaissance",
+  "source": "rss",
+  "source_url": "https://blog.janestreet.com/strace-ui-bonsai-term-and-the-tui-renaissance/",
+  "author": "",
+  "published_at": "2026-06-07T03:46:44Z",
+  "collected_at": "2026-06-07T03:46:44Z",
+  "summary": "该仓库（博客文章）探讨了终端用户界面（TUI）的复兴，重点介绍了Jane Street开发的strace-ui和Bonsai_term工具。strace-ui是一个基于Bonsai UI框架的strace输出可视化工具，提供交互式进程追踪；Bonsai_term是一个用于构建现代TUI的OCaml库，支持异步、响应式编程。文章强调TUI在开发工具中的高效性和可组合性，展示了如何利用函数式编程（如OCaml）和增量计算提升终端体验。技术亮点包括高效渲染、键盘驱动交互和模块化设计。",
+  "key_insight": "TUI复兴通过函数式编程和增量计算实现高效、可组合的终端工具，strace-ui和Bonsai_term展示了现代终端UI的潜力。",
+  "score": 8,
+  "tags": [
+    "TUI",
+    "OCaml",
+    "strace",
+    "Bonsai",
+    "terminal"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "tool",
+  "updated_at": "2026-06-07T03:46:44Z"
+}
