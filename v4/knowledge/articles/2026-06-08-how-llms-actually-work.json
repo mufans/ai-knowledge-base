@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260608-021",
+  "title": "How LLMs Actually Work",
+  "source": "rss",
+  "source_url": "https://0xkato.xyz/how-llms-actually-work/",
+  "author": "",
+  "published_at": "2026-06-08T03:55:40Z",
+  "collected_at": "2026-06-08T03:55:40Z",
+  "summary": "该仓库是一个关于大型语言模型（LLM）工作原理的深度技术文章，从基础概念到训练细节进行了全面解析。核心内容包括Transformer架构、自注意力机制、预训练与微调流程，以及推理时的关键技术如温度采样和Top-p采样。文章通过直观示例和代码片段，帮助读者理解LLM如何从原始文本生成连贯输出。技术亮点在于用清晰的语言解释了复杂的数学和工程概念，适合开发者和研究者快速掌握LLM核心原理。",
+  "key_insight": "LLM通过自注意力机制在大量文本上学习模式，并通过采样策略控制输出多样性。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "Transformer",
+    "Attention",
+    "Training",
+    "Inference"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-08T03:55:40Z"
+}

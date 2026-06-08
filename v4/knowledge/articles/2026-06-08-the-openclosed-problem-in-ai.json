@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260608-027",
+  "title": "The Open/Closed Problem in AI",
+  "source": "rss",
+  "source_url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+  "author": "The Open",
+  "published_at": "2026-06-08T03:55:40Z",
+  "collected_at": "2026-06-08T03:55:40Z",
+  "summary": "该博客文章探讨了AI领域的“开放/封闭问题”，核心观点是当前AI系统（如大型语言模型）在封闭环境中训练和部署，缺乏真正的开放性和可交互性。作者提出，AI应像开源软件一样，允许用户检查、修改和扩展其行为，而非作为黑盒。技术亮点在于类比软件工程中的开放/封闭原则，呼吁AI系统设计应支持可解释性和用户定制。文章引发对AI民主化和透明度的思考。",
+  "key_insight": "AI系统应遵循开放/封闭原则，以平衡封闭训练和开放用户交互。",
+  "score": 6,
+  "tags": [
+    "AI",
+    "open-source",
+    "explainability",
+    "transparency",
+    "closed-system"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-08T03:55:40Z"
+}
