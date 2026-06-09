@@ -1,0 +1,23 @@
+{
+  "id": "github-20260609-004",
+  "title": "Shubhamsaboo/awesome-llm-apps",
+  "source": "github",
+  "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+  "author": "Shubhamsaboo",
+  "published_at": "2026-06-09T02:59:07Z",
+  "collected_at": "2026-06-09T02:59:07Z",
+  "summary": "这是一个包含100多个可运行AI Agent和RAG应用的精选集合，基于Python实现。仓库提供了丰富的LLM应用示例，覆盖从基础到高级的多种场景，用户可以直接克隆、定制并部署。核心亮点包括：模块化设计、易于扩展的架构、以及涵盖对话、检索、工具调用等功能的实用代码库。",
+  "key_insight": "大规模可运行AI应用模板库，降低了LLM应用开发门槛，尤其适合快速原型验证和部署。",
+  "score": 9,
+  "tags": [
+    "agents",
+    "rag",
+    "llms",
+    "python",
+    "app-templates"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "multi-agent",
+  "updated_at": "2026-06-09T02:59:07Z"
+}

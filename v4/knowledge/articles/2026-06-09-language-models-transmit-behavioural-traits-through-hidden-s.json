@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260609-023",
+  "title": "Language models transmit behavioural traits through hidden signals in data",
+  "source": "rss",
+  "source_url": "https://www.nature.com/articles/s41586-026-10319-8",
+  "author": "",
+  "published_at": "2026-06-09T02:59:07Z",
+  "collected_at": "2026-06-09T02:59:07Z",
+  "summary": "该研究揭示了语言模型能够通过数据中的隐藏信号传递行为特征，即模型在训练数据中习得的微妙模式（如偏见、风格或决策倾向）会无意识地在输出中重现，影响下游用户。技术亮点在于发现了这些隐藏信号的存在及其传播机制，对AI安全与伦理有重要警示意义。",
+  "key_insight": "语言模型不仅是信息处理器，更是行为特征的隐形传播媒介，其训练数据中的微妙信号可能放大社会偏见。",
+  "score": 9,
+  "tags": [
+    "LLM",
+    "bias",
+    "behavioral-transmission",
+    "AI-safety"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-09T02:59:07Z"
+}

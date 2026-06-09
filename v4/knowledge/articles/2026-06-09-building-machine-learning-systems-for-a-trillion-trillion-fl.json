@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260609-026",
+  "title": "Building Machine Learning Systems for a Trillion Trillion Floating Point Operations (2024)",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=139UPjoq7Kw",
+  "author": "",
+  "published_at": "2026-06-09T02:59:07Z",
+  "collected_at": "2026-06-09T02:59:07Z",
+  "summary": "该仓库指向一个2024年的YouTube视频，内容涉及构建支持千万亿次浮点运算的机器学习系统。视频可能探讨了大规模分布式训练、高性能计算（HPC）架构或优化技术，以处理极端规模的浮点运算。核心亮点包括处理万亿级FLOPs的工程挑战、系统设计策略以及性能优化方法。",
+  "key_insight": "该视频聚焦于构建支持千万亿次浮点运算的ML系统，强调大规模计算的工程挑战与优化策略。",
+  "score": 8,
+  "tags": [
+    "HPC",
+    "Distributed Training",
+    "Machine Learning Systems",
+    "Scalability"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "systems",
+  "updated_at": "2026-06-09T02:59:07Z"
+}
