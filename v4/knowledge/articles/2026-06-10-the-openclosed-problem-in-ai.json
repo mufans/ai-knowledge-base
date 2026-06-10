@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260610-029",
+  "title": "The Open/Closed Problem in AI",
+  "source": "rss",
+  "source_url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+  "author": "The Open",
+  "published_at": "2026-06-10T03:37:50Z",
+  "collected_at": "2026-06-10T03:37:50Z",
+  "summary": "该博客文章探讨了AI领域的“开放/封闭问题”，即AI系统在开放环境下的适应性与封闭环境下的可控性之间的根本矛盾。核心观点是当前AI模型（如LLM）在封闭训练集中表现优异，但面对开放世界中的未知输入时容易失效。文章提出需要新的架构或训练方法来解决这一悖论，可能涉及动态学习、持续适应或混合系统。技术亮点在于对AI鲁棒性和泛化能力的深刻反思。",
+  "key_insight": "AI的开放封闭矛盾揭示了当前模型在静态数据上的成功与动态现实世界中的脆弱性之间的根本张力。",
+  "score": 7,
+  "tags": [
+    "open-world",
+    "robustness",
+    "generalization",
+    "AI-safety",
+    "continual-learning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-10T03:37:50Z"
+}

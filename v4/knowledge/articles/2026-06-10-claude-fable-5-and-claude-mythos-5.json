@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260610-022",
+  "title": "Claude Fable 5 and Claude Mythos 5",
+  "source": "rss",
+  "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+  "author": "",
+  "published_at": "2026-06-10T03:37:50Z",
+  "collected_at": "2026-06-10T03:37:50Z",
+  "summary": "该仓库介绍了Anthropic公司发布的新一代AI模型Claude Fable 5和Claude Mythos 5，这两个模型在语言理解、生成能力和推理性能上实现了显著提升，特别在复杂任务处理和长文本理解方面表现出色。技术亮点包括增强的上下文处理能力、更精准的指令遵循和更低的幻觉率。",
+  "key_insight": "Claude Fable 5和Mythos 5代表了Anthropic在大型语言模型能力上的又一次重大飞跃，强化了安全性和推理深度。",
+  "score": 9,
+  "tags": [
+    "LLM",
+    "AI",
+    "NLP",
+    "Claude"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-10T03:37:50Z"
+}

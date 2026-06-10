@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260610-027",
+  "title": "Constraining LLMs Just Like Users",
+  "source": "rss",
+  "source_url": "https://www.aeracode.org/2026/06/01/constraining-llms/",
+  "author": "",
+  "published_at": "2026-06-10T03:37:50Z",
+  "collected_at": "2026-06-10T03:37:50Z",
+  "summary": "该仓库提出一种约束大语言模型（LLM）的方法，灵感来源于用户交互中的约束机制。核心思路是通过模拟用户行为中的限制条件（如任务规则、格式要求等）来引导LLM输出，提升可控性和安全性。技术亮点在于将用户侧约束转化为模型侧的推理约束，无需额外训练即可实现更精准的生成控制。",
+  "key_insight": "将用户交互中的约束直接映射到LLM推理过程，实现轻量级可控生成。",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "constraints",
+    "safety",
+    "prompt-engineering"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-10T03:37:50Z"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260610-023",
+  "title": "How LLMs Actually Work",
+  "source": "rss",
+  "source_url": "https://0xkato.xyz/how-llms-actually-work/",
+  "author": "",
+  "published_at": "2026-06-10T03:37:50Z",
+  "collected_at": "2026-06-10T03:37:50Z",
+  "summary": "该仓库通过一篇技术博客详细解析了大型语言模型（LLM）的内部工作机制，涵盖Transformer架构、自注意力机制、训练过程（预训练与微调）及推理原理。文章以通俗易懂的方式结合图解，适合开发者快速理解LLM核心概念，但未提供代码实现或新模型。",
+  "key_insight": "以教育性视角解构LLM黑盒，强调从注意力机制到生成过程的完整链路。",
+  "score": 6,
+  "tags": [
+    "llm",
+    "transformer",
+    "explainer",
+    "deep-learning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-10T03:37:50Z"
+}

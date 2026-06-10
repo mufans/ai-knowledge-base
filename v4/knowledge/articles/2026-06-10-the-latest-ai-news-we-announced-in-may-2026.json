@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260610-031",
+  "title": "The latest AI news we announced in May 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "author": "",
+  "published_at": "2026-06-10T03:37:50Z",
+  "collected_at": "2026-06-10T03:37:50Z",
+  "summary": "该仓库包含谷歌2026年5月发布的AI最新动态，涵盖多个AI技术领域，如模型升级、应用创新等。技术亮点包括提升推理能力、多模态交互优化及实际场景部署，展示谷歌在AI前沿的持续投入。",
+  "key_insight": "谷歌2026年5月的AI更新聚焦于多模态和推理能力提升，但缺乏具体技术细节。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Google",
+    "Machine Learning",
+    "Multimodal"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-10T03:37:50Z"
+}
