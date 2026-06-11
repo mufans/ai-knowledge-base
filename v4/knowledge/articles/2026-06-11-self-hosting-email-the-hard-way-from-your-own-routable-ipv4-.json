@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260611-022",
+  "title": "Self-hosting email the hard way from your own routable IPv4 block up",
+  "source": "rss",
+  "source_url": "https://anil.recoil.org/notes/recoil-self-hosting-2026",
+  "author": "",
+  "published_at": "2026-06-11T03:53:47Z",
+  "collected_at": "2026-06-11T03:53:47Z",
+  "summary": "这是一个关于自托管电子邮件系统的详细指南，涵盖了从获取自己的可路由IPv4地址块到完整搭建邮件服务器的硬核过程。技术亮点包括DNS配置、SPF/DKIM/DMARC认证、反垃圾邮件策略以及IPv6支持。文章强调了对邮件发送可靠性和安全性的深入理解，适合高级用户。",
+  "key_insight": "自托管电子邮件需要掌握从IP地址分配到邮件认证的全栈网络知识，是检验系统管理能力的硬核实践。",
+  "score": 7,
+  "tags": [
+    "self-hosting",
+    "email",
+    "infrastructure",
+    "networking"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "infrastructure",
+  "updated_at": "2026-06-11T03:53:47Z"
+}

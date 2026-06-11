@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260611-027",
+  "title": "Constraining LLMs Just Like Users",
+  "source": "rss",
+  "source_url": "https://www.aeracode.org/2026/06/01/constraining-llms/",
+  "author": "",
+  "published_at": "2026-06-11T03:53:47Z",
+  "collected_at": "2026-06-11T03:53:47Z",
+  "summary": "该仓库探讨了一种约束大型语言模型（LLMs）行为的新方法，类似于用户设置限制或规则的方式。核心思想是通过用户可定义的约束条件来控制LLM的输出，提高安全性和可控性。技术亮点在于将约束机制抽象为轻量级接口，允许开发者或最终用户动态调整模型行为，无需修改底层模型。",
+  "key_insight": "通过用户可定义的约束条件，像限制用户一样限制LLM，实现灵活的安全控制。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "security",
+    "constraint",
+    "control",
+    "user-defined"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-11T03:53:47Z"
+}

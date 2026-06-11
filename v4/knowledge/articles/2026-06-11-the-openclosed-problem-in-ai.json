@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260611-028",
+  "title": "The Open/Closed Problem in AI",
+  "source": "rss",
+  "source_url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+  "author": "The Open",
+  "published_at": "2026-06-11T03:53:47Z",
+  "collected_at": "2026-06-11T03:53:47Z",
+  "summary": "该博客文章讨论了AI领域中的开放/封闭问题，即AI系统在训练后无法适应新任务或环境，导致性能下降或失效。作者提出了一个核心观点：当前AI模型（如深度学习网络）在训练后是封闭的，无法动态调整其行为，这限制了它们的通用性和适应性。文章强调了需要新的架构或方法来解决这一根本性限制，例如引入在线学习、可塑性或模块化设计。技术亮点在于对AI系统封闭性的批判性分析，并暗示了未来研究方向。",
+  "key_insight": "AI系统的封闭性限制了其通用性，需要可塑性架构来实现动态适应。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "open-closed problem",
+    "deep learning",
+    "adaptability",
+    "online learning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-11T03:53:47Z"
+}
