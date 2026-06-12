@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260612-027",
+  "title": "Building Machine Learning Systems for a Trillion Trillion Floating Point Operations (2024)",
+  "source": "rss",
+  "source_url": "https://www.youtube.com/watch?v=139UPjoq7Kw",
+  "author": "",
+  "published_at": "2026-06-12T03:51:52Z",
+  "collected_at": "2026-06-12T03:51:52Z",
+  "summary": "该仓库关联一个2024年的视频讲座，探讨如何构建支持百万亿亿次浮点运算的机器学习系统。核心聚焦于超大规模计算架构、分布式训练优化和硬件协同设计，旨在处理极端计算需求下的ML工作负载。技术亮点包括系统级性能调优、资源管理与可扩展性策略。",
+  "key_insight": "为百万亿亿次浮点运算设计ML系统需要突破传统架构，实现软硬件深度协同与极致效率优化。",
+  "score": 8,
+  "tags": [
+    "distributed-systems",
+    "high-performance-computing",
+    "scalable-ml",
+    "system-architecture"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "system-architecture",
+  "updated_at": "2026-06-12T03:51:52Z"
+}

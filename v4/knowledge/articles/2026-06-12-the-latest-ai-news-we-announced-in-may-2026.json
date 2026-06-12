@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260612-031",
+  "title": "The latest AI news we announced in May 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "author": "",
+  "published_at": "2026-06-12T03:51:52Z",
+  "collected_at": "2026-06-12T03:51:52Z",
+  "summary": "该仓库收录了Google在2026年5月发布的最新AI新闻，涵盖多项技术更新。核心功能包括AI模型、工具和应用的进展，技术亮点可能涉及大语言模型、多模态能力、AI基础设施优化等。由于是新闻汇总，不包含具体代码实现，但反映了Google在AI领域的前沿动态。",
+  "key_insight": "Google 2026年5月AI更新聚焦于模型能力扩展与基础设施改进，但缺乏具体技术细节。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Google",
+    "news",
+    "LLM",
+    "multimodal"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-12T03:51:52Z"
+}

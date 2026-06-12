@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260612-023",
+  "title": "How LLMs Actually Work",
+  "source": "rss",
+  "source_url": "https://0xkato.xyz/how-llms-actually-work/",
+  "author": "",
+  "published_at": "2026-06-12T03:51:52Z",
+  "collected_at": "2026-06-12T03:51:52Z",
+  "summary": "这是一个关于大型语言模型（LLM）工作原理的交互式学习资源，通过可视化、动画和逐步解释，从基础概念（如Transformer架构、自注意力机制）到训练和推理过程，帮助读者直观理解LLM的内部机制。技术亮点包括可交互的示例、清晰的层级分解和简化的数学表示，适合初学者或开发者快速入门。",
+  "key_insight": "通过交互式可视化降低LLM理解门槛，但内容偏基础，深度有限。",
+  "score": 6,
+  "tags": [
+    "LLM",
+    "Visualization",
+    "Education",
+    "Transformer"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-12T03:51:52Z"
+}

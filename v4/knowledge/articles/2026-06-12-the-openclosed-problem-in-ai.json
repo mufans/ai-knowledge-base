@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260612-028",
+  "title": "The Open/Closed Problem in AI",
+  "source": "rss",
+  "source_url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+  "author": "The Open",
+  "published_at": "2026-06-12T03:51:52Z",
+  "collected_at": "2026-06-12T03:51:52Z",
+  "summary": "该博客文章讨论了AI领域的“开放/封闭问题”，强调当前AI系统在开放性（适应新场景）与封闭性（稳定可控）之间的根本矛盾。文章指出，多数AI模型在封闭环境中表现良好，但难以应对开放世界的动态变化，这限制了AGI的发展。技术亮点在于提出了平衡开放性与封闭性的框架，并探讨了强化学习、元学习等技术的潜在解决方案。",
+  "key_insight": "AI系统的开放性与封闭性矛盾是制约通用智能发展的核心瓶颈，需要新范式来动态平衡两者。",
+  "score": 6,
+  "tags": [
+    "open-closed-problem",
+    "AGI",
+    "adaptability",
+    "reinforcement-learning",
+    "meta-learning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-12T03:51:52Z"
+}
