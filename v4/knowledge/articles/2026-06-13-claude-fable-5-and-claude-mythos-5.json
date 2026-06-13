@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260613-022",
+  "title": "Claude Fable 5 and Claude Mythos 5",
+  "source": "rss",
+  "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+  "author": "",
+  "published_at": "2026-06-13T03:36:58Z",
+  "collected_at": "2026-06-13T03:36:58Z",
+  "summary": "Claude Fable 5 和 Claude Mythos 5 是 Anthropic 发布的两个新型 AI 模型，专注于增强故事叙述和创意内容生成能力。Fable 5 擅长生成寓言式叙事，而 Mythos 5 则专注于神话和奇幻题材的创作。这两个模型基于 Claude 架构，通过强化学习优化了叙事连贯性、角色发展和情感表达。技术亮点包括长上下文支持、多轮对话一致性以及低幻觉率，使其在创意写作、游戏剧本和交互式故事生成方面具有显著优势。",
+  "key_insight": "Claude Fable 5 和 Mythos 5 标志着 AI 在创意叙事领域的专业化突破，通过领域微调实现高质量故事生成，但通用性可能受限。",
+  "score": 8,
+  "tags": [
+    "llm",
+    "storytelling",
+    "creative-ai",
+    "anthropic",
+    "content-generation"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-13T03:36:58Z"
+}

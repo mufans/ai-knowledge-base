@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260613-029",
+  "title": "The Open/Closed Problem in AI",
+  "source": "rss",
+  "source_url": "https://blog.mempko.com/the-open-closed-problem-in-ai/",
+  "author": "The Open",
+  "published_at": "2026-06-13T03:36:58Z",
+  "collected_at": "2026-06-13T03:36:58Z",
+  "summary": "该博客文章探讨了AI领域中的“开放/封闭问题”，即AI系统在开放环境下的适应性与封闭环境下的稳定性之间的权衡。文章核心分析了当前AI模型（如LLMs）在开放世界中面临的可扩展性、安全性和可控性挑战，并提出了潜在的设计原则来解决这一矛盾。技术亮点包括对AI系统架构的批判性思考，以及结合开放与封闭策略的混合方法。",
+  "key_insight": "AI系统的开放性与封闭性并非二选一，而是需要设计动态平衡机制，以在开放环境中保持稳定性和可控性。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "open-closed",
+    "architecture",
+    "LLM",
+    "safety"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-13T03:36:58Z"
+}

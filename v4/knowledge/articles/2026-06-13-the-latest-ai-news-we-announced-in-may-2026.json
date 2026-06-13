@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260613-031",
+  "title": "The latest AI news we announced in May 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "author": "",
+  "published_at": "2026-06-13T03:36:58Z",
+  "collected_at": "2026-06-13T03:36:58Z",
+  "summary": "该仓库为Google在2026年5月发布的AI新闻汇总，涵盖多个前沿技术更新。核心内容包括新型大语言模型、多模态AI系统、以及针对特定行业的AI解决方案。技术亮点涉及模型效率优化、上下文理解增强和跨模态融合能力提升。更新展示了Google在AI领域的持续创新，尤其在生成式AI和智能助手方面的进展。",
+  "key_insight": "Google在2026年5月的AI更新重点在于提升模型的多模态能力和实际应用效率，而非单一模型突破。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "LLM",
+    "Multimodal",
+    "Google",
+    "Generative AI"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-13T03:36:58Z"
+}
