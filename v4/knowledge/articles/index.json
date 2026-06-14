@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-13T03:36:58Z",
-  "total": 1505,
+  "updated_at": "2026-06-14T03:58:25Z",
+  "total": 1541,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -22051,6 +22051,536 @@
       ],
       "category": "llm",
       "file": "2026-06-13-catch-up-on-the-dialogues-stage-at-google-io-2026.json"
+    },
+    {
+      "id": "github-20260614-001",
+      "title": "NousResearch/hermes-agent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "multi-agent",
+        "code-generation",
+        "python"
+      ],
+      "category": "multi-agent",
+      "file": "2026-06-14-nousresearchhermes-agent.json"
+    },
+    {
+      "id": "github-20260614-002",
+      "title": "langgenius/dify",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "low-code",
+        "RAG",
+        "workflow",
+        "LLM"
+      ],
+      "category": "agent",
+      "file": "2026-06-14-langgeniusdify.json"
+    },
+    {
+      "id": "github-20260614-003",
+      "title": "langchain-ai/langchain",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agents",
+        "llm",
+        "framework",
+        "rag",
+        "multi-agent"
+      ],
+      "category": "agent",
+      "file": "2026-06-14-langchain-ailangchain.json"
+    },
+    {
+      "id": "github-20260614-004",
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agents",
+        "llms",
+        "rag",
+        "python",
+        "app-examples"
+      ],
+      "category": "agent",
+      "file": "2026-06-14-shubhamsabooawesome-llm-apps.json"
+    },
+    {
+      "id": "github-20260614-005",
+      "title": "browser-use/browser-use",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agents",
+        "browser-automation",
+        "llm",
+        "playwright",
+        "python"
+      ],
+      "category": "agent",
+      "file": "2026-06-14-browser-usebrowser-use.json"
+    },
+    {
+      "id": "github-20260614-006",
+      "title": "infiniflow/ragflow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "rag",
+        "agentic-ai",
+        "context-management",
+        "llm-apps",
+        "retrieval-augmented-generation"
+      ],
+      "category": "rag",
+      "file": "2026-06-14-infiniflowragflow.json"
+    },
+    {
+      "id": "github-20260614-007",
+      "title": "OpenHands/OpenHands",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "developer-tools",
+        "llm",
+        "code-generation",
+        "cli"
+      ],
+      "category": "agent",
+      "file": "2026-06-14-openhandsopenhands.json"
+    },
+    {
+      "id": "github-20260614-008",
+      "title": "hiyouga/LlamaFactory",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "fine-tuning",
+        "LLM",
+        "LoRA",
+        "transformers",
+        "NLP"
+      ],
+      "category": "fine-tuning",
+      "file": "2026-06-14-hiyougallamafactory.json"
+    },
+    {
+      "id": "github-20260614-009",
+      "title": "bytedance/deer-flow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agentic-framework",
+        "multi-agent",
+        "deep-research",
+        "langchain",
+        "superagent"
+      ],
+      "category": "agent",
+      "file": "2026-06-14-bytedancedeer-flow.json"
+    },
+    {
+      "id": "github-20260614-010",
+      "title": "FoundationAgents/MetaGPT",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "multi-agent",
+        "llm",
+        "code-generation",
+        "agent",
+        "metagpt"
+      ],
+      "category": "multi-agent",
+      "file": "2026-06-14-foundationagentsmetagpt.json"
+    },
+    {
+      "id": "github-20260614-011",
+      "title": "earendil-works/pi",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "TypeScript",
+        "AI Agent",
+        "LLM",
+        "TUI",
+        "CLI"
+      ],
+      "category": "agent",
+      "file": "2026-06-14-earendil-workspi.json"
+    },
+    {
+      "id": "github-20260614-012",
+      "title": "mem0ai/mem0",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "memory-management",
+        "rag",
+        "ai-agents",
+        "llm",
+        "state-management"
+      ],
+      "category": "agent",
+      "file": "2026-06-14-mem0aimem0.json"
+    },
+    {
+      "id": "github-20260614-013",
+      "title": "aaif-goose/goose",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "AI-Agent",
+        "Rust",
+        "LLM-Integration",
+        "Code-Automation",
+        "MCP"
+      ],
+      "category": "agent",
+      "file": "2026-06-14-aaif-goosegoose.json"
+    },
+    {
+      "id": "github-20260614-014",
+      "title": "CherryHQ/cherry-studio",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "llm",
+        "productivity",
+        "TypeScript",
+        "multi-model"
+      ],
+      "category": "agent",
+      "file": "2026-06-14-cherryhqcherry-studio.json"
+    },
+    {
+      "id": "github-20260614-015",
+      "title": "jeecgboot/JeecgBoot",
+      "source": "github",
+      "score": 6,
+      "tags": [
+        "low-code",
+        "no-code",
+        "AI",
+        "code-generation",
+        "SpringBoot"
+      ],
+      "category": "code-generation",
+      "file": "2026-06-14-jeecgbootjeecgboot.json"
+    },
+    {
+      "id": "github-20260614-016",
+      "title": "zhayujie/CowAgent",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "ai-agent",
+        "multi-agent",
+        "llm",
+        "mcp",
+        "open-source"
+      ],
+      "category": "multi-agent",
+      "file": "2026-06-14-zhayujiecowagent.json"
+    },
+    {
+      "id": "github-20260614-017",
+      "title": "HKUDS/nanobot",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "AI-Agent",
+        "LLM",
+        "Open-Source",
+        "Workflow",
+        "Python"
+      ],
+      "category": "agent",
+      "file": "2026-06-14-hkudsnanobot.json"
+    },
+    {
+      "id": "github-20260614-018",
+      "title": "reworkd/AgentGPT",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "autonomous-agents",
+        "langchain",
+        "openai",
+        "nextjs"
+      ],
+      "category": "agent",
+      "file": "2026-06-14-reworkdagentgpt.json"
+    },
+    {
+      "id": "github-20260614-019",
+      "title": "patchy631/ai-engineering-hub",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "LLM",
+        "RAG",
+        "AI Agents",
+        "Tutorials",
+        "MCP"
+      ],
+      "category": "agent",
+      "file": "2026-06-14-patchy631ai-engineering-hub.json"
+    },
+    {
+      "id": "github-20260614-020",
+      "title": "khoj-ai/khoj",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "rag",
+        "llm",
+        "self-hosted",
+        "productivity"
+      ],
+      "category": "agent",
+      "file": "2026-06-14-khoj-aikhoj.json"
+    },
+    {
+      "id": "rss-20260614-021",
+      "title": "Claude Fable 5 and Claude Mythos 5",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "LLM",
+        "Creative-Writing",
+        "Narrative-Generation"
+      ],
+      "category": "llm",
+      "file": "2026-06-14-claude-fable-5-and-claude-mythos-5.json"
+    },
+    {
+      "id": "rss-20260614-022",
+      "title": "How LLMs Actually Work",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "llm",
+        "transformer",
+        "visualization",
+        "education"
+      ],
+      "category": "llm",
+      "file": "2026-06-14-how-llms-actually-work.json"
+    },
+    {
+      "id": "rss-20260614-023",
+      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "LLM",
+        "evaluation",
+        "game-theory",
+        "cognitive-science"
+      ],
+      "category": "llm-evaluation",
+      "file": "2026-06-14-if-llms-have-human-like-attributes-then-so-does-age-of-empir.json"
+    },
+    {
+      "id": "rss-20260614-024",
+      "title": "Language models transmit behavioural traits through hidden signals in data",
+      "source": "rss",
+      "score": 9,
+      "tags": [
+        "LLM",
+        "behavioral-traits",
+        "data-bias",
+        "AI-safety"
+      ],
+      "category": "llm",
+      "file": "2026-06-14-language-models-transmit-behavioural-traits-through-hidden-s.json"
+    },
+    {
+      "id": "rss-20260614-025",
+      "title": "strace-ui, Bonsai_term, and the TUI renaissance",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "TUI",
+        "OCaml",
+        "Bonsai",
+        "strace",
+        "Functional Programming"
+      ],
+      "category": "tooling",
+      "file": "2026-06-14-strace-ui-bonsai-term-and-the-tui-renaissance.json"
+    },
+    {
+      "id": "rss-20260614-026",
+      "title": "Constraining LLMs Just Like Users",
+      "source": "rss",
+      "score": 4,
+      "tags": [
+        "LLM",
+        "constraint",
+        "safety",
+        "prompt-engineering"
+      ],
+      "category": "llm",
+      "file": "2026-06-14-constraining-llms-just-like-users.json"
+    },
+    {
+      "id": "rss-20260614-027",
+      "title": "Building Machine Learning Systems for a Trillion Trillion Floating Point Operations (2024)",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "distributed-computing",
+        "high-performance-computing",
+        "machine-learning",
+        "scalability",
+        "gpu"
+      ],
+      "category": "infrastructure",
+      "file": "2026-06-14-building-machine-learning-systems-for-a-trillion-trillion-fl.json"
+    },
+    {
+      "id": "rss-20260614-028",
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "AI-infrastructure",
+        "community-investment",
+        "energy-efficiency",
+        "workforce-development"
+      ],
+      "category": "infrastructure",
+      "file": "2026-06-14-our-new-community-investments-in-virginia-support-local-jobs.json"
+    },
+    {
+      "id": "rss-20260614-029",
+      "title": "The latest AI news we announced in May 2026",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "multimodal",
+        "generative-ai",
+        "google-ai",
+        "gemini"
+      ],
+      "category": "llm",
+      "file": "2026-06-14-the-latest-ai-news-we-announced-in-may-2026.json"
+    },
+    {
+      "id": "rss-20260614-030",
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "source": "rss",
+      "score": 4,
+      "tags": [
+        "AI",
+        "Visual Search",
+        "E-commerce",
+        "Recommendation"
+      ],
+      "category": "recommendation",
+      "file": "2026-06-14-5-ways-google-search-can-level-up-your-thrift-and-vintage-sh.json"
+    },
+    {
+      "id": "rss-20260614-031",
+      "title": "How we used Gemini to build Google I/O 2026",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "Gemini",
+        "AI-assisted-production",
+        "multi-modal",
+        "event-planning",
+        "Google"
+      ],
+      "category": "llm",
+      "file": "2026-06-14-how-we-used-gemini-to-build-google-io-2026.json"
+    },
+    {
+      "id": "rss-20260614-032",
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "AI Studio",
+        "vibe coding",
+        "low-code",
+        "generative AI",
+        "quiz"
+      ],
+      "category": "code-generation",
+      "file": "2026-06-14-take-our-io-2026-quiz-vibe-coded-in-google-ai-studio.json"
+    },
+    {
+      "id": "rss-20260614-033",
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "multimodal",
+        "gemini",
+        "google-ai",
+        "real-time",
+        "code-generation"
+      ],
+      "category": "llm",
+      "file": "2026-06-14-9-demos-of-gemini-omni-and-gemini-35-in-action.json"
+    },
+    {
+      "id": "rss-20260614-034",
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "AI",
+        "Education",
+        "Prototype",
+        "Human-Computer Interaction"
+      ],
+      "category": "llm",
+      "file": "2026-06-14-check-out-real-life-ai-prototypes-from-the-futures-lab.json"
+    },
+    {
+      "id": "rss-20260614-035",
+      "title": "Catch up on 12 major I/O 2026 moments",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "Google",
+        "Gemini",
+        "AI",
+        "Multimodal",
+        "Keynote"
+      ],
+      "category": "llm",
+      "file": "2026-06-14-catch-up-on-12-major-io-2026-moments.json"
+    },
+    {
+      "id": "rss-20260614-036",
+      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "AI",
+        "Quantum Computing",
+        "Robotics",
+        "Creativity",
+        "Google I/O"
+      ],
+      "category": "llm",
+      "file": "2026-06-14-catch-up-on-the-dialogues-stage-at-google-io-2026.json"
     }
   ]
 }
