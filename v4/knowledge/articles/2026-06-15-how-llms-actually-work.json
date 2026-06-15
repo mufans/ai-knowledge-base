@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260615-022",
+  "title": "How LLMs Actually Work",
+  "source": "rss",
+  "source_url": "https://0xkato.xyz/how-llms-actually-work/",
+  "author": "",
+  "published_at": "2026-06-15T04:10:54Z",
+  "collected_at": "2026-06-15T04:10:54Z",
+  "summary": "这是一个致力于解释大型语言模型（LLM）内部工作原理的交互式教程或博客文章。它可能通过可视化、代码示例和直观解释，深入剖析Transformer架构、自注意力机制、训练过程（如预训练和微调）以及推理细节。技术亮点在于以易于理解的方式呈现复杂概念，适合初学者和中级开发者。",
+  "key_insight": "通过直观解释和可视化，降低了理解LLM内部机制的门槛，是优质的教育资源。",
+  "score": 6,
+  "tags": [
+    "LLM",
+    "Transformer",
+    "Tutorial",
+    "AI-Explainability"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-15T04:10:54Z"
+}

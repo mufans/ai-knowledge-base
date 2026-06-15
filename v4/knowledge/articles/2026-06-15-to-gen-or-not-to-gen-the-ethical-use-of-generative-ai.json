@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260615-021",
+  "title": "To Gen or Not To Gen: The Ethical Use of Generative AI",
+  "source": "rss",
+  "source_url": "https://blog.johanneslink.net/2025/11/04/to-gen-or-not-to-gen/",
+  "author": "",
+  "published_at": "2026-06-15T04:10:54Z",
+  "collected_at": "2026-06-15T04:10:54Z",
+  "summary": "该博客文章探讨了生成式AI的伦理使用问题，提出了在软件开发中何时使用生成式AI的决策框架。核心亮点包括：区分创造性工作与重复性任务、强调人类判断的重要性、以及提供具体指导原则。技术亮点在于其可操作的伦理决策模型。",
+  "key_insight": "生成式AI的伦理使用关键在于区分创造性任务与机械性任务，人类判断始终是核心。",
+  "score": 6,
+  "tags": [
+    "ethics",
+    "generative-ai",
+    "decision-framework",
+    "software-development"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-15T04:10:54Z"
+}

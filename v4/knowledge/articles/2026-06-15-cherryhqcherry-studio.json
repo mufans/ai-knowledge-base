@@ -1,0 +1,23 @@
+{
+  "id": "github-20260615-014",
+  "title": "CherryHQ/cherry-studio",
+  "source": "github",
+  "source_url": "https://github.com/CherryHQ/cherry-studio",
+  "author": "CherryHQ",
+  "published_at": "2026-06-15T04:10:54Z",
+  "collected_at": "2026-06-15T04:10:54Z",
+  "summary": "Cherry Studio 是一个集成了智能聊天、自主代理和300多个助手的AI生产力工作室，支持统一访问前沿大语言模型。其技术亮点包括基于TypeScript的全栈架构、多代理技能框架（如agent-skills和awesome-skills）以及与Claude Code、DeepSeek等模型的深度集成，实现了从对话到代码生成的端到端AI工作流。项目拥有高社区活跃度（47336星），体现了其在AI工具链中的实用性和创新性。",
+  "key_insight": "Cherry Studio 通过统一的代理技能系统和300+预置助手，将多模型LLM访问与自动化工作流结合，显著降低了AI应用的门槛和复杂度。",
+  "score": 9,
+  "tags": [
+    "AI-Agent",
+    "LLM-Integration",
+    "Productivity-Tools",
+    "TypeScript",
+    "Multi-Agent"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-06-15T04:10:54Z"
+}
