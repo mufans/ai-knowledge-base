@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260616-024",
+  "title": "Claude Fable 5 and Claude Mythos 5",
+  "source": "rss",
+  "source_url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+  "author": "",
+  "published_at": "2026-06-16T03:59:52Z",
+  "collected_at": "2026-06-16T03:59:52Z",
+  "summary": "该仓库介绍Anthropic发布的Claude Fable 5和Claude Mythos 5模型。这两个模型专注于增强叙事和创意写作能力，通过优化语言生成技术提升故事构建、角色发展和情感表达的准确性与流畅度。技术亮点包括改进的上下文理解、长文本一致性维护和风格多样性控制，代表了LLM在创意领域的最新进展。",
+  "key_insight": "Claude Fable 5和Mythos 5通过专门优化叙事能力，展示了LLM在创意写作领域的技术突破，但核心仍是通用语言模型的微调应用。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "Creative-Writing",
+    "NLP",
+    "Story-Generation"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-16T03:59:52Z"
+}
