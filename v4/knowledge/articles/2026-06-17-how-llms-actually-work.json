@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260617-025",
+  "title": "How LLMs Actually Work",
+  "source": "rss",
+  "source_url": "https://0xkato.xyz/how-llms-actually-work/",
+  "author": "",
+  "published_at": "2026-06-17T04:01:25Z",
+  "collected_at": "2026-06-17T04:01:25Z",
+  "summary": "该仓库是一个教育性网页，通过交互式可视化深入解释大型语言模型（LLM）的内部工作原理，包括Transformer架构、注意力机制、Token嵌入和自回归生成等核心概念。技术亮点在于以直观、易懂的方式呈现复杂机制，适合初学者和开发者理解LLM的基础。",
+  "key_insight": "通过交互式可视化，将LLM的复杂内部机制转化为直观理解，降低了学习门槛。",
+  "score": 4,
+  "tags": [
+    "LLM",
+    "Transformer",
+    "Attention-Mechanism",
+    "Education",
+    "Visualization"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-17T04:01:25Z"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260617-026",
+  "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+  "source": "rss",
+  "source_url": "https://arxiv.org/pdf/2605.31514",
+  "author": "",
+  "published_at": "2026-06-17T04:01:25Z",
+  "collected_at": "2026-06-17T04:01:25Z",
+  "summary": "该论文提出将LLM的类人属性评估应用于《帝国时代II》游戏AI，通过设计认知任务测试LLM在实时策略游戏中的规划、决策和适应性。技术亮点包括构建游戏状态编码、多轮交互评估框架，以及对比人类玩家表现，揭示LLM在复杂动态环境中的能力边界。",
+  "key_insight": "将LLM评估拓展至实时策略游戏，揭示了其在复杂动态任务中的类人推理局限性。",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "Game AI",
+    "Evaluation",
+    "Cognitive Science"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-17T04:01:25Z"
+}

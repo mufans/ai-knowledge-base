@@ -1,0 +1,23 @@
+{
+  "id": "github-20260617-012",
+  "title": "mem0ai/mem0",
+  "source": "github",
+  "source_url": "https://github.com/mem0ai/mem0",
+  "author": "mem0ai",
+  "published_at": "2026-06-17T04:01:25Z",
+  "collected_at": "2026-06-17T04:01:25Z",
+  "summary": "Mem0 是一个为 AI 智能体提供通用记忆层的开源框架，旨在解决大语言模型在长期交互中的上下文遗忘问题。它通过混合检索（结合语义搜索、时间过滤和自定义重排序）实现高效记忆提取，支持用户级、会话级和智能体级记忆管理，并具备自动记忆更新和冲突解决机制。技术亮点包括：基于图结构的记忆关联推理、跨会话记忆持久化、以及支持多种向量数据库和LLM后端的灵活架构。该项目为构建具有长期记忆能力的对话系统和自主智能体提供了核心基础设施。",
+  "key_insight": "通过将记忆管理抽象为独立的通用层，Mem0 解决了大模型应用中最关键的长期上下文保持问题，是通往真正自主智能体的基础组件。",
+  "score": 9,
+  "tags": [
+    "memory-management",
+    "rag",
+    "ai-agents",
+    "long-term-memory",
+    "state-management"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-06-17T04:01:25Z"
+}
