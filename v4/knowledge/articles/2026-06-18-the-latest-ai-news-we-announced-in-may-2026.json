@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260618-031",
+  "title": "The latest AI news we announced in May 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "author": "",
+  "published_at": "2026-06-18T03:51:33Z",
+  "collected_at": "2026-06-18T03:51:33Z",
+  "summary": "该仓库为Google在2026年5月发布的AI最新动态汇总，涵盖多模态模型、生成式AI工具及基础设施更新。技术亮点包括新型高效Transformer架构、实时视频理解模型及自适应推理系统，展示了Google在AI前沿领域的持续创新。",
+  "key_insight": "Google通过融合多模态与实时推理能力，推动AI从文本生成向全感官交互进化。",
+  "score": 7,
+  "tags": [
+    "transformer",
+    "multimodal",
+    "generative-ai",
+    "real-time-video"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-18T03:51:33Z"
+}

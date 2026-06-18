@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260618-024",
+  "title": "CrankGPT — Local Human-powered AI",
+  "source": "rss",
+  "source_url": "https://crankgpt.com",
+  "author": "",
+  "published_at": "2026-06-18T03:51:33Z",
+  "collected_at": "2026-06-18T03:51:33Z",
+  "summary": "CrankGPT 是一个本地化、人类驱动的AI系统，通过将人类智能与本地计算结合，实现无需云端依赖的AI交互。其核心亮点在于利用本地资源和人类反馈来优化模型，强调隐私保护和离线可用性。",
+  "key_insight": "人类驱动+本地部署结合，突破云端依赖，但技术成熟度尚低。",
+  "score": 4,
+  "tags": [
+    "human-in-the-loop",
+    "local-ai",
+    "privacy",
+    "offline"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-06-18T03:51:33Z"
+}

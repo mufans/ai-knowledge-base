@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260618-032",
+  "title": "5 ways Google Search can level up your thrift and vintage shopping",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+  "author": "",
+  "published_at": "2026-06-18T03:51:33Z",
+  "collected_at": "2026-06-18T03:51:33Z",
+  "summary": "该仓库介绍了Google搜索和购物中利用AI工具提升二手和复古购物体验的5种方法。核心功能包括AI驱动的图像识别、个性化推荐和智能搜索，帮助用户发现隐藏的二手好物。技术亮点在于整合了计算机视觉和自然语言处理，优化了搜索精准度。",
+  "key_insight": "AI工具通过图像识别和个性化推荐，显著提升了二手购物的效率和发现体验。",
+  "score": 6,
+  "tags": [
+    "AI",
+    "Computer Vision",
+    "Search",
+    "Shopping",
+    "Recommendation"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-18T03:51:33Z"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260618-023",
+  "title": "Building llm-driven “ai” still requires domain knowledge",
+  "source": "rss",
+  "source_url": "https://lobste.rs/s/q9sd1m/building_llm_driven_ai_still_requires",
+  "author": "",
+  "published_at": "2026-06-18T03:51:33Z",
+  "collected_at": "2026-06-18T03:51:33Z",
+  "summary": "该仓库文章讨论构建LLM驱动的工具时，核心挑战仍是领域知识的捕获与整理。作者指出，尽管LLM降低了知识结构化的门槛，但领域知识仍是关键瓶颈。技术亮点在于强调自然语言处理与领域知识工程的结合。",
+  "key_insight": "LLM虽简化了知识表达，但领域知识的系统化捕获仍是成功应用的核心。",
+  "score": 6,
+  "tags": [
+    "LLM",
+    "domain-knowledge",
+    "knowledge-engineering",
+    "natural-language-processing"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-18T03:51:33Z"
+}
