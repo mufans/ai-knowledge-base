@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260619-032",
+  "title": "How we used Gemini to build Google I/O 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+  "author": "How we used Gemini to build Google I",
+  "published_at": "2026-06-19T04:12:15Z",
+  "collected_at": "2026-06-19T04:12:15Z",
+  "summary": "该博客文章展示了Google内部如何利用Gemini AI模型来策划和执行2026年Google I/O大会的整个流程，包括内容生成、设计、视频制作和现场演示。技术亮点在于Gemini的多模态能力（文本、图像、视频）以及其在大型活动中的实际应用，体现了AI从辅助工具向核心生产引擎的转变。",
+  "key_insight": "Gemini在Google I/O 2026中的端到端应用展示了大型语言模型从创意到执行的完整闭环能力，标志着AI在大型活动中的成熟落地。",
+  "score": 7,
+  "tags": [
+    "Gemini",
+    "Multimodal",
+    "Event Production",
+    "Google I/O",
+    "AI Integration"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-19T04:12:15Z"
+}

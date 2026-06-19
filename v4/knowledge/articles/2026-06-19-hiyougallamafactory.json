@@ -1,0 +1,23 @@
+{
+  "id": "github-20260619-008",
+  "title": "hiyouga/LlamaFactory",
+  "source": "github",
+  "source_url": "https://github.com/hiyouga/LlamaFactory",
+  "author": "hiyouga",
+  "published_at": "2026-06-19T04:12:15Z",
+  "collected_at": "2026-06-19T04:12:15Z",
+  "summary": "LlamaFactory 是一个统一高效的微调框架，支持 100 多种大语言模型和视觉语言模型的微调，涵盖 LoRA、QLoRA、PEFT 等高效微调技术。基于 Hugging Face Transformers，提供灵活的配置和训练接口，支持 RLHF、指令微调等任务，并在 ACL 2024 上发表。该框架以高效、易用和广泛的模型兼容性著称，是 LLM 微调领域的重要工具。",
+  "key_insight": "LlamaFactory 通过统一接口和高效微调方法，显著降低了 LLM 微调的门槛，成为社区最广泛使用的微调工具之一。",
+  "score": 9,
+  "tags": [
+    "fine-tuning",
+    "LLM",
+    "LoRA",
+    "transformers",
+    "NLP"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "fine-tuning",
+  "updated_at": "2026-06-19T04:12:15Z"
+}

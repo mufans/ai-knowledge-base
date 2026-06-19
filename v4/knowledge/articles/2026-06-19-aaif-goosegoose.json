@@ -1,0 +1,23 @@
+{
+  "id": "github-20260619-013",
+  "title": "aaif-goose/goose",
+  "source": "github",
+  "source_url": "https://github.com/aaif-goose/goose",
+  "author": "aaif-goose",
+  "published_at": "2026-06-19T04:12:15Z",
+  "collected_at": "2026-06-19T04:12:15Z",
+  "summary": "Goose 是一个开源的、可扩展的 AI 代理，超越了代码建议，能够安装、执行、编辑和测试代码，支持任何 LLM。基于 Rust 实现高性能，利用 ACP 和 MCP 协议实现与环境的深度交互，提供可扩展的插件架构，适用于自动化开发工作流和智能编码辅助。",
+  "key_insight": "Goose 通过 ACP 和 MCP 协议实现从代码建议到实际环境操作的跨越，是面向开发者的全能型 AI 代理。",
+  "score": 9,
+  "tags": [
+    "ai-agent",
+    "rust",
+    "mcp",
+    "code-generation",
+    "extensible"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-06-19T04:12:15Z"
+}

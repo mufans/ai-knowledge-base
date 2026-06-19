@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260619-027",
+  "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+  "source": "rss",
+  "source_url": "https://arxiv.org/pdf/2605.31514",
+  "author": "",
+  "published_at": "2026-06-19T04:12:15Z",
+  "collected_at": "2026-06-19T04:12:15Z",
+  "summary": "该研究探讨了大语言模型（LLMs）是否具有类似人类属性，并通过分析策略游戏《帝国时代II》中的玩家行为来验证这一假设。技术亮点包括将游戏数据作为测试平台，评估LLMs在复杂决策、资源管理和长期规划等方面的表现。研究揭示了LLMs在模拟人类策略行为时的局限性，为AI在游戏领域的应用提供了新视角。",
+  "key_insight": "通过策略游戏验证LLMs的人类属性，揭示其在复杂决策任务中的模拟能力与不足。",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "Game AI",
+    "Human-AI Comparison",
+    "Strategy Games"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-19T04:12:15Z"
+}
