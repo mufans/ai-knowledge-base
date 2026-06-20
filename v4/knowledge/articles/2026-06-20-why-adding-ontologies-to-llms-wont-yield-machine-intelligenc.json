@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260620-023",
+  "title": "Why adding ontologies to LLMs won't yield machine intelligence",
+  "source": "rss",
+  "source_url": "https://youtu.be/Ce-cN5Llaz4?t=93",
+  "author": "",
+  "published_at": "2026-06-20T03:35:24Z",
+  "collected_at": "2026-06-20T03:35:24Z",
+  "summary": "该视频讨论为何将本体论（ontologies）添加到大型语言模型（LLMs）中无法带来真正的机器智能。核心观点认为，本体论作为静态的、人工定义的知识表示形式，与LLMs的统计学习本质不兼容，无法解决推理、因果理解等深层次智能问题。技术亮点在于批判性地分析了符号主义与连接主义融合的局限性。",
+  "key_insight": "本体论与LLMs的融合可能无法突破当前AI的推理和因果理解瓶颈。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "ontology",
+    "symbolic-AI",
+    "machine-intelligence",
+    "knowledge-representation"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-20T03:35:24Z"
+}

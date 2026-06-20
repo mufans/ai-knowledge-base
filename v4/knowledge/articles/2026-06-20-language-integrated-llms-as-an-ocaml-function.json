@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260620-022",
+  "title": "Language integrated LLMs as an OCaml function",
+  "source": "rss",
+  "source_url": "https://anil.recoil.org/notes/language-integrated-llms",
+  "author": "",
+  "published_at": "2026-06-20T03:35:24Z",
+  "collected_at": "2026-06-20T03:35:24Z",
+  "summary": "该仓库将大语言模型（LLMs）作为OCaml函数集成，实现了语言内嵌的LLM调用。核心思路是利用OCaml的类型系统和编译时特性，将LLM查询抽象为纯函数，支持类型安全的提示模板和结果解析。技术亮点包括：通过代数效应（Algebraic Effects）管理LLM副作用、静态类型检查提示结构、以及编译期优化查询。展示了函数式编程与AI的深度结合，可能用于生成代码、自然语言接口等场景。",
+  "key_insight": "通过OCaml的代数效应和类型系统，将LLM调用抽象为无副作用的纯函数，实现类型安全的语言内嵌AI能力。",
+  "score": 7,
+  "tags": [
+    "OCaml",
+    "LLM",
+    "language-integration",
+    "algebraic-effects",
+    "type-safe"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-20T03:35:24Z"
+}

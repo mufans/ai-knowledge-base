@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260620-031",
+  "title": "The latest AI news we announced in May 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "author": "",
+  "published_at": "2026-06-20T03:35:24Z",
+  "collected_at": "2026-06-20T03:35:24Z",
+  "summary": "该仓库是Google在2026年5月发布的AI技术更新汇总，涵盖了多模态模型、生成式AI工具及基础设施优化等核心进展。技术亮点包括更高效的视觉-语言模型、实时推理加速框架，以及针对企业级应用的AI编排系统。更新强调模型性能与可扩展性的平衡，并展示了在搜索、云服务等场景的落地案例。",
+  "key_insight": "Google通过集成多模态推理与实时优化，进一步巩固了其在企业级AI生态中的主导地位。",
+  "score": 9,
+  "tags": [
+    "multimodal",
+    "generative-ai",
+    "infrastructure",
+    "google-ai"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-20T03:35:24Z"
+}
