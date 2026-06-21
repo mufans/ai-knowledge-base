@@ -1,0 +1,23 @@
+{
+  "id": "github-20260621-019",
+  "title": "chopratejas/headroom",
+  "source": "github",
+  "source_url": "https://github.com/chopratejas/headroom",
+  "author": "chopratejas",
+  "published_at": "2026-06-21T04:06:26Z",
+  "collected_at": "2026-06-21T04:06:26Z",
+  "summary": "Headroom 是一个智能压缩工具库，可在数据到达 LLM 之前压缩工具输出、日志、文件及 RAG 块，减少 60-95% 的 token 消耗同时保持答案质量。支持作为 Python 库、HTTP 代理和 MCP 服务器使用，兼容 OpenAI、Anthropic 等主流模型。核心创新在于上下文工程与 token 优化，显著降低推理成本。",
+  "key_insight": "通过智能压缩减少 60-95% token 消耗而不牺牲答案质量，是降低 LLM 推理成本的关键突破。",
+  "score": 9,
+  "tags": [
+    "token-compression",
+    "context-engineering",
+    "rag",
+    "proxy",
+    "mcp"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-21T04:06:26Z"
+}

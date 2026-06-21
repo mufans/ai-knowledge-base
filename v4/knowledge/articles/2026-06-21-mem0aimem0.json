@@ -1,0 +1,23 @@
+{
+  "id": "github-20260621-012",
+  "title": "mem0ai/mem0",
+  "source": "github",
+  "source_url": "https://github.com/mem0ai/mem0",
+  "author": "mem0ai",
+  "published_at": "2026-06-21T04:06:26Z",
+  "collected_at": "2026-06-21T04:06:26Z",
+  "summary": "Mem0 是一个为 AI 代理设计的通用记忆层，旨在为大型语言模型（LLM）提供长期记忆功能。它通过管理聊天历史、用户偏好和交互上下文，显著提升 AI 代理的个性化和连贯性。技术亮点包括：支持多种 LLM 提供商、可定制的记忆存储（如向量数据库）、以及高效的记忆检索和更新机制。该项目在 GitHub 上拥有 59k 星标，是构建具有记忆能力的智能代理的关键基础设施。",
+  "key_insight": "Mem0 通过为 AI 代理提供持久、可检索的长期记忆层，解决了 LLM 会话中上下文丢失的核心问题，是实现真正个性化智能代理的基础组件。",
+  "score": 9,
+  "tags": [
+    "agents",
+    "memory-management",
+    "rag",
+    "llm",
+    "state-management"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-06-21T04:06:26Z"
+}
