@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260622-024",
+  "title": "Building llm-driven “ai” still requires domain knowledge",
+  "source": "rss",
+  "source_url": "https://lobste.rs/s/q9sd1m/building_llm_driven_ai_still_requires",
+  "author": "",
+  "published_at": "2026-06-22T04:07:13Z",
+  "collected_at": "2026-06-22T04:07:13Z",
+  "summary": "该文章讨论了构建基于LLM的工具时，依然需要大量领域知识的输入。尽管LLM降低了将知识转化为结构化格式的难度，但捕获和记录领域知识仍是核心工作。作者认为这是过去AI项目失败的关键点，而LLM使得这一过程更易管理，但并未消除对领域知识的需求。",
+  "key_insight": "LLM降低了将领域知识转化为结构化格式的门槛，但捕获和表达领域知识仍是构建有效AI工具的核心挑战。",
+  "score": 6,
+  "tags": [
+    "LLM",
+    "Domain Knowledge",
+    "AI Development",
+    "Knowledge Capture"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-22T04:07:13Z"
+}

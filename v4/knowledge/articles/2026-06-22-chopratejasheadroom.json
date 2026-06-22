@@ -1,0 +1,23 @@
+{
+  "id": "github-20260622-018",
+  "title": "chopratejas/headroom",
+  "source": "github",
+  "source_url": "https://github.com/chopratejas/headroom",
+  "author": "chopratejas",
+  "published_at": "2026-06-22T04:07:13Z",
+  "collected_at": "2026-06-22T04:07:13Z",
+  "summary": "Headroom 是一个用于在将工具输出、日志、文件和 RAG 分块输入到 LLM 之前进行压缩的开源库，可实现 60-95% 的令牌减少，同时保持答案质量不变。它提供库、代理和 MCP 服务器三种使用方式，支持多种 LLM 平台如 OpenAI、Anthropic 和 Claude-Code，以及集成 LangChain、Cursor 和 FastAPI。核心亮点在于高效的上下文压缩技术，通过智能压缩算法优化令牌使用，显著降低成本和延迟，特别适合长上下文场景和 RAG 系统。",
+  "key_insight": "通过在输入 LLM 前高效压缩工具输出和 RAG 分块，Headroom 在不牺牲答案质量的前提下大幅减少令牌消耗，显著降低成本和延迟，是优化长上下文和 RAG 系统的关键工具。",
+  "score": 9,
+  "tags": [
+    "token-compression",
+    "context-engineering",
+    "rag",
+    "llm",
+    "proxy"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "token-optimization",
+  "updated_at": "2026-06-22T04:07:13Z"
+}

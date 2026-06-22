@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260622-028",
+  "title": "The latest AI news we announced in May 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "author": "",
+  "published_at": "2026-06-22T04:07:13Z",
+  "collected_at": "2026-06-22T04:07:13Z",
+  "summary": "该仓库是Google在2026年5月发布的AI新闻汇总，涵盖多模态模型、生成式AI工具、智能助手等最新技术进展。核心亮点包括Gemini模型升级、AI搜索增强以及开发者工具更新，强调AI在生产力、创意和日常应用中的深度融合。",
+  "key_insight": "Google持续推动AI从单一模型向多模态、工具化的生态演进，强化其在搜索和生产力场景的领先地位。",
+  "score": 8,
+  "tags": [
+    "multimodal",
+    "generative-ai",
+    "gemini",
+    "google-ai",
+    "productivity"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-22T04:07:13Z"
+}

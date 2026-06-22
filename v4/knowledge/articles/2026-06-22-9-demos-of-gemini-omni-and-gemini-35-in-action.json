@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260622-030",
+  "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+  "author": "",
+  "published_at": "2026-06-22T04:07:13Z",
+  "collected_at": "2026-06-22T04:07:13Z",
+  "summary": "该仓库展示了9个演示视频，突出Gemini Omni和Gemini 3.5模型在Google I/O 2026上宣布的多模态和高级推理能力。核心亮点包括跨模态理解（文本、图像、视频、音频）、实时交互、复杂任务处理（如代码生成、逻辑推理）以及多模态输出。技术亮点在于其统一的Transformer架构和高效的推理优化，支持低延迟响应。",
+  "key_insight": "Gemini Omni和3.5通过统一多模态架构和实时交互能力，推动了AI在复杂任务中的实际应用边界。",
+  "score": 9,
+  "tags": [
+    "multimodal",
+    "LLM",
+    "Gemini",
+    "real-time",
+    "reasoning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "LLM",
+  "updated_at": "2026-06-22T04:07:13Z"
+}
