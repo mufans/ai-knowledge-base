@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260623-021",
+  "title": "Munich 1991: the Roots of the Current AI Boom",
+  "source": "rss",
+  "source_url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+  "author": "",
+  "published_at": "2026-06-23T03:28:40Z",
+  "collected_at": "2026-06-23T03:28:40Z",
+  "summary": "该页面追溯1991年慕尼黑AI技术发展的关键事件，强调早期神经网络研究对当前AI热潮的奠基作用。核心观点是当前AI突破源于上世纪90年代初的学术积累，非短期爆发。技术亮点包括对深度学习历史脉络的梳理，但未提供具体代码或模型。",
+  "key_insight": "当前AI热潮的根源可追溯至1991年慕尼黑的早期神经网络研究，强调历史连续性而非突变。",
+  "score": 4,
+  "tags": [
+    "history",
+    "deep-learning",
+    "neural-networks",
+    "AI-origins"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-23T03:28:40Z"
+}

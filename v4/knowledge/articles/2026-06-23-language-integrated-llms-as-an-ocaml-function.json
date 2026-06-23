@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260623-024",
+  "title": "Language integrated LLMs as an OCaml function",
+  "source": "rss",
+  "source_url": "https://anil.recoil.org/notes/language-integrated-llms",
+  "author": "",
+  "published_at": "2026-06-23T03:28:40Z",
+  "collected_at": "2026-06-23T03:28:40Z",
+  "summary": "该仓库将大语言模型（LLMs）以语言集成的方式嵌入OCaml函数中，实现类型安全的LLM调用。核心创新在于利用OCaml的强类型系统，将LLM的提示和输出映射为函数签名，从而在编译期捕获错误。技术亮点包括类型驱动的提示模板、自动代码生成与验证，以及函数式编程范式下的LLM集成。",
+  "key_insight": "通过OCaml的类型系统将LLM调用抽象为类型安全的函数，提升可靠性和开发效率。",
+  "score": 8,
+  "tags": [
+    "OCaml",
+    "LLM",
+    "type-safe",
+    "language-integration",
+    "functional-programming"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-23T03:28:40Z"
+}

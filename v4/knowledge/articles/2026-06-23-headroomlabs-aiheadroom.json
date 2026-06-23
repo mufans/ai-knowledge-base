@@ -1,0 +1,23 @@
+{
+  "id": "github-20260623-016",
+  "title": "headroomlabs-ai/headroom",
+  "source": "github",
+  "source_url": "https://github.com/headroomlabs-ai/headroom",
+  "author": "headroomlabs-ai",
+  "published_at": "2026-06-23T03:28:40Z",
+  "collected_at": "2026-06-23T03:28:40Z",
+  "summary": "Headroom 是一个用于压缩工具输出、日志、文件和 RAG 分块的 Python 库，在输入 LLM 前可将 token 数量减少 60-95% 且不影响答案质量。它提供库、代理和 MCP 服务器三种使用方式，支持与 LangChain、FastAPI、Cursor 等集成，适用于 Agent、RAG 等场景。技术亮点在于其高效的上下文压缩算法，能显著降低 token 消耗和成本。",
+  "key_insight": "通过智能压缩减少 LLM 上下文中的 token 数量，在保持回答质量的同时大幅降低成本，是优化 LLM 应用效率的关键工具。",
+  "score": 9,
+  "tags": [
+    "token-optimization",
+    "compression",
+    "llm",
+    "rag",
+    "mcp"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-23T03:28:40Z"
+}

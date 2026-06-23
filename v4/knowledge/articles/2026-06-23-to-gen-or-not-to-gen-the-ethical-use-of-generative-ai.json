@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260623-027",
+  "title": "To Gen or Not To Gen: The Ethical Use of Generative AI",
+  "source": "rss",
+  "source_url": "https://blog.johanneslink.net/2025/11/04/to-gen-or-not-to-gen/",
+  "author": "",
+  "published_at": "2026-06-23T03:28:40Z",
+  "collected_at": "2026-06-23T03:28:40Z",
+  "summary": "该仓库（实为博客文章）探讨生成式AI的伦理使用问题，提出在软件开发中如何平衡效率与道德责任。核心观点是开发者在集成AI工具时需考虑透明度、公平性和人类监督，避免自动化偏见和滥用。技术亮点在于结合具体场景分析AI生成代码的潜在风险，并给出实践建议。",
+  "key_insight": "生成式AI的伦理使用需要开发者主动评估风险，而非被动接受工具输出。",
+  "score": 6,
+  "tags": [
+    "generative-ai",
+    "ethics",
+    "software-development",
+    "responsibility",
+    "bias"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-23T03:28:40Z"
+}
