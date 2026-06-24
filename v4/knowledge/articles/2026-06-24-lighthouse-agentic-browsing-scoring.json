@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260624-022",
+  "title": "Lighthouse agentic browsing scoring",
+  "source": "rss",
+  "source_url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring",
+  "author": "",
+  "published_at": "2026-06-24T03:30:07Z",
+  "collected_at": "2026-06-24T03:30:07Z",
+  "summary": "该仓库是Chrome Lighthouse团队关于代理浏览（agentic browsing）评分机制的官方文档，定义了衡量AI代理在浏览器中自主完成任务能力的标准化评分体系。核心亮点包括：基于任务完成度、效率、可靠性和安全性等多维度的量化评估方法，以及Lighthouse工具对代理浏览行为的自动化检测与评分实现。该评分系统旨在推动AI代理在Web自动化领域的标准化发展，为开发者提供优化代理行为的可参考指标。",
+  "key_insight": "Chrome官方提出的代理浏览评分机制，为AI代理在浏览器中的自主行为提供了标准化评估框架。",
+  "score": 7,
+  "tags": [
+    "agentic-browsing",
+    "lighthouse",
+    "scoring",
+    "web-automation",
+    "chrome"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-06-24T03:30:07Z"
+}

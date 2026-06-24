@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260624-031",
+  "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+  "author": "",
+  "published_at": "2026-06-24T03:30:07Z",
+  "collected_at": "2026-06-24T03:30:07Z",
+  "summary": "该仓库展示了9个视频，演示了Gemini Omni和Gemini 3.5模型在Google I/O 2026上宣布的多模态能力，包括文本、图像、音频和视频的实时理解与生成，以及跨模态交互应用。",
+  "key_insight": "Gemini Omni和3.5模型通过多模态融合，实现了更自然的跨模态交互，推动了AI在实时理解和生成方面的能力边界。",
+  "score": 9,
+  "tags": [
+    "Gemini",
+    "Multimodal",
+    "Omni",
+    "AI",
+    "Google"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-24T03:30:07Z"
+}
