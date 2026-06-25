@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260625-025",
+  "title": "The latest AI news we announced in May 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "author": "",
+  "published_at": "2026-06-25T03:27:46Z",
+  "collected_at": "2026-06-25T03:27:46Z",
+  "summary": "该仓库指向Google 2026年5月AI更新博客，涵盖最新AI技术进展和产品发布。核心功能包括多模态模型、AI工具集成及性能优化，技术亮点在于实时数据处理和跨平台应用。",
+  "key_insight": "Google 2026年5月AI更新聚焦多模态与实时应用，但缺乏具体技术细节。",
+  "score": 4,
+  "tags": [
+    "Google AI",
+    "Multimodal",
+    "LLM",
+    "Product Update"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-25T03:27:46Z"
+}
