@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260626-030",
+  "title": "Catch up on 12 major I/O 2026 moments",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+  "author": "Catch up on 12 major I",
+  "published_at": "2026-06-26T03:35:48Z",
+  "collected_at": "2026-06-26T03:35:48Z",
+  "summary": "该仓库汇集了Google I/O 2026主题演讲中的12个重大时刻，重点介绍了Gemini Omni、Gemini 3.5 Flash等AI模型的最新进展。技术亮点包括多模态AI能力、高效推理模型以及Google在AI领域的创新方向。",
+  "key_insight": "Google I/O 2026展示了Gemini系列模型的快速迭代，强调了多模态和高效推理在AI发展中的核心地位。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Gemini",
+    "Multimodal",
+    "Google",
+    "Keynote"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-26T03:35:48Z"
+}
