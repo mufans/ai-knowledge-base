@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260627-029",
+  "title": "The latest AI news we announced in May 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "author": "",
+  "published_at": "2026-06-27T02:58:15Z",
+  "collected_at": "2026-06-27T02:58:15Z",
+  "summary": "该仓库为Google 2026年5月AI更新公告的博客链接，汇总了当月Google在AI领域的最新进展，包括模型发布、工具升级和行业应用。技术亮点涵盖多模态能力增强、推理效率优化及安全对齐改进。",
+  "key_insight": "Google通过月度更新持续巩固其在AI基础模型和多模态领域的领导地位，重点提升推理性能与安全对齐。",
+  "score": 7,
+  "tags": [
+    "Google",
+    "AI",
+    "Multimodal",
+    "Reasoning",
+    "Safety"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-27T02:58:15Z"
+}

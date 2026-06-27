@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260627-023",
+  "title": "Munich 1991: the Roots of the Current AI Boom",
+  "source": "rss",
+  "source_url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+  "author": "",
+  "published_at": "2026-06-27T02:58:15Z",
+  "collected_at": "2026-06-27T02:58:15Z",
+  "summary": "该页面由Jürgen Schmidhuber撰写，追溯了当前AI繁荣的根源至1991年在慕尼黑举行的会议。文章强调早期神经网络研究（如LSTM、卷积网络）和深度学习突破如何奠定现代AI基础，并指出关键人物和事件。技术亮点包括对Transformer架构的间接影响及递归神经网络的早期贡献。",
+  "key_insight": "当前AI繁荣的种子早在1991年已播下，深度学习的历史深度常被低估。",
+  "score": 6,
+  "tags": [
+    "deep-learning",
+    "history-of-ai",
+    "neural-networks",
+    "lstm",
+    "transformer"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-27T02:58:15Z"
+}
