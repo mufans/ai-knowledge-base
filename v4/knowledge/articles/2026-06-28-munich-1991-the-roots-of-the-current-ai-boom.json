@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260628-026",
+  "title": "Munich 1991: the Roots of the Current AI Boom",
+  "source": "rss",
+  "source_url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+  "author": "",
+  "published_at": "2026-06-28T03:41:18Z",
+  "collected_at": "2026-06-28T03:41:18Z",
+  "summary": "该页面由Jürgen Schmidhuber撰写，追溯当前AI热潮的历史根源，重点聚焦1991年慕尼黑的技术突破。文章强调早期神经网络和深度学习的关键贡献，特别是LSTM（长短期记忆网络）的前身工作，以及这些基础研究如何为现代AI繁荣奠定基础。技术亮点在于揭示被忽视的历史节点，突出递归神经网络和序列学习在AI发展中的核心作用。",
+  "key_insight": "1991年慕尼黑的研究工作，尤其是LSTM的前身，是当前AI热潮中被低估的根源，揭示了序列学习对现代AI的奠基性影响。",
+  "score": 6,
+  "tags": [
+    "deep-learning",
+    "history-of-ai",
+    "neural-networks",
+    "lstm",
+    "recurrent-neural-networks"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-28T03:41:18Z"
+}

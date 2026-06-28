@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260628-022",
+  "title": "Comparing Transformers and Hybrid Models at the Token Level",
+  "source": "rss",
+  "source_url": "https://arxiv.org/pdf/2606.20936",
+  "author": "",
+  "published_at": "2026-06-28T03:41:18Z",
+  "collected_at": "2026-06-28T03:41:18Z",
+  "summary": "该仓库对应一篇学术论文，核心功能是在token级别比较Transformer和混合模型（Hybrid Models）的性能。技术亮点包括：在token粒度上进行公平对比，可能涉及状态空间模型（如Mamba）与Transformer的混合架构，以及效率与表达能力的权衡分析。",
+  "key_insight": "在token级别系统比较混合架构与Transformer，揭示细粒度效率与能力的权衡。",
+  "score": 7,
+  "tags": [
+    "Transformer",
+    "Hybrid Models",
+    "Token-Level",
+    "State Space Models",
+    "Efficiency"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-28T03:41:18Z"
+}

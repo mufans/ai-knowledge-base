@@ -1,0 +1,23 @@
+{
+  "id": "github-20260628-020",
+  "title": "reworkd/AgentGPT",
+  "source": "github",
+  "source_url": "https://github.com/reworkd/AgentGPT",
+  "author": "reworkd",
+  "published_at": "2026-06-28T03:41:18Z",
+  "collected_at": "2026-06-28T03:41:18Z",
+  "summary": "AgentGPT 是一个基于浏览器的自主 AI Agent 组装、配置和部署平台。它采用 TypeScript 开发，支持用户通过简单的界面创建并运行由 GPT 模型驱动的自主代理，实现任务自动化与多步骤推理。技术亮点包括集成 LangChain 来编排模型调用与工具使用，采用 T3 Stack（Next.js + tRPC + Prisma）构建全栈应用，并提供对 OpenAI API 的直接支持。项目灵感来源于 AutoGPT 和 Baby-AGI，但更注重用户友好的 Web 界面和可配置性。",
+  "key_insight": "AgentGPT 通过浏览器化界面降低了自主 Agent 的使用门槛，但依赖单一模型和固定工具链，限制了复杂场景下的灵活性与可扩展性。",
+  "score": 8,
+  "tags": [
+    "agent",
+    "autonomous-ai",
+    "langchain",
+    "nextjs",
+    "openai"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-06-28T03:41:18Z"
+}

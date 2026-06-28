@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260628-024",
+  "title": "What does it mean to be a mathematician when AI does the math?",
+  "source": "rss",
+  "source_url": "https://spectrum.ieee.org/ai-in-mathematics",
+  "author": "",
+  "published_at": "2026-06-28T03:41:18Z",
+  "collected_at": "2026-06-28T03:41:18Z",
+  "summary": "该文章探讨了当AI能够执行数学计算时，数学家角色的重新定义。核心关注AI在数学研究中的应用，如定理证明和问题求解，以及这对数学教育与实践的影响。技术亮点包括AI辅助数学推理和自动化证明工具的发展。",
+  "key_insight": "AI正在改变数学的本质，从计算工具演变为数学推理的合作伙伴，迫使数学家重新思考创造性和直觉在数学中的作用。",
+  "score": 6,
+  "tags": [
+    "AI",
+    "Mathematics",
+    "Theorem-Proving"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-28T03:41:18Z"
+}
