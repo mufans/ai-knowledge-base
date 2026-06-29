@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260629-028",
+  "title": "The latest AI news we announced in May 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "author": "",
+  "published_at": "2026-06-29T03:45:45Z",
+  "collected_at": "2026-06-29T03:45:45Z",
+  "summary": "该博客汇总了谷歌在2026年5月发布的最新AI更新，涵盖多模态模型、推理能力增强、开发者工具和负责任AI实践。核心亮点包括改进的Gemini模型、更高效的训练方法以及AI在搜索和云服务中的集成，展示了谷歌在AI前沿技术的持续创新。",
+  "key_insight": "谷歌2026年5月的AI更新聚焦于提升模型的多模态和推理能力，同时强化开发者工具和负责任的AI部署。",
+  "score": 8,
+  "tags": [
+    "multimodal",
+    "Gemini",
+    "AI-updates",
+    "Google",
+    "responsible-AI"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-29T03:45:45Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260629-024",
+  "title": "AI Agents Enable Adaptive Computer Worms",
+  "source": "rss",
+  "source_url": "https://cleverhans.io/worm.html",
+  "author": "",
+  "published_at": "2026-06-29T03:45:45Z",
+  "collected_at": "2026-06-29T03:45:45Z",
+  "summary": "该项目提出利用AI Agent技术构建自适应计算机蠕虫，能够根据环境动态调整攻击策略。技术亮点包括结合大语言模型进行实时决策、绕过传统防御机制以及自我复制传播能力。研究展示了AI在网络安全领域的双刃剑效应，引发对自主恶意软件风险的关注。",
+  "key_insight": "AI Agents使蠕虫具备自适应决策能力，突破了传统静态攻击模式的局限性。",
+  "score": 8,
+  "tags": [
+    "AI-Agent",
+    "Cybersecurity",
+    "LLM",
+    "Autonomous-Worm",
+    "Adversarial-AI"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-06-29T03:45:45Z"
+}

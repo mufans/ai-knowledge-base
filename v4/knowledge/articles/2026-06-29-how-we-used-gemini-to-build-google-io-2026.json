@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260629-029",
+  "title": "How we used Gemini to build Google I/O 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+  "author": "How we used Gemini to build Google I",
+  "published_at": "2026-06-29T03:45:45Z",
+  "collected_at": "2026-06-29T03:45:45Z",
+  "summary": "谷歌团队利用Gemini等AI技术，从内容生成到活动管理全流程自动化地制作了Google I/O 2026大会。技术亮点包括AI驱动的讲稿撰写、演示视频生成、实时翻译和个性化议程推荐，展示了AI在大型活动策划与执行中的端到端应用能力。",
+  "key_insight": "Gemini在大会全流程中的深度集成，从内容创作到现场管理，展现了AI在大型活动中的端到端自动化潜力。",
+  "score": 8,
+  "tags": [
+    "Gemini",
+    "AI-Event",
+    "Content-Generation",
+    "Automation"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-29T03:45:45Z"
+}

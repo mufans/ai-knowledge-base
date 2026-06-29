@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260629-025",
+  "title": "Munich 1991: the Roots of the Current AI Boom",
+  "source": "rss",
+  "source_url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+  "author": "",
+  "published_at": "2026-06-29T03:45:45Z",
+  "collected_at": "2026-06-29T03:45:45Z",
+  "summary": "该页面追溯了当前AI热潮的起源，聚焦于1991年在慕尼黑发生的关键事件。作者Jürgen Schmidhuber通过历史视角，揭示了当时的研究突破如何为现代深度学习（如Transformer、GPT等）奠定基础。技术亮点包括对早期神经网络架构、递归网络及注意力机制的回顾，以及它们如何影响当前大语言模型的发展。",
+  "key_insight": "1991年慕尼黑的研究工作（如递归网络和注意力机制的早期形式）直接孕育了当前AI热潮的核心技术，尤其是大语言模型。",
+  "score": 8,
+  "tags": [
+    "Deep Learning",
+    "Neural Networks",
+    "AI History",
+    "Transformer"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-29T03:45:45Z"
+}
