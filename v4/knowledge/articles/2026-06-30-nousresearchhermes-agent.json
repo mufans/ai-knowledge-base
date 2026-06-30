@@ -1,0 +1,23 @@
+{
+  "id": "github-20260630-001",
+  "title": "NousResearch/hermes-agent",
+  "source": "github",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "author": "NousResearch",
+  "published_at": "2026-06-30T03:34:03Z",
+  "collected_at": "2026-06-30T03:34:03Z",
+  "summary": "Hermes Agent 是一个由 Nous Research 开发的自适应 AI 智能体框架，能够根据用户交互和反馈持续学习和进化。基于 Python 构建，支持与 OpenAI、Anthropic 等主流 LLM 服务集成，提供灵活的智能体行为定制能力。其核心创新在于动态学习机制，使智能体能够从用户行为中优化策略，实现个性化交互体验。",
+  "key_insight": "强调智能体的自适应成长能力，通过持续学习机制突破传统静态智能体限制",
+  "score": 8,
+  "tags": [
+    "ai-agent",
+    "llm",
+    "self-learning",
+    "python",
+    "adaptive-agent"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-06-30T03:34:03Z"
+}

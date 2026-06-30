@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260630-026",
+  "title": "Munich 1991: the Roots of the Current AI Boom",
+  "source": "rss",
+  "source_url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+  "author": "",
+  "published_at": "2026-06-30T03:34:03Z",
+  "collected_at": "2026-06-30T03:34:03Z",
+  "summary": "该页面追溯了1991年在慕尼黑发生的AI领域关键事件，特别是与递归神经网络（RNN）和长短期记忆网络（LSTM）相关的早期研究，这些技术被认为是当前AI热潮的根源。文章强调LSTM的发明（1997年）及其在深度学习中的核心作用，并分析了这些早期工作如何奠定现代AI的基础。技术亮点在于揭示了AI发展史上的关键转折点，并提供了历史背景。",
+  "key_insight": "1991年的慕尼黑研究是LSTM的起源，直接推动了现代AI深度学习革命。",
+  "score": 7,
+  "tags": [
+    "RecurrentNeuralNetworks",
+    "LSTM",
+    "DeepLearning",
+    "AIHistory"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-30T03:34:03Z"
+}

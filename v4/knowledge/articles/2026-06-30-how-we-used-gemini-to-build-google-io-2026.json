@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260630-032",
+  "title": "How we used Gemini to build Google I/O 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+  "author": "How we used Gemini to build Google I",
+  "published_at": "2026-06-30T03:34:03Z",
+  "collected_at": "2026-06-30T03:34:03Z",
+  "summary": "该仓库介绍了Google团队如何使用Gemini模型来制作2026年Google I/O大会的AI驱动内容。核心功能包括利用Gemini进行内容生成、会议流程优化和互动体验增强。技术亮点在于Gemini在多模态任务上的应用，如文本、图像和视频内容的自动生成与整合，展示了AI在大型活动策划中的实际部署能力。",
+  "key_insight": "Gemini在大型活动中的端到端应用，体现了LLM从内容生成到流程管理的全栈能力。",
+  "score": 7,
+  "tags": [
+    "Gemini",
+    "event-production",
+    "AI-content-generation",
+    "multimodal"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-30T03:34:03Z"
+}

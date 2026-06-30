@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260630-025",
+  "title": "Echoes of the AI Winter",
+  "source": "rss",
+  "source_url": "https://netzhansa.com/echoes-of-the-ai-winter/",
+  "author": "",
+  "published_at": "2026-06-30T03:34:03Z",
+  "collected_at": "2026-06-30T03:34:03Z",
+  "summary": "该仓库是一篇关于AI寒冬历史反思的文章，探讨了人工智能领域在经历泡沫破裂后的技术停滞与复苏经验。核心内容聚焦于从历史教训中提炼对当前AI热潮的警示，强调技术炒作周期与理性发展的平衡。技术亮点在于对机器学习发展脉络的深度梳理，以及从失败案例中总结出的资源管理、预期控制等策略。",
+  "key_insight": "AI寒冬的历史经验揭示了技术炒作与理性发展之间的张力，为当前AI热潮提供了重要的风险警示。",
+  "score": 6,
+  "tags": [
+    "AI-history",
+    "technology-cycle",
+    "machine-learning",
+    "lessons-learned"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-30T03:34:03Z"
+}

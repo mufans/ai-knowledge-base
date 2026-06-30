@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260630-030",
+  "title": "The latest AI news we announced in May 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "author": "",
+  "published_at": "2026-06-30T03:34:03Z",
+  "collected_at": "2026-06-30T03:34:03Z",
+  "summary": "该仓库是谷歌2026年5月AI更新的官方博客摘要，涵盖多项前沿AI技术进展，包括新型大语言模型、多模态能力增强、以及AI在搜索和助手中的应用优化。技术亮点包括实时推理性能提升、跨模态理解与生成、以及更高效的模型架构。这些更新体现了谷歌在AI基础研究和产品化方面的持续投入。",
+  "key_insight": "谷歌2026年5月AI更新聚焦于提升大语言模型的实时推理和多模态能力，推动AI在搜索和助手场景的实用化。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "Multimodal",
+    "Google AI",
+    "Real-time Inference",
+    "Model Optimization"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-06-30T03:34:03Z"
+}
