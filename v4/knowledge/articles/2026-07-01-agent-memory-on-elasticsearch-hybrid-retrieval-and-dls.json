@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260701-028",
+  "title": "Agent memory on Elasticsearch: hybrid retrieval and DLS",
+  "source": "rss",
+  "source_url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+  "author": "",
+  "published_at": "2026-07-01T03:43:14Z",
+  "collected_at": "2026-07-01T03:43:14Z",
+  "summary": "该仓库展示了如何利用Elasticsearch实现AI Agent的记忆功能，核心是通过混合检索（hybrid retrieval）和文档级安全（DLS）技术来增强Agent的上下文感知和安全性。技术亮点包括结合向量搜索与关键词搜索的混合检索策略，以及基于文档级别的访问控制，确保Agent记忆的准确性和隐私保护。",
+  "key_insight": "利用Elasticsearch的混合检索和文档级安全，为AI Agent提供高效、安全的记忆管理方案。",
+  "score": 8,
+  "tags": [
+    "Elasticsearch",
+    "Hybrid Retrieval",
+    "Agent Memory",
+    "DLS",
+    "Vector Search"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-07-01T03:43:14Z"
+}

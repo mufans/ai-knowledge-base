@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260701-027",
+  "title": "Munich 1991: the Roots of the Current AI Boom",
+  "source": "rss",
+  "source_url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+  "author": "",
+  "published_at": "2026-07-01T03:43:14Z",
+  "collected_at": "2026-07-01T03:43:14Z",
+  "summary": "该页面是一篇历史回顾文章，由Jürgen Schmidhuber撰写，探讨了当前AI繁荣的根源，追溯到1991年在慕尼黑发生的关键事件和思想。文章可能强调了早期神经网络、深度学习或相关技术的贡献，为现代AI发展奠定了基础。技术亮点在于对AI历史脉络的梳理和关键人物的洞察。",
+  "key_insight": "1991年慕尼黑的早期工作为当前AI繁荣提供了关键理论基础，但仓库本身是历史文档而非技术实现。",
+  "score": 6,
+  "tags": [
+    "AI History",
+    "Deep Learning",
+    "Neural Networks",
+    "Foundations"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-01T03:43:14Z"
+}

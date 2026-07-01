@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260701-032",
+  "title": "The latest AI news we announced in May 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "author": "",
+  "published_at": "2026-07-01T03:43:14Z",
+  "collected_at": "2026-07-01T03:43:14Z",
+  "summary": "该仓库是Google在2026年5月发布的AI最新新闻汇总，涵盖多项技术创新与产品更新。核心亮点包括多模态模型能力提升、AI工具链优化以及面向开发者的新API发布。技术层面展示了Google在自然语言处理、计算机视觉和生成式AI方面的持续进步，并强调了AI在搜索、助手等产品中的深度融合。",
+  "key_insight": "Google通过统一多模态模型和API升级，进一步巩固了其在AI基础设施领域的领导地位。",
+  "score": 8,
+  "tags": [
+    "Google AI",
+    "Multimodal",
+    "Generative AI",
+    "API",
+    "NLP"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-01T03:43:14Z"
+}
