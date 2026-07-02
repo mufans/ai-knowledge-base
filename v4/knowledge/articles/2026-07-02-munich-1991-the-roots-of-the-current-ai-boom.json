@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260702-028",
+  "title": "Munich 1991: the Roots of the Current AI Boom",
+  "source": "rss",
+  "source_url": "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+  "author": "",
+  "published_at": "2026-07-02T03:28:24Z",
+  "collected_at": "2026-07-02T03:28:24Z",
+  "summary": "该页面回顾了1991年在慕尼黑举办的国际神经网络会议（ICANN 91），并将其视为当前人工智能热潮的根源。文章详细描述了早期神经网络研究的关键进展，如反向传播算法的实际应用、循环神经网络的出现，以及长短期记忆（LSTM）概念的早期萌芽。技术亮点包括对当时计算资源和理论局限性的突破，以及这些工作如何为后来的深度学习革命奠定基础。",
+  "key_insight": "1991年的慕尼黑会议标志着神经网络从学术边缘走向主流AI应用的关键转折点。",
+  "score": 8,
+  "tags": [
+    "deep-learning",
+    "neural-networks",
+    "history-of-ai"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-02T03:28:24Z"
+}
