@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260703-032",
+  "title": "The latest AI news we announced in May 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "author": "",
+  "published_at": "2026-07-03T02:51:34Z",
+  "collected_at": "2026-07-03T02:51:34Z",
+  "summary": "该仓库是谷歌2026年5月AI新闻汇总博客，涵盖多模态模型升级、推理优化、AI agent框架等核心更新。技术亮点包括Gemini模型性能提升、轻量级模型部署方案以及跨平台AI工具集成。",
+  "key_insight": "谷歌在2026年5月重点推进多模态模型与轻量化推理，强化AI agent生态整合。",
+  "score": 8,
+  "tags": [
+    "multimodal",
+    "LLM",
+    "AI Infrastructure",
+    "Google AI"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-03T02:51:34Z"
+}
