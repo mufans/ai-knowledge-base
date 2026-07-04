@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260704-021",
+  "title": "Investigating idiosyncrasies in AI fiction",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.03136",
+  "author": "",
+  "published_at": "2026-07-04T02:47:17Z",
+  "collected_at": "2026-07-04T02:47:17Z",
+  "summary": "该仓库探讨AI生成虚构作品中的独特特性，分析其与人类创作的区别。通过系统性研究，揭示了AI在叙事结构、角色塑造和语言风格上的常见模式与偏差，为理解AI创造性行为提供新视角。",
+  "key_insight": "AI虚构作品存在可识别的系统性偏差，这些偏差源于训练数据分布和生成算法的内在限制。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "fiction",
+    "narrative",
+    "creativity",
+    "text-generation"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-04T02:47:17Z"
+}

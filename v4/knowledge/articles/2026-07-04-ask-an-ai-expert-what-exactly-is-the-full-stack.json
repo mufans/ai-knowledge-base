@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260704-030",
+  "title": "Ask an AI expert: What exactly is the full stack?",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+  "author": "",
+  "published_at": "2026-07-04T02:47:17Z",
+  "collected_at": "2026-07-04T02:47:17Z",
+  "summary": "该博客文章由Google AI专家撰写，解释了全栈AI方法的含义及其在Google长期AI工作中的基础作用。文章核心是强调从硬件到软件、从数据到模型部署的端到端优化，以实现AI系统的整体性能和效率。技术亮点包括对全栈AI架构的清晰阐述，以及如何通过集成不同层级（如芯片、框架、算法）来推动创新。",
+  "key_insight": "全栈AI方法通过端到端集成硬件、软件和算法，是Google长期AI创新的核心基础。",
+  "score": 6,
+  "tags": [
+    "full-stack-ai",
+    "ai-architecture",
+    "google-ai"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-04T02:47:17Z"
+}

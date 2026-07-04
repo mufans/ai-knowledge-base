@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260704-032",
+  "title": "The latest AI news we announced in May 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "author": "",
+  "published_at": "2026-07-04T02:47:17Z",
+  "collected_at": "2026-07-04T02:47:17Z",
+  "summary": "该仓库是Google在2026年5月发布的AI最新新闻汇总，涵盖多模态AI、Gemini模型升级、AI搜索增强等核心功能。技术亮点包括大规模上下文窗口、实时多模态推理、以及AI在医疗和创作领域的应用。展示了Google在AI前沿的技术整合能力。",
+  "key_insight": "Google通过多模态和实时推理强化AI生态，但缺乏开源或具体技术细节，创新性有限。",
+  "score": 8,
+  "tags": [
+    "multimodal",
+    "gemini",
+    "AI-updates",
+    "Google"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-04T02:47:17Z"
+}

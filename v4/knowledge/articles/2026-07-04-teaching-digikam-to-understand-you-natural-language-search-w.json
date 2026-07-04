@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260704-023",
+  "title": "Teaching digiKam to Understand You: Natural Language Search with Local LLMs",
+  "source": "rss",
+  "source_url": "http://srirupa19.github.io/gsoc/2026/06/28/gsoc1.html",
+  "author": "",
+  "published_at": "2026-07-04T02:47:17Z",
+  "collected_at": "2026-07-04T02:47:17Z",
+  "summary": "该项目探讨如何为开源照片管理软件digiKam集成自然语言搜索功能，通过本地部署的小型语言模型（LLMs）实现用户以自然语言描述查询照片。技术亮点包括利用本地LLM进行语义理解、无需云端依赖、保护隐私，以及将自然语言查询转换为结构化数据库搜索或直接匹配图像元数据。核心创新在于将LLM与现有照片管理系统的搜索能力结合，提升用户体验。",
+  "key_insight": "通过本地LLM赋能传统软件，实现隐私保护的语义搜索，是AI落地的务实方向。",
+  "score": 6,
+  "tags": [
+    "natural-language-search",
+    "local-llm",
+    "photo-management",
+    "digiKam",
+    "privacy"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "rag",
+  "updated_at": "2026-07-04T02:47:17Z"
+}
