@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260705-032",
+  "title": "The latest AI news we announced in May 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+  "author": "",
+  "published_at": "2026-07-05T02:58:05Z",
+  "collected_at": "2026-07-05T02:58:05Z",
+  "summary": "该博客文章汇总了谷歌在2026年5月发布的最新AI技术进展，涵盖多模态模型、工具集成、安全框架等核心更新。亮点包括Gemini模型的新功能（如实时视频理解、代码生成增强）、AI基础设施的优化（如TPU v6性能提升），以及负责任AI的新政策（如内容水印和偏见检测工具）。技术层面强调端到端AI系统集成，推动从单一模型向多智能体协作的演进。",
+  "key_insight": "谷歌2026年5月AI更新聚焦于多模态实时交互与负责任AI的平衡，标志其从模型竞赛转向系统级生态整合。",
+  "score": 8,
+  "tags": [
+    "multimodal",
+    "infrastructure",
+    "responsible-ai",
+    "google",
+    "2026"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-05T02:58:05Z"
+}

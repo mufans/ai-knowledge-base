@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260705-021",
+  "title": "Investigating idiosyncrasies in AI fiction",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.03136",
+  "author": "",
+  "published_at": "2026-07-05T02:58:05Z",
+  "collected_at": "2026-07-05T02:58:05Z",
+  "summary": "该仓库探讨了人工智能生成小说中的独特特征和异常现象，通过分析AI生成文本与人类创作文本的差异，揭示了AI在叙事逻辑、情感表达和结构连贯性上的固有缺陷。技术亮点包括使用自然语言处理技术对AI小说进行定量分析，并提出了改进AI文本生成质量的潜在方向。",
+  "key_insight": "AI生成小说在叙事连贯性和情感深度上存在系统性不足，需通过细粒度文本分析改进生成模型。",
+  "score": 6,
+  "tags": [
+    "AI fiction",
+    "text analysis",
+    "natural language processing",
+    "narrative generation",
+    "AI evaluation"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-05T02:58:05Z"
+}
