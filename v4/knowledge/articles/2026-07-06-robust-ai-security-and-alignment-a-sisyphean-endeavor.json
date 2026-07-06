@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260706-024",
+  "title": "Robust AI Security and Alignment: A Sisyphean Endeavor?",
+  "source": "rss",
+  "source_url": "https://ieeexplore.ieee.org/document/11475847/",
+  "author": "",
+  "published_at": "2026-07-06T03:24:46Z",
+  "collected_at": "2026-07-06T03:24:46Z",
+  "summary": "该论文探讨了AI安全与对齐的鲁棒性问题，引用NIST文章和社区讨论。核心观点认为，实现AI系统的鲁棒安全与对齐可能是一项永无止境的挑战（西西弗斯式努力），强调了持续监控和更新的必要性。技术亮点包括对安全性与对齐性的数学论证，以及从理论层面分析现有方法的局限性。",
+  "key_insight": "AI安全与对齐的鲁棒性可能是一个永无止境的挑战，需要持续监控和更新。",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Alignment",
+    "Robustness",
+    "Mathematical Proof"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-06T03:24:46Z"
+}
