@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260707-022",
+  "title": "The Control Plane Was the Point: Revisiting autofz in the LLM Era",
+  "source": "rss",
+  "source_url": "https://yfu.tw/blog/en/autofz-revisited/",
+  "author": "",
+  "published_at": "2026-07-07T02:58:15Z",
+  "collected_at": "2026-07-07T02:58:15Z",
+  "summary": "该文章重新审视了autofz项目在LLM时代的意义，强调控制平面（Control Plane）而非数据平面（Data Plane）才是关键。作者认为，LLM的引入并未改变模糊测试（fuzzing）的核心挑战，即如何有效引导生成过程，而控制平面设计（如调度、变异策略）仍是决定性能的主要因素。技术亮点在于将LLM作为辅助工具增强现有框架，而非完全替代传统方法。",
+  "key_insight": "LLM时代的模糊测试中，控制平面设计比数据生成更重要，LLM应作为增强工具而非革命性替代。",
+  "score": 7,
+  "tags": [
+    "fuzzing",
+    "LLM",
+    "control-plane",
+    "security-testing",
+    "software-testing"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "code-generation",
+  "updated_at": "2026-07-07T02:58:15Z"
+}
