@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260708-030",
+  "title": "The latest AI news we announced in June 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+  "author": "",
+  "published_at": "2026-07-08T02:34:38Z",
+  "collected_at": "2026-07-08T02:34:38Z",
+  "summary": "该仓库是Google在2026年6月发布的AI新闻汇总，涵盖多项前沿技术更新，包括模型优化、多模态能力提升及实际应用场景。核心亮点在于强调AI在效率、可解释性和跨领域集成上的突破，如新型轻量级模型架构和实时数据处理技术。",
+  "key_insight": "Google持续推动AI实用化，聚焦轻量级模型与多模态融合，但非开源项目，技术价值体现在行业动态参考。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Google",
+    "Multimodal",
+    "Model Optimization"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-08T02:34:38Z"
+}

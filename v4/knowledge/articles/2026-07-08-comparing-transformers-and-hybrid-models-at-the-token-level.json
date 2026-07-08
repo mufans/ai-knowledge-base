@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260708-026",
+  "title": "Comparing Transformers and Hybrid Models at the Token Level",
+  "source": "rss",
+  "source_url": "https://arxiv.org/pdf/2606.20936",
+  "author": "",
+  "published_at": "2026-07-08T02:34:38Z",
+  "collected_at": "2026-07-08T02:34:38Z",
+  "summary": "该仓库（实为arXiv论文）在token级别比较了Transformer与混合模型，核心功能是系统评估混合架构（如结合RNN、CNN或状态空间模型）在处理长序列时的性能与效率。技术亮点包括：提出统一的token级评估框架，揭示混合模型在保持Transformer并行优势的同时，降低计算复杂度并提升长程依赖捕获能力。实验证明混合模型在语言建模、文本分类等任务上可达相近或更优精度。",
+  "key_insight": "混合模型在token级别可有效平衡Transformer的并行性与RNN/CNN的长程效率，为构建更高效的语言模型提供新方向。",
+  "score": 8,
+  "tags": [
+    "transformer",
+    "hybrid-models",
+    "token-level",
+    "sequence-modeling",
+    "efficiency"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-08T02:34:38Z"
+}
