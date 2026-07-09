@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260709-024",
+  "title": "Teaching digiKam to Understand You: Natural Language Search with Local LLMs",
+  "source": "rss",
+  "source_url": "http://srirupa19.github.io/gsoc/2026/06/28/gsoc1.html",
+  "author": "",
+  "published_at": "2026-07-09T02:52:11Z",
+  "collected_at": "2026-07-09T02:52:11Z",
+  "summary": "该项目旨在为开源照片管理软件digiKam添加自然语言搜索功能，通过集成本地LLM（如Hugging Face Transformers）实现图像内容的语义理解。技术亮点包括使用CLIP模型进行多模态嵌入、构建轻量级检索管道，以及针对隐私保护设计的完全本地化推理。项目展示了如何将AI能力无缝嵌入传统桌面应用，提升用户体验。",
+  "key_insight": "将本地LLM与多模态嵌入结合，为桌面应用提供隐私友好的语义搜索能力。",
+  "score": 6,
+  "tags": [
+    "LLM",
+    "Natural Language Search",
+    "CLIP",
+    "Local AI",
+    "Image Retrieval"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "rag",
+  "updated_at": "2026-07-09T02:52:11Z"
+}

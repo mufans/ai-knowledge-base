@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260709-022",
+  "title": "Investigating idiosyncrasies in AI fiction",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.03136",
+  "author": "",
+  "published_at": "2026-07-09T02:52:11Z",
+  "collected_at": "2026-07-09T02:52:11Z",
+  "summary": "该研究探讨了AI生成小说中的独特风格和模式，分析了AI在叙事、语言和结构上的系统性偏差，揭示了AI与人类写作的差异。技术亮点包括使用统计方法量化AI小说的特征，以及通过对比实验识别AI的“怪癖”。",
+  "key_insight": "AI小说展现出可量化的系统性偏差，这些‘怪癖’可能源于训练数据中的模式，而非真正的创造性差异。",
+  "score": 8,
+  "tags": [
+    "AI-Narrative",
+    "Text-Analysis",
+    "Stylometry",
+    "Computational-Creativity"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-09T02:52:11Z"
+}
