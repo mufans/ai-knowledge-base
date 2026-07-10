@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260710-025",
+  "title": "Robust AI Security and Alignment: A Sisyphean Endeavor?",
+  "source": "rss",
+  "source_url": "https://ieeexplore.ieee.org/document/11475847/",
+  "author": "",
+  "published_at": "2026-07-10T02:54:38Z",
+  "collected_at": "2026-07-10T02:54:38Z",
+  "summary": "该论文探讨了AI安全与对齐面临的根本性挑战，类比为西西弗斯式的徒劳努力。核心观点是，由于AI系统（尤其是大模型）的行为复杂且难以预测，实现鲁棒的安全性和对齐在理论上可能是不可能的。文章引用了NIST的数学证明，支持从连续监控和更新范式转向更根本的解决方案。技术亮点在于对安全对齐问题的形式化分析，揭示了其内在的不可解性。",
+  "key_insight": "AI安全对齐可能是一个理论上无法完全解决的难题，需要根本性的范式转变而非渐进式修补。",
+  "score": 9,
+  "tags": [
+    "AI-Safety",
+    "Alignment",
+    "Robustness",
+    "Formal-Methods"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "ai-safety",
+  "updated_at": "2026-07-10T02:54:38Z"
+}
