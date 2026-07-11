@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260711-023",
+  "title": "Investigating idiosyncrasies in AI fiction",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.03136",
+  "author": "",
+  "published_at": "2026-07-11T02:32:39Z",
+  "collected_at": "2026-07-11T02:32:39Z",
+  "summary": "该仓库探讨了AI生成虚构文学中的独特性和异常现象，分析AI在创作过程中的语言模式、叙事结构和风格偏差。技术亮点包括对大型语言模型输出中系统性偏差的定量分析，以及对比人类与AI文本特征的统计方法。",
+  "key_insight": "AI fiction exhibits distinct idiosyncrasies in narrative coherence and stylistic patterns, suggesting inherent limitations in current LLMs for creative writing.",
+  "score": 7,
+  "tags": [
+    "AI",
+    "NLP",
+    "LLM",
+    "text-generation",
+    "literary-analysis"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-11T02:32:39Z"
+}

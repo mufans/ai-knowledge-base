@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260711-027",
+  "title": "Comparing Transformers and Hybrid Models at the Token Level",
+  "source": "rss",
+  "source_url": "https://arxiv.org/pdf/2606.20936",
+  "author": "",
+  "published_at": "2026-07-11T02:32:39Z",
+  "collected_at": "2026-07-11T02:32:39Z",
+  "summary": "该论文在token级别系统比较了Transformer与混合模型（结合Transformer与RNN/状态空间模型）的性能。核心发现是混合模型在长序列任务中能有效缓解Transformer的注意力瓶颈，同时保持并行计算优势。实验表明，混合架构在语言建模、代码生成等任务上达到同等或更优精度，且推理速度更快。技术亮点包括统一的token级评估框架和混合注意力机制设计。",
+  "key_insight": "混合模型通过结合Transformer的并行性与RNN/状态空间模型的序列处理能力，在token级别实现了精度与效率的更好权衡。",
+  "score": 8,
+  "tags": [
+    "transformer",
+    "hybrid-model",
+    "token-level",
+    "state-space-model",
+    "efficiency"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-11T02:32:39Z"
+}
