@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260712-028",
+  "title": "AI Agents Enable Adaptive Computer Worms",
+  "source": "rss",
+  "source_url": "https://cleverhans.io/worm.html",
+  "author": "",
+  "published_at": "2026-07-12T02:38:07Z",
+  "collected_at": "2026-07-12T02:38:07Z",
+  "summary": "该仓库展示了利用AI代理实现自适应计算机蠕虫的概念验证研究。核心功能是通过大语言模型驱动蠕虫的自主决策和传播策略调整，技术亮点在于将AI代理的推理能力与恶意软件行为结合，实现环境自适应和规避检测。论文讨论了潜在安全威胁和防御挑战。",
+  "key_insight": "AI代理赋予计算机蠕虫自适应能力，显著提升其传播和规避检测的智能性，但同时也带来新的安全风险。",
+  "score": 6,
+  "tags": [
+    "AI Agent",
+    "Cybersecurity",
+    "LLM",
+    "Adversarial",
+    "Worm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-07-12T02:38:07Z"
+}
