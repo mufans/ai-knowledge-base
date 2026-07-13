@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260713-027",
+  "title": "AI Learns the \"Dark Art\" of RF Chip Design",
+  "source": "rss",
+  "source_url": "https://spectrum.ieee.org/ai-radio-chip-design",
+  "author": "",
+  "published_at": "2026-07-13T02:39:26Z",
+  "collected_at": "2026-07-13T02:39:26Z",
+  "summary": "该仓库介绍了一种利用AI技术学习射频（RF）芯片设计的“黑暗艺术”的方法。核心功能是通过机器学习模型，自动优化RF芯片的布局和参数，以提升性能并减少设计时间。技术亮点包括使用强化学习和生成模型，能够处理复杂的电磁仿真数据，并生成高质量的设计方案。",
+  "key_insight": "AI通过强化学习掌握RF芯片设计的隐性知识，实现了自动化设计优化。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "RF Chip Design",
+    "Reinforcement Learning",
+    "Generative Model",
+    "Optimization"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "code-generation",
+  "updated_at": "2026-07-13T02:39:26Z"
+}

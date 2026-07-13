@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260713-032",
+  "title": "The latest AI news we announced in June 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+  "author": "",
+  "published_at": "2026-07-13T02:39:26Z",
+  "collected_at": "2026-07-13T02:39:26Z",
+  "summary": "该仓库是Google在2026年6月发布的AI最新动态汇总，涵盖多模态模型、推理优化、AI安全等核心进展。技术亮点包括更高效的Transformer架构、跨模态理解能力提升，以及面向开发者工具链的增强。内容聚焦前沿研究与应用落地平衡。",
+  "key_insight": "Google 2026年6月AI更新体现了多模态与推理效率的深度融合，同时强调安全与实用性。",
+  "score": 8,
+  "tags": [
+    "Google",
+    "AI-updates",
+    "multimodal",
+    "transformer",
+    "safety"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-13T02:39:26Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "github-20260713-011",
+  "title": "earendil-works/pi",
+  "source": "github",
+  "source_url": "https://github.com/earendil-works/pi",
+  "author": "earendil-works",
+  "published_at": "2026-07-13T02:39:26Z",
+  "collected_at": "2026-07-13T02:39:26Z",
+  "summary": "Pi 是一个面向 AI 代理的 TypeScript 工具包，提供统一的 LLM API 接口、代理循环机制、终端用户界面（TUI）和编码代理命令行工具。其核心亮点在于通过简洁的 API 设计整合多种大模型，支持复杂的代理工作流和交互式编码任务，并具备良好的可扩展性。技术实现上采用模块化架构，便于开发者快速构建和部署 AI 代理应用。",
+  "key_insight": "Pi 通过统一的 LLM API 和代理循环，降低了构建多模型 AI 代理的门槛，同时提供 TUI 和 CLI 工具提升开发体验。",
+  "score": 8,
+  "tags": [
+    "AI Agent",
+    "LLM",
+    "TypeScript",
+    "CLI",
+    "TUI"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-07-13T02:39:26Z"
+}

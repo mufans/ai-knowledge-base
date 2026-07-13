@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260713-023",
+  "title": "Native-speed vLLM transformers modeling backend",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+  "author": "",
+  "published_at": "2026-07-13T02:39:26Z",
+  "collected_at": "2026-07-13T02:39:26Z",
+  "summary": "该仓库介绍了vLLM项目中一个名为“native-speed”的Transformers建模后端，旨在通过原生优化提升大语言模型推理速度。核心技术亮点包括利用vLLM的高效批处理、PagedAttention和CUDA内核优化，实现与Hugging Face Transformers兼容的加速推理。该后端简化了模型部署，同时保持高性能。",
+  "key_insight": "通过原生后端集成，在保持Transformers接口兼容性下，显著提升LLM推理效率。",
+  "score": 8,
+  "tags": [
+    "vLLM",
+    "Transformers",
+    "LLM",
+    "Inference",
+    "Optimization"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-13T02:39:26Z"
+}

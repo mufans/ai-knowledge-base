@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260713-022",
+  "title": "A Prolog library for interfacing with LLMs",
+  "source": "rss",
+  "source_url": "https://github.com/vagos/llmpl",
+  "author": "",
+  "published_at": "2026-07-13T02:39:26Z",
+  "collected_at": "2026-07-13T02:39:26Z",
+  "summary": "llmpl 是一个用于 Prolog 语言与大型语言模型（LLM）交互的库。它提供了从 Prolog 调用 LLM 的接口，使得逻辑编程能够利用现代 AI 的自然语言处理能力。该库可能支持多种 LLM 后端，并允许 Prolog 程序嵌入对话、查询生成等功能。尽管该项目尚未获得关注（0 星），但它探索了 Prolog 与 AI 结合的新方向。",
+  "key_insight": "该库将 Prolog 的符号推理与 LLM 的语义理解相结合，为逻辑编程引入自然语言交互能力。",
+  "score": 6,
+  "tags": [
+    "prolog",
+    "llm",
+    "logic-programming",
+    "library",
+    "ai-integration"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-13T02:39:26Z"
+}
