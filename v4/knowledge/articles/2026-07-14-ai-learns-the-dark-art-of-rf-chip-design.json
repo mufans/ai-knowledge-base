@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260714-025",
+  "title": "AI Learns the \"Dark Art\" of RF Chip Design",
+  "source": "rss",
+  "source_url": "https://spectrum.ieee.org/ai-radio-chip-design",
+  "author": "",
+  "published_at": "2026-07-14T02:24:17Z",
+  "collected_at": "2026-07-14T02:24:17Z",
+  "summary": "该仓库报道了AI在射频芯片设计领域的突破性应用，通过强化学习算法自动探索复杂射频电路拓扑结构，实现高效、高性能的芯片设计。技术亮点包括利用AI生成传统方法难以发现的设计方案，显著缩短设计周期并提升性能指标，展示了AI在硬件设计中的巨大潜力。",
+  "key_insight": "AI通过强化学习在射频芯片设计中发现人类工程师难以想象的创新拓扑，颠覆了传统设计范式。",
+  "score": 9,
+  "tags": [
+    "AI",
+    "RF-Chip-Design",
+    "Reinforcement-Learning",
+    "Hardware-Design"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "hardware-design",
+  "updated_at": "2026-07-14T02:24:17Z"
+}

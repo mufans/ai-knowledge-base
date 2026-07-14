@@ -1,0 +1,23 @@
+{
+  "id": "github-20260714-019",
+  "title": "HKUDS/nanobot",
+  "source": "github",
+  "source_url": "https://github.com/HKUDS/nanobot",
+  "author": "HKUDS",
+  "published_at": "2026-07-14T02:24:17Z",
+  "collected_at": "2026-07-14T02:24:17Z",
+  "summary": "Nanobot 是一个轻量级、开源的人工智能代理，专为工具、聊天和工作流设计。其核心功能包括与多种大型语言模型（如 OpenAI、Anthropic 的 Claude 和 ChatGPT）集成，支持代码执行和任务自动化。技术亮点在于其模块化架构和低资源消耗，使其易于部署和扩展。该项目在 GitHub 上获得大量关注，表明其在 AI 代理领域的广泛适用性。",
+  "key_insight": "Nanobot 通过轻量级设计和多模型支持，降低了 AI 代理的使用门槛，适用于快速集成和自动化工作流。",
+  "score": 8,
+  "tags": [
+    "ai-agent",
+    "llm",
+    "open-source",
+    "workflow-automation",
+    "lightweight"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-07-14T02:24:17Z"
+}

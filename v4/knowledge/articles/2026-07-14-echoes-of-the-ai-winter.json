@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260714-028",
+  "title": "Echoes of the AI Winter",
+  "source": "rss",
+  "source_url": "https://netzhansa.com/echoes-of-the-ai-winter/",
+  "author": "",
+  "published_at": "2026-07-14T02:24:17Z",
+  "collected_at": "2026-07-14T02:24:17Z",
+  "summary": "该仓库记录并反思了人工智能发展史上的“AI寒冬”时期，通过历史视角探讨技术泡沫与复苏的循环模式。核心功能是提供历史资料与分析，技术亮点在于对AI发展周期的深刻洞察，而非具体技术实现。",
+  "key_insight": "AI寒冬的历史教训为当前大模型热潮提供了宝贵的风险警示和周期理解。",
+  "score": 6,
+  "tags": [
+    "AI-history",
+    "technology-analysis",
+    "historical-pattern"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-14T02:24:17Z"
+}

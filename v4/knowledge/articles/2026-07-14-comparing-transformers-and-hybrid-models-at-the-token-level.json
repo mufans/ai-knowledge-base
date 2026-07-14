@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260714-026",
+  "title": "Comparing Transformers and Hybrid Models at the Token Level",
+  "source": "rss",
+  "source_url": "https://arxiv.org/pdf/2606.20936",
+  "author": "",
+  "published_at": "2026-07-14T02:24:17Z",
+  "collected_at": "2026-07-14T02:24:17Z",
+  "summary": "该论文在Token级别比较了Transformer和混合模型（如Transformer与状态空间模型或RNN的结合）的性能。通过严格的实验，评估了不同架构在语言建模、长距离依赖捕捉和计算效率方面的优劣。技术亮点包括对混合模型在特定任务上超越纯Transformer的机制分析，以及基于Token级别的细粒度性能对比。",
+  "key_insight": "混合模型在Token级别上可能比纯Transformer更高效地处理长序列，但需权衡模型复杂度与性能提升。",
+  "score": 8,
+  "tags": [
+    "Transformer",
+    "Hybrid Models",
+    "Token-Level Analysis",
+    "Language Modeling"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-14T02:24:17Z"
+}
