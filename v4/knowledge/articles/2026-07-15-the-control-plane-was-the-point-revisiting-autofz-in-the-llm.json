@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260715-025",
+  "title": "The Control Plane Was the Point: Revisiting autofz in the LLM Era",
+  "source": "rss",
+  "source_url": "https://yfu.tw/blog/en/autofz-revisited/",
+  "author": "",
+  "published_at": "2026-07-15T02:20:41Z",
+  "collected_at": "2026-07-15T02:20:41Z",
+  "summary": "该博客文章重新审视了autofz项目，在LLM时代强调控制平面（Control Plane）作为核心设计理念。作者指出，在LLM驱动的自动化系统中，控制平面负责协调LLM与工具、数据流及决策逻辑，是系统可靠性和可扩展性的关键。技术亮点包括将LLM作为推理引擎而非简单生成器，以及通过显式控制平面实现模块化、可调试的架构。文章为LLM应用开发提供了架构设计新视角。",
+  "key_insight": "控制平面是LLM自动化系统成功的关键，而非LLM本身的能力。",
+  "score": 7,
+  "tags": [
+    "LLM",
+    "control-plane",
+    "autofz",
+    "system-design",
+    "AI-architecture"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-15T02:20:41Z"
+}

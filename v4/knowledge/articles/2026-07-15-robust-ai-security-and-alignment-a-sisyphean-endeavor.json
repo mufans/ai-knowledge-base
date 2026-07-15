@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260715-026",
+  "title": "Robust AI Security and Alignment: A Sisyphean Endeavor?",
+  "source": "rss",
+  "source_url": "https://ieeexplore.ieee.org/document/11475847/",
+  "author": "",
+  "published_at": "2026-07-15T02:20:41Z",
+  "collected_at": "2026-07-15T02:20:41Z",
+  "summary": "该仓库指向一篇IEEE论文，探讨AI安全与对齐的鲁棒性问题，指出持续监控和更新是必要但可能徒劳的努力。技术亮点包括对NIST数学证明的引用和对AI安全挑战的深刻分析，强调了动态环境下的安全对齐困境。",
+  "key_insight": "AI安全对齐是一个西西弗斯式的任务，需要持续的监控和更新，但可能永远无法完全实现。",
+  "score": 8,
+  "tags": [
+    "AI Security",
+    "Alignment",
+    "Robustness",
+    "NIST"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "AI Safety",
+  "updated_at": "2026-07-15T02:20:41Z"
+}
