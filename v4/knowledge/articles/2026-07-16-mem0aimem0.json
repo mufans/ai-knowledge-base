@@ -1,0 +1,22 @@
+{
+  "id": "github-20260716-013",
+  "title": "mem0ai/mem0",
+  "source": "github",
+  "source_url": "https://github.com/mem0ai/mem0",
+  "author": "mem0ai",
+  "published_at": "2026-07-16T02:29:31Z",
+  "collected_at": "2026-07-16T02:29:31Z",
+  "summary": "Mem0 是一个为 AI 代理提供通用记忆层的开源库，支持长期记忆管理和状态管理。它利用 RAG 和向量数据库技术，使 AI 代理能够跨会话保持上下文和用户偏好，提升对话连贯性和个性化。技术亮点包括模块化设计、多存储后端支持（如 Qdrant、Chroma）以及与主流 LLM 的集成。",
+  "key_insight": "Mem0 通过通用记忆层解决了 AI 代理的长期上下文保持问题，是提升代理自主性和个性化体验的核心基础设施。",
+  "score": 9,
+  "tags": [
+    "memory-management",
+    "rag",
+    "ai-agents",
+    "state-management"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-07-16T02:29:31Z"
+}

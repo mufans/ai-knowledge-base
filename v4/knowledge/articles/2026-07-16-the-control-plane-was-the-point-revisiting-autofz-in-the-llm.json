@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260716-026",
+  "title": "The Control Plane Was the Point: Revisiting autofz in the LLM Era",
+  "source": "rss",
+  "source_url": "https://yfu.tw/blog/en/autofz-revisited/",
+  "author": "",
+  "published_at": "2026-07-16T02:29:31Z",
+  "collected_at": "2026-07-16T02:29:31Z",
+  "summary": "该博客文章重新审视了autofz项目，在LLM时代强调控制平面（control plane）的核心作用。文章指出，尽管LLM在生成代码方面取得进展，但autofz等系统通过灵活的控制平面设计，实现了对复杂工作流的有效管理。技术亮点包括将LLM集成到控制平面中，以动态调整fuzzing策略，提升自动化测试的效率和覆盖率。",
+  "key_insight": "LLM时代，控制平面而非生成能力，是自动化fuzzing系统的关键创新点。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "fuzzing",
+    "automation",
+    "control-plane"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "code-generation",
+  "updated_at": "2026-07-16T02:29:31Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260716-024",
+  "title": "Native-speed vLLM transformers modeling backend",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+  "author": "",
+  "published_at": "2026-07-16T02:29:31Z",
+  "collected_at": "2026-07-16T02:29:31Z",
+  "summary": "该博客介绍了vLLM项目如何通过原生速度优化Transformers建模后端，实现高性能推理。核心亮点包括：使用PagedAttention技术管理KV缓存，减少内存碎片；支持连续批处理和动态调度，提升吞吐量；集成FlashAttention等高效注意力机制。技术方案显著降低了LLM推理延迟，适用于大规模部署场景。",
+  "key_insight": "vLLM通过PagedAttention和原生后端重构，将LLM推理速度提升至接近硬件极限，成为高性能推理的标准方案。",
+  "score": 9,
+  "tags": [
+    "vLLM",
+    "Transformers",
+    "Inference Optimization",
+    "PagedAttention",
+    "LLM"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-16T02:29:31Z"
+}

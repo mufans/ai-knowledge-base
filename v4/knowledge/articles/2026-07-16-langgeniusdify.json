@@ -1,0 +1,23 @@
+{
+  "id": "github-20260716-002",
+  "title": "langgenius/dify",
+  "source": "github",
+  "source_url": "https://github.com/langgenius/dify",
+  "author": "langgenius",
+  "published_at": "2026-07-16T02:29:31Z",
+  "collected_at": "2026-07-16T02:29:31Z",
+  "summary": "Dify 是一个生产就绪的代理工作流开发平台，支持低代码/无代码方式构建 AI 应用。它集成了 LLM（如 GPT-4、Gemini）、RAG、MCP 和自动化编排功能，提供可视化工作流设计器，帮助开发者快速创建智能代理和自动化流程。技术亮点包括多模型支持、灵活的工作流引擎和丰富的 API。",
+  "key_insight": "Dify 通过低代码/无代码方式降低了 AI 代理工作流的开发门槛，同时保持生产级可靠性，是构建复杂 AI 应用的高效平台。",
+  "score": 9,
+  "tags": [
+    "agent",
+    "low-code",
+    "rag",
+    "workflow",
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-07-16T02:29:31Z"
+}

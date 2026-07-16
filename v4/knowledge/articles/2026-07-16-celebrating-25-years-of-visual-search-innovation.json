@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260716-031",
+  "title": "Celebrating 25 years of visual search innovation",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
+  "author": "",
+  "published_at": "2026-07-16T02:29:31Z",
+  "collected_at": "2026-07-16T02:29:31Z",
+  "summary": "该仓库庆祝Google Images成立25周年，回顾了视觉搜索技术的发展历程。核心功能包括图像搜索的创新，如基于内容的图像检索、多模态搜索和AI驱动的视觉内容探索。技术亮点在于结合深度学习优化图像识别和排序，提升搜索精度和用户体验。",
+  "key_insight": "Google Images的25年标志着从文本到视觉搜索的范式转变，AI是推动这一演进的核心引擎。",
+  "score": 6,
+  "tags": [
+    "visual-search",
+    "image-recognition",
+    "deep-learning",
+    "multimodal",
+    "search-engine"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "visual-search",
+  "updated_at": "2026-07-16T02:29:31Z"
+}

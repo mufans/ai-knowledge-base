@@ -1,0 +1,23 @@
+{
+  "id": "github-20260716-007",
+  "title": "DietrichGebert/ponytail",
+  "source": "github",
+  "source_url": "https://github.com/DietrichGebert/ponytail",
+  "author": "DietrichGebert",
+  "published_at": "2026-07-16T02:29:31Z",
+  "collected_at": "2026-07-16T02:29:31Z",
+  "summary": "Ponytail 是一个让 AI 代理模仿“最懒高级开发者”思维的提示工程工具，核心原则是“最佳代码是未写的代码”。它通过注入 YAGNI（你不会需要它）原则和极简主义思维，引导 Claude 等 LLM 生成更简洁、更少冗余的代码。该项目提供了 Claude Code 插件和 Cursor 规则配置，支持 agent-skills 和 prompt-engineering，旨在减少 AI 生成代码的过度工程倾向，提升开发效率。",
+  "key_insight": "通过精心设计的提示策略，让 AI 代理遵循“懒人哲学”，从而主动避免生成不必要的代码，这是对传统 AI 编码过度复杂化的直接反制。",
+  "score": 8,
+  "tags": [
+    "prompt-engineering",
+    "yagni",
+    "llm",
+    "agent-skills",
+    "developer-tools"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "prompt-engineering",
+  "updated_at": "2026-07-16T02:29:31Z"
+}
