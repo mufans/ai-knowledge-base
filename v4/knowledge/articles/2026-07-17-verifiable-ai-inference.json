@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260717-023",
+  "title": "Verifiable AI inference",
+  "source": "rss",
+  "source_url": "https://blog.vrypan.net/2026/07/14/verifiable-ai-inference/",
+  "author": "",
+  "published_at": "2026-07-17T02:32:31Z",
+  "collected_at": "2026-07-17T02:32:31Z",
+  "summary": "该仓库讨论可验证AI推理的概念，旨在通过加密证明确保AI模型推理结果的可信度和完整性，无需信任第三方。技术亮点包括利用零知识证明（ZKP）或可信执行环境（TEE）来验证推理过程，防止篡改或欺诈。适用于去中心化AI、区块链集成等场景，提升AI输出的透明度和安全性。",
+  "key_insight": "可验证AI推理通过加密证明实现模型输出的去信任验证，是提升AI可信度的关键基础设施。",
+  "score": 8,
+  "tags": [
+    "Verifiable Inference",
+    "Zero-Knowledge Proofs",
+    "Trusted Execution",
+    "AI Security"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-17T02:32:31Z"
+}

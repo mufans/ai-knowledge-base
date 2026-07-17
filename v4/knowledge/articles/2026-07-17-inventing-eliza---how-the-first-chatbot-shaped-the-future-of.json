@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260717-022",
+  "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
+  "source": "rss",
+  "source_url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
+  "author": "",
+  "published_at": "2026-07-17T02:32:31Z",
+  "collected_at": "2026-07-17T02:32:31Z",
+  "summary": "《Inventing ELIZA》是一本开放获取的书籍，详细讲述了第一个聊天机器人ELIZA的发明过程及其如何塑造了人工智能的未来。书中深入探讨了ELIZA的技术原理、历史背景及其对现代AI对话系统的影响，提供了丰富的技术细节和历史洞察。",
+  "key_insight": "ELIZA作为首个聊天机器人，其简单的模式匹配技术揭示了人类对AI的拟人化倾向，为现代对话AI奠定了心理学和技术基础。",
+  "score": 8,
+  "tags": [
+    "chatbot",
+    "AI-history",
+    "NLP",
+    "ELIZA"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-17T02:32:31Z"
+}

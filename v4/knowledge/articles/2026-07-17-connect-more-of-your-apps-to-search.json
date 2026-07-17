@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260717-030",
+  "title": "Connect more of your apps to Search",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+  "author": "",
+  "published_at": "2026-07-17T02:32:31Z",
+  "collected_at": "2026-07-17T02:32:31Z",
+  "summary": "该博客介绍了Google搜索中新增的“连接应用”功能，允许用户直接在AI模式下安全地链接和交互常用服务，如Gmail、Google Drive等，以增强搜索的个性化和效率。技术亮点在于通过AI模式实现跨应用的无缝数据访问与操作，提升了用户的工作流集成度。",
+  "key_insight": "通过AI模式连接应用，将搜索从信息检索扩展到任务执行，是AI助手与用户数字生态深度融合的关键一步。",
+  "score": 8,
+  "tags": [
+    "AI Search",
+    "Connected Apps",
+    "Productivity",
+    "Google AI"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-17T02:32:31Z"
+}

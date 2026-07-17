@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260717-021",
+  "title": "AI Data Centers and the Concentration of Wealth",
+  "source": "rss",
+  "source_url": "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
+  "author": "",
+  "published_at": "2026-07-17T02:32:31Z",
+  "collected_at": "2026-07-17T02:32:31Z",
+  "summary": "该仓库链接指向一篇博客文章，探讨AI数据中心建设如何加剧财富集中问题。文章分析大型科技公司通过控制算力基础设施垄断AI发展红利，导致资源分配不均和权力失衡。技术层面涉及数据中心能源消耗、GPU供应链集中化等议题，但核心是社会学批判而非技术方案。",
+  "key_insight": "AI算力垄断正在创造新的数字封建主义，财富集中度将超过传统工业时代",
+  "score": 4,
+  "tags": [
+    "data-center",
+    "ai-ethics",
+    "wealth-inequality",
+    "infrastructure"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "ethics",
+  "updated_at": "2026-07-17T02:32:31Z"
+}
