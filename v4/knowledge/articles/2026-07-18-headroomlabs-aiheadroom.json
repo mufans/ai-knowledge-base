@@ -1,0 +1,23 @@
+{
+  "id": "github-20260718-014",
+  "title": "headroomlabs-ai/headroom",
+  "source": "github",
+  "source_url": "https://github.com/headroomlabs-ai/headroom",
+  "author": "headroomlabs-ai",
+  "published_at": "2026-07-18T02:22:40Z",
+  "collected_at": "2026-07-18T02:22:40Z",
+  "summary": "Headroom 是一个开源的令牌压缩工具，旨在优化 LLM 输入中的令牌使用。它支持压缩代码代理输出、JSON 数据、日志、文件和 RAG 块，在保持回答质量不变的情况下，将编码代理的令牌减少 20%，JSON 数据减少 60-95%。项目以 Python 实现，提供库、代理和 MCP 服务器三种使用方式，兼容 Anthropic、OpenAI、Cursor、Claude Code 等主流 LLM 平台，通过智能压缩策略显著降低令牌消耗和成本。",
+  "key_insight": "通过智能压缩输入上下文，在保持回答质量的同时大幅降低令牌消耗，为 LLM 应用提供了一种低成本、高效率的优化方案。",
+  "score": 9,
+  "tags": [
+    "token-optimization",
+    "compression",
+    "rag",
+    "mcp",
+    "llm"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-18T02:22:40Z"
+}

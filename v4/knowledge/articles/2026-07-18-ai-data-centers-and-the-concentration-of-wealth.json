@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260718-021",
+  "title": "AI Data Centers and the Concentration of Wealth",
+  "source": "rss",
+  "source_url": "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
+  "author": "",
+  "published_at": "2026-07-18T02:22:40Z",
+  "collected_at": "2026-07-18T02:22:40Z",
+  "summary": "该仓库讨论AI数据中心建设与财富集中的关系，分析大型科技公司通过控制AI基础设施（如数据中心）加剧财富不平等。核心观点是AI算力资源的集中化可能导致经济权力进一步向少数企业倾斜，引发社会和政治风险。技术层面涉及数据中心能源消耗、算力分配及监管挑战。",
+  "key_insight": "AI数据中心的集中化不仅是技术问题，更是财富和权力分配的政治经济问题。",
+  "score": 6,
+  "tags": [
+    "AI-infrastructure",
+    "wealth-inequality",
+    "data-centers",
+    "political-economy"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "analysis",
+  "updated_at": "2026-07-18T02:22:40Z"
+}
