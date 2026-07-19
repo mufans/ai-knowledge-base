@@ -1,0 +1,23 @@
+{
+  "id": "github-20260719-020",
+  "title": "langchain-ai/langgraph",
+  "source": "github",
+  "source_url": "https://github.com/langchain-ai/langgraph",
+  "author": "langchain-ai",
+  "published_at": "2026-07-19T02:35:27Z",
+  "collected_at": "2026-07-19T02:35:27Z",
+  "summary": "LangGraph 是 LangChain 推出的一个专注于构建弹性 AI 代理的框架，基于有向图 (DAG) 和状态机模型，支持多代理协作、循环执行和条件路由。其核心技术亮点包括对代理工作流的精细控制、与 LangChain 生态的无缝集成、支持人机交互以及 Pydantic 数据验证。该框架适用于构建复杂、可观测的生产级代理系统，如客服、自动化流程和多智能体协作场景。",
+  "key_insight": "LangGraph 通过图计算范式重新定义了代理工作流的构建方式，使得复杂、状态化的多代理系统开发变得可控且可扩展。",
+  "score": 9,
+  "tags": [
+    "agents",
+    "langchain",
+    "multi-agent",
+    "graph",
+    "framework"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-07-19T02:35:27Z"
+}

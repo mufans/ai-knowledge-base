@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260719-033",
+  "title": "The latest AI news we announced in June 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+  "author": "",
+  "published_at": "2026-07-19T02:35:27Z",
+  "collected_at": "2026-07-19T02:35:27Z",
+  "summary": "该仓库是Google在2026年6月发布的AI新闻汇总，涵盖多模态模型、生成式AI工具、基础设施优化等最新进展。技术亮点包括Gemini模型的多模态能力升级、AI辅助编程工具增强、以及面向开发者的新API和平台更新。展示了Google在AI领域的持续创新和生态扩展。",
+  "key_insight": "Google在2026年6月的AI更新聚焦于多模态能力、开发者工具和基础设施优化，强化了其在生成式AI领域的生态竞争力。",
+  "score": 8,
+  "tags": [
+    "multimodal",
+    "generative-ai",
+    "google-gemini",
+    "developer-tools",
+    "infrastructure"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-19T02:35:27Z"
+}
