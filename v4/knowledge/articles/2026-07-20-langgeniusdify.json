@@ -1,0 +1,23 @@
+{
+  "id": "github-20260720-002",
+  "title": "langgenius/dify",
+  "source": "github",
+  "source_url": "https://github.com/langgenius/dify",
+  "author": "langgenius",
+  "published_at": "2026-07-20T02:49:54Z",
+  "collected_at": "2026-07-20T02:49:54Z",
+  "summary": "Dify 是一个生产级的低代码/无代码平台，用于构建和部署智能体工作流。它支持基于 LLM 的编排、RAG 检索增强生成、多智能体协作，并集成了 OpenAI、Gemini 等主流模型。其核心亮点包括可视化工作流设计、MCP 协议支持、Python/TypeScript 双语言生态，以及从原型到生产的完整生命周期管理。",
+  "key_insight": "Dify 通过低代码编排和 MCP 协议，将 LLM 智能体工作流从实验性质提升为可落地的生产级解决方案。",
+  "score": 9,
+  "tags": [
+    "agentic-workflow",
+    "low-code",
+    "LLM",
+    "RAG",
+    "orchestration"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-07-20T02:49:54Z"
+}

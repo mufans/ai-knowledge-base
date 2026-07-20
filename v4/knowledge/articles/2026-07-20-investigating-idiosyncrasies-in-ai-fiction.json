@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260720-025",
+  "title": "Investigating idiosyncrasies in AI fiction",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.03136",
+  "author": "",
+  "published_at": "2026-07-20T02:49:54Z",
+  "collected_at": "2026-07-20T02:49:54Z",
+  "summary": "该仓库研究AI生成小说中的独特风格特征，通过分析大量AI和人类创作文本，识别AI写作的特有模式。技术亮点包括使用NLP和统计方法量化AI文本的词汇、句法和叙事结构差异，揭示AI在文学创作中的系统性偏差。",
+  "key_insight": "系统揭示AI生成文本的统计风格特征，为AI文学创作质量评估提供量化基准。",
+  "score": 7,
+  "tags": [
+    "NLP",
+    "AI-writing",
+    "text-analysis",
+    "stylometry"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-20T02:49:54Z"
+}

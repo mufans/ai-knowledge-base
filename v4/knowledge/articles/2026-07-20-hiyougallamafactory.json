@@ -1,0 +1,23 @@
+{
+  "id": "github-20260720-010",
+  "title": "hiyouga/LlamaFactory",
+  "source": "github",
+  "source_url": "https://github.com/hiyouga/LlamaFactory",
+  "author": "hiyouga",
+  "published_at": "2026-07-20T02:49:54Z",
+  "collected_at": "2026-07-20T02:49:54Z",
+  "summary": "LlamaFactory 是一个统一高效的微调框架，支持对100多种大型语言模型（LLM）和视觉语言模型（VLM）进行微调，涵盖 LoRA、QLoRA、RLHF 等先进技术。该仓库在 ACL 2024 发表，集成了 DeepSeek、Gemma、GPT、Llama、Qwen 等主流模型，并支持 agent、NLP 和多模态任务。其核心优势在于模块化设计、量化支持和高效的训练流程，显著降低了微调门槛。",
+  "key_insight": "LlamaFactory 通过统一的接口和高效的微调策略，成为当前最全面的 LLM/VLM 微调框架之一。",
+  "score": 10,
+  "tags": [
+    "fine-tuning",
+    "llm",
+    "lora",
+    "peft",
+    "transformers"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "fine-tuning",
+  "updated_at": "2026-07-20T02:49:54Z"
+}
