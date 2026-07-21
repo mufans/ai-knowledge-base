@@ -1,0 +1,23 @@
+{
+  "id": "github-20260721-013",
+  "title": "mem0ai/mem0",
+  "source": "github",
+  "source_url": "https://github.com/mem0ai/mem0",
+  "author": "mem0ai",
+  "published_at": "2026-07-21T02:33:07Z",
+  "collected_at": "2026-07-21T02:33:07Z",
+  "summary": "Mem0 是一个为 AI 智能体设计的通用记忆层，支持长期记忆管理和状态管理。它通过检索增强生成（RAG）和记忆管理技术，帮助 LLM 应用（如聊天机器人、AI 智能体）保持对话上下文和用户偏好，从而提升交互的连贯性和个性化。项目采用 TypeScript 开发，提供 Python 接口，聚焦于解决 AI 智能体的记忆持久化问题。",
+  "key_insight": "Mem0 通过统一的记忆层解决了 AI 智能体长期记忆缺失的核心痛点，显著提升了 LLM 应用的上下文保持能力。",
+  "score": 9,
+  "tags": [
+    "memory-management",
+    "rag",
+    "ai-agents",
+    "llm",
+    "state-management"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "rag",
+  "updated_at": "2026-07-21T02:33:07Z"
+}

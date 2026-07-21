@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260721-032",
+  "title": "The latest AI news we announced in June 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+  "author": "",
+  "published_at": "2026-07-21T02:33:07Z",
+  "collected_at": "2026-07-21T02:33:07Z",
+  "summary": "该仓库是谷歌2026年6月AI更新的官方博客摘要，涵盖了最新的AI技术进展、产品发布和行业动态。核心内容包括多模态模型升级、AI工具集成、以及面向开发者的新API和平台功能。技术亮点在于强调实时推理、跨模态理解和低延迟部署能力，反映了谷歌在基础模型和AI基础设施上的持续投入。",
+  "key_insight": "谷歌2026年6月的AI更新聚焦于多模态实时推理和开发者工具，强化了AI在跨任务场景中的灵活部署能力。",
+  "score": 7,
+  "tags": [
+    "multimodal",
+    "real-time-inference",
+    "google-ai",
+    "api",
+    "deployment"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-21T02:33:07Z"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260721-021",
+  "title": "Triton language for Alibaba SAIL",
+  "source": "rss",
+  "source_url": "https://github.com/t-head/triton-for-sail",
+  "author": "",
+  "published_at": "2026-07-21T02:33:07Z",
+  "collected_at": "2026-07-21T02:33:07Z",
+  "summary": "该仓库是阿里巴巴SAIL（可能是其自研AI加速器）的Triton语言适配版本，旨在将OpenAI的Triton编程语言扩展到阿里巴巴的硬件平台。核心功能是提供针对SAIL架构的Triton编译器后端，支持用户用Triton编写高性能GPU内核，并自动优化以适配SAIL硬件特性。技术亮点包括对SAIL指令集和内存层次的定制优化，以及可能的高效张量计算支持。",
+  "key_insight": "针对特定硬件的Triton语言适配，但处于早期阶段，社区关注度低。",
+  "score": 4,
+  "tags": [
+    "triton",
+    "compiler",
+    "gpu",
+    "ai-accelerator"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "compiler",
+  "updated_at": "2026-07-21T02:33:07Z"
+}

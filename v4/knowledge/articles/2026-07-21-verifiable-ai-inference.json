@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260721-023",
+  "title": "Verifiable AI inference",
+  "source": "rss",
+  "source_url": "https://blog.vrypan.net/2026/07/14/verifiable-ai-inference/",
+  "author": "",
+  "published_at": "2026-07-21T02:33:07Z",
+  "collected_at": "2026-07-21T02:33:07Z",
+  "summary": "该仓库探讨了可验证AI推理的概念，旨在通过加密或零知识证明等技术确保AI模型输出的真实性和完整性。核心功能是提供一种机制，使用户能够验证AI推理过程是否被篡改或正确执行，而无需信任第三方。技术亮点包括利用密码学方法（如zk-SNARKs）来证明推理步骤的合规性，同时保护模型隐私。这是一个前沿研究方向，结合了区块链和AI领域，但当前处于概念阶段，缺乏具体实现。",
+  "key_insight": "可验证AI推理是解决AI黑箱问题、建立用户信任的关键技术，但当前仍处于早期探索阶段。",
+  "score": 6,
+  "tags": [
+    "verifiable-inference",
+    "zero-knowledge-proofs",
+    "cryptography",
+    "ai-trust"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "ai-security",
+  "updated_at": "2026-07-21T02:33:07Z"
+}

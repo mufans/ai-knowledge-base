@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260721-022",
+  "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
+  "source": "rss",
+  "source_url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
+  "author": "",
+  "published_at": "2026-07-21T02:33:07Z",
+  "collected_at": "2026-07-21T02:33:07Z",
+  "summary": "《Inventing ELIZA》一书详细记录了第一个聊天机器人ELIZA的诞生及其对人工智能发展的深远影响。该书为开放获取，提供PDF下载，并配有配套网站。ELIZA由Joseph Weizenbaum在1960年代开发，通过简单的模式匹配和对话规则模拟心理治疗师，开创了人机对话的先河。本书不仅回顾了ELIZA的技术实现（如DOCTOR脚本），还探讨了其在哲学、伦理和社会层面的影响，奠定了现代聊天机器人和对话式AI的基础。",
+  "key_insight": "ELIZA作为首个聊天机器人，其模式匹配和对话设计理念至今仍是现代对话AI（如ChatGPT）的原始灵感来源。",
+  "score": 8,
+  "tags": [
+    "chatbot",
+    "AI-history",
+    "ELIZA",
+    "NLP",
+    "human-computer-interaction"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-21T02:33:07Z"
+}

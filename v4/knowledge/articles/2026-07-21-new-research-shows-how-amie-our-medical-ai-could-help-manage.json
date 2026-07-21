@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260721-035",
+  "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+  "author": "",
+  "published_at": "2026-07-21T02:33:07Z",
+  "collected_at": "2026-07-21T02:33:07Z",
+  "summary": "Google Research 在《Nature》上发表研究，展示其对话式AI系统AMIE在复杂疾病管理方面与初级保健医生表现相当。该系统能够通过自然语言交互辅助管理健康问题，展现了AI在医疗领域的应用潜力。",
+  "key_insight": "AMIE 在复杂疾病管理上达到初级保健医生水平，验证了对话式AI在医疗辅助中的临床可行性。",
+  "score": 9,
+  "tags": [
+    "medical-ai",
+    "conversational-ai",
+    "healthcare",
+    "diagnosis",
+    "nature-publication"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-07-21T02:33:07Z"
+}
