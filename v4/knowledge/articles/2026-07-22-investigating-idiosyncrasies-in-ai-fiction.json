@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260722-025",
+  "title": "Investigating idiosyncrasies in AI fiction",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.03136",
+  "author": "",
+  "published_at": "2026-07-22T02:31:39Z",
+  "collected_at": "2026-07-22T02:31:39Z",
+  "summary": "该仓库（实为arXiv论文链接）研究AI生成小说中的特异性特征，通过分析语言模式、叙事结构和风格偏差，揭示AI文本与人类创作的区别。技术亮点包括使用NLP模型对比语料库、检测AI特有的词汇重复和逻辑跳跃，为AI内容检测和生成模型改进提供依据。",
+  "key_insight": "AI小说存在可检测的统计特异性，可用于区分人类与机器创作。",
+  "score": 6,
+  "tags": [
+    "NLP",
+    "AI-generated-text",
+    "stylometry",
+    "content-analysis"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-22T02:31:39Z"
+}

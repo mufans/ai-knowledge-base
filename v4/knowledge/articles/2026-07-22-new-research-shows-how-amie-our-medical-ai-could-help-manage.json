@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260722-033",
+  "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+  "author": "",
+  "published_at": "2026-07-22T02:31:39Z",
+  "collected_at": "2026-07-22T02:31:39Z",
+  "summary": "该仓库介绍了Google的医疗AI系统AMIE，研究发表在《自然》杂志上，展示了其在复杂疾病管理方面与初级保健医生相当的能力。AMIE是一种对话式AI系统，专注于慢性病管理，通过自然语言交互提升诊疗效率。技术亮点包括基于大型语言模型的医疗对话能力、多轮交互中的临床推理，以及通过真实患者数据验证的临床效果。",
+  "key_insight": "AMIE展示了LLM在疾病管理领域达到初级保健医生水平的潜力，标志着AI从诊断辅助向主动疾病管理的关键跃迁。",
+  "score": 8,
+  "tags": [
+    "medical-ai",
+    "conversational-ai",
+    "healthcare",
+    "llm",
+    "clinical-decision-support"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-22T02:31:39Z"
+}
