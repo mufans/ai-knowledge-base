@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260723-033",
+  "title": "Ask an AI expert: What exactly is the full stack?",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+  "author": "",
+  "published_at": "2026-07-23T02:36:29Z",
+  "collected_at": "2026-07-23T02:36:29Z",
+  "summary": "该博客文章由Google AI专家解释全栈AI方法的概念，强调从硬件到软件、从模型到应用的端到端优化。技术亮点在于Google如何通过全栈视角整合芯片（TPU）、框架（TensorFlow/JAX）、模型（Transformer）和部署（云/边缘），实现AI系统的协同效率最大化。",
+  "key_insight": "全栈AI方法通过硬件-软件-模型的垂直整合，而非单一组件优化，实现系统性性能突破。",
+  "score": 7,
+  "tags": [
+    "full-stack",
+    "AI",
+    "Google",
+    "TPU",
+    "TensorFlow"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-23T02:36:29Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260723-023",
+  "title": "Verifiable AI inference",
+  "source": "rss",
+  "source_url": "https://blog.vrypan.net/2026/07/14/verifiable-ai-inference/",
+  "author": "",
+  "published_at": "2026-07-23T02:36:29Z",
+  "collected_at": "2026-07-23T02:36:29Z",
+  "summary": "该仓库讨论可验证的AI推理，核心功能是确保AI模型输出的可验证性和完整性，防止篡改或伪造。技术亮点包括使用零知识证明（ZKP）和区块链技术来验证推理结果。",
+  "key_insight": "可验证AI推理通过零知识证明实现模型输出的透明性和可信度。",
+  "score": 8,
+  "tags": [
+    "Verifiable Inference",
+    "Zero-Knowledge Proofs",
+    "Blockchain"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-23T02:36:29Z"
+}

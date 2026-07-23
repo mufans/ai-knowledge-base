@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260723-029",
+  "title": "Create, edit and star in videos with two Google Vids updates",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+  "author": "",
+  "published_at": "2026-07-23T02:36:29Z",
+  "collected_at": "2026-07-23T02:36:29Z",
+  "summary": "该仓库基于Google Vids更新，利用Gemini Omni技术实现视频创建、编辑和星标功能，并引入个人头像支持。核心亮点是AI驱动的视频制作自动化，降低创作门槛，提升效率。",
+  "key_insight": "Gemini Omni将AI能力嵌入视频编辑流程，实现零门槛专业级创作。",
+  "score": 6,
+  "tags": [
+    "video-generation",
+    "AI-editing",
+    "avatar",
+    "Gemini",
+    "Google-Workspace"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "video-generation",
+  "updated_at": "2026-07-23T02:36:29Z"
+}

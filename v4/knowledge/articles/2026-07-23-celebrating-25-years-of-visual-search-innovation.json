@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260723-030",
+  "title": "Celebrating 25 years of visual search innovation",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
+  "author": "",
+  "published_at": "2026-07-23T02:36:29Z",
+  "collected_at": "2026-07-23T02:36:29Z",
+  "summary": "谷歌图片搜索迎来25周年，回顾了从1999年首次推出到如今AI驱动的视觉搜索技术发展历程。核心创新包括基于深度学习的图像理解、多模态搜索、以及生成式AI在图像创作中的应用。该产品展示了从简单文本匹配到视觉语义理解的技术演进。",
+  "key_insight": "视觉搜索的进化路径：从关键词匹配到多模态语义理解，再向生成式创作延伸，体现了AI在视觉领域从识别到理解的范式转变。",
+  "score": 6,
+  "tags": [
+    "visual-search",
+    "image-understanding",
+    "multimodal",
+    "generative-ai",
+    "google"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-23T02:36:29Z"
+}
