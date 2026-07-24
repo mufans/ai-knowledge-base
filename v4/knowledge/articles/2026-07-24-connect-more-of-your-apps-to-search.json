@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260724-029",
+  "title": "Connect more of your apps to Search",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+  "author": "",
+  "published_at": "2026-07-24T02:33:17Z",
+  "collected_at": "2026-07-24T02:33:17Z",
+  "summary": "谷歌搜索推出的AI模式功能，允许用户安全连接并直接与常用应用和服务交互，无需切换上下文。该功能通过增强搜索体验，将外部应用数据集成到AI搜索结果中，实现更无缝的跨应用操作。技术亮点在于安全链接机制和实时应用交互能力。",
+  "key_insight": "AI模式将搜索从信息检索升级为跨应用任务执行平台。",
+  "score": 7,
+  "tags": [
+    "AI Search",
+    "App Integration",
+    "Productivity",
+    "Security"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "search",
+  "updated_at": "2026-07-24T02:33:17Z"
+}

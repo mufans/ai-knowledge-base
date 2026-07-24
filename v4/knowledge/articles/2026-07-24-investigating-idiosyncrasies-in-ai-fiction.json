@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260724-025",
+  "title": "Investigating idiosyncrasies in AI fiction",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.03136",
+  "author": "",
+  "published_at": "2026-07-24T02:33:17Z",
+  "collected_at": "2026-07-24T02:33:17Z",
+  "summary": "该仓库探讨了AI生成小说中的独特风格和模式，通过分析大量AI生成文本与人类创作的差异，揭示了AI在叙事结构、语言使用和主题偏好上的系统性偏差。研究采用定量和定性方法，包括语言模型分析、主题建模和风格对比，为理解AI创作的特异性提供了新视角。",
+  "key_insight": "AI小说存在可识别的风格指纹，包括重复模式、情感扁平化和对特定主题的过度依赖。",
+  "score": 7,
+  "tags": [
+    "AI-writing",
+    "text-analysis",
+    "narrative-generation",
+    "stylometry"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-24T02:33:17Z"
+}

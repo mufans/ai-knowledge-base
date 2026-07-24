@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260724-031",
+  "title": "The latest AI news we announced in June 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+  "author": "",
+  "published_at": "2026-07-24T02:33:17Z",
+  "collected_at": "2026-07-24T02:33:17Z",
+  "summary": "该仓库是Google在2026年6月发布的AI新闻汇总，涵盖其最新AI技术更新。核心功能包括多模态模型、智能助手和云AI服务，技术亮点在于整合了先进的大语言模型与实时数据处理能力。",
+  "key_insight": "Google通过持续更新AI技术，强化了多模态与云服务的整合，推动智能助手和数据分析的实时性。",
+  "score": 8,
+  "tags": [
+    "Google",
+    "AI Updates",
+    "Multimodal",
+    "LLM",
+    "Cloud AI"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-24T02:33:17Z"
+}
