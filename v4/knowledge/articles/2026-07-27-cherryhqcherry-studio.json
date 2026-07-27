@@ -1,0 +1,23 @@
+{
+  "id": "github-20260727-016",
+  "title": "CherryHQ/cherry-studio",
+  "source": "github",
+  "source_url": "https://github.com/CherryHQ/cherry-studio",
+  "author": "CherryHQ",
+  "published_at": "2026-07-27T02:46:58Z",
+  "collected_at": "2026-07-27T02:46:58Z",
+  "summary": "Cherry Studio 是一个面向 AI 生产力的一体化桌面应用，支持智能对话、自主代理和 300+ 预设技能助手。核心亮点在于统一接入前沿大模型（如 DeepSeek、Claude Code、Codex），并提供可扩展的代理技能系统与 Vibe Coding 体验。基于 TypeScript 构建，兼具高性能与跨平台能力，是当前最受欢迎的开源 AI 工作室之一。",
+  "key_insight": "以统一接口聚合多模型与 300+ 技能，大幅降低 AI 代理使用门槛，推动个人生产力自动化。",
+  "score": 9,
+  "tags": [
+    "ai-agent",
+    "agent-skills",
+    "multi-model",
+    "productivity",
+    "vibe-coding"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-07-27T02:46:58Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260727-030",
+  "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+  "source": "rss",
+  "source_url": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+  "author": "",
+  "published_at": "2026-07-27T02:46:58Z",
+  "collected_at": "2026-07-27T02:46:58Z",
+  "summary": "该仓库并非代码库，而是Google UK发布的关于英国AI生产力提升的经济影响报告。报告探讨了如何通过AI技术赋能更多人群，推动英国进入AI创新者时代。核心内容包括AI对经济的潜在影响、技术普及策略以及政策建议。技术亮点在于利用Gemini等AI模型分析经济数据，并提出可落地的AI adoption框架。",
+  "key_insight": "该报告聚焦AI技术的社会经济影响而非技术实现，对AI政策制定者具有参考价值，但缺乏具体技术细节或代码实现。",
+  "score": 4,
+  "tags": [
+    "AI-adoption",
+    "economic-impact",
+    "public-policy",
+    "productivity",
+    "Gemini"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-27T02:46:58Z"
+}
