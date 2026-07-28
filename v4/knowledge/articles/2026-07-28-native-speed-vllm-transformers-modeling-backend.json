@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260728-025",
+  "title": "Native-speed vLLM transformers modeling backend",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+  "author": "",
+  "published_at": "2026-07-28T02:26:41Z",
+  "collected_at": "2026-07-28T02:26:41Z",
+  "summary": "该仓库介绍了vLLM项目中的原生速度优化后端，通过直接使用Transformers建模代码实现高速推理。技术亮点包括无需额外编译、动态批处理、PagedAttention高效内存管理，以及支持多种模型架构，显著提升推理吞吐量。",
+  "key_insight": "通过直接复用Transformers建模代码，实现零编译开销的高效推理，同时保持模型兼容性和动态批处理能力。",
+  "score": 9,
+  "tags": [
+    "vLLM",
+    "Transformers",
+    "Inference",
+    "Optimization",
+    "PagedAttention"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-28T02:26:41Z"
+}

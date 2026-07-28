@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260728-026",
+  "title": "Investigating idiosyncrasies in AI fiction",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.03136",
+  "author": "",
+  "published_at": "2026-07-28T02:26:41Z",
+  "collected_at": "2026-07-28T02:26:41Z",
+  "summary": "该仓库可能指向一篇学术论文，研究AI生成小说中的特异性问题，如风格偏差、逻辑缺陷或人类写作差异。技术亮点包括对语言模型输出模式的系统性分析，可能涉及文本分类、风格迁移或异常检测方法。",
+  "key_insight": "AI小说中的特异性可能暴露模型在叙事连贯性和人类语言习惯上的根本局限。",
+  "score": 6,
+  "tags": [
+    "AI-fiction",
+    "text-analysis",
+    "language-models",
+    "stylometry"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-28T02:26:41Z"
+}
