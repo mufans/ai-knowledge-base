@@ -1,0 +1,23 @@
+{
+  "id": "github-20260729-020",
+  "title": "AstrBotDevs/AstrBot",
+  "source": "github",
+  "source_url": "https://github.com/AstrBotDevs/AstrBot",
+  "author": "AstrBotDevs",
+  "published_at": "2026-07-29T02:30:29Z",
+  "collected_at": "2026-07-29T02:30:29Z",
+  "summary": "AstrBot 是一个集成了多种即时通讯平台（如 QQ、Telegram、Discord）、大语言模型（OpenAI、Gemini、Llama 等）和丰富插件的 AI 智能体助手与开发框架。它支持 Docker 部署，提供 MCP 协议集成，可作为 OpenClaw 的替代方案。技术亮点包括模块化架构、多平台适配、插件生态和灵活的 LLM 切换能力，适合快速构建跨平台的 AI 聊天机器人。",
+  "key_insight": "AstrBot 通过统一抽象层将多种 IM 平台和 LLM 整合，降低了构建跨平台 AI 助手的复杂度。",
+  "score": 8,
+  "tags": [
+    "agent",
+    "llm",
+    "chatbot",
+    "multi-platform",
+    "docker"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-07-29T02:30:29Z"
+}

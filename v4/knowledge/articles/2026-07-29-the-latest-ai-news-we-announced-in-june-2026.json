@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260729-032",
+  "title": "The latest AI news we announced in June 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+  "author": "",
+  "published_at": "2026-07-29T02:30:29Z",
+  "collected_at": "2026-07-29T02:30:29Z",
+  "summary": "该仓库是Google在2026年6月发布的AI新闻汇总，涵盖最新AI技术更新和产品公告。核心内容包括新型AI模型、工具和平台改进，展示Google在自然语言处理、多模态AI和自动化领域的进展。技术亮点包括提升的推理能力、更高效的训练方法以及集成AI的开发者工具。",
+  "key_insight": "Google在2026年6月的AI更新聚焦于模型推理能力和多模态集成，但缺乏具体开源实现细节。",
+  "score": 8,
+  "tags": [
+    "AI",
+    "Google",
+    "LLM",
+    "Multimodal",
+    "Product Updates"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-29T02:30:29Z"
+}
