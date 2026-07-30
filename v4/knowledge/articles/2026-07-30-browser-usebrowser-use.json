@@ -1,0 +1,23 @@
+{
+  "id": "github-20260730-005",
+  "title": "browser-use/browser-use",
+  "source": "github",
+  "source_url": "https://github.com/browser-use/browser-use",
+  "author": "browser-use",
+  "published_at": "2026-07-30T02:13:08Z",
+  "collected_at": "2026-07-30T02:13:08Z",
+  "summary": "browser-use 是一个基于 Python 和 Playwright 的开源工具，旨在让 AI 代理能够轻松访问和自动化操作网站。它通过将浏览器控制能力暴露给大语言模型（LLM），使 AI 能够执行复杂的在线任务，如数据抓取、表单填写和页面交互。其核心亮点在于利用 Playwright 的无头浏览器能力，结合 LLM 的自然语言理解，实现高精度的自动化流程。仓库拥有超过 10 万星标，展示了其在 AI 工具和浏览器自动化领域的广泛认可。",
+  "key_insight": "通过将浏览器控制与 LLM 结合，browser-use 使 AI 代理能像人类一样操作网页，极大地扩展了自动化任务的边界。",
+  "score": 8,
+  "tags": [
+    "ai-agents",
+    "browser-automation",
+    "playwright",
+    "llm",
+    "python"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-07-30T02:13:08Z"
+}

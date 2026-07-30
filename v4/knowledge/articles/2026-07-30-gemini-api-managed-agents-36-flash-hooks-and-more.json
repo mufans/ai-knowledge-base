@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260730-026",
+  "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+  "author": "",
+  "published_at": "2026-07-30T02:13:08Z",
+  "collected_at": "2026-07-30T02:13:08Z",
+  "summary": "该博客文章介绍了Gemini API中Managed Agents的新功能，包括3.6 Flash模型和hooks机制。Managed Agents使开发者能够构建可靠、生产级的AI代理，通过简化部署和集成，提升代理的响应速度和灵活性。技术亮点在于利用Gemini 3.6 Flash的快速推理能力和hooks实现自定义行为扩展，从而支持更复杂的自动化任务和实时交互。",
+  "key_insight": "通过Gemini 3.6 Flash和hooks，Managed Agents降低了构建生产级AI代理的门槛，强调实用性和可扩展性。",
+  "score": 8,
+  "tags": [
+    "Gemini API",
+    "Managed Agents",
+    "AI Agents",
+    "Hooks",
+    "Production-Ready"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-07-30T02:13:08Z"
+}
