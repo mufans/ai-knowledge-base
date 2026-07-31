@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260731-023",
+  "title": "Verifiable AI inference",
+  "source": "rss",
+  "source_url": "https://blog.vrypan.net/2026/07/14/verifiable-ai-inference/",
+  "author": "",
+  "published_at": "2026-07-31T02:41:14Z",
+  "collected_at": "2026-07-31T02:41:14Z",
+  "summary": "该仓库指向一篇关于可验证AI推理的博客文章，探讨如何确保AI推理结果的可信度和可验证性。文章可能涉及密码学证明、区块链技术或形式化验证方法，以确保AI模型输出的完整性和来源可靠性。尽管仓库本身无代码或星标，但主题涉及AI安全与信任，具有前瞻性。",
+  "key_insight": "可验证AI推理是构建可信AI系统的关键，融合密码学与区块链技术确保推理透明性。",
+  "score": 6,
+  "tags": [
+    "verifiable-inference",
+    "ai-trust",
+    "cryptography",
+    "blockchain"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "ai-safety",
+  "updated_at": "2026-07-31T02:41:14Z"
+}

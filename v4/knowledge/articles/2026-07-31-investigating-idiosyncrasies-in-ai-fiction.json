@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260731-027",
+  "title": "Investigating idiosyncrasies in AI fiction",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.03136",
+  "author": "",
+  "published_at": "2026-07-31T02:41:14Z",
+  "collected_at": "2026-07-31T02:41:14Z",
+  "summary": "该仓库指向一篇arXiv论文，研究AI生成小说的特异性（idiosyncrasies），即AI创作中独特的模式、偏差或风格特征。核心功能是分析AI叙事文本的独特之处，可能涉及文本生成质量评估、风格识别或模型行为研究。技术亮点在于系统性地调查AI小说的特异性，为理解大语言模型的创造性输出提供新视角。",
+  "key_insight": "该研究通过分析AI小说的特异性，揭示了模型在创造性任务中的隐含偏差，为提升生成文本的多样性和自然度提供指导。",
+  "score": 6,
+  "tags": [
+    "AI-fiction",
+    "text-analysis",
+    "LLM",
+    "narrative-generation"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-31T02:41:14Z"
+}

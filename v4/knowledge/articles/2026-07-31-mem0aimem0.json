@@ -1,0 +1,23 @@
+{
+  "id": "github-20260731-014",
+  "title": "mem0ai/mem0",
+  "source": "github",
+  "source_url": "https://github.com/mem0ai/mem0",
+  "author": "mem0ai",
+  "published_at": "2026-07-31T02:41:14Z",
+  "collected_at": "2026-07-31T02:41:14Z",
+  "summary": "mem0是一个为AI代理设计的通用记忆层，旨在为智能体提供长期、可扩展的记忆管理能力。它通过混合数据库（如向量数据库和图数据库）存储和检索信息，支持从对话和用户交互中提取、更新和删除记忆。其核心亮点包括动态记忆更新、基于图的关联记忆、以及无缝集成LangChain等框架。该项目在GitHub上拥有超过6万星标，是构建具备持久记忆的AI代理的关键基础设施。",
+  "key_insight": "mem0通过将记忆抽象为可动态更新和关联的层，解决了AI代理缺乏长期记忆的核心痛点，是推动智能体从无状态走向有状态的关键技术。",
+  "score": 10,
+  "tags": [
+    "memory-management",
+    "ai-agents",
+    "rag",
+    "llm",
+    "state-management"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-07-31T02:41:14Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260731-030",
+  "title": "Connect more of your apps to Search",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+  "author": "",
+  "published_at": "2026-07-31T02:41:14Z",
+  "collected_at": "2026-07-31T02:41:14Z",
+  "summary": "该仓库对应的博客文章介绍了Google搜索AI模式的新功能，允许用户安全连接更多第三方应用，并直接在AI模式下与这些服务交互。核心亮点是增强AI搜索的生态整合能力，通过连接应用实现更个性化、跨平台的任务执行，如日程管理、通讯等。技术层面涉及应用授权、安全连接和AI驱动的交互接口，体现了搜索从信息检索向行动智能的演进。",
+  "key_insight": "AI搜索正从信息检索转向跨应用行动智能，通过安全连接生态提升个性化体验。",
+  "score": 6,
+  "tags": [
+    "AI-search",
+    "app-integration",
+    "personalization",
+    "productivity",
+    "google-ai"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-07-31T02:41:14Z"
+}
