@@ -1,0 +1,23 @@
+{
+  "id": "github-20260801-019",
+  "title": "langchain-ai/langgraph",
+  "source": "github",
+  "source_url": "https://github.com/langchain-ai/langgraph",
+  "author": "langchain-ai",
+  "published_at": "2026-08-01T02:40:03Z",
+  "collected_at": "2026-08-01T02:40:03Z",
+  "summary": "LangGraph 是 LangChain 团队推出的智能体编排框架，专注于构建高韧性、可恢复的 AI 智能体。它基于图结构定义状态机，支持循环、分支和持久化，使开发者能够精细控制智能体的执行流程。该框架深度整合 LangChain 生态，兼容 OpenAI、Gemini 等主流模型，并提供多智能体协作、人工介入、错误恢复等企业级功能。其核心优势在于将复杂的智能体逻辑建模为显式图，提升了可观测性和可靠性，适用于从简单 RAG 到复杂多智能体系统的广泛应用。",
+  "key_insight": "LangGraph 通过图结构编排智能体，将控制流显式化，从而解决了传统智能体在复杂任务中的脆弱性和不可控性问题。",
+  "score": 10,
+  "tags": [
+    "agent",
+    "framework",
+    "multi-agent",
+    "langchain",
+    "state-machine"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-08-01T02:40:03Z"
+}

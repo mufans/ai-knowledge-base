@@ -1,0 +1,23 @@
+{
+  "id": "github-20260801-001",
+  "title": "NousResearch/hermes-agent",
+  "source": "github",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "author": "NousResearch",
+  "published_at": "2026-08-01T02:40:03Z",
+  "collected_at": "2026-08-01T02:40:03Z",
+  "summary": "hermes-agent 是 NousResearch 推出的一个强调个性化成长与长期记忆的 AI 智能体框架，基于 Python 构建，支持与 Anthropic、OpenAI 等主流 LLM 集成。其核心亮点在于“随你成长”的设计理念，通过持续学习用户偏好和交互历史来优化响应，提供类似 Claude Code 的终端交互体验。项目在 GitHub 上已获得 22 万+ Star，社区关注度极高，展现了强大的技术影响力和生态潜力。",
+  "key_insight": "以长期记忆和个性化成长为核心，重新定义 AI 智能体的交互范式。",
+  "score": 9,
+  "tags": [
+    "ai-agent",
+    "llm",
+    "personalization",
+    "memory",
+    "python"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-08-01T02:40:03Z"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "github-20260801-014",
+  "title": "mem0ai/mem0",
+  "source": "github",
+  "source_url": "https://github.com/mem0ai/mem0",
+  "author": "mem0ai",
+  "published_at": "2026-08-01T02:40:03Z",
+  "collected_at": "2026-08-01T02:40:03Z",
+  "summary": "mem0 是为 AI 智能体设计的通用记忆层，为大型语言模型（LLM）提供持久、长期记忆能力。它支持多种记忆类型（短期、长期、情景记忆），并整合了向量数据库、知识图谱和图数据库，实现高效的信息检索与关系管理。该项目通过 REST API 和 Python SDK 提供易于集成的接口，支持 OpenAI、Claude 等主流 LLM，适用于聊天机器人、AI 助手等场景，解决了智能体在对话中遗忘上下文的问题。",
+  "key_insight": "mem0 为 AI 智能体提供了通用且可扩展的记忆层，将长期记忆能力与 RAG 和知识图谱结合，是智能体应用的关键基础设施。",
+  "score": 9,
+  "tags": [
+    "memory-management",
+    "RAG",
+    "AI-Agents",
+    "LLM",
+    "state-management"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-08-01T02:40:03Z"
+}
