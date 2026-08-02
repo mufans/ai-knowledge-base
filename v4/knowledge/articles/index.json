@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-01T02:40:03Z",
-  "total": 3073,
+  "updated_at": "2026-08-02T02:38:31Z",
+  "total": 3107,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -45226,6 +45226,507 @@
       ],
       "category": "llm",
       "file": "2026-08-01-ask-an-ai-expert-what-exactly-is-the-full-stack.json"
+    },
+    {
+      "id": "github-20260802-001",
+      "title": "NousResearch/hermes-agent",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "multi-agent",
+        "framework",
+        "python"
+      ],
+      "category": "agent",
+      "file": "2026-08-02-nousresearchhermes-agent.json"
+    },
+    {
+      "id": "github-20260802-002",
+      "title": "langgenius/dify",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agent",
+        "rag",
+        "workflow",
+        "low-code",
+        "llm"
+      ],
+      "category": "agent",
+      "file": "2026-08-02-langgeniusdify.json"
+    },
+    {
+      "id": "github-20260802-003",
+      "title": "langchain-ai/langchain",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agents",
+        "llm",
+        "rag",
+        "langgraph",
+        "framework"
+      ],
+      "category": "agent",
+      "file": "2026-08-02-langchain-ailangchain.json"
+    },
+    {
+      "id": "github-20260802-004",
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agents",
+        "rag",
+        "llm",
+        "python",
+        "open-source"
+      ],
+      "category": "agent",
+      "file": "2026-08-02-shubhamsabooawesome-llm-apps.json"
+    },
+    {
+      "id": "github-20260802-005",
+      "title": "browser-use/browser-use",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "ai-agents",
+        "browser-automation",
+        "llm",
+        "playwright",
+        "python"
+      ],
+      "category": "agent",
+      "file": "2026-08-02-browser-usebrowser-use.json"
+    },
+    {
+      "id": "github-20260802-006",
+      "title": "DietrichGebert/ponytail",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "prompt-engineering",
+        "yagni",
+        "ai-agents",
+        "claude-code",
+        "developer-tools"
+      ],
+      "category": "prompt-engineering",
+      "file": "2026-08-02-dietrichgebertponytail.json"
+    },
+    {
+      "id": "github-20260802-007",
+      "title": "infiniflow/ragflow",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "RAG",
+        "Agentic-AI",
+        "Context-Engineering",
+        "LLM",
+        "Knowledge-Management"
+      ],
+      "category": "rag",
+      "file": "2026-08-02-infiniflowragflow.json"
+    },
+    {
+      "id": "github-20260802-008",
+      "title": "OpenHands/OpenHands",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "llm",
+        "developer-tools",
+        "ai-driven-development"
+      ],
+      "category": "agent",
+      "file": "2026-08-02-openhandsopenhands.json"
+    },
+    {
+      "id": "github-20260802-009",
+      "title": "earendil-works/pi",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "agent",
+        "LLM",
+        "TUI",
+        "CLI",
+        "TypeScript"
+      ],
+      "category": "agent",
+      "file": "2026-08-02-earendil-workspi.json"
+    },
+    {
+      "id": "github-20260802-010",
+      "title": "bytedance/deer-flow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agentic-framework",
+        "multi-agent",
+        "langgraph",
+        "superagent",
+        "ai-agents"
+      ],
+      "category": "multi-agent",
+      "file": "2026-08-02-bytedancedeer-flow.json"
+    },
+    {
+      "id": "github-20260802-011",
+      "title": "hiyouga/LlamaFactory",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "fine-tuning",
+        "LLM",
+        "PEFT",
+        "QLoRA",
+        "RLHF"
+      ],
+      "category": "llm",
+      "file": "2026-08-02-hiyougallamafactory.json"
+    },
+    {
+      "id": "github-20260802-012",
+      "title": "FoundationAgents/MetaGPT",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "multi-agent",
+        "llm",
+        "code-generation",
+        "framework",
+        "NLP"
+      ],
+      "category": "multi-agent",
+      "file": "2026-08-02-foundationagentsmetagpt.json"
+    },
+    {
+      "id": "github-20260802-013",
+      "title": "headroomlabs-ai/headroom",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "token-optimization",
+        "context-engineering",
+        "mcp",
+        "rag",
+        "compression"
+      ],
+      "category": "context-engineering",
+      "file": "2026-08-02-headroomlabs-aiheadroom.json"
+    },
+    {
+      "id": "github-20260802-014",
+      "title": "mem0ai/mem0",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "memory-management",
+        "ai-agents",
+        "llm",
+        "rag",
+        "python"
+      ],
+      "category": "agent",
+      "file": "2026-08-02-mem0aimem0.json"
+    },
+    {
+      "id": "github-20260802-015",
+      "title": "aaif-goose/goose",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "AI-Agents",
+        "Rust",
+        "MCP",
+        "ACP",
+        "Extensible"
+      ],
+      "category": "agent",
+      "file": "2026-08-02-aaif-goosegoose.json"
+    },
+    {
+      "id": "github-20260802-016",
+      "title": "CherryHQ/cherry-studio",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "ai-assistant",
+        "skills",
+        "llm",
+        "productivity"
+      ],
+      "category": "agent",
+      "file": "2026-08-02-cherryhqcherry-studio.json"
+    },
+    {
+      "id": "github-20260802-017",
+      "title": "jeecgboot/JeecgBoot",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "low-code",
+        "AI",
+        "Java",
+        "RAG",
+        "MCP"
+      ],
+      "category": "low-code",
+      "file": "2026-08-02-jeecgbootjeecgboot.json"
+    },
+    {
+      "id": "github-20260802-018",
+      "title": "zhayujie/CowAgent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "multi-agent",
+        "llm",
+        "mcp",
+        "harness"
+      ],
+      "category": "agent",
+      "file": "2026-08-02-zhayujiecowagent.json"
+    },
+    {
+      "id": "github-20260802-019",
+      "title": "langchain-ai/langgraph",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agents",
+        "multi-agent",
+        "langchain",
+        "workflow",
+        "state-machine"
+      ],
+      "category": "multi-agent",
+      "file": "2026-08-02-langchain-ailanggraph.json"
+    },
+    {
+      "id": "github-20260802-020",
+      "title": "AstrBotDevs/AstrBot",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "llm",
+        "chatbot",
+        "multi-platform",
+        "mcp"
+      ],
+      "category": "agent",
+      "file": "2026-08-02-astrbotdevsastrbot.json"
+    },
+    {
+      "id": "rss-20260802-021",
+      "title": "Triton language for Alibaba SAIL",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "triton",
+        "compiler",
+        "AI-accelerator",
+        "MLIR",
+        "sail"
+      ],
+      "category": "compiler",
+      "file": "2026-08-02-triton-language-for-alibaba-sail.json"
+    },
+    {
+      "id": "rss-20260802-022",
+      "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "chatbot",
+        "AI-history",
+        "NLP",
+        "human-computer-interaction"
+      ],
+      "category": "llm",
+      "file": "2026-08-02-inventing-eliza---how-the-first-chatbot-shaped-the-future-of.json"
+    },
+    {
+      "id": "rss-20260802-023",
+      "title": "Verifiable AI inference",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "verifiable-inference",
+        "zero-knowledge",
+        "TEE",
+        "AI-security"
+      ],
+      "category": "ai-infrastructure",
+      "file": "2026-08-02-verifiable-ai-inference.json"
+    },
+    {
+      "id": "rss-20260802-024",
+      "title": "A Prolog library for interfacing with LLMs",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "Prolog",
+        "LLM",
+        "Integration",
+        "Logic-Programming",
+        "AI"
+      ],
+      "category": "llm",
+      "file": "2026-08-02-a-prolog-library-for-interfacing-with-llms.json"
+    },
+    {
+      "id": "rss-20260802-025",
+      "title": "Native-speed vLLM transformers modeling backend",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "vLLM",
+        "Transformers",
+        "Inference",
+        "Optimization",
+        "LLM"
+      ],
+      "category": "llm",
+      "file": "2026-08-02-native-speed-vllm-transformers-modeling-backend.json"
+    },
+    {
+      "id": "rss-20260802-026",
+      "title": "Investigating idiosyncrasies in AI fiction",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "LLM",
+        "text-analysis",
+        "AI-safety"
+      ],
+      "category": "llm",
+      "file": "2026-08-02-investigating-idiosyncrasies-in-ai-fiction.json"
+    },
+    {
+      "id": "rss-20260802-027",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "Gemini API",
+        "Managed Agents",
+        "Hooks",
+        "LLM"
+      ],
+      "category": "agent",
+      "file": "2026-08-02-gemini-api-managed-agents-36-flash-hooks-and-more.json"
+    },
+    {
+      "id": "rss-20260802-028",
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "source": "rss",
+      "score": 4,
+      "tags": [
+        "AI Search",
+        "Productivity",
+        "Google",
+        "Practical AI"
+      ],
+      "category": "ai-application",
+      "file": "2026-08-02-5-ways-ai-mode-in-search-helps-you-enjoy-the-real-world.json"
+    },
+    {
+      "id": "rss-20260802-029",
+      "title": "Connect more of your apps to Search",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "AI-Search",
+        "Integration",
+        "Security",
+        "Ecosystem"
+      ],
+      "category": "ai-application",
+      "file": "2026-08-02-connect-more-of-your-apps-to-search.json"
+    },
+    {
+      "id": "rss-20260802-030",
+      "title": "Create, edit and star in videos with two Google Vids updates",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "video-editing",
+        "multimodal",
+        "personal-avatar",
+        "Google-Vids",
+        "AI-creation"
+      ],
+      "category": "video-generation",
+      "file": "2026-08-02-create-edit-and-star-in-videos-with-two-google-vids-updates.json"
+    },
+    {
+      "id": "rss-20260802-031",
+      "title": "Celebrating 25 years of visual search innovation",
+      "source": "rss",
+      "score": 4,
+      "tags": [
+        "visual-search",
+        "computer-vision",
+        "multimodal",
+        "google",
+        "image-generation"
+      ],
+      "category": "visual-search",
+      "file": "2026-08-02-celebrating-25-years-of-visual-search-innovation.json"
+    },
+    {
+      "id": "rss-20260802-032",
+      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "gemini-api",
+        "managed-agents",
+        "background-tasks",
+        "mcp",
+        "ai-agents"
+      ],
+      "category": "agent",
+      "file": "2026-08-02-expanding-managed-agents-in-gemini-api-background-tasks-remo.json"
+    },
+    {
+      "id": "rss-20260802-033",
+      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "source": "rss",
+      "score": 4,
+      "tags": [
+        "AI",
+        "productivity",
+        "policy",
+        "economy",
+        "Gemini"
+      ],
+      "category": "policy",
+      "file": "2026-08-02-unlocking-britains-next-era-of-productivity-building-a-natio.json"
+    },
+    {
+      "id": "rss-20260802-034",
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "full-stack-ai",
+        "ai-systems",
+        "google",
+        "infrastructure"
+      ],
+      "category": "llm",
+      "file": "2026-08-02-ask-an-ai-expert-what-exactly-is-the-full-stack.json"
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "id": "github-20260802-004",
+  "title": "Shubhamsaboo/awesome-llm-apps",
+  "source": "github",
+  "source_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+  "author": "Shubhamsaboo",
+  "published_at": "2026-08-02T02:38:31Z",
+  "collected_at": "2026-08-02T02:38:31Z",
+  "summary": "这是一个汇集了100多个AI代理、代理技能和RAG应用的精选列表，全部为免费开源。项目基于Python，覆盖了从简单的LLM应用到复杂的多代理系统和检索增强生成（RAG）应用。该仓库旨在为开发者提供丰富的参考实现和灵感，包括与主流LLM（如OpenAI、Anthropic）的集成、向量数据库（如Pinecone、Weaviate）的使用、以及各种工具和框架（如LangChain、LlamaIndex）的实践案例。其技术亮点在于系统性地分类和展示了不同场景下的AI应用架构，是学习和构建AI应用的重要资源。",
+  "key_insight": "该仓库通过丰富的开源示例，系统展示了从基础LLM调用到复杂多代理和RAG应用的构建模式，是AI应用开发的宝贵知识库。",
+  "score": 10,
+  "tags": [
+    "agents",
+    "rag",
+    "llm",
+    "python",
+    "open-source"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-08-02T02:38:31Z"
+}
