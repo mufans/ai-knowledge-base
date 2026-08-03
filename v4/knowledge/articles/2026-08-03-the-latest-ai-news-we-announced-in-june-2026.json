@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260803-033",
+  "title": "The latest AI news we announced in June 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+  "author": "",
+  "published_at": "2026-08-03T02:40:32Z",
+  "collected_at": "2026-08-03T02:40:32Z",
+  "summary": "该仓库指向Google官方博客中关于2026年6月AI更新的文章，汇总了Google在该月发布的最新AI技术、产品与研究进展。内容涵盖多模态模型、生成式AI工具、以及AI在搜索和云服务中的集成，体现了Google在AI领域的持续创新和生态布局。",
+  "key_insight": "Google在2026年6月的AI更新展示了其在多模态和生成式AI领域的系统性推进，强化了AI在搜索和云服务中的核心地位。",
+  "score": 7,
+  "tags": [
+    "AI",
+    "Google",
+    "multimodal",
+    "generative-ai"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-08-03T02:40:32Z"
+}

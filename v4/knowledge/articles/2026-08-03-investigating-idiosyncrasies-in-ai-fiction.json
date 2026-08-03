@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260803-026",
+  "title": "Investigating idiosyncrasies in AI fiction",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.03136",
+  "author": "",
+  "published_at": "2026-08-03T02:40:32Z",
+  "collected_at": "2026-08-03T02:40:32Z",
+  "summary": "该仓库指向一篇arXiv论文，探讨AI生成虚构故事中的独特风格特征（idiosyncrasies）。研究可能聚焦于大语言模型在创意写作中表现出的系统性偏差或模式，如叙事结构、语言风格或内容倾向。技术亮点在于对AI输出进行定量和定性分析，以揭示模型内在的生成规律。该研究对理解LLM的创造性边界和潜在偏见有参考价值，但仓库本身无代码或数据，仅作为论文入口。",
+  "key_insight": "研究AI虚构作品中的独特模式，揭示LLM在创意写作中的系统性风格偏差。",
+  "score": 6,
+  "tags": [
+    "LLM",
+    "AI-Fiction",
+    "Narrative-Analysis",
+    "Creative-Writing",
+    "Bias-Detection"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-08-03T02:40:32Z"
+}
