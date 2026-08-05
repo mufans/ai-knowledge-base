@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260805-034",
+  "title": "The latest AI news we announced in June 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+  "author": "",
+  "published_at": "2026-08-05T02:24:06Z",
+  "collected_at": "2026-08-05T02:24:06Z",
+  "summary": "该仓库是Google官方博客文章，汇总2026年6月发布的AI最新动态。内容涵盖Google在AI领域的多项更新，可能包括模型改进、产品集成、研究进展等。作为官方发布渠道，信息具有权威性和时效性，适合跟踪行业前沿趋势。但由于是新闻汇总而非代码库，技术深度有限，侧重于产品公告而非技术细节。",
+  "key_insight": "Google月度AI更新公告，反映其产品化战略方向，但非技术实现细节。",
+  "score": 4,
+  "tags": [
+    "AI-news",
+    "Google",
+    "LLM",
+    "product-updates"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "news",
+  "updated_at": "2026-08-05T02:24:06Z"
+}

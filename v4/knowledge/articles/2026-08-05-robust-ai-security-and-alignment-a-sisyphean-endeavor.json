@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260805-026",
+  "title": "Robust AI Security and Alignment: A Sisyphean Endeavor?",
+  "source": "rss",
+  "source_url": "https://ieeexplore.ieee.org/document/11475847/",
+  "author": "",
+  "published_at": "2026-08-05T02:24:06Z",
+  "collected_at": "2026-08-05T02:24:06Z",
+  "summary": "本文由NIST相关研究支持，深入探讨了AI安全与对齐的鲁棒性问题，提出了持续监控与更新的数学证明，强调AI对齐是一个永无止境的挑战。技术亮点包括形式化验证、数学建模和动态安全机制设计，为AI系统在动态环境中的稳定性和安全性提供了理论基础。",
+  "key_insight": "AI对齐并非一次性任务，而是一个需要持续更新和监控的迭代过程，其鲁棒性依赖于数学上可验证的动态适应机制。",
+  "score": 9,
+  "tags": [
+    "AI-Security",
+    "Alignment",
+    "Robustness",
+    "Formal-Methods",
+    "NIST"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "ai-safety",
+  "updated_at": "2026-08-05T02:24:06Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260805-021",
+  "title": "Categorization with NLP",
+  "source": "rss",
+  "source_url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/",
+  "author": "",
+  "published_at": "2026-08-05T02:24:06Z",
+  "collected_at": "2026-08-05T02:24:06Z",
+  "summary": "该仓库指向一篇关于使用NLP进行文本分类的技术文章，内容可能涉及传统机器学习或深度学习方法在文本分类中的应用，如特征工程、模型选择与评估。由于是博客形式，技术深度可能有限，但提供了NLP分类任务的实践视角。",
+  "key_insight": "文章可能强调NLP分类的实践流程，但缺乏具体代码和实验细节，价值有限。",
+  "score": 4,
+  "tags": [
+    "nlp",
+    "classification",
+    "text-mining"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-08-05T02:24:06Z"
+}
