@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260806-021",
+  "title": "Internet Archive to New York: Don’t Kill the Good Bots in the Fight Against Bad Bots | Internet Archive Blogs",
+  "source": "rss",
+  "source_url": "https://blog.archive.org/2026/08/04/internet-archive-to-new-york-dont-kill-the-good-bots-in-the-fight-against-bad-bots/",
+  "author": "",
+  "published_at": "2026-08-06T02:26:49Z",
+  "collected_at": "2026-08-06T02:26:49Z",
+  "summary": "该仓库指向互联网档案馆（Internet Archive）发布的一篇博客文章，呼吁纽约在打击恶意机器人的同时，不要误伤合法爬虫（如用于学术研究、数字保存的爬虫）。文章强调区分好机器人与坏机器人，主张通过合作与政策保护开放网络生态。技术亮点在于讨论机器人治理与网络伦理，涉及爬虫识别、访问控制策略等。",
+  "key_insight": "平衡开放访问与安全防护是网络治理的关键，需保护合法爬虫权益。",
+  "score": 4,
+  "tags": [
+    "web-crawling",
+    "bot-detection",
+    "digital-preservation",
+    "internet-governance"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "web-crawling",
+  "updated_at": "2026-08-06T02:26:49Z"
+}

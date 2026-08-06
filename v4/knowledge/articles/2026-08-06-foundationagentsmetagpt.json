@@ -1,0 +1,23 @@
+{
+  "id": "github-20260806-012",
+  "title": "FoundationAgents/MetaGPT",
+  "source": "github",
+  "source_url": "https://github.com/FoundationAgents/MetaGPT",
+  "author": "FoundationAgents",
+  "published_at": "2026-08-06T02:26:49Z",
+  "collected_at": "2026-08-06T02:26:49Z",
+  "summary": "MetaGPT 是一个多代理框架，被誉为“首家AI软件公司”，旨在实现自然语言编程。它通过将标准化操作流程（SOP）应用于多代理协作，模拟软件公司的角色分工（如产品经理、架构师、工程师等），能够从单一需求自动生成完整的软件项目，包括文档、代码和测试。其核心创新在于利用SOP和结构化输出，显著提高了多代理系统的协作效率和生成代码的准确性。技术亮点包括基于大语言模型（LLM）的自动化任务分解、角色扮演和代码生成，支持复杂项目开发。该项目在GitHub上拥有近7万星标，是AI代理领域最具影响力的开源项目之一。",
+  "key_insight": "MetaGPT通过将软件工程流程标准化（SOP）融入多代理协作，实现了从自然语言需求到完整软件产品的自动化生成，展示了多代理系统在复杂任务中的巨大潜力。",
+  "score": 10,
+  "tags": [
+    "multi-agent",
+    "llm",
+    "code-generation",
+    "agent",
+    "framework"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "multi-agent",
+  "updated_at": "2026-08-06T02:26:49Z"
+}
