@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260807-031",
+  "title": "Celebrating 25 years of visual search innovation",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
+  "author": "",
+  "published_at": "2026-08-07T02:35:52Z",
+  "collected_at": "2026-08-07T02:35:52Z",
+  "summary": "该仓库是Google Images 25周年纪念的博客文章，回顾了视觉搜索技术发展的重要里程碑，并介绍了新的视觉内容探索和创作方式。文章突出了Google在图像搜索领域的持续创新，包括AI驱动的视觉理解、多模态搜索等。虽然仓库本身不包含代码，但反映了视觉搜索与AI结合的技术趋势，对理解视觉AI应用有参考价值。",
+  "key_insight": "视觉搜索技术的演进体现了AI多模态理解能力的提升，未来将更注重AI驱动的视觉内容生成与交互。",
+  "score": 6,
+  "tags": [
+    "visual-search",
+    "multimodal",
+    "ai",
+    "google",
+    "image-understanding"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-08-07T02:35:52Z"
+}

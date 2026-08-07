@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260807-034",
+  "title": "Ask an AI expert: What exactly is the full stack?",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+  "author": "",
+  "published_at": "2026-08-07T02:35:52Z",
+  "collected_at": "2026-08-07T02:35:52Z",
+  "summary": "该仓库是Google官方博客文章，由AI专家解释“全栈AI”概念，强调从底层硬件到顶层应用的全链路优化方法。文章指出，全栈AI是Google长期AI工作的基础，涵盖芯片（如TPU）、框架（如JAX）、模型（如Gemini）及产品集成。技术亮点在于系统级协同设计，以提升性能、效率和可扩展性。",
+  "key_insight": "全栈AI通过垂直整合硬件与软件，实现端到端优化，是Google AI领先的关键。",
+  "score": 8,
+  "tags": [
+    "full-stack-ai",
+    "system-design",
+    "tpu",
+    "google",
+    "ai-infrastructure"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "ai-infrastructure",
+  "updated_at": "2026-08-07T02:35:52Z"
+}
