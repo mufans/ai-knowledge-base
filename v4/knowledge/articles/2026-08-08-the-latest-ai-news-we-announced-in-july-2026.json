@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260808-025",
+  "title": "The latest AI news we announced in July 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+  "author": "",
+  "published_at": "2026-08-08T01:25:49Z",
+  "collected_at": "2026-08-08T01:25:49Z",
+  "summary": "该仓库是Google在2026年7月发布的AI新闻汇总博客，涵盖了当月Google在AI领域的最新进展，包括技术更新、产品发布和研究突破。内容涉及多个AI方向，如大语言模型、多模态能力、AI基础设施等，体现了Google在AI领域的持续创新和战略布局。",
+  "key_insight": "Google在2026年7月的AI更新聚焦于集成多模态能力与强化基础设施，推动AI技术的实用化与规模化应用。",
+  "score": 7,
+  "tags": [
+    "Google",
+    "AI",
+    "LLM",
+    "Multimodal",
+    "Infrastructure"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-08-08T01:25:49Z"
+}

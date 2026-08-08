@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260808-028",
+  "title": "5 ways AI Mode in Search helps you enjoy the real world",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+  "author": "",
+  "published_at": "2026-08-08T01:25:49Z",
+  "collected_at": "2026-08-08T01:25:49Z",
+  "summary": "该仓库指向一篇Google官方博客，介绍AI Mode在Google Search中的五种实用场景，帮助用户在线下世界更高效地享受生活，如规划旅行、预订门票、寻找美食等。技术亮点在于AI Mode通过生成式AI整合多源信息，提供个性化建议和实时决策支持。",
+  "key_insight": "AI Mode将生成式AI应用于搜索，不仅提升信息检索效率，更主动辅助用户线下决策，拓展了AI在生活场景中的实用边界。",
+  "score": 6,
+  "tags": [
+    "AI Search",
+    "Generative AI",
+    "Personalization",
+    "Real-world"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "ai-search",
+  "updated_at": "2026-08-08T01:25:49Z"
+}
