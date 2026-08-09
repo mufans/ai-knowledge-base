@@ -1,0 +1,23 @@
+{
+  "id": "github-20260809-013",
+  "title": "headroomlabs-ai/headroom",
+  "source": "github",
+  "source_url": "https://github.com/headroomlabs-ai/headroom",
+  "author": "headroomlabs-ai",
+  "published_at": "2026-08-09T01:37:55Z",
+  "collected_at": "2026-08-09T01:37:55Z",
+  "summary": "Headroom 是一个专注于 LLM 上下文压缩的开源库，提供库、代理和 MCP 服务器三种使用方式。它能在工具输出、日志、文件和 RAG 分块到达 LLM 之前进行压缩，显著减少 token 消耗：编码代理减少 20%，JSON 数据减少 60-95%，同时保持答案质量不变。支持多种主流框架（如 LangChain、OpenAI、Anthropic）和代理工具（如 Claude Code、Cursor），采用 Python 实现，并集成 FastAPI 提供代理服务。其核心价值在于优化上下文窗口利用率，降低推理成本，提升长上下文场景下的性能。",
+  "key_insight": "通过智能压缩非关键上下文，在保持答案质量的同时大幅减少 token 消耗，是面向 LLM 应用的通用上下文优化基础设施。",
+  "score": 9,
+  "tags": [
+    "token-optimization",
+    "context-engineering",
+    "MCP",
+    "LLM",
+    "compression"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "context-engineering",
+  "updated_at": "2026-08-09T01:37:55Z"
+}

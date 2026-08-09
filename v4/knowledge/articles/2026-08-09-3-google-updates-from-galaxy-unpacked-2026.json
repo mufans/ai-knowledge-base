@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260809-029",
+  "title": "3 Google updates from Galaxy Unpacked 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+  "author": "",
+  "published_at": "2026-08-09T01:37:55Z",
+  "collected_at": "2026-08-09T01:37:55Z",
+  "summary": "该仓库是Google官方博客文章，发布于2026年Galaxy Unpacked活动后，介绍了Samsung新设备（折叠屏、手表、眼镜）如何提升用户生产力并节省时间。文章重点展示了Google与Samsung在Android平台上的合作，涉及AI功能集成、跨设备协同等。技术亮点包括基于AI的智能助手、实时翻译、健康监测等，体现了移动AI与硬件结合的最新趋势。",
+  "key_insight": "Google与Samsung合作将AI深度融入新硬件，推动移动生产力革新。",
+  "score": 6,
+  "tags": [
+    "Android",
+    "AI",
+    "Samsung",
+    "Wearables",
+    "Productivity"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-08-09T01:37:55Z"
+}

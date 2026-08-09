@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260809-021",
+  "title": "Revision Prompting improves industrial LLM processes",
+  "source": "rss",
+  "source_url": "https://revisionprompting.info/",
+  "author": "",
+  "published_at": "2026-08-09T01:37:55Z",
+  "collected_at": "2026-08-09T01:37:55Z",
+  "summary": "该仓库介绍了一种名为“Revision Prompting”的技术，旨在改进工业级大语言模型（LLM）应用中的提示工程流程。通过迭代修订提示词，该方法能够优化模型输出质量，提升在复杂工业场景下的稳定性和准确性。技术亮点包括系统化的提示优化策略和针对工业需求的定制化调整，展示了LLM在实际生产环境中的实用价值。",
+  "key_insight": "通过迭代修订提示词，显著提升工业场景下LLM的性能与可靠性。",
+  "score": 8,
+  "tags": [
+    "LLM",
+    "Prompt-Engineering",
+    "Industrial-AI"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-08-09T01:37:55Z"
+}
