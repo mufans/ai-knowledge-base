@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260810-030",
+  "title": "Connect more of your apps to Search",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+  "author": "",
+  "published_at": "2026-08-10T01:41:32Z",
+  "collected_at": "2026-08-10T01:41:32Z",
+  "summary": "该博客文章介绍了谷歌搜索即将推出的“连接应用”功能，允许用户将常用第三方应用安全地链接到AI模式中，并直接在搜索结果中与这些服务交互。技术亮点在于通过安全连接和AI驱动的交互，扩展搜索的上下文和功能，实现更无缝的跨应用操作。",
+  "key_insight": "将AI搜索与第三方应用深度集成，可能重塑用户获取信息和执行任务的交互方式。",
+  "score": 8,
+  "tags": [
+    "AI Search",
+    "Integration",
+    "Productivity",
+    "Google AI"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "ai-integration",
+  "updated_at": "2026-08-10T01:41:32Z"
+}

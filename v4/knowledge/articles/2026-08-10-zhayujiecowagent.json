@@ -1,0 +1,23 @@
+{
+  "id": "github-20260810-018",
+  "title": "zhayujie/CowAgent",
+  "source": "github",
+  "source_url": "https://github.com/zhayujie/CowAgent",
+  "author": "zhayujie",
+  "published_at": "2026-08-10T01:41:32Z",
+  "collected_at": "2026-08-10T01:41:32Z",
+  "summary": "CowAgent（原 chatgpt-on-wechat）是一个开源的超级 AI 助手与 Agent 框架，支持任务规划、工具与技能调用，并具备基于记忆和知识的自我进化能力。它兼容多种大模型（如 OpenAI、Claude、DeepSeek 等）和多种交互渠道（如微信），设计轻量、可扩展，支持一行安装。项目在 GitHub 上拥有超过 46k 星标，技术亮点包括多 Agent 协作、MCP 集成和 Agent Harness 架构。",
+  "key_insight": "CowAgent 将成熟的微信聊天机器人升级为通用 Agent Harness，通过轻量级架构和多模型支持，实现了从对话到自主任务执行的跨越，是个人化 AI 助手的优秀范例。",
+  "score": 9,
+  "tags": [
+    "ai-agent",
+    "multi-agent",
+    "llm",
+    "mcp",
+    "harness"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-08-10T01:41:32Z"
+}
