@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260811-026",
+  "title": "The latest AI news we announced in July 2026",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+  "author": "",
+  "published_at": "2026-08-11T01:30:42Z",
+  "collected_at": "2026-08-11T01:30:42Z",
+  "summary": "该仓库是Google官方博客文章，汇总了2026年7月发布的AI最新动态。内容涵盖Google在AI领域的技术进展、产品更新和研究突破，可能涉及Gemini模型、AI基础设施、应用集成等方面。作为官方发布渠道，信息权威且时效性强，但仓库本身不包含代码，而是作为新闻聚合链接存在。技术亮点在于Google对AI技术的持续迭代和生态整合，反映了行业前沿趋势。",
+  "key_insight": "Google 2026年7月AI更新汇总，展示其技术最新进展与生态布局，但无实际可执行代码，技术价值中等。",
+  "score": 6,
+  "tags": [
+    "Google AI",
+    "News",
+    "Updates",
+    "Gemini",
+    "AI Research"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "news",
+  "updated_at": "2026-08-11T01:30:42Z"
+}

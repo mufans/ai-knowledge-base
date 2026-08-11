@@ -1,0 +1,23 @@
+{
+  "id": "github-20260811-007",
+  "title": "infiniflow/ragflow",
+  "source": "github",
+  "source_url": "https://github.com/infiniflow/ragflow",
+  "author": "infiniflow",
+  "published_at": "2026-08-11T01:30:42Z",
+  "collected_at": "2026-08-11T01:30:42Z",
+  "summary": "RAGFlow 是一个领先的开源检索增强生成（RAG）引擎，深度融合了前沿 RAG 技术与 Agent 能力，为大型语言模型（LLMs）构建了卓越的上下文层。该项目用 Go 语言实现，提供了完整的 RAG 解决方案，支持深度文档理解、知识库管理和上下文工程，并具备 Agent 化的检索与搜索能力。其核心亮点在于将 Agent 编排与 RAG 流程无缝集成，使 LLM 应用能够高效获取和利用外部知识，从而显著提升回答的准确性和相关性。",
+  "key_insight": "RAGFlow 通过将 Agent 能力与 RAG 流程深度结合，重新定义了 LLM 上下文层的构建方式，实现了更智能的检索与知识利用。",
+  "score": 10,
+  "tags": [
+    "RAG",
+    "Agent",
+    "LLM",
+    "Context-Engineering",
+    "Knowledge-Management"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "rag",
+  "updated_at": "2026-08-11T01:30:42Z"
+}
