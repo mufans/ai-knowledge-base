@@ -1,0 +1,23 @@
+{
+  "id": "github-20260812-001",
+  "title": "NousResearch/hermes-agent",
+  "source": "github",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "author": "NousResearch",
+  "published_at": "2026-08-12T01:49:09Z",
+  "collected_at": "2026-08-12T01:49:09Z",
+  "summary": "hermes-agent 是 NousResearch 推出的一个智能体框架，强调与用户共同成长的能力。基于 Python 实现，支持多种主流 LLM 提供商（如 Anthropic、OpenAI），并集成了类似 Claude Code 和 Codex 的编码代理功能。其核心亮点在于自适应学习机制，能够根据用户交互历史不断优化自身行为，提供个性化的智能体体验。项目在 GitHub 上拥有超过 22.9 万的星标，显示出社区的高度认可和广泛采用。",
+  "key_insight": "通过自适应学习机制实现智能体与用户的共同成长，是推动个性化 AI 代理的关键创新。",
+  "score": 9,
+  "tags": [
+    "ai-agent",
+    "llm",
+    "adaptive-learning",
+    "code-generation",
+    "personalization"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-08-12T01:49:09Z"
+}

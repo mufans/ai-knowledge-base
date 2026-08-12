@@ -1,0 +1,23 @@
+{
+  "id": "github-20260812-003",
+  "title": "langchain-ai/langchain",
+  "source": "github",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "author": "langchain-ai",
+  "published_at": "2026-08-12T01:49:09Z",
+  "collected_at": "2026-08-12T01:49:09Z",
+  "summary": "LangChain 是一个用于构建智能体（Agent）的工程平台，提供统一的接口来集成多种大语言模型（LLM）、工具和外部数据源。其核心亮点包括模块化的组件设计、强大的链式调用机制，以及支持复杂多智能体协作的 LangGraph 库。该框架同时支持 Python 和 TypeScript，广泛应用于 RAG、代码生成、智能体编排等场景，是 AI 应用开发领域的标杆性开源项目。",
+  "key_insight": "LangChain 作为智能体工程平台，通过模块化设计和 LangGraph 提供多智能体编排能力，是构建复杂 AI 应用的基础设施。",
+  "score": 10,
+  "tags": [
+    "framework",
+    "agents",
+    "llm",
+    "rag",
+    "langgraph"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-08-12T01:49:09Z"
+}

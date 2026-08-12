@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260812-027",
+  "title": "Evolve your marketing with new AI tools",
+  "source": "rss",
+  "source_url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+  "author": "",
+  "published_at": "2026-08-12T01:49:09Z",
+  "collected_at": "2026-08-12T01:49:09Z",
+  "summary": "该仓库内容为Google官方博客文章，介绍Google Ads和Google Analytics中新增的AI与智能体（agentic）体验，旨在简化营销工作流。技术亮点包括利用AI自动化广告投放、优化分析流程，并集成智能体技术提升效率。该内容属于应用级AI技术，而非开源项目，但展示了AI在营销领域的落地实践。",
+  "key_insight": "Google将AI智能体融入广告与分析工具，标志着AI从单一功能向工作流自动化演进。",
+  "score": 4,
+  "tags": [
+    "AI",
+    "Marketing",
+    "Google Ads",
+    "Analytics",
+    "Agentic"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "application",
+  "updated_at": "2026-08-12T01:49:09Z"
+}

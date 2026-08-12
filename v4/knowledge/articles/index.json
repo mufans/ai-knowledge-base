@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-11T01:30:42Z",
-  "total": 3382,
+  "updated_at": "2026-08-12T01:49:09Z",
+  "total": 3418,
   "articles": [
     {
       "id": "github-20260429-001",
@@ -49761,6 +49761,533 @@
       ],
       "category": "llm",
       "file": "2026-08-11-ask-an-ai-expert-what-exactly-is-the-full-stack.json"
+    },
+    {
+      "id": "github-20260812-001",
+      "title": "NousResearch/hermes-agent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "adaptive-learning",
+        "code-generation",
+        "personalization"
+      ],
+      "category": "agent",
+      "file": "2026-08-12-nousresearchhermes-agent.json"
+    },
+    {
+      "id": "github-20260812-002",
+      "title": "langgenius/dify",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agent",
+        "rag",
+        "workflow",
+        "low-code",
+        "llm"
+      ],
+      "category": "agent",
+      "file": "2026-08-12-langgeniusdify.json"
+    },
+    {
+      "id": "github-20260812-003",
+      "title": "langchain-ai/langchain",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "framework",
+        "agents",
+        "llm",
+        "rag",
+        "langgraph"
+      ],
+      "category": "agent",
+      "file": "2026-08-12-langchain-ailangchain.json"
+    },
+    {
+      "id": "github-20260812-004",
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agents",
+        "rag",
+        "llm",
+        "python",
+        "open-source"
+      ],
+      "category": "multi-agent",
+      "file": "2026-08-12-shubhamsabooawesome-llm-apps.json"
+    },
+    {
+      "id": "github-20260812-005",
+      "title": "browser-use/browser-use",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "browser-automation",
+        "ai-agents",
+        "llm",
+        "playwright",
+        "python"
+      ],
+      "category": "agent",
+      "file": "2026-08-12-browser-usebrowser-use.json"
+    },
+    {
+      "id": "github-20260812-006",
+      "title": "DietrichGebert/ponytail",
+      "source": "github",
+      "score": 8,
+      "tags": [
+        "prompt-engineering",
+        "ai-agents",
+        "yagni",
+        "developer-tools",
+        "claude"
+      ],
+      "category": "code-generation",
+      "file": "2026-08-12-dietrichgebertponytail.json"
+    },
+    {
+      "id": "github-20260812-007",
+      "title": "earendil-works/pi",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agent",
+        "LLM",
+        "TypeScript",
+        "CLI",
+        "TUI"
+      ],
+      "category": "agent",
+      "file": "2026-08-12-earendil-workspi.json"
+    },
+    {
+      "id": "github-20260812-008",
+      "title": "infiniflow/ragflow",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "RAG",
+        "Agent",
+        "Retrieval-Augmented-Generation",
+        "LLM",
+        "Context-Engineering"
+      ],
+      "category": "rag",
+      "file": "2026-08-12-infiniflowragflow.json"
+    },
+    {
+      "id": "github-20260812-009",
+      "title": "OpenHands/OpenHands",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agent",
+        "llm",
+        "developer-tools",
+        "code-generation",
+        "cli"
+      ],
+      "category": "agent",
+      "file": "2026-08-12-openhandsopenhands.json"
+    },
+    {
+      "id": "github-20260812-010",
+      "title": "bytedance/deer-flow",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "multi-agent",
+        "agentic-framework",
+        "langchain",
+        "langgraph",
+        "deep-research"
+      ],
+      "category": "multi-agent",
+      "file": "2026-08-12-bytedancedeer-flow.json"
+    },
+    {
+      "id": "github-20260812-011",
+      "title": "hiyouga/LlamaFactory",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "fine-tuning",
+        "LLM",
+        "LoRA",
+        "PEFT",
+        "transformers"
+      ],
+      "category": "fine-tuning",
+      "file": "2026-08-12-hiyougallamafactory.json"
+    },
+    {
+      "id": "github-20260812-012",
+      "title": "FoundationAgents/MetaGPT",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "multi-agent",
+        "llm",
+        "code-generation",
+        "automation",
+        "framework"
+      ],
+      "category": "multi-agent",
+      "file": "2026-08-12-foundationagentsmetagpt.json"
+    },
+    {
+      "id": "github-20260812-013",
+      "title": "headroomlabs-ai/headroom",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "token-compression",
+        "context-engineering",
+        "rag",
+        "llm",
+        "mcp"
+      ],
+      "category": "context-engineering",
+      "file": "2026-08-12-headroomlabs-aiheadroom.json"
+    },
+    {
+      "id": "github-20260812-014",
+      "title": "mem0ai/mem0",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "memory-management",
+        "ai-agents",
+        "llm",
+        "rag",
+        "python"
+      ],
+      "category": "agent",
+      "file": "2026-08-12-mem0aimem0.json"
+    },
+    {
+      "id": "github-20260812-015",
+      "title": "aaif-goose/goose",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "rust",
+        "mcp",
+        "acp",
+        "code-generation"
+      ],
+      "category": "agent",
+      "file": "2026-08-12-aaif-goosegoose.json"
+    },
+    {
+      "id": "github-20260812-016",
+      "title": "CherryHQ/cherry-studio",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "AI-Agent",
+        "LLM",
+        "TypeScript",
+        "Productivity",
+        "Skills"
+      ],
+      "category": "agent",
+      "file": "2026-08-12-cherryhqcherry-studio.json"
+    },
+    {
+      "id": "github-20260812-017",
+      "title": "jeecgboot/JeecgBoot",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "low-code",
+        "AI",
+        "Java",
+        "Spring-Boot",
+        "RAG"
+      ],
+      "category": "low-code",
+      "file": "2026-08-12-jeecgbootjeecgboot.json"
+    },
+    {
+      "id": "github-20260812-018",
+      "title": "zhayujie/CowAgent",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "ai-agent",
+        "llm",
+        "multi-agent",
+        "mcp",
+        "chatgpt-on-wechat"
+      ],
+      "category": "agent",
+      "file": "2026-08-12-zhayujiecowagent.json"
+    },
+    {
+      "id": "github-20260812-019",
+      "title": "langchain-ai/langgraph",
+      "source": "github",
+      "score": 10,
+      "tags": [
+        "agents",
+        "multi-agent",
+        "workflow",
+        "langchain",
+        "state-machine"
+      ],
+      "category": "agent",
+      "file": "2026-08-12-langchain-ailanggraph.json"
+    },
+    {
+      "id": "github-20260812-020",
+      "title": "AstrBotDevs/AstrBot",
+      "source": "github",
+      "score": 9,
+      "tags": [
+        "agent",
+        "llm",
+        "chatbot",
+        "multi-platform",
+        "mcp"
+      ],
+      "category": "agent",
+      "file": "2026-08-12-astrbotdevsastrbot.json"
+    },
+    {
+      "id": "rss-20260812-021",
+      "title": "Categorization with NLP",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "NLP",
+        "text-classification",
+        "machine-learning"
+      ],
+      "category": "nlp",
+      "file": "2026-08-12-categorization-with-nlp.json"
+    },
+    {
+      "id": "rss-20260812-022",
+      "title": "Why Do Cognitive Scientists Hate LLMs? (2023)",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "cognitive-science",
+        "LLM",
+        "critique",
+        "AI-theory"
+      ],
+      "category": "llm",
+      "file": "2026-08-12-why-do-cognitive-scientists-hate-llms-2023.json"
+    },
+    {
+      "id": "rss-20260812-023",
+      "title": "Categorization with NLP",
+      "source": "rss",
+      "score": 5,
+      "tags": [
+        "NLP",
+        "Text-Classification",
+        "Machine-Learning"
+      ],
+      "category": "nlp",
+      "file": "2026-08-12-categorization-with-nlp-22.json"
+    },
+    {
+      "id": "rss-20260812-024",
+      "title": "bonsai: A library for building dynamic webapps, using Js_of_ocaml",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "OCaml",
+        "Web",
+        "Functional Programming",
+        "Js_of_ocaml"
+      ],
+      "category": "web-framework",
+      "file": "2026-08-12-bonsai-a-library-for-building-dynamic-webapps-using-js-of-oc.json"
+    },
+    {
+      "id": "rss-20260812-025",
+      "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "chatbot",
+        "history-of-ai",
+        "NLP",
+        "human-computer-interaction"
+      ],
+      "category": "llm",
+      "file": "2026-08-12-inventing-eliza---how-the-first-chatbot-shaped-the-future-of.json"
+    },
+    {
+      "id": "rss-20260812-026",
+      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "source": "rss",
+      "score": 9,
+      "tags": [
+        "medical-ai",
+        "video-consultation",
+        "multimodal",
+        "healthcare"
+      ],
+      "category": "medical-ai",
+      "file": "2026-08-12-amie-our-research-medical-ai-system-demonstrates-real-time-c.json"
+    },
+    {
+      "id": "rss-20260812-027",
+      "title": "Evolve your marketing with new AI tools",
+      "source": "rss",
+      "score": 4,
+      "tags": [
+        "AI",
+        "Marketing",
+        "Google Ads",
+        "Analytics",
+        "Agentic"
+      ],
+      "category": "application",
+      "file": "2026-08-12-evolve-your-marketing-with-new-ai-tools.json"
+    },
+    {
+      "id": "rss-20260812-028",
+      "title": "The latest AI news we announced in July 2026",
+      "source": "rss",
+      "score": 4,
+      "tags": [
+        "AI",
+        "Google",
+        "Multimodal",
+        "Generative AI"
+      ],
+      "category": "news",
+      "file": "2026-08-12-the-latest-ai-news-we-announced-in-july-2026.json"
+    },
+    {
+      "id": "rss-20260812-029",
+      "title": "Inside our 353,000-person vibe coding course",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "AI-agents",
+        "education",
+        "Google",
+        "Kaggle",
+        "community"
+      ],
+      "category": "education",
+      "file": "2026-08-12-inside-our-353000-person-vibe-coding-course.json"
+    },
+    {
+      "id": "rss-20260812-030",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "source": "rss",
+      "score": 9,
+      "tags": [
+        "Gemini API",
+        "Managed Agents",
+        "AI Agents",
+        "Production-ready"
+      ],
+      "category": "agent",
+      "file": "2026-08-12-gemini-api-managed-agents-36-flash-hooks-and-more.json"
+    },
+    {
+      "id": "rss-20260812-031",
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "AI Search",
+        "Generative AI",
+        "Personalization",
+        "User Experience"
+      ],
+      "category": "llm",
+      "file": "2026-08-12-5-ways-ai-mode-in-search-helps-you-enjoy-the-real-world.json"
+    },
+    {
+      "id": "rss-20260812-032",
+      "title": "5 ways to host the ultimate dinner party with Google Search",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "AI",
+        "Google Search",
+        "Multimodal",
+        "Lifestyle",
+        "NLP"
+      ],
+      "category": "application",
+      "file": "2026-08-12-5-ways-to-host-the-ultimate-dinner-party-with-google-search.json"
+    },
+    {
+      "id": "rss-20260812-033",
+      "title": "Connect more of your apps to Search",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "AI-Mode",
+        "Search",
+        "Integration",
+        "Security"
+      ],
+      "category": "ai-integration",
+      "file": "2026-08-12-connect-more-of-your-apps-to-search.json"
+    },
+    {
+      "id": "rss-20260812-034",
+      "title": "Create, edit and star in videos with two Google Vids updates",
+      "source": "rss",
+      "score": 6,
+      "tags": [
+        "Gemini",
+        "Video Editing",
+        "AI Avatar",
+        "Multimodal"
+      ],
+      "category": "multimodal",
+      "file": "2026-08-12-create-edit-and-star-in-videos-with-two-google-vids-updates.json"
+    },
+    {
+      "id": "rss-20260812-035",
+      "title": "Celebrating 25 years of visual search innovation",
+      "source": "rss",
+      "score": 7,
+      "tags": [
+        "visual-search",
+        "computer-vision",
+        "multimodal",
+        "generative-ai",
+        "google"
+      ],
+      "category": "multimodal",
+      "file": "2026-08-12-celebrating-25-years-of-visual-search-innovation.json"
+    },
+    {
+      "id": "rss-20260812-036",
+      "title": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
+      "source": "rss",
+      "score": 8,
+      "tags": [
+        "Gemini API",
+        "Managed Agents",
+        "MCP",
+        "Background Tasks",
+        "AI Agents"
+      ],
+      "category": "agent",
+      "file": "2026-08-12-expanding-managed-agents-in-gemini-api-background-tasks-remo.json"
     }
   ]
 }

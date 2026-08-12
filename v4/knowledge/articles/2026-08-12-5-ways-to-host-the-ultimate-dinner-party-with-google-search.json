@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260812-032",
+  "title": "5 ways to host the ultimate dinner party with Google Search",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
+  "author": "",
+  "published_at": "2026-08-12T01:49:09Z",
+  "collected_at": "2026-08-12T01:49:09Z",
+  "summary": "该仓库是Google官方博客文章，介绍如何利用Google Search的AI功能（如AI Overviews、Lens等）协助用户策划晚宴，包括生成菜单、设计餐桌装饰和规划其他派对任务。技术亮点在于将多模态AI（图像识别与自然语言处理）集成到日常搜索场景，提升生活化任务的效率与创意。",
+  "key_insight": "展示了AI在日常生活场景中的实用价值，通过整合搜索与生成能力，降低复杂任务门槛。",
+  "score": 6,
+  "tags": [
+    "AI",
+    "Google Search",
+    "Multimodal",
+    "Lifestyle",
+    "NLP"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "application",
+  "updated_at": "2026-08-12T01:49:09Z"
+}

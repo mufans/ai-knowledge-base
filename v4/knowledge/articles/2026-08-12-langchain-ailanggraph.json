@@ -1,0 +1,23 @@
+{
+  "id": "github-20260812-019",
+  "title": "langchain-ai/langgraph",
+  "source": "github",
+  "source_url": "https://github.com/langchain-ai/langgraph",
+  "author": "langchain-ai",
+  "published_at": "2026-08-12T01:49:09Z",
+  "collected_at": "2026-08-12T01:49:09Z",
+  "summary": "LangGraph 是 LangChain 团队推出的智能体编排框架，专为构建高韧性、可扩展的 AI 智能体而设计。它基于图结构定义智能体工作流，支持循环、条件分支和状态持久化，可精细控制智能体行为。核心亮点包括：内置人机协同（human-in-the-loop）机制、时间旅行（time-travel）调试、检查点持久化，以及与 LangChain 生态无缝集成。支持多智能体协作，适用于复杂任务自动化，已在企业级生产环境中得到验证。",
+  "key_insight": "LangGraph 通过图结构将智能体工作流显式建模，实现了可控性与韧性的统一，成为生产级智能体的标准框架。",
+  "score": 10,
+  "tags": [
+    "agents",
+    "multi-agent",
+    "workflow",
+    "langchain",
+    "state-machine"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-08-12T01:49:09Z"
+}
