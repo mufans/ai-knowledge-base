@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260813-021",
+  "title": "AI companies destroy physical books — let’s scan rare books before it’s too late",
+  "source": "rss",
+  "source_url": "https://fr.annas-archive.gl/blog/physical-destruction.html",
+  "author": "",
+  "published_at": "2026-08-13T01:51:16Z",
+  "collected_at": "2026-08-13T01:51:16Z",
+  "summary": "该仓库链接指向一篇关于AI公司对实体书籍造成破坏的文章，呼吁在珍贵书籍被销毁前进行扫描。文章强调AI训练过程中对物理书籍的需求可能导致稀有书籍的流失，提倡数字化保存。技术亮点在于其倡导的书籍扫描和数字化归档流程，涉及图像处理、OCR和文本提取技术。",
+  "key_insight": "AI发展驱动下，稀有书籍的数字化抢救成为紧迫任务，结合OCR和扫描技术可保护文化遗产。",
+  "score": 5,
+  "tags": [
+    "digital-preservation",
+    "ocr",
+    "book-scanning",
+    "ai-training"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "digital-archive",
+  "updated_at": "2026-08-13T01:51:16Z"
+}
