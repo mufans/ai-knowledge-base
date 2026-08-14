@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260814-029",
+  "title": "Inside our 353,000-person vibe coding course",
+  "source": "rss",
+  "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+  "author": "",
+  "published_at": "2026-08-14T01:49:10Z",
+  "collected_at": "2026-08-14T01:49:10Z",
+  "summary": "该仓库对应一篇Google官方博客，介绍了Kaggle与Google联合举办的免费AI Agents Intensive课程，吸引了35.3万名参与者，旨在教授开发者构建和部署前沿AI代理。课程涵盖AI代理的核心概念、工具使用及部署实践，强调通过实际项目提升技能。技术亮点包括大规模在线教育模式、实战导向的课程设计，以及Google在AI代理领域的生态支持。",
+  "key_insight": "大规模免费课程（35.3万人）展示了AI代理教育的普及趋势，但仓库本身无代码，价值在于课程内容与生态。",
+  "score": 8,
+  "tags": [
+    "AI Agents",
+    "Online Course",
+    "Google",
+    "Kaggle",
+    "Deployment"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "education",
+  "updated_at": "2026-08-14T01:49:10Z"
+}
