@@ -1,0 +1,23 @@
+{
+  "id": "github-20260815-012",
+  "title": "unslothai/unsloth",
+  "source": "github",
+  "source_url": "https://github.com/unslothai/unsloth",
+  "author": "unslothai",
+  "published_at": "2026-08-15T01:09:03Z",
+  "collected_at": "2026-08-15T01:09:03Z",
+  "summary": "unsloth 是一个专注于高效微调（fine-tuning）和本地运行 LLM 与扩散模型的库，提供本地 UI 界面，支持 Qwen、Kimi、Gemma、DeepSeek、FLUX 等主流模型。其核心技术亮点在于通过自定义的 Triton 内核和优化算子，显著降低了显存占用并提升训练速度（最高可达 2-5 倍），同时保持与 Hugging Face 生态无缝兼容。该库支持强化学习（如 GRPO）、LoRA/QLoRA 等参数高效微调方法，并集成了文本到图像、文本到语音等多模态能力，适合个人开发者、研究者和企业快速进行模型定制与部署。",
+  "key_insight": "通过极致优化的 Triton 内核实现 LLM 微调速度与显存效率的飞跃，成为本地 AI 模型定制与部署的首选工具。",
+  "score": 10,
+  "tags": [
+    "fine-tuning",
+    "llm",
+    "diffusion-models",
+    "triton",
+    "local-ai"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "fine-tuning",
+  "updated_at": "2026-08-15T01:09:03Z"
+}

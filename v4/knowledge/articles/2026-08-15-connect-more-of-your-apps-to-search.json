@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260815-033",
+  "title": "Connect more of your apps to Search",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+  "author": "",
+  "published_at": "2026-08-15T01:09:03Z",
+  "collected_at": "2026-08-15T01:09:03Z",
+  "summary": "该仓库对应谷歌官方博客文章，介绍AI模式中连接更多应用的功能。核心是让用户能安全地链接常用服务，并直接在AI模式中交互，无需切换应用。技术亮点在于安全链接机制与AI驱动的跨应用交互，提升搜索与任务完成的效率。",
+  "key_insight": "通过安全的应用连接，AI模式成为统一交互入口，重塑搜索与任务执行流程。",
+  "score": 6,
+  "tags": [
+    "AI-Mode",
+    "Integration",
+    "Search",
+    "Security"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-08-15T01:09:03Z"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260815-023",
+  "title": "Categorization with NLP",
+  "source": "rss",
+  "source_url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/",
+  "author": "",
+  "published_at": "2026-08-15T01:09:03Z",
+  "collected_at": "2026-08-15T01:09:03Z",
+  "summary": "该仓库是一篇关于使用NLP进行文本分类的技术文章，探讨了如何利用自然语言处理技术对内容进行自动分类。文章可能涉及文本预处理、特征提取、分类模型选择等核心环节，并可能对比传统机器学习方法与现代深度学习方法的优劣。技术亮点可能包括对实际应用场景的洞察，如新闻分类、商品归类等，以及如何优化分类准确性和效率。",
+  "key_insight": "NLP分类技术的关键在于特征工程与模型选择的平衡，实际应用中需结合领域知识优化性能。",
+  "score": 6,
+  "tags": [
+    "NLP",
+    "Text Classification",
+    "Machine Learning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "nlp",
+  "updated_at": "2026-08-15T01:09:03Z"
+}

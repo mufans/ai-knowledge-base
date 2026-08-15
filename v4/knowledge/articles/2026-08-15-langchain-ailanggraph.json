@@ -1,0 +1,23 @@
+{
+  "id": "github-20260815-020",
+  "title": "langchain-ai/langgraph",
+  "source": "github",
+  "source_url": "https://github.com/langchain-ai/langgraph",
+  "author": "langchain-ai",
+  "published_at": "2026-08-15T01:09:03Z",
+  "collected_at": "2026-08-15T01:09:03Z",
+  "summary": "LangGraph 是 LangChain 团队推出的核心框架，用于构建有状态、可编排的智能体（Agents）。它将智能体工作流建模为图结构，节点表示工具或逻辑，边表示执行流程，支持循环、分支和条件跳转，从而赋予智能体高度的可控性与灵活性。该框架深度整合 LangChain 生态，支持 Pydantic 数据验证，并提供持久化、人工介入、流式输出等企业级特性，是构建复杂生产级 AI 智能体（如 Deep Agents）的关键基础设施。",
+  "key_insight": "LangGraph 通过图结构编排智能体工作流，实现了从简单链式调用到复杂循环、分支和人工介入的可控智能体构建，是生产级 Agent 框架的标杆。",
+  "score": 10,
+  "tags": [
+    "agent",
+    "graph",
+    "workflow",
+    "langchain",
+    "framework"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-08-15T01:09:03Z"
+}
