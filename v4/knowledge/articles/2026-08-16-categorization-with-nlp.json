@@ -1,0 +1,21 @@
+{
+  "id": "rss-20260816-023",
+  "title": "Categorization with NLP",
+  "source": "rss",
+  "source_url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/",
+  "author": "",
+  "published_at": "2026-08-16T01:12:27Z",
+  "collected_at": "2026-08-16T01:12:27Z",
+  "summary": "该仓库是一篇关于使用自然语言处理（NLP）进行文本分类的技术文章，链接自 lobste.rs 讨论。文章可能探讨了如何利用 NLP 技术对文本进行自动分类，涉及特征提取、模型选择或实际应用案例。虽然仓库本身无代码和星标，但内容聚焦于 NLP 在分类任务中的实践，具有技术参考价值。",
+  "key_insight": "文章强调 NLP 在文本分类中的实用方法，但缺乏代码和互动，技术深度有限。",
+  "score": 6,
+  "tags": [
+    "NLP",
+    "Text Classification",
+    "Machine Learning"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-08-16T01:12:27Z"
+}
