@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260817-021",
+  "title": "Are Latent Reasoning Models Easily Interpretable?",
+  "source": "rss",
+  "source_url": "https://arxiv.org/abs/2604.04902",
+  "author": "",
+  "published_at": "2026-08-17T01:09:58Z",
+  "collected_at": "2026-08-17T01:09:58Z",
+  "summary": "该论文探讨了潜在推理模型（如Coconut和CODI）的可解释性。研究发现，这些模型在逻辑任务（如PrOntoQA和ProsQA）中几乎不依赖其隐藏推理步骤，提前终止思考仍能得到相同答案，其高性能主要源于训练数据而非推理过程。然而，在数学问题中，模型确实在隐藏状态中编码了正确的中间步骤（93%的准确率），通过投影隐藏状态到词汇空间可解码出推理路径。研究者还发现，可解释性信号可用于预测答案的正确性。这项研究挑战了AI社区对模型不可解释性的假设，表明潜在推理模型在数学任务上具有较高的可解释性。",
+  "key_insight": "潜在推理模型在数学任务中隐藏状态可被解码为正确推理步骤，但在逻辑任务中则依赖训练数据而非推理，揭示了模型可解释性的任务依赖性。",
+  "score": 8,
+  "tags": [
+    "interpretability",
+    "latent-reasoning",
+    "LLM",
+    "mathematical-reasoning",
+    "coconut"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-08-17T01:09:58Z"
+}

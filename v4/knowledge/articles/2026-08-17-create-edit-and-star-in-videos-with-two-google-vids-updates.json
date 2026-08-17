@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260817-034",
+  "title": "Create, edit and star in videos with two Google Vids updates",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+  "author": "",
+  "published_at": "2026-08-17T01:09:58Z",
+  "collected_at": "2026-08-17T01:09:58Z",
+  "summary": "该仓库基于Google Vids的两项更新，利用Gemini Omni技术实现视频创建、编辑和标注功能，并支持个人化虚拟形象。技术亮点在于整合多模态AI能力，提升视频制作的自动化与个性化体验。",
+  "key_insight": "将Gemini Omni的多模态能力与个人化虚拟形象结合，重新定义视频创作流程。",
+  "score": 7,
+  "tags": [
+    "video-generation",
+    "multimodal",
+    "google-vids",
+    "personal-avatars"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "multimodal",
+  "updated_at": "2026-08-17T01:09:58Z"
+}
