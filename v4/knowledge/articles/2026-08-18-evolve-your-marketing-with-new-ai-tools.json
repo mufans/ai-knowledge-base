@@ -1,0 +1,23 @@
+{
+  "id": "rss-20260818-031",
+  "title": "Evolve your marketing with new AI tools",
+  "source": "rss",
+  "source_url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+  "author": "",
+  "published_at": "2026-08-18T01:08:13Z",
+  "collected_at": "2026-08-18T01:08:13Z",
+  "summary": "该仓库是Google官方博客文章，介绍了Google Ads和Google Analytics中新增的AI和代理（agentic）体验，旨在简化营销工作流。文章强调了AI工具在营销自动化、数据分析和广告优化方面的应用，展示了Google在将生成式AI和智能代理集成到核心营销产品中的最新进展。技术亮点包括AI驱动的广告创意生成、智能出价策略、跨渠道数据分析以及自然语言交互界面，这些功能帮助营销人员更高效地管理广告活动并提升投资回报率。该仓库内容反映了AI在数字营销领域的实际落地，但本身不包含代码或技术实现细节。",
+  "key_insight": "Google将生成式AI和代理技术嵌入营销工具，标志着AI从通用助手向垂直行业解决方案的转型。",
+  "score": 4,
+  "tags": [
+    "AI Marketing",
+    "Google Ads",
+    "Analytics",
+    "Agentic AI",
+    "Automation"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-08-18T01:08:13Z"
+}

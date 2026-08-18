@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260818-033",
+  "title": "5 ways AI Mode in Search helps you enjoy the real world",
+  "source": "rss",
+  "source_url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+  "author": "",
+  "published_at": "2026-08-18T01:08:13Z",
+  "collected_at": "2026-08-18T01:08:13Z",
+  "summary": "该仓库指向Google官方博客文章，介绍AI Mode在Google搜索中的五种应用场景，旨在帮助用户更高效地规划线下活动，如预订音乐会门票、寻找美食等。技术亮点在于将大型语言模型与实时搜索数据结合，提供个性化、可执行的建议，优化用户决策过程。文章展示了AI在信息检索和日常生活中的实用价值，体现了生成式AI在搜索领域的落地应用。",
+  "key_insight": "AI Mode通过融合LLM与实时数据，将搜索从信息获取升级为行动建议，增强线下生活体验。",
+  "score": 7,
+  "tags": [
+    "AI Search",
+    "LLM",
+    "Information Retrieval",
+    "Real-world Applications"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-08-18T01:08:13Z"
+}

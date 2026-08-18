@@ -1,0 +1,22 @@
+{
+  "id": "rss-20260818-021",
+  "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+  "source": "rss",
+  "source_url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+  "author": "",
+  "published_at": "2026-08-18T01:08:13Z",
+  "collected_at": "2026-08-18T01:08:13Z",
+  "summary": "该文章报道了一起追踪稀有书籍 shipments 的事件，最终发现这些书籍被送往亚马逊的 AI 训练设施。文章揭示了 AI 公司可能使用受版权保护的稀有书籍进行模型训练，引发对数据来源合法性和伦理问题的关注。技术亮点在于通过物流追踪手段揭露了 AI 训练数据的实际来源，强调了数据透明性和合规性在 AI 发展中的重要性。",
+  "key_insight": "AI 训练数据的来源可能涉及版权争议，需加强透明度和合规性。",
+  "score": 6,
+  "tags": [
+    "data-ethics",
+    "copyright",
+    "ai-training",
+    "supply-chain"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "llm",
+  "updated_at": "2026-08-18T01:08:13Z"
+}

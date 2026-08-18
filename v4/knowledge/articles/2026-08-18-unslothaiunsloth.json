@@ -1,0 +1,23 @@
+{
+  "id": "github-20260818-012",
+  "title": "unslothai/unsloth",
+  "source": "github",
+  "source_url": "https://github.com/unslothai/unsloth",
+  "author": "unslothai",
+  "published_at": "2026-08-18T01:08:13Z",
+  "collected_at": "2026-08-18T01:08:13Z",
+  "summary": "Unsloth 是一个开源项目，旨在通过提供高度优化的训练和推理内核，加速大型语言模型（LLM）和扩散模型的微调与运行。它支持包括 Qwen3.8、Kimi K3、MiniMax-H3、Gemma 4、DeepSeek-V4 和 FLUX 在内的多种最新模型，并提供了一个本地 UI，方便用户无需深入代码即可使用。其核心技术亮点包括显著减少内存占用（最高可减少 70%）和加速训练过程（最高可提升 2 倍），同时保持模型精度。该项目基于 Python，在 GitHub 上拥有超过 73,000 颗星，是 AI 社区中广受欢迎的高性能微调工具。",
+  "key_insight": "Unsloth 通过内核级优化和内存高效算法，大幅降低了 LLM 微调的门槛，使个人开发者也能在消费级硬件上训练和运行前沿模型。",
+  "score": 10,
+  "tags": [
+    "fine-tuning",
+    "llm",
+    "optimization",
+    "inference",
+    "diffusion"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "fine-tuning",
+  "updated_at": "2026-08-18T01:08:13Z"
+}
