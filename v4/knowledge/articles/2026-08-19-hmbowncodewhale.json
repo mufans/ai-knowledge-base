@@ -1,0 +1,23 @@
+{
+  "id": "github-20260819-020",
+  "title": "Hmbown/CodeWhale",
+  "source": "github",
+  "source_url": "https://github.com/Hmbown/CodeWhale",
+  "author": "Hmbown",
+  "published_at": "2026-08-19T01:09:09Z",
+  "collected_at": "2026-08-19T01:09:09Z",
+  "summary": "CodeWhale 是一个开源的、社区驱动的 AI 代理框架，使用 Rust 语言开发，旨在为多种大语言模型（如 OpenAI、Anthropic、DeepSeek、Qwen 等）提供统一的命令行界面（CLI）和终端用户界面（TUI）。它支持阿里巴巴云等云服务，并专注于编码代理场景。项目拥有超过 40k 的星标，体现了其高人气和社区活跃度。技术亮点包括高性能的 Rust 实现、跨模型兼容性以及友好的终端交互体验。",
+  "key_insight": "CodeWhale 通过 Rust 构建高性能的通用代理框架，统一了多种主流 LLM 的终端交互，是编码代理领域的重要基础设施。",
+  "score": 10,
+  "tags": [
+    "AI-Agent",
+    "Rust",
+    "CLI",
+    "TUI",
+    "LLM"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "agent",
+  "updated_at": "2026-08-19T01:09:09Z"
+}

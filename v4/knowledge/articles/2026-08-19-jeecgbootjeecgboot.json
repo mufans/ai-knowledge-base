@@ -1,0 +1,23 @@
+{
+  "id": "github-20260819-018",
+  "title": "jeecgboot/JeecgBoot",
+  "source": "github",
+  "source_url": "https://github.com/jeecgboot/JeecgBoot",
+  "author": "jeecgboot",
+  "published_at": "2026-08-19T01:09:09Z",
+  "collected_at": "2026-08-19T01:09:09Z",
+  "summary": "JeecgBoot 是一个企业级 AI 低代码开发平台，基于 Java 技术栈（Spring Boot/Spring Cloud、MyBatis-Plus），前端使用 Vue3 和 Ant Design。该平台在 v2.0 时代引入 AI 能力，支持通过自然语言一句话生成整个系统，包括前后端代码、流程设计、表单、报表和大屏。内置 AI 应用平台，涵盖 AI 聊天、知识库（RAG）、流程编排和 MCP 插件，兼容主流大模型（如通过 Spring AI 和 LangChain4j）。开发模式为“Skills 生成 → 在线配置 → 代码生成 → 手工合并 → AI 修改”，旨在解决 Java 项目 90% 的重复工作，提高开发效率同时保持灵活性。项目拥有 47k+ Stars，生态活跃。",
+  "key_insight": "JeecgBoot 将 AI 与低代码深度融合，通过 AI Skills 实现从自然语言到系统生成的自动化，代表了企业级低代码平台向 AI 驱动开发模式演进的方向。",
+  "score": 9,
+  "tags": [
+    "low-code",
+    "ai",
+    "java",
+    "code-generation",
+    "rag"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "low-code",
+  "updated_at": "2026-08-19T01:09:09Z"
+}

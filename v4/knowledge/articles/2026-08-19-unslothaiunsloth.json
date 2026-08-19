@@ -1,0 +1,23 @@
+{
+  "id": "github-20260819-012",
+  "title": "unslothai/unsloth",
+  "source": "github",
+  "source_url": "https://github.com/unslothai/unsloth",
+  "author": "unslothai",
+  "published_at": "2026-08-19T01:09:09Z",
+  "collected_at": "2026-08-19T01:09:09Z",
+  "summary": "unsloth 是一个高效微调与推理框架，专注于加速 LLM 和扩散模型的本地训练与运行。其核心亮点在于通过自定义内核和优化技术，显著减少显存占用并提升训练速度，支持 Qwen3.8、Kimi K3、DeepSeek-V4 等最新模型，并集成了本地 UI 界面，方便用户进行微调、推理和图像生成。该框架兼容 OpenAI API，支持强化学习，是自托管 AI 应用的高性能解决方案。",
+  "key_insight": "通过极致的内存优化和自定义内核，unsloth 将 LLM 微调速度提升数倍，同时大幅降低硬件门槛，是本地高效微调的事实标准。",
+  "score": 10,
+  "tags": [
+    "fine-tuning",
+    "llm",
+    "inference",
+    "optimization",
+    "diffusion"
+  ],
+  "audience": "intermediate",
+  "status": "draft",
+  "category": "fine-tuning",
+  "updated_at": "2026-08-19T01:09:09Z"
+}
